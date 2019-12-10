@@ -1,0 +1,10 @@
+name: "default-arrival-quality-plugin"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  name: "defaultArrivalQualityCalculationPlugin"
+  version: "1.0.0"
+  arrivalQualityAlpha: 0.65
+  arrivalQualityBeta: 0.65
+  arrivalQualityGamma: 0.65
+  arrivalQualityThreshold: 0.80

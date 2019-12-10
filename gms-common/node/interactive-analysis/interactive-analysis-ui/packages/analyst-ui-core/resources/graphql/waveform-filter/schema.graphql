@@ -1,0 +1,58 @@
+# Represents a waveform filter
+type WaveformFilter {
+    id: String!
+    name: String!
+    description: String!
+    filterType: String!
+    filterPassBandType: String!
+    lowFrequencyHz: Float
+    highFrequencyHz: Float
+    order: Float!
+    filterSource: String!
+    filterCausality: String!
+    zeroPhase: String!
+    sampleRate: Float!
+    sampleRateTolerance: Float!
+    validForSampleRate: String!
+    aCoefficients: [Float]
+    bCoefficients: [Float]
+    groupDelaySecs: Float
+}
+
+input WaveformFilterInput {
+    id: String!
+    name: String!
+    description: String!
+    filterType: String!
+    filterPassBandType: String!
+    lowFrequencyHz: Float
+    highFrequencyHz: Float
+    order: Float!
+    filterSource: String!
+    filterCausality: String!
+    zeroPhase: String!
+    sampleRate: Float!
+    sampleRateTolerance: Float!
+    validForSampleRate: String!
+    aCoefficients: [Float]
+    bCoefficients: [Float]
+    groupDelaySecs: Float
+}
+
+# The following channel-related queries are supported.
+extend type Query {
+    # Retrieve the default waveform filter list
+    defaultWaveformFilters: [WaveformFilter]
+}
+
+# The following Waveform Filter mutations are supported.
+extend type Mutation {
+    # Update an existing Waveform Filter using the provided input
+    updateWfFilter (input: [WaveformFilterInput]!): [WaveformFilter]   
+}
+
+# The following subscription are supported.
+extend type Subscription {
+    # Subscribe for updates to Waveform filters 
+    wfFiltersUpdated: [WaveformFilter]   
+}

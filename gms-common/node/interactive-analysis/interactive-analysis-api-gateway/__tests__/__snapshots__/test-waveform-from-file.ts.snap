@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Waveform content query should match snapshot 1`] = `
+Object {
+  "getRawWaveformSegmentsByChannels": Array [
+    Object {
+      "channel": Object {
+        "name": "AS01/SHZ",
+        "site": Object {
+          "name": "AS01",
+          "station": Object {
+            "name": "ASAR",
+            "networks": Array [
+              Object {
+                "name": "demo",
+              },
+            ],
+          },
+        },
+      },
+      "creationInfo": Object {
+        "creatorId": "creatorId",
+        "creatorType": "Analyst",
+      },
+      "endTime": 1274400000,
+      "startTime": 1274385600,
+      "timeseries": Array [
+        Object {
+          "sampleCount": 288001,
+          "sampleRate": 20,
+          "startTime": 1274385600,
+        },
+      ],
+      "type": "RAW",
+    },
+  ],
+}
+`;

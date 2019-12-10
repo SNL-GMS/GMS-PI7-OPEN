@@ -1,0 +1,12 @@
+default:
+  algorithmType: STANDARD
+  waveformTransformation: RECTIFIED
+  staLead: PT2.5S
+  staLength: PT5S
+  ltaLead: PT30S
+  ltaLength: PT25S
+  triggerThreshold: 3.0
+  detriggerThreshold: 2.0
+  interpolateGapsSampleRateTolerance: 1.2
+  mergeWaveformsSampleRateTolerance: 1.3
+  mergeWaveformsMinLength: PT1S

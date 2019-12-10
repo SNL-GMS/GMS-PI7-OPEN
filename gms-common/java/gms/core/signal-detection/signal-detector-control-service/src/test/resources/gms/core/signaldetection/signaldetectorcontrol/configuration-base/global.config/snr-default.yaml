@@ -1,0 +1,19 @@
+name: "snr-default"
+constraints:
+  - constraintType: "STRING"
+    criterion: "name"
+    operator:
+      type: "EQ"
+      negated: false
+    value: ["snr-default"]
+parameters:
+  maxTimeUncertainty: 1.0
+  transform: ABS
+  noiseWindowOffset: PT1M6S
+  noiseWindowSize: PT1M
+  signalWindowOffset: PT3S
+  signalWindowSize: PT6S
+  minTimeUncertainty: 0.1
+  slidingWindowSize: PT1S
+  maxSnr: 50.0
+  minSnr: 5.0

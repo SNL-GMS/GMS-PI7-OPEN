@@ -1,0 +1,15 @@
+name: "bar-default"
+constraints:
+  - constraintType: "DEFAULT"
+  - constraintType: "STRING"
+    criterion: "name"
+    operator:
+      type: "EQ"
+      negated: false
+    value:
+    - "bar"
+    priority: 100
+parameters:
+  numeric: -3.3
+  binary: true
+  string: "barString"

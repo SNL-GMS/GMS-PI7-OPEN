@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test should run Test Environment is available enzyme should be available render a div 1`] = `
+<div>
+  Hello Jest!
+</div>
+`;
+
+exports[`Test should run Test Environment is available enzyme should be available render a label 1`] = `
+<label>
+  Hello Jest!
+</label>
+`;
+
+exports[`Test should run Test Environment is available enzyme should be available render an h1 1`] = `
+<h1>
+  Hello Jest!
+</h1>
+`;

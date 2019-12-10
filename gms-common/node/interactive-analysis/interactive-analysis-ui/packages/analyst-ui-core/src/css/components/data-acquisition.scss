@@ -1,0 +1,214 @@
+.form-field-small {
+  width: 60%;
+}
+.form-field-large {
+  margin-left: 5%;
+  width: 80%;
+}
+
+.footer-button-row {
+  position: absolute;
+  top: 90%;
+  left: 1.5%;
+}
+
+.footer-button {
+  position: relative;
+  display: inline;
+}
+
+.footer-button-middle {
+  position: relative;
+  display: inline;
+  left: 200%
+}
+
+.footer-button-right {
+  position: relative;
+  display: inline;
+  left: 225%
+}
+
+.station-configuration-form__row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%
+}
+
+.station-configuration-form {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  height: 20%;
+  right: 0%;
+  left: 0.5%;
+  flex-direction: column;
+  width:100%;
+  overflow-y: scroll;
+}
+
+.station-configuration-inner-menu {
+  position: absolute;
+  top: 45%;
+  height: 20%;
+  right: 0%;
+  left: 1.5%;
+}
+
+.station-configuration-bottom-menu {
+  position: absolute;
+  top: 68%;
+  height: 20%;
+  right: 0%;
+  left: 1.5%;
+}
+
+.station-configuration-form__labels-top-left {
+  margin-left: 1% !important;
+  margin-top: 0.5% !important;
+  margin-right: 1% !important;
+  font-size: small;
+}
+
+.station-configuration-form__labels-top-right {
+  margin-left: 1% !important;
+  margin-top: 1% !important;
+  font-size: small;
+}
+
+.station-configuration-form__labels-middle {
+  margin-left: 1% !important;
+  margin-right: 15px !important;
+  font-size: small;
+}
+
+.station-configuration-form__field-top {
+  margin-left: 1.5% !important;
+  margin-top: 15px !important;
+  font-size: small;
+}
+
+.station-configuration-form__field-middle {
+  margin-left: 12px !important;
+  margin-top: 5px !important;
+  font-size: small;
+  width: 200%;
+}
+
+.station-configuration-form__field-top {
+  margin-left: 5px !important;
+  margin-top: 5px !important;
+  font-size: small;
+}
+.station-configuration-form__field-bottom {
+  margin-left: 3px !important;
+  margin-top: 5px !important;
+  font-size: small;
+}
+
+.station-configuration-form__labels-bottom-right {
+  margin-left: 1% !important;
+  font-size: small;
+}
+
+.station-configuration-form__labels-bottom-left {
+  margin-left: 1% !important;
+  font-size: small;
+}
+
+.station-configuration-form__input-middle {
+  padding-left: 10% !important;
+  width: 200%;
+}
+
+.configure-station-groups-select-network {
+  position: relative;
+  top: 0%;
+  height: 100%;
+  width: 40%;
+  right: 0%;
+  left: 0%;
+}
+.configure-station-groups-select-network-table {
+  position: relative;
+  top: 0%;
+  height: 100%;
+  max-height: calc(100% - 49px);
+  width: 100%;
+  right: 0%;
+  left: 0%;
+}
+
+.configure-station-groups-edit-stations {
+  position: absolute;
+  top: 0%;
+  height: 98%;
+  right: 0%;
+  left: 41%;
+  visibility: hidden;
+}
+
+.configure-station-groups-no-network-selected {
+  position: absolute;
+  top: 0%;
+  height: 98%;
+  right: 0%;
+  left: 41%;
+  visibility: visible;
+}
+
+.configure-station-groups-associated-stations {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 45%;
+  right: 0%;
+  left: 0%;
+}
+
+.configure-station-groups-arrows {
+  position: absolute;
+  top: 40%;
+  height: 100%;
+  width: 4%;
+  right: 0%;
+  left: 48%;
+}
+
+.configure-station-groups-available-stations {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 45%;
+  right: 0%;
+  left: 55%;
+}
+
+.data-acquisition-popover {
+  font-size: small !important;
+  max-height: 300px !important;
+  overflow-y: auto !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-table;
+  }
+
+  .data-acquisition-import-css-popover-with-table {
+  font-size: small !important;
+  max-height: 500px !important;
+  overflow-y: scroll !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  }
+
+.data-acquisition-inputs input {
+    border: 1px solid rgb(238, 238, 238)
+}
+.data-acquisition-inputs input:focus {
+  outline: none !important;
+  border: 1px solid red;
+}

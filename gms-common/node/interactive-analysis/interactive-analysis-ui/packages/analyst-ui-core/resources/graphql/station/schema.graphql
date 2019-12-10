@@ -1,0 +1,124 @@
+# Represents a group of stations used for monitoring.
+# This is a simplified interface used for processing. A richer interface modeling
+# station reference information is provided in the station reference API.
+type ProcessingNetwork {
+
+    # Unique identifier for the network
+    id: String!
+
+    # Name of the network
+    name: String
+
+    # The monitoring organization the network is affiliated with
+    monitoringOrganization: String
+
+    # The list of processing stations affiliated with the network
+    stations: [ProcessingStation]
+}
+
+# Represents an installation of monitoring sensors.
+# Multiple sensors can be installed at the same station.
+# This is a simplified interface used for processing. A richer interface modeling
+# station reference information is provided in the station reference API.
+type ProcessingStation {
+
+    # Unique identifier for the station
+    id: String!
+
+    # Name of the station
+    name: String
+
+    # The type of station (seismic, hydroacoustic, infrasonic)
+    stationType: StationType
+
+    # The reference location for the station
+    location: Location
+
+    # The list of sites associated with the station
+    sites: [ProcessingSite]
+
+    # The default channel associated with the station
+    defaultChannel: ProcessingChannel
+
+    # The networks the station is associated with
+    networks: [ProcessingNetwork]
+
+    # Signal detections associated with the station in the
+    # provided time range
+    signalDetections(timeRange: TimeRange!): [SignalDetection]
+
+    # Optional: distance to a source (e.g. event, user-specified location)
+    distanceToSource(distanceToSourceInput: DistanceToSourceInput): DistanceToSource
+}
+
+# Represents a physical installation (e.g., building, underground vault, borehole)
+# containing a collection of Instruments that produce Raw Channel waveform data.
+# This is a simplified interface used for processing. A richer interface modeling
+# station reference information is provided in the station reference API.
+type ProcessingSite {
+
+    # Unique identifier for the site
+    id: String!
+
+    # The name of the site
+    name: String
+
+    # The location of the site
+    location: Location!
+
+    # The station the site is associated with
+    station: ProcessingStation
+
+    # The processing channels associated with the site
+    channels: [ProcessingChannel]
+
+    # The default channel associated with the site
+    defaultChannel: ProcessingChannel
+}
+
+# Represents a source for unprocessed (raw) or processed (derived) time series data
+# from a seismic, hydroacoustic, or infrasonic sensor.
+# This is a simplified interface used for processing. A richer interface modeling
+# station reference information is provided in the station reference API.
+type ProcessingChannel {
+
+    # Unique identifier for the channel
+    id: String!
+
+    # Name of the channel
+    name: String!
+
+    # The type of the channel
+    channelType: String!
+
+    # Location code of the channel
+    locationCode: String
+
+    # The site associated with the channel
+    site: ProcessingSite
+
+    # The vertical angle (degrees) of the channel
+    verticalAngle: Float
+
+    # The horizontal angle (degrees) of the channel
+    horizontalAngle: Float
+
+    # The sample rate of the channel (Hertz) of the channel
+    sampleRate: Float
+
+    # QC Masks for the channel
+    qcMasks(timeRange: TimeRange): [QcMask]
+}
+
+# The following channel-related queries are supported.
+extend type Query {
+
+    # Retrieve the stations in a specified network
+    stationsByNetwork(networkName: String!): [ProcessingStation]
+
+    # Retrieve the default station list for use in automated and interactive analysis
+    defaultStations: [ProcessingStation]
+
+    # Retrieve a list of processing channels by ID
+    channelsById(ids: [String]): [ProcessingChannel]
+}

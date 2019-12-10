@@ -1,0 +1,112 @@
+[
+  {
+    "defaultChannel": {
+      "channelType": "FK_BEAM",
+      "height": 24.8,
+      "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+      "name": "PDAR/fkb",
+      "timeOffsetSeconds": 0,
+      "waveform": {
+        "channelSegmentId": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+        "markers": {
+          "selectionWindows": [
+            {
+              "color": "rgba(150, 150, 150, 0.3)",
+              "endMarker": {
+                "color": "rgba(150, 150, 150, 1)",
+                "id": "end",
+                "lineStyle": "solid",
+                "timeSecs": 1274392955.85
+              },
+              "id": "selection-measurement-selection-db31fbe6-322f-3e91-911c-578f22f4234b",
+              "isMoveable": false,
+              "startMarker": {
+                "color": "rgba(150, 150, 150, 1)",
+                "id": "start",
+                "lineStyle": "solid",
+                "timeSecs": 1274392950.35
+              }
+            },
+            {
+              "color": "rgb(41, 166, 52, 0.05)",
+              "endMarker": {
+                "color": "rgb(41, 166, 52, 1)",
+                "id": "end",
+                "lineStyle": "dashed",
+                "maxTimeSecsConstraint": 1274392955.85,
+                "timeSecs": 1274392955.795
+              },
+              "id": "selection-measurement-peaktrough-db31fbe6-322f-3e91-911c-578f22f4234b",
+              "isMoveable": true,
+              "startMarker": {
+                "color": "rgb(41, 166, 52, 1)",
+                "id": "start",
+                "lineStyle": "dashed",
+                "minTimeSecsConstraint": 1274392950.35,
+                "timeSecs": 1274392955.4
+              }
+            }
+          ],
+          "verticalMarkers": [
+            {
+              "color": "#44EE55",
+              "id": "startTime",
+              "lineStyle": "solid",
+              "timeSecs": 1274392801
+            },
+            {
+              "color": "#44EE55",
+              "id": "endTime",
+              "lineStyle": "solid",
+              "timeSecs": 1274400000
+            }
+          ]
+        },
+        "predictedPhases": [],
+        "signalDetections": [
+          {
+            "color": "#DB3737",
+            "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+            "label": "Pn",
+            "timeSecs": 1274397856.442
+          },
+          {
+            "color": "#DB3737",
+            "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+            "label": "P",
+            "timeSecs": 1274393774.95
+          },
+          {
+            "color": "#DB3737",
+            "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+            "label": "P",
+            "timeSecs": 1274394244.6
+          },
+          {
+            "color": "#DB3737",
+            "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+            "label": "Pn",
+            "timeSecs": 1274396487.275
+          },
+          {
+            "color": "#D9822B",
+            "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+            "label": "Pg",
+            "timeSecs": 1274392950.85
+          },
+          {
+            "color": "#DB3737",
+            "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+            "label": "Pn",
+            "timeSecs": 1274396002.474
+          }
+        ]
+      }
+    },
+    "distance": 3.166,
+    "distanceUnits": "degrees",
+    "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+    "name": "PDAR",
+    "nonDefaultChannels": []
+  }
+]

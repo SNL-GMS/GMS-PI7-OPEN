@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':java-utilities')
+    implementation project(':osd-commonobjects')
+    implementation project(':waveman')
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

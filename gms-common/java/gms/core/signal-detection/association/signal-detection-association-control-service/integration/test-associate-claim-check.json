@@ -1,0 +1,23 @@
+{
+  "eventLocation": {
+    "latitudeDegrees": 45.27125,
+    "longitudeDegrees": 130.55595,
+    "depthKm": 0.0,
+    "time": "2010-05-20T21:37:15.048Z"
+  },
+  "signalDetectionHypothesisClaimChecks": [
+    {
+      "signalDetectionHypothesisId": "b87787d0-68ce-38df-95f9-7dcb0b1f1fe4",
+      "signalDetectionId": "b87787d0-68ce-38df-95f9-7dcb0b1f1fe4"
+    }
+  ],
+  "processingContext": {
+    "analystActionReference": null,
+    "processingStepReference": {
+      "processingStageIntervalId": "65054172-557f-42ac-894f-941cf55ca5f2",
+      "processingSequenceIntervalId": "67c8ef40-d6b4-41d3-a825-733cc22391be",
+      "processingStepId": "0817a095-4a1f-4d8f-8897-3d55777c70b5"
+    },
+    "storageVisibility": "PUBLIC"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "id": "830f4ac8-24ee-4e49-a18d-c346a67383e5",
+    "name": "ALDR",
+    "sites": [
+        {
+            "channels": [
+                {
+                    "id": "eacad8b4-8ddd-4db3-81e6-7341c2a67771",
+                    "name": "XWING"
+                },
+                {
+                    "id": "29ac768f-f2ba-418c-a03d-3455dbf02b5d",
+                    "name": "BWING"
+                }
+            ],
+            "id": "1f5b95a0-779b-40dd-81dc-0b7ff05f2ec3",
+            "name": "ALDR01"
+        },
+        {
+            "channels": [
+                {
+                    "id": "572ef85b-661d-4d53-932e-2e9f9f3e69d8",
+                    "name": "YT1300"
+                },
+                {
+                    "id": "61134547-26a0-4570-a0cf-8d06cfb58ecb",
+                    "name": "YWING"
+                }
+            ],
+            "id": "d9d5e7bf-4eeb-48bf-9aec-f379af6ff5bc",
+            "name": "ALDR02"
+        },
+        {
+            "channels": [
+                {
+                    "id": "399e9ad2-d3e4-496b-b596-311c21193077",
+                    "name": "DEATHSTAR"
+                },
+                {
+                    "id": "126fa66e-606e-4936-87cf-46d38cc6cc62",
+                    "name": "TIEFIGHTER"
+                },
+                {
+                    "id": "d66e1c8c-2315-47c9-83dc-c5422c939fdb",
+                    "name": "AWING"
+                }
+            ],
+            "id": "b852bc50-cea4-4387-847d-124ae9efb4dc",
+            "name": "ALDR03"
+        }
+    ]
+}

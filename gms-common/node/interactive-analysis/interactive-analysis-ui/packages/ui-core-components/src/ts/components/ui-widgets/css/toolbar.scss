@@ -1,0 +1,117 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+.toolbar {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.toolbar-item {
+    padding-left: 8px;
+    white-space: nowrap;
+}
+.toolbar-item.toolbar-item__left {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+.toolbar-switch {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.toolbar-switch__blueprint {
+    margin-bottom: 0px;
+}
+.pt-dark .pt-control.pt-switch .pt-control-indicator{
+    background: #394b59;
+    margin-left: 4px;
+}
+.pt-dark .pt-control.pt-switch .pt-control-indicator::before {
+    background: rgb(216, 225, 232);
+}
+.pt-dark .pt-control.pt-switch:hover .pt-control-indicator {
+    background: rgba(255, 255, 255, .3);
+
+}
+.toolbar-overflow-menu-button {
+    margin-left: 8px;
+}
+.toolbar-numeric-input {
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #656Fa0;
+    border-radius: 4px;
+    padding-left: 8px;
+    color: white;
+    background-color: rgba(0,0,0,0);
+
+}
+.toolbar-numeric-input.disabled{
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 4px;
+    padding-left: 8px;
+    color: darkgray;
+    background-color: rgba(0,0,0,0);
+
+}
+.toolbar-button {
+    width: 142px;
+}
+.toolbar-button--icon-only {
+    width: 30px;
+}
+.pt-button .toolbar-button__icon {
+    margin-left: 8px !important;
+    margin-right: 0px !important;
+}
+.toolbar-button-capsule {
+    padding: 0px 0px 0px 4px;
+}
+.toolbar-button-capsule:hover {
+    background-color: rgba(230, 230, 255, .20);
+    border-radius: 4px;
+}
+.toolbar-button-capsule .pt-button:last-child:hover {
+    border-radius: 4px;
+}
+.toolbar-numeric__label{
+  margin-left: 4px;
+}
+.toolbar-numeric__label.toolbar-numeric__label-left {
+    margin-right: 4px;
+}
+.toolbar-button .pt-icon:first-child:last-child, .pt-button .pt-spinner + .pt-icon:last-child {
+    margin: 0 8px;
+}
+span.pt-button-text {
+    justify-content: space-between;
+    display: flex;
+}
+
+.toolbar__center-group{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.toolbar__left-group{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.toolbar__right-group{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.label-value-container {
+    display: flex;
+    line-height: 30px;
+}
+.label-value__label {
+    margin-right: 4px;
+}

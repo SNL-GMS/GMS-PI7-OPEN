@@ -1,0 +1,19 @@
+[
+	{
+		"sta": "KDAK",
+		"chan": "BHZ",
+		"wfid": "WUT",
+		"chanid": "WHY",
+		"samprate": "HOW",
+		"site": "KDAK",
+		"id": 1234,
+		"parents": 5678,
+		"category": "NONYA",
+		"type": "B-NEGATIVE",
+		"rationale": "YOLO",
+		"start_time": 1,
+		"end_time": -1,
+		"creation_info_id": "DNE",
+		"nsamp": -1
+	}
+]

@@ -1,0 +1,48 @@
+{
+  "eventHypothesisClaimChecks": [
+    {
+      "eventHypothesisId": "0b322877-e795-3721-956a-47e794ec831a",
+      "eventId": "0b322877-e795-3721-956a-47e794ec831a"
+    }
+  ],
+  "parameters": {
+    "pluginInfo": {
+      "name": "eventLocationApacheLmPlugin",
+      "version": "1.0.0"
+    },
+    "eventLocationDefinition": {
+      "type": "EventLocationDefinitionApacheLm",
+      "maximumIterationCount": 1000,
+      "convergenceThreshold": 0.01,
+      "uncertaintyProbabilityPercentile": 0.95,
+      "earthModel": "ak135",
+      "applyTravelTimeCorrections": false,
+      "scalingFactorType": "CONFIDENCE",
+      "kWeight": 0,
+      "aprioriVariance": 1.0,
+      "minimumNumberOfObservations": 4,
+      "locationRestraints": [
+        {
+          "latitudeRestraintType": "UNRESTRAINED",
+          "latitudeRestraintDegrees": null,
+          "longitudeRestraintType": "UNRESTRAINED",
+          "longitudeRestraintDegrees": null,
+          "depthRestraintType": "UNRESTRAINED",
+          "depthRestraintKm": null,
+          "timeRestraintType": "UNRESTRAINED",
+          "timeRestraint": null
+        },
+        {
+          "latitudeRestraintType": "UNRESTRAINED",
+          "latitudeRestraintDegrees": null,
+          "longitudeRestraintType": "UNRESTRAINED",
+          "longitudeRestraintDegrees": null,
+          "depthRestraintType": "FIXED_AT_DEPTH",
+          "depthRestraintKm": 50.0,
+          "timeRestraintType": "UNRESTRAINED",
+          "timeRestraint": null
+        }
+      ]
+    }
+  }
+}

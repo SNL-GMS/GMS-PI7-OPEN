@@ -1,0 +1,9 @@
+#These are sample commands that can be run to retrieve waveform data from Openshift and plot it using the '-plot true' argument. The figure will be saved as 'waveforms.png'
+#To see a sample plot, see waveformsSamplePlot.png
+
+SAMPLE COMMANDS
+1)plotting only
+2)plotting and writing wfdisc files
+
+python coidataclient.py -mode waveforms -plot true -end_time 2018-06-28T18:01:00 -channel_id 7c3ded4c-35fb-4e88-92c3-dc2a197b5abc -start_time 2018-06-28T18:00:00
+python coidataclient.py -mode waveforms -write_wfdisc true -plot true -channel_id 47ccabf2-cccf-4344-8a3c-0a98c06687b9 -start_time 2018-06-28T18:00:00 -end_time 2018-06-28T18:01:00

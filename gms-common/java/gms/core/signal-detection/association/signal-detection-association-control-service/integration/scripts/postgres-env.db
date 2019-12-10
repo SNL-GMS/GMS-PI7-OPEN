@@ -1,0 +1,3 @@
+POSTGRES_DB=xmp_metadata
+POSTGRES_USER=xmp
+POSTGRES_PASSWORD=gmsdb:xmp@postgres=bird-hero-calendar

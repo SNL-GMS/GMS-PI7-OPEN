@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignalDetectionDetails renders & matches snapshot 1`] = `
+<div>
+  <Form
+    defaultPanel={
+      Object {
+        "formItems": Array [
+          Object {
+            "displayText": "P",
+            "itemKey": "Phase",
+            "itemType": "Display",
+            "labelText": "Phase",
+          },
+          Object {
+            "displayText": "2010/05/20T22:07:17.850000",
+            "displayTextFormat": "Time",
+            "itemKey": "Detection time",
+            "itemType": "Display",
+            "labelText": "Detection time",
+          },
+          Object {
+            "displayText": "",
+            "itemKey": "Time uncertainty",
+            "itemType": "Display",
+            "labelText": "Time uncertainty",
+          },
+          Object {
+            "displayText": "creatorId",
+            "itemKey": "Author",
+            "itemType": "Display",
+            "labelText": "Author",
+          },
+          Object {
+            "displayText": "2018/12/05T21:25:50.378000",
+            "displayTextFormat": "Time",
+            "itemKey": "Creation time",
+            "itemType": "Display",
+            "labelText": "Creation time",
+          },
+          Object {
+            "displayText": "No",
+            "itemKey": "Rejected",
+            "itemType": "Display",
+            "labelText": "Rejected",
+          },
+        ],
+        "key": "Current Version",
+      }
+    }
+    disableSubmit={true}
+    extraPanels={
+      Array [
+        Object {
+          "content": <div
+            className="ag-theme-dark signal-detection-details-versions-table"
+          >
+            <div
+              className="max"
+            >
+              <Table
+                columnDefs={
+                  Array [
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "enableCellChangeFlash": true,
+                      "field": "creationTime",
+                      "headerName": "Creation time",
+                      "valueFormatter": [Function],
+                      "width": 165,
+                    },
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "enableCellChangeFlash": true,
+                      "field": "phase",
+                      "headerName": "Phase",
+                      "width": 70,
+                    },
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "enableCellChangeFlash": true,
+                      "field": "arrivalTimeMeasurementTimestamp",
+                      "headerName": "Detection time",
+                      "valueFormatter": [Function],
+                      "width": 165,
+                    },
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "enableCellChangeFlash": true,
+                      "field": "arrivalTimeMeasurementUncertaintySec",
+                      "headerName": "Time uncertainty",
+                      "valueFormatter": [Function],
+                      "width": 125,
+                    },
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "field": "rejected",
+                      "headerName": "Rejected",
+                      "valueFormatter": [Function],
+                      "width": 75,
+                    },
+                    Object {
+                      "cellStyle": Object {
+                        "text-align": "left",
+                      },
+                      "enableCellChangeFlash": true,
+                      "field": "author",
+                      "headerName": "Author",
+                      "width": 90,
+                    },
+                  ]
+                }
+                getRowNodeId={[Function]}
+                overlayNoRowsTemplate="No Verions"
+                rowClassRules={
+                  Object {
+                    "versions-table__row--first-in-table": [Function],
+                  }
+                }
+                rowData={
+                  Array [
+                    Object {
+                      "arrivalTimeMeasurementFeatureType": "ARRIVAL_TIME",
+                      "arrivalTimeMeasurementTimestamp": 1274393334.1,
+                      "arrivalTimeMeasurementUncertaintySec": 0.685,
+                      "author": "creatorId",
+                      "creationTime": 1544048130.971,
+                      "first-in-table": true,
+                      "id": "b90ee9c8-3fc9-4ccd-95ea-5d1d206c35a7",
+                      "phase": "tx",
+                      "rejected": false,
+                      "versionId": "b90ee9c8-3fc9-4ccd-95ea-5d1d206c35a7",
+                    },
+                    Object {
+                      "arrivalTimeMeasurementFeatureType": "ARRIVAL_TIME",
+                      "arrivalTimeMeasurementTimestamp": 1274393334.1,
+                      "arrivalTimeMeasurementUncertaintySec": 0.685,
+                      "author": "creatorId",
+                      "creationTime": 1544048130.971,
+                      "id": "e4ae55cc-a395-471c-8a98-bb2cf08411cd",
+                      "phase": "P",
+                      "rejected": false,
+                      "versionId": "e4ae55cc-a395-471c-8a98-bb2cf08411cd",
+                    },
+                  ]
+                }
+                rowSelection="single"
+              />
+            </div>
+          </div>,
+          "key": "All Versions",
+        },
+      ]
+    }
+    header="Signal Detection"
+    headerDecoration={
+      <div
+        className="signal-detection-swatch"
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      />
+    }
+    onCancel={[Function]}
+  />
+</div>
+`;

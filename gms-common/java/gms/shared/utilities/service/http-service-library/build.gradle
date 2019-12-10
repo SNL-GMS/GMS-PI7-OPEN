@@ -1,0 +1,23 @@
+apply plugin: "java-library"
+
+dependencies {
+    implementation 'com.sparkjava:spark-core'
+    implementation 'org.apache.commons:commons-lang3'
+
+    // Google AutoValue
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    // jackson
+    api 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation 'org.msgpack:jackson-dataformat-msgpack:0.8.14'
+
+    // unirest for client HTTP usage in tests
+    testImplementation 'com.mashape.unirest:unirest-java'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

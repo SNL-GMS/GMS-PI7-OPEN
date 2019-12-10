@@ -1,0 +1,660 @@
+{
+  "station": {
+    "id": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+    "name": "ILAR",
+    "stationType": "Invalid",
+    "location": {
+      "latDegrees": 64.77145,
+      "lonDegrees": -146.88645,
+      "elevationKm": 0.387
+    },
+    "siteIds": [
+      "55a045da-1f3f-37c2-94ea-b4bd5406fb90",
+      "fa616558-0aaa-3c0c-9f5c-ef88efa5b679",
+      "e6bd500b-5cd2-3818-8804-3626f00fece8",
+      "a0f6acbb-4897-3333-80ea-93861edb7b2e",
+      "152a2ab7-a347-36c3-aaa0-f32b2caf03aa",
+      "aa93a415-a9a6-3bc0-b081-bbb7e49c22fa",
+      "c698f220-cd4a-3266-83c8-27a731c95be3",
+      "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "a4fbb631-20de-3d4b-aa7c-8706540dc77b",
+      "cfaa773a-6f35-37f0-ba0d-d89497bf4946",
+      "82ada4d7-273e-3ae0-bebe-1305743d6824",
+      "d1c66e7c-5926-3b6b-98f4-892516664f2c",
+      "e71a2bff-6933-3a6b-9ba6-6b04e9a7fe53",
+      "e05c114f-10a5-314b-b5f4-3139352df9cd",
+      "bc7e2164-237f-3c58-828c-d5e4654e9c1e",
+      "08d8346d-6955-36e7-bd50-82b154bc7ee7",
+      "ae800d70-a888-3638-8d74-8842a549c016",
+      "7bcfbe9d-76cd-3105-b6ce-63e8c88b2663",
+      "e114f69b-fb09-366b-b33d-96634b953409",
+      "7f330be2-2836-3073-9ead-3a06c4aec750"
+    ],
+    "networkIds": [
+      null
+    ],
+    "dataAcquisition": {
+      "dataAcquisition": "disabled",
+      "interactiveProcessing": "default",
+      "automaticProcessing": "station-network"
+    }
+  },
+  "sites": [
+    {
+      "id": "55a045da-1f3f-37c2-94ea-b4bd5406fb90",
+      "name": "IL01",
+      "location": {
+        "latDegrees": 64.77163,
+        "lonDegrees": -146.88599,
+        "elevationKm": 0.43
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "441fabaa-e960-371d-95d2-777318620eba"
+      ]
+    },
+    {
+      "id": "fa616558-0aaa-3c0c-9f5c-ef88efa5b679",
+      "name": "IL17",
+      "location": {
+        "latDegrees": 64.80717,
+        "lonDegrees": -146.88965,
+        "elevationKm": 0.369
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "5291c669-6888-38d4-8b71-b46e0c5399fc"
+      ]
+    },
+    {
+      "id": "e6bd500b-5cd2-3818-8804-3626f00fece8",
+      "name": "IL16",
+      "location": {
+        "latDegrees": 64.7933,
+        "lonDegrees": -146.92137,
+        "elevationKm": 0.393
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "6f4d345d-4d30-32d0-9ecc-89337a6ab814"
+      ]
+    },
+    {
+      "id": "a0f6acbb-4897-3333-80ea-93861edb7b2e",
+      "name": "IL02",
+      "location": {
+        "latDegrees": 64.78468,
+        "lonDegrees": -146.86427,
+        "elevationKm": 0.273
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "fabec3e9-8b41-34e3-94a8-3d66250bffd1"
+      ]
+    },
+    {
+      "id": "152a2ab7-a347-36c3-aaa0-f32b2caf03aa",
+      "name": "IL11",
+      "location": {
+        "latDegrees": 64.74154,
+        "lonDegrees": -146.89727,
+        "elevationKm": 0.455
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "6a6ce8fc-edb6-3809-af8b-37bd5cc1742c"
+      ]
+    },
+    {
+      "id": "aa93a415-a9a6-3bc0-b081-bbb7e49c22fa",
+      "name": "IL07",
+      "location": {
+        "latDegrees": 64.79932,
+        "lonDegrees": -146.83924,
+        "elevationKm": 0.414
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "9529046d-26cf-351a-84a4-baad03673b29"
+      ]
+    },
+    {
+      "id": "c698f220-cd4a-3266-83c8-27a731c95be3",
+      "name": "IL15",
+      "location": {
+        "latDegrees": 64.77773,
+        "lonDegrees": -146.94268,
+        "elevationKm": 0.349
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "28244550-15c8-39d2-b991-ff163cbf5fbd"
+      ]
+    },
+    {
+      "id": "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "name": "IL31",
+      "location": {
+        "latDegrees": 64.77145,
+        "lonDegrees": -146.88645,
+        "elevationKm": 0.387
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "4dd5b44b-0ed6-3e0a-bf44-8fe8588a435a",
+        "2821f3d5-716c-356d-9e6c-f8497c43c479",
+        "286e9bbf-51f8-3cc3-9287-8d5458c592ff"
+      ]
+    },
+    {
+      "id": "a4fbb631-20de-3d4b-aa7c-8706540dc77b",
+      "name": "IL05",
+      "location": {
+        "latDegrees": 64.7731,
+        "lonDegrees": -146.92274,
+        "elevationKm": 0.401
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "02e2d06c-bc21-3683-bb54-618338618d96"
+      ]
+    },
+    {
+      "id": "cfaa773a-6f35-37f0-ba0d-d89497bf4946",
+      "name": "IL13",
+      "location": {
+        "latDegrees": 64.74791,
+        "lonDegrees": -146.9864,
+        "elevationKm": 0.382
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "4d6d84b9-de7e-3f99-a475-71554e0ff99e"
+      ]
+    },
+    {
+      "id": "82ada4d7-273e-3ae0-bebe-1305743d6824",
+      "name": "IL06",
+      "location": {
+        "latDegrees": 64.77921,
+        "lonDegrees": -146.9038,
+        "elevationKm": 0.272
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "ffc1738c-562b-3b9a-a5a0-dc959600f714"
+      ]
+    },
+    {
+      "id": "d1c66e7c-5926-3b6b-98f4-892516664f2c",
+      "name": "IL18",
+      "location": {
+        "latDegrees": 64.75748,
+        "lonDegrees": -146.7766,
+        "elevationKm": 0.566
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "25ee2252-601e-3324-974e-58e6726cebb6"
+      ]
+    },
+    {
+      "id": "e71a2bff-6933-3a6b-9ba6-6b04e9a7fe53",
+      "name": "IL03",
+      "location": {
+        "latDegrees": 64.77149,
+        "lonDegrees": -146.85117,
+        "elevationKm": 0.452
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "d8091cb3-6b25-35ce-9749-49cd40c707be"
+      ]
+    },
+    {
+      "id": "e05c114f-10a5-314b-b5f4-3139352df9cd",
+      "name": "IL14",
+      "location": {
+        "latDegrees": 64.77498,
+        "lonDegrees": -146.97929,
+        "elevationKm": 0.236
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "cf7a52e1-9aec-3f8f-830d-29323581981f"
+      ]
+    },
+    {
+      "id": "bc7e2164-237f-3c58-828c-d5e4654e9c1e",
+      "name": "IL10",
+      "location": {
+        "latDegrees": 64.75293,
+        "lonDegrees": -146.84299,
+        "elevationKm": 0.599
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "1fb6fd6c-6259-3de0-9eba-5d32f0966298"
+      ]
+    },
+    {
+      "id": "08d8346d-6955-36e7-bd50-82b154bc7ee7",
+      "name": "IL04",
+      "location": {
+        "latDegrees": 64.75706,
+        "lonDegrees": -146.87595,
+        "elevationKm": 0.538
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "8ca84230-b27f-385c-a02b-b5beb9769811"
+      ]
+    },
+    {
+      "id": "ae800d70-a888-3638-8d74-8842a549c016",
+      "name": "IL19",
+      "location": {
+        "latDegrees": 64.74619,
+        "lonDegrees": -146.79734,
+        "elevationKm": 0.561
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "e13a356b-652e-3147-b933-efa41d7aec64"
+      ]
+    },
+    {
+      "id": "7bcfbe9d-76cd-3105-b6ce-63e8c88b2663",
+      "name": "IL12",
+      "location": {
+        "latDegrees": 64.74473,
+        "lonDegrees": -146.94348,
+        "elevationKm": 0.377
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "a5899887-41df-3405-91ef-dcbc6b2d87f3"
+      ]
+    },
+    {
+      "id": "e114f69b-fb09-366b-b33d-96634b953409",
+      "name": "IL09",
+      "location": {
+        "latDegrees": 64.76819,
+        "lonDegrees": -146.78311,
+        "elevationKm": 0.502
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "0d0c7a1b-88ca-3d8b-a7b5-50e03730635b"
+      ]
+    },
+    {
+      "id": "7f330be2-2836-3073-9ead-3a06c4aec750",
+      "name": "IL08",
+      "location": {
+        "latDegrees": 64.79044,
+        "lonDegrees": -146.7968,
+        "elevationKm": 0.516
+      },
+      "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+      "channelIds": [
+        "6e10dd1b-9fe6-3887-a586-ce3423d4c895"
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "441fabaa-e960-371d-95d2-777318620eba",
+      "name": "IL01/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "55a045da-1f3f-37c2-94ea-b4bd5406fb90",
+      "siteName": "IL01",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77163,
+      "longitude": -146.88599,
+      "elevation": 0.43,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.029
+    },
+    {
+      "id": "5291c669-6888-38d4-8b71-b46e0c5399fc",
+      "name": "IL17/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "fa616558-0aaa-3c0c-9f5c-ef88efa5b679",
+      "siteName": "IL17",
+      "dataType": "UNKNOWN",
+      "latitude": 64.80717,
+      "longitude": -146.88965,
+      "elevation": 0.369,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0594
+    },
+    {
+      "id": "6f4d345d-4d30-32d0-9ecc-89337a6ab814",
+      "name": "IL16/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "e6bd500b-5cd2-3818-8804-3626f00fece8",
+      "siteName": "IL16",
+      "dataType": "UNKNOWN",
+      "latitude": 64.7933,
+      "longitude": -146.92137,
+      "elevation": 0.393,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0588
+    },
+    {
+      "id": "fabec3e9-8b41-34e3-94a8-3d66250bffd1",
+      "name": "IL02/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "a0f6acbb-4897-3333-80ea-93861edb7b2e",
+      "siteName": "IL02",
+      "dataType": "UNKNOWN",
+      "latitude": 64.78468,
+      "longitude": -146.86427,
+      "elevation": 0.273,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0326
+    },
+    {
+      "id": "6a6ce8fc-edb6-3809-af8b-37bd5cc1742c",
+      "name": "IL11/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "152a2ab7-a347-36c3-aaa0-f32b2caf03aa",
+      "siteName": "IL11",
+      "dataType": "UNKNOWN",
+      "latitude": 64.74154,
+      "longitude": -146.89727,
+      "elevation": 0.455,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0594
+    },
+    {
+      "id": "9529046d-26cf-351a-84a4-baad03673b29",
+      "name": "IL07/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "aa93a415-a9a6-3bc0-b081-bbb7e49c22fa",
+      "siteName": "IL07",
+      "dataType": "UNKNOWN",
+      "latitude": 64.79932,
+      "longitude": -146.83924,
+      "elevation": 0.414,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "28244550-15c8-39d2-b991-ff163cbf5fbd",
+      "name": "IL15/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "c698f220-cd4a-3266-83c8-27a731c95be3",
+      "siteName": "IL15",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77773,
+      "longitude": -146.94268,
+      "elevation": 0.349,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0585
+    },
+    {
+      "id": "4dd5b44b-0ed6-3e0a-bf44-8fe8588a435a",
+      "name": "IL31/BHE",
+      "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+      "locationCode": "Invalid",
+      "siteId": "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "siteName": "IL31",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77145,
+      "longitude": -146.88645,
+      "elevation": 0.387,
+      "verticalAngle": 90,
+      "horizontalAngle": 90,
+      "sampleRate": 40,
+      "depth": 0.061
+    },
+    {
+      "id": "2821f3d5-716c-356d-9e6c-f8497c43c479",
+      "name": "IL31/BHN",
+      "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+      "locationCode": "Invalid",
+      "siteId": "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "siteName": "IL31",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77145,
+      "longitude": -146.88645,
+      "elevation": 0.387,
+      "verticalAngle": 90,
+      "horizontalAngle": 0,
+      "sampleRate": 40,
+      "depth": 0.061
+    },
+    {
+      "id": "286e9bbf-51f8-3cc3-9287-8d5458c592ff",
+      "name": "IL31/BHZ",
+      "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "siteName": "IL31",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77145,
+      "longitude": -146.88645,
+      "elevation": 0.387,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 40,
+      "depth": 0.061
+    },
+    {
+      "id": "02e2d06c-bc21-3683-bb54-618338618d96",
+      "name": "IL05/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "a4fbb631-20de-3d4b-aa7c-8706540dc77b",
+      "siteName": "IL05",
+      "dataType": "UNKNOWN",
+      "latitude": 64.7731,
+      "longitude": -146.92274,
+      "elevation": 0.401,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "4d6d84b9-de7e-3f99-a475-71554e0ff99e",
+      "name": "IL13/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "cfaa773a-6f35-37f0-ba0d-d89497bf4946",
+      "siteName": "IL13",
+      "dataType": "UNKNOWN",
+      "latitude": 64.74791,
+      "longitude": -146.9864,
+      "elevation": 0.382,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "ffc1738c-562b-3b9a-a5a0-dc959600f714",
+      "name": "IL06/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "82ada4d7-273e-3ae0-bebe-1305743d6824",
+      "siteName": "IL06",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77921,
+      "longitude": -146.9038,
+      "elevation": 0.272,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0497
+    },
+    {
+      "id": "25ee2252-601e-3324-974e-58e6726cebb6",
+      "name": "IL18/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "d1c66e7c-5926-3b6b-98f4-892516664f2c",
+      "siteName": "IL18",
+      "dataType": "UNKNOWN",
+      "latitude": 64.75748,
+      "longitude": -146.7766,
+      "elevation": 0.566,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0472
+    },
+    {
+      "id": "d8091cb3-6b25-35ce-9749-49cd40c707be",
+      "name": "IL03/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "e71a2bff-6933-3a6b-9ba6-6b04e9a7fe53",
+      "siteName": "IL03",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77149,
+      "longitude": -146.85117,
+      "elevation": 0.452,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "cf7a52e1-9aec-3f8f-830d-29323581981f",
+      "name": "IL14/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "e05c114f-10a5-314b-b5f4-3139352df9cd",
+      "siteName": "IL14",
+      "dataType": "UNKNOWN",
+      "latitude": 64.77498,
+      "longitude": -146.97929,
+      "elevation": 0.236,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0488
+    },
+    {
+      "id": "1fb6fd6c-6259-3de0-9eba-5d32f0966298",
+      "name": "IL10/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "bc7e2164-237f-3c58-828c-d5e4654e9c1e",
+      "siteName": "IL10",
+      "dataType": "UNKNOWN",
+      "latitude": 64.75293,
+      "longitude": -146.84299,
+      "elevation": 0.599,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.029
+    },
+    {
+      "id": "8ca84230-b27f-385c-a02b-b5beb9769811",
+      "name": "IL04/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "08d8346d-6955-36e7-bd50-82b154bc7ee7",
+      "siteName": "IL04",
+      "dataType": "UNKNOWN",
+      "latitude": 64.75706,
+      "longitude": -146.87595,
+      "elevation": 0.538,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0454
+    },
+    {
+      "id": "e13a356b-652e-3147-b933-efa41d7aec64",
+      "name": "IL19/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "ae800d70-a888-3638-8d74-8842a549c016",
+      "siteName": "IL19",
+      "dataType": "UNKNOWN",
+      "latitude": 64.74619,
+      "longitude": -146.79734,
+      "elevation": 0.561,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "a5899887-41df-3405-91ef-dcbc6b2d87f3",
+      "name": "IL12/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "7bcfbe9d-76cd-3105-b6ce-63e8c88b2663",
+      "siteName": "IL12",
+      "dataType": "UNKNOWN",
+      "latitude": 64.74473,
+      "longitude": -146.94348,
+      "elevation": 0.377,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0579
+    },
+    {
+      "id": "0d0c7a1b-88ca-3d8b-a7b5-50e03730635b",
+      "name": "IL09/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "e114f69b-fb09-366b-b33d-96634b953409",
+      "siteName": "IL09",
+      "dataType": "UNKNOWN",
+      "latitude": 64.76819,
+      "longitude": -146.78311,
+      "elevation": 0.502,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0549
+    },
+    {
+      "id": "6e10dd1b-9fe6-3887-a586-ce3423d4c895",
+      "name": "IL08/SHZ",
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "locationCode": "Invalid",
+      "siteId": "7f330be2-2836-3073-9ead-3a06c4aec750",
+      "siteName": "IL08",
+      "dataType": "UNKNOWN",
+      "latitude": 64.79044,
+      "longitude": -146.7968,
+      "elevation": 0.516,
+      "verticalAngle": 0,
+      "horizontalAngle": -1,
+      "sampleRate": 20,
+      "depth": 0.0305
+    }
+  ]
+}

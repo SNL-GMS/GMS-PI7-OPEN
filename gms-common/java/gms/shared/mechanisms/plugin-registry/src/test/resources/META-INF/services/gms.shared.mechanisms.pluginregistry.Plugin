@@ -1,0 +1,6 @@
+gms.shared.mechanisms.pluginregistry.testing.DummyPluginClass1
+gms.shared.mechanisms.pluginregistry.testing.DummyPluginClass2
+gms.shared.mechanisms.pluginregistry.testing.DummyPluginClass3
+gms.shared.mechanisms.pluginregistry.testing.PluginNoName
+gms.shared.mechanisms.pluginregistry.testing.PluginNoVersion
+gms.shared.mechanisms.pluginregistry.testing.PluginNoNameOrVersion

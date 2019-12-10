@@ -1,0 +1,23 @@
+apply plugin: 'application'
+
+mainClassName = 'gms.dataacquisition.css.processingconverter.Application'
+
+run {
+    if (System.getProperty("exec.args") != null) {
+        args System.getProperty("exec.args").split()
+    }
+}
+
+dependencies {
+    // GMS project dependencies.
+    implementation project(':css-reader')
+    implementation project(':osd-commonobjects')
+    implementation project(':stationref-file-reader-utility')
+
+    // Third-party dependencies.
+    implementation 'args4j:args4j'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

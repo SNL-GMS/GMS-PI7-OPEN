@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

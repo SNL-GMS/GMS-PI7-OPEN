@@ -1,0 +1,476 @@
+{
+  "id": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+  "name": "ILAR",
+  "stationType": "SeismicArray",
+  "latitude": 64.77145,
+  "longitude": -146.88645,
+  "elevation": 0.387,
+  "sites": [
+    {
+      "id": "55a045da-1f3f-37c2-94ea-b4bd5406fb90",
+      "name": "IL01",
+      "latitude": 64.77163,
+      "longitude": -146.88599,
+      "elevation": 0.43,
+      "channels": [
+        {
+          "id": "441fabaa-e960-371d-95d2-777318620eba",
+          "name": "IL01/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77163,
+          "longitude": -146.88599,
+          "elevation": 0.43,
+          "depth": 0.029,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "fa616558-0aaa-3c0c-9f5c-ef88efa5b679",
+      "name": "IL17",
+      "latitude": 64.80717,
+      "longitude": -146.88965,
+      "elevation": 0.369,
+      "channels": [
+        {
+          "id": "5291c669-6888-38d4-8b71-b46e0c5399fc",
+          "name": "IL17/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.80717,
+          "longitude": -146.88965,
+          "elevation": 0.369,
+          "depth": 0.0594,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "e6bd500b-5cd2-3818-8804-3626f00fece8",
+      "name": "IL16",
+      "latitude": 64.7933,
+      "longitude": -146.92137,
+      "elevation": 0.393,
+      "channels": [
+        {
+          "id": "6f4d345d-4d30-32d0-9ecc-89337a6ab814",
+          "name": "IL16/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.7933,
+          "longitude": -146.92137,
+          "elevation": 0.393,
+          "depth": 0.0588,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "a0f6acbb-4897-3333-80ea-93861edb7b2e",
+      "name": "IL02",
+      "latitude": 64.78468,
+      "longitude": -146.86427,
+      "elevation": 0.273,
+      "channels": [
+        {
+          "id": "fabec3e9-8b41-34e3-94a8-3d66250bffd1",
+          "name": "IL02/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.78468,
+          "longitude": -146.86427,
+          "elevation": 0.273,
+          "depth": 0.0326,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "152a2ab7-a347-36c3-aaa0-f32b2caf03aa",
+      "name": "IL11",
+      "latitude": 64.74154,
+      "longitude": -146.89727,
+      "elevation": 0.455,
+      "channels": [
+        {
+          "id": "6a6ce8fc-edb6-3809-af8b-37bd5cc1742c",
+          "name": "IL11/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.74154,
+          "longitude": -146.89727,
+          "elevation": 0.455,
+          "depth": 0.0594,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "aa93a415-a9a6-3bc0-b081-bbb7e49c22fa",
+      "name": "IL07",
+      "latitude": 64.79932,
+      "longitude": -146.83924,
+      "elevation": 0.414,
+      "channels": [
+        {
+          "id": "9529046d-26cf-351a-84a4-baad03673b29",
+          "name": "IL07/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.79932,
+          "longitude": -146.83924,
+          "elevation": 0.414,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "c698f220-cd4a-3266-83c8-27a731c95be3",
+      "name": "IL15",
+      "latitude": 64.77773,
+      "longitude": -146.94268,
+      "elevation": 0.349,
+      "channels": [
+        {
+          "id": "28244550-15c8-39d2-b991-ff163cbf5fbd",
+          "name": "IL15/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77773,
+          "longitude": -146.94268,
+          "elevation": 0.349,
+          "depth": 0.0585,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "c1aa8c91-17ce-306a-a921-6cbd39afb759",
+      "name": "IL31",
+      "latitude": 64.77145,
+      "longitude": -146.88645,
+      "elevation": 0.387,
+      "channels": [
+        {
+          "id": "4dd5b44b-0ed6-3e0a-bf44-8fe8588a435a",
+          "name": "IL31/BHE",
+          "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77145,
+          "longitude": -146.88645,
+          "elevation": 0.387,
+          "depth": 0.061,
+          "verticalAngle": 90,
+          "horizontalAngle": 90,
+          "sampleRate": 40
+        },
+        {
+          "id": "2821f3d5-716c-356d-9e6c-f8497c43c479",
+          "name": "IL31/BHN",
+          "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77145,
+          "longitude": -146.88645,
+          "elevation": 0.387,
+          "depth": 0.061,
+          "verticalAngle": 90,
+          "horizontalAngle": 0,
+          "sampleRate": 40
+        },
+        {
+          "id": "286e9bbf-51f8-3cc3-9287-8d5458c592ff",
+          "name": "IL31/BHZ",
+          "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77145,
+          "longitude": -146.88645,
+          "elevation": 0.387,
+          "depth": 0.061,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 40
+        }
+      ]
+    },
+    {
+      "id": "a4fbb631-20de-3d4b-aa7c-8706540dc77b",
+      "name": "IL05",
+      "latitude": 64.7731,
+      "longitude": -146.92274,
+      "elevation": 0.401,
+      "channels": [
+        {
+          "id": "02e2d06c-bc21-3683-bb54-618338618d96",
+          "name": "IL05/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.7731,
+          "longitude": -146.92274,
+          "elevation": 0.401,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "cfaa773a-6f35-37f0-ba0d-d89497bf4946",
+      "name": "IL13",
+      "latitude": 64.74791,
+      "longitude": -146.9864,
+      "elevation": 0.382,
+      "channels": [
+        {
+          "id": "4d6d84b9-de7e-3f99-a475-71554e0ff99e",
+          "name": "IL13/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.74791,
+          "longitude": -146.9864,
+          "elevation": 0.382,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "82ada4d7-273e-3ae0-bebe-1305743d6824",
+      "name": "IL06",
+      "latitude": 64.77921,
+      "longitude": -146.9038,
+      "elevation": 0.272,
+      "channels": [
+        {
+          "id": "ffc1738c-562b-3b9a-a5a0-dc959600f714",
+          "name": "IL06/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77921,
+          "longitude": -146.9038,
+          "elevation": 0.272,
+          "depth": 0.0497,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "d1c66e7c-5926-3b6b-98f4-892516664f2c",
+      "name": "IL18",
+      "latitude": 64.75748,
+      "longitude": -146.7766,
+      "elevation": 0.566,
+      "channels": [
+        {
+          "id": "25ee2252-601e-3324-974e-58e6726cebb6",
+          "name": "IL18/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.75748,
+          "longitude": -146.7766,
+          "elevation": 0.566,
+          "depth": 0.0472,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "e71a2bff-6933-3a6b-9ba6-6b04e9a7fe53",
+      "name": "IL03",
+      "latitude": 64.77149,
+      "longitude": -146.85117,
+      "elevation": 0.452,
+      "channels": [
+        {
+          "id": "d8091cb3-6b25-35ce-9749-49cd40c707be",
+          "name": "IL03/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77149,
+          "longitude": -146.85117,
+          "elevation": 0.452,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "e05c114f-10a5-314b-b5f4-3139352df9cd",
+      "name": "IL14",
+      "latitude": 64.77498,
+      "longitude": -146.97929,
+      "elevation": 0.236,
+      "channels": [
+        {
+          "id": "cf7a52e1-9aec-3f8f-830d-29323581981f",
+          "name": "IL14/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.77498,
+          "longitude": -146.97929,
+          "elevation": 0.236,
+          "depth": 0.0488,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "bc7e2164-237f-3c58-828c-d5e4654e9c1e",
+      "name": "IL10",
+      "latitude": 64.75293,
+      "longitude": -146.84299,
+      "elevation": 0.599,
+      "channels": [
+        {
+          "id": "1fb6fd6c-6259-3de0-9eba-5d32f0966298",
+          "name": "IL10/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.75293,
+          "longitude": -146.84299,
+          "elevation": 0.599,
+          "depth": 0.029,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "08d8346d-6955-36e7-bd50-82b154bc7ee7",
+      "name": "IL04",
+      "latitude": 64.75706,
+      "longitude": -146.87595,
+      "elevation": 0.538,
+      "channels": [
+        {
+          "id": "8ca84230-b27f-385c-a02b-b5beb9769811",
+          "name": "IL04/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.75706,
+          "longitude": -146.87595,
+          "elevation": 0.538,
+          "depth": 0.0454,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "ae800d70-a888-3638-8d74-8842a549c016",
+      "name": "IL19",
+      "latitude": 64.74619,
+      "longitude": -146.79734,
+      "elevation": 0.561,
+      "channels": [
+        {
+          "id": "e13a356b-652e-3147-b933-efa41d7aec64",
+          "name": "IL19/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.74619,
+          "longitude": -146.79734,
+          "elevation": 0.561,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "7bcfbe9d-76cd-3105-b6ce-63e8c88b2663",
+      "name": "IL12",
+      "latitude": 64.74473,
+      "longitude": -146.94348,
+      "elevation": 0.377,
+      "channels": [
+        {
+          "id": "a5899887-41df-3405-91ef-dcbc6b2d87f3",
+          "name": "IL12/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.74473,
+          "longitude": -146.94348,
+          "elevation": 0.377,
+          "depth": 0.0579,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "e114f69b-fb09-366b-b33d-96634b953409",
+      "name": "IL09",
+      "latitude": 64.76819,
+      "longitude": -146.78311,
+      "elevation": 0.502,
+      "channels": [
+        {
+          "id": "0d0c7a1b-88ca-3d8b-a7b5-50e03730635b",
+          "name": "IL09/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.76819,
+          "longitude": -146.78311,
+          "elevation": 0.502,
+          "depth": 0.0549,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    },
+    {
+      "id": "7f330be2-2836-3073-9ead-3a06c4aec750",
+      "name": "IL08",
+      "latitude": 64.79044,
+      "longitude": -146.7968,
+      "elevation": 0.516,
+      "channels": [
+        {
+          "id": "6e10dd1b-9fe6-3887-a586-ce3423d4c895",
+          "name": "IL08/SHZ",
+          "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+          "dataType": "UNKNOWN",
+          "latitude": 64.79044,
+          "longitude": -146.7968,
+          "elevation": 0.516,
+          "depth": 0.0305,
+          "verticalAngle": 0,
+          "horizontalAngle": -1,
+          "sampleRate": 20
+        }
+      ]
+    }
+  ]
+}

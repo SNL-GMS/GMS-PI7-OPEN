@@ -1,0 +1,135 @@
+# Represents the slowness scale used to calculate FK data
+type SlownessScale {
+    # The maximum slowness value of the scale (the scale spans zero to this number)
+    maxValue: Float!
+
+    # Ordered array of slowness values defining the scale
+    scaleValues: [Float]!
+
+    # The number of slowness values in the scale array
+    scaleValueCount: Int!
+}
+
+# Input version of the slowness scale used to calculate FK data
+input SlownessScaleInput {
+    # The maximum slowness value of the scale (the scale spans zero to this number)
+    maxValue: Float!
+
+    # Ordered array of slowness values defining the scale
+    scaleValues: [Float]!
+
+    # The number of slowness values in the scale array
+    scaleValueCount: Int!
+}
+
+# Represents the time window parameters used in the Fk cacluation
+type WindowParameters {
+
+    # The type of window (e.g. Hanning)
+    windowType: String!
+
+    # The lead period in seconds (prior to the detection onset time)
+    leadSeconds: Float!
+
+    # The length of the window in seconds (including the lead and lag around the detection onset time)
+    lengthSeconds: Float!
+}
+
+# Input version of the time window parameters provided as input to the FK mutation API
+input WindowParametersInput {
+
+    # The type of window (e.g. Hanning)
+    windowType: String!
+
+    # The lead period in seconds (prior to the detection onset time)
+    leadSeconds: Float!
+
+    # The length of the window in seconds (including the lead and lag around the detection onset time)
+    lengthSeconds: Float!
+}
+
+# Represents a point within the Fk data, including both cartesian and polar coordinates
+type FkPoint {
+    xSlowness: Float!
+    ySlowness: Float!
+    azimuthDeg: Float!
+    radialSlowness: Float!
+    azimuthUncertainty: Float!
+    slownessUncertainty: Float!
+    fstat: Float!
+}
+
+# Input version of a point within the Fk data, including both cartesian and polar coordinates
+input FkPointInput {
+    xSlowness: Float!
+    ySlowness: Float!
+    azimuthDeg: Float!
+    radialSlowness: Float!
+    azimuthUncertainty: Float!
+    slownessUncertainty: Float!
+    fstat: Float!
+}
+
+# Represents F-statistic data related to an Fk measurement
+type FstatData {
+    azimuthWf: Waveform!
+    slownessWf: Waveform!
+    fstatWf: Waveform!
+    beamWf: Waveform!
+}
+
+# Input version of F-statistic data related to an Fk measurement
+input FstatDataInput {
+    azimuthWf: WaveformInput!
+    slownessWf: WaveformInput!
+    fstatWf: WaveformInput!
+    beamWf: WaveformInput!
+}
+
+# Input version of an FK calculated for a single detection input set,
+# including e.g. phase, time range, frequency band, channel list, etc.
+input FkDataInput {
+    id: String!
+    frequencyBand: FrequencyBandInput!
+    slownessScale: SlownessScaleInput!
+    windowParams: WindowParametersInput!
+    attenuation: Float!
+    contribChannelIds: [String]!
+    peak: FkPointInput!
+    predicted: FkPointInput!
+    fkGrid: [[Float]]!
+    fstatData: FstatDataInput!
+}
+
+# Input parameters used to create a new FK data set
+input NewFkInput {
+
+    # The ID of the station the FK will be created for
+    stationId: String!
+
+    # The frequency band to compute the Fk on
+    frequencyBand: FrequencyBandInput!
+
+    # The window parameters to compute the Fk with
+    windowParams: WindowParametersInput!
+
+    # The channels to compute the Fk beam on
+    contribChannelIds: [String]!
+}
+
+# Currently, no queries are provided. Fk data are accessed as members of
+# AzslownessFeatureMeasurements on SignalDetectionHypotheses
+
+# The following signal FK mutations are supported.
+extend type Mutation {
+
+    # Create a new Fk data set using the provided input
+    createFk (input: NewFkInput!, signalDetectionHypothesisId: String!): FkPowerSpectra
+}
+
+# The following FK subscriptions are supported.
+extend type Subscription {
+
+    # Subscribe for newly-created Fk data (optionally for a specific event hypothesis)
+    fkCreated(eventHypothesisId: String): FkPowerSpectra
+}

@@ -1,0 +1,66 @@
+# Build directories
+**/build/
+**/bin/
+**/dist/
+**/GMSpy.egg-info/
+
+# Coverage reports
+**/coverage/
+
+# Data files
+*.csv
+
+# VSCode/Eclipse
+**/.project
+**/.classpath
+**/.settings/
+
+# Gradle
+**/.gradle/
+**/.gradletasknamecache
+**/gradle-app.setting
+
+# IntelliJ
+**/.idea/
+**/out/
+*.iml
+*.iws
+gen
+
+# Java
+*.class
+*.jar
+!gradle-wrapper.jar
+**/classes/
+**/docs/
+
+# Logs
+**/app.log
+**/logs/
+
+# Mac .DS_Store files
+**/.DS_Store/
+
+# npm modules
+**/.sass-cache/
+**/bower_components/
+**/components/
+**/node_modules/
+
+# Python
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+
+# Maven
+**/.m2
+
+# vim swp files
+*.swp
+
+# GMS files and directories
+**/dataframe-parser/*.txt
+**/shared-volume/
+**/monitored-dir/*.json
+monorepo-large-files.log
+rebuilt-projects.log

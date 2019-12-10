@@ -1,0 +1,15 @@
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    implementation project(':beam-algorithm-plane-wave')
+
+    implementation project(':beam-plugin')
+
+    implementation project(':geomath')
+
+    testImplementation 'org.yaml:snakeyaml'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

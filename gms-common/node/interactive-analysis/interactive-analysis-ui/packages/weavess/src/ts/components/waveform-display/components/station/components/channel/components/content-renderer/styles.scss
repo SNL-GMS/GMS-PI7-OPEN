@@ -1,0 +1,51 @@
+.contentrenderer {
+  display: flex;
+  height: 100%;
+  flex: 1 1 auto;
+  &:focus {
+    outline: none;
+  }
+  border-right: 1px solid;
+
+  .contentrenderer-content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    width: 100%;
+
+    .contentrenderer-content-description-label {
+      position: absolute;
+      bottom: 0px;
+      font-size: 0.7rem;
+      white-space: nowrap;
+    }
+
+    .contentrenderer-measure-window-selection {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      display: none;
+      background-color: rgba(255,183,51,0.3);
+      left: 0px;
+      right: 0px;
+    }
+
+    .contentrenderer-measure-window-selection:hover {
+      cursor: move;
+    }
+
+    .contentrenderer-content-drag-indicator {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      border-left: 1px solid red;
+      display: none;
+    }
+
+    .contentrenderer-content-markers {
+      pointer-events: none;
+    }
+
+  }
+  
+}

@@ -1,0 +1,2 @@
+#returns the pi3_demo network that is stored in openshift
+python coidataclient.py -mode networks

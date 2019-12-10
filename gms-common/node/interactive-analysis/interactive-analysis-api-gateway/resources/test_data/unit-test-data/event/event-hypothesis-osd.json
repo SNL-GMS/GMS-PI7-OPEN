@@ -1,0 +1,234 @@
+{
+  "id": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+  "rejected": false,
+  "eventId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+  "associations": [],
+  "locationSolutions": [
+    {
+      "id": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+      "locationRestraint": {
+        "depthRestraintType": "FIXED_AT_SURFACE",
+        "depthRestraintKm": null,
+        "latitudeRestraintType": "UNRESTRAINED",
+        "latitudeRestraintDegrees": null,
+        "longitudeRestraintType": "UNRESTRAINED",
+        "longitudeRestraintDegrees": null,
+        "timeRestraintType": "UNRESTRAINED",
+        "timeRestraint": null
+      },
+      "locationUncertainty": {
+        "xx": 476.9996,
+        "xy": -272.5689,
+        "xz": -1,
+        "xt": -33.5027,
+        "yy": 525.9998,
+        "yz": -1,
+        "yt": -30.6263,
+        "zz": -1,
+        "zt": -1,
+        "tt": 9.7391,
+        "stDevOneObservation": 0,
+        "ellipses": [
+          {
+            "scalingFactorType": "CONFIDENCE",
+            "kWeight": 0,
+            "confidenceLevel": 0.9,
+            "majorAxisLength": 59.7138,
+            "majorAxisTrend": 137.57,
+            "minorAxisLength": 32.3731,
+            "minorAxisTrend": -1,
+            "depthUncertainty": -1,
+            "timeUncertainty": "PT5.137S"
+          }
+        ],
+        "ellipsoids": []
+      },
+      "locationBehaviors": [
+        {
+          "residual": 7.8,
+          "weight": 0.708,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "1a8ce68c-a12f-471a-bff1-d53b5c4b8d26"
+        },
+        {
+          "residual": -25,
+          "weight": 0.685,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "d099c22d-a075-4bce-a469-1f5972332f2b"
+        },
+        {
+          "residual": -2.9,
+          "weight": 0.701,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "e75095ad-43ea-4d7c-8ab8-1c61d2c081ae"
+        },
+        {
+          "residual": 0.331,
+          "weight": 0.709,
+          "defining": true,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "9c6a9bfb-584f-4921-b677-884e62c72543"
+        },
+        {
+          "residual": 2.23,
+          "weight": 0.701,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "27a2ed29-b96c-4d7a-87a8-94c009c1bec5"
+        },
+        {
+          "residual": 0.977,
+          "weight": 0.609,
+          "defining": true,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "ed710448-3db9-4ac1-9708-2a2718479c69"
+        },
+        {
+          "residual": -9,
+          "weight": 0.951,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "2a301c51-e623-459f-9dac-b24405090636"
+        },
+        {
+          "residual": 37.1,
+          "weight": 0.754,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "d98a9f2f-ed6e-4e2d-b286-24ec8747a6ce"
+        },
+        {
+          "residual": -50.2,
+          "weight": 0.609,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "e524a3ec-d478-41e1-a07d-b9d04db23add"
+        }
+      ],
+      "location": {
+        "latitudeDegrees": 44.94862,
+        "longitudeDegrees": -106.38442,
+        "depthKm": 0,
+        "time": "2010-05-20T22:01:30.238Z"
+      },
+      "featurePredictions": []
+    }
+  ],
+  "preferredLocationSolution": {
+    "locationSolution": {
+      "id": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+      "locationRestraint": {
+        "depthRestraintType": "FIXED_AT_SURFACE",
+        "depthRestraintKm": null,
+        "latitudeRestraintType": "UNRESTRAINED",
+        "latitudeRestraintDegrees": null,
+        "longitudeRestraintType": "UNRESTRAINED",
+        "longitudeRestraintDegrees": null,
+        "timeRestraintType": "UNRESTRAINED",
+        "timeRestraint": null
+      },
+      "locationUncertainty": {
+        "xx": 476.9996,
+        "xy": -272.5689,
+        "xz": -1,
+        "xt": -33.5027,
+        "yy": 525.9998,
+        "yz": -1,
+        "yt": -30.6263,
+        "zz": -1,
+        "zt": -1,
+        "tt": 9.7391,
+        "stDevOneObservation": 0,
+        "ellipses": [
+          {
+            "scalingFactorType": "CONFIDENCE",
+            "kWeight": 0,
+            "confidenceLevel": 0.9,
+            "majorAxisLength": 59.7138,
+            "majorAxisTrend": 137.57,
+            "minorAxisLength": 32.3731,
+            "minorAxisTrend": -1,
+            "depthUncertainty": -1,
+            "timeUncertainty": "PT5.137S"
+          }
+        ],
+        "ellipsoids": []
+      },
+      "locationBehaviors": [
+        {
+          "residual": 7.8,
+          "weight": 0.708,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "1a8ce68c-a12f-471a-bff1-d53b5c4b8d26"
+        },
+        {
+          "residual": -25,
+          "weight": 0.685,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "d099c22d-a075-4bce-a469-1f5972332f2b"
+        },
+        {
+          "residual": -2.9,
+          "weight": 0.701,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "e75095ad-43ea-4d7c-8ab8-1c61d2c081ae"
+        },
+        {
+          "residual": 0.331,
+          "weight": 0.709,
+          "defining": true,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "9c6a9bfb-584f-4921-b677-884e62c72543"
+        },
+        {
+          "residual": 2.23,
+          "weight": 0.701,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "27a2ed29-b96c-4d7a-87a8-94c009c1bec5"
+        },
+        {
+          "residual": 0.977,
+          "weight": 0.609,
+          "defining": true,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "ed710448-3db9-4ac1-9708-2a2718479c69"
+        },
+        {
+          "residual": -9,
+          "weight": 0.951,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "2a301c51-e623-459f-9dac-b24405090636"
+        },
+        {
+          "residual": 37.1,
+          "weight": 0.754,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "d98a9f2f-ed6e-4e2d-b286-24ec8747a6ce"
+        },
+        {
+          "residual": -50.2,
+          "weight": 0.609,
+          "defining": false,
+          "featurePredictionId": "00000000-0000-0000-0000-000000000000",
+          "featureMeasurementId": "e524a3ec-d478-41e1-a07d-b9d04db23add"
+        }
+      ],
+      "location": {
+        "latitudeDegrees": 44.94862,
+        "longitudeDegrees": -106.38442,
+        "depthKm": 0,
+        "time": "2010-05-20T22:01:30.238Z"
+      },
+      "featurePredictions": []
+    }
+  }
+}

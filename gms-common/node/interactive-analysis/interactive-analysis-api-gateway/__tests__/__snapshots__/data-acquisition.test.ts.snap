@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transferred Files Content query should match snapshot 1`] = `
+Object {
+  "transferredFilesByTimeRange": Array [
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "4.01",
+      "endTime": "2018-12-19T11:36:15.319925Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T11:36:11.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "5",
+      "endTime": "2018-12-19T22:36:11.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:06.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "5",
+      "endTime": "2018-12-19T22:36:11.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:06.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "5",
+      "endTime": "2018-12-19T22:36:11.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:06.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "5",
+      "endTime": "2018-12-19T22:36:11.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:06.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "4",
+      "endTime": "2018-12-19T22:36:15.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:11.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "4",
+      "endTime": "2018-12-19T22:36:15.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:11.309924Z",
+      "stationName": "ASAR",
+    },
+    Object {
+      "channelNames": Array [
+        "AS01/SHZ",
+      ],
+      "duration": "4",
+      "endTime": "2018-12-19T22:36:15.309924Z",
+      "location": "location",
+      "priority": "testPriority",
+      "startTime": "2018-12-19T22:36:11.309924Z",
+      "stationName": "ASAR",
+    },
+  ],
+}
+`;

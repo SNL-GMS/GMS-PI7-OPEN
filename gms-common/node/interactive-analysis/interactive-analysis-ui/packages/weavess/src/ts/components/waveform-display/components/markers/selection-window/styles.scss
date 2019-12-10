@@ -1,0 +1,15 @@
+.selection-window {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  z-index: 0;
+
+  .selection-window-selection {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: initial;
+    pointer-events: auto;
+  }
+}

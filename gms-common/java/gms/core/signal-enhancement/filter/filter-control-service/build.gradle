@@ -1,0 +1,31 @@
+apply plugin: 'application'
+apply plugin: 'com.palantir.docker'
+
+mainClassName = "gms.core.signalenhancement.waveformfiltering.Application"
+
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    // Filter Control Dependencies
+    implementation project(':filter-plugin')
+    implementation project(':configuration')
+
+    runtimeOnly project(':filter-plugin-linear-waveform-filter')
+
+    // Third party dependencies
+    implementation 'com.sparkjava:spark-core'
+    implementation 'com.mashape.unirest:unirest-java'
+    implementation 'org.yaml:snakeyaml'
+    implementation 'org.apache.commons:commons-configuration2'
+    implementation 'commons-beanutils:commons-beanutils'
+
+    // Google AutoValue
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    testImplementation 'com.github.tomakehurst:wiremock'
+    testImplementation 'javax.xml.bind:jaxb-api'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

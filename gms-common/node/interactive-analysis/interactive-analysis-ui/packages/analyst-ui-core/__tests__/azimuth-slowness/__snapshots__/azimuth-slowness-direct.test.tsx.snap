@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AzimuthSlowness Direct AzimuthSlowness renders directly with data correctly 1`] = `
+<NonIdealState
+  title="No FK Data Available"
+  visual="heat-grid"
+/>
+`;

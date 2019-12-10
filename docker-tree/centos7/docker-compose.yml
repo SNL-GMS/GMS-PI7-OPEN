@@ -1,0 +1,67 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7:${TAG}
+
+services:
+  docker:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/docker:${TAG}
+    build:
+      context: ./docker
+      args:
+        FROM_IMAGE: *parent_image
+
+  nifi-registry:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/nifi-registry:${TAG}
+    build:
+      context: ./nifi-registry
+      args:
+        FROM_IMAGE: *parent_image
+
+  nginx:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/nginx:${TAG}
+    build:
+      context: ./nginx
+      args:
+        FROM_IMAGE: *parent_image
+
+  openjdk8:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk8:${TAG}
+    build:
+      context: ./openjdk8
+      args:
+        FROM_IMAGE: *parent_image
+
+  openjdk9:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9:${TAG}
+    build:
+      context: ./openjdk9
+      args:
+        FROM_IMAGE: *parent_image
+
+  openjdk11:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk11:${TAG}
+    build:
+      context: ./openjdk11
+      args:
+        FROM_IMAGE: *parent_image
+
+  python27:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python27:${TAG}
+    build:
+      context: ./python27
+      args:
+        FROM_IMAGE: *parent_image
+
+  python36:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python36:${TAG}
+    build:
+      context: ./python36
+      args:
+        FROM_IMAGE: *parent_image
+
+  zookeeper:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/zookeeper:${TAG}
+    build:
+      context: ./zookeeper
+      args:
+        FROM_IMAGE: *parent_image

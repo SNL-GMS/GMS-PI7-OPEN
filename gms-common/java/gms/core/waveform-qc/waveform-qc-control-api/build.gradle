@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+apply plugin: 'io.swagger.core.v3.swagger-gradle-plugin'
+
+dependencies {
+    implementation project(":frameworks-control-interface-base")
+    api project(':osd-commonobjects')
+}
+
+tasks.resolve {
+    prettyPrint = "TRUE"
+    outputFileName = "QcControl"
+    classpath = sourceSets.main.runtimeClasspath
+    outputPath = buildDir.getPath()
+    modelConverterClasses = ["gms.shared.frameworks.swagger.JavaInstantSwaggerConverter"]
+}
+
+tasks.build.dependsOn tasks.resolve

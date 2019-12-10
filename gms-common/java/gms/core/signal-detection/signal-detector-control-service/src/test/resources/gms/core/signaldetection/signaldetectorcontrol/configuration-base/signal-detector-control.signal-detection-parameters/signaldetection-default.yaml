@@ -1,0 +1,10 @@
+name: "SIGNAL-DETECTION-DEFAULT"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  signalDetectionParameters:
+    - pluginName: "staLtaPowerDetectorPlugin"
+      pluginParameters:
+        $ref=global.config:
+          - criterion: "name"
+            value: "stalta-default"

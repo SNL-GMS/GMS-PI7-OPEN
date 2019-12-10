@@ -1,0 +1,48 @@
+version: '2'
+
+services:
+  nifi1:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/processing-sequence-control:latest
+    container_name: nifi1
+    volumes:
+      - nifi1:/grid/persistence:rw
+      - "./shared-volume:/grid/frames:rw"
+    ports:
+      - 8080:8080
+    depends_on:
+      - zoo1
+    environment:
+      ZOO_QUORUM: zoo1:2181
+
+  nifi-registry:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/nifi-registry:latest
+    container_name: nifi-registry
+    ports:
+      - 18080:18080
+    depends_on:
+      - nifi1
+
+  zoo1:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/nifi-zookeeper:latest
+    container_name: zoo1
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=zoo1:2888:3888
+
+  ims2-service:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms/ims2_service
+    ports:
+      - 5000:5000
+
+  da-frame-management:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/frame-management-low:latest
+    environment:
+     HARDLINK_DIRECTORIES: "docker-compose-sandbox docker-compose-release"
+     DELETION_AGE_MINS: 30
+     DELETION_SLEEP: 1
+    volumes:
+      - "./shared-volume:/frame-management/shared-volume:rw"
+    restart: always
+
+volumes:
+  nifi1:

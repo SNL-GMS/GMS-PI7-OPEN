@@ -1,0 +1,13 @@
+{
+  "lerna": "3.10.8",
+  "npmClient": "npm",
+  "npmClientArgs": ["--package-lock", "--no-shrinkwrap"],
+  "packages": [
+    "packages/weavess",
+    "packages/ui-core-components",
+    "packages/analyst-ui-core",
+    "packages/analyst-ui-electron"
+
+  ],
+  "version": "independent"
+}

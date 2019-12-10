@@ -1,0 +1,22 @@
+name: "associator-default"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  pluginName: "globalGridSignalDetectionAssociatorPlugin"
+  pluginVersion: "1.0.0"
+  gridModelFileName: "geotess_grid_populated_geotess_grid_04000.geotess"
+  gridSpacing: 4000
+  maxStationsPerGrid: 5
+  sigmaSlowness: 1.5
+  phases: ['P']
+  forwardTransformationPhases: ['P']
+  beliefThreshold: 0.05
+  primaryPhaseRequiredForSecondary: true
+  sigmaTime: 5.0
+  chiLimit: 0.75
+  freezeArrivalsAtBeamPoints: true
+  gridCylinderRadiusDegrees: 3.0
+  gridCylinderDepthKm: 50
+  gridCylinderHeightKm: 100
+  minimumMagnitude: 3.5
+  numFirstSta: 5

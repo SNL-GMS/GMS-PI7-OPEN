@@ -1,0 +1,69 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+.table-container {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.table-container-hide-overflow {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.list-filter-select {
+  margin-bottom: 0.5rem;
+}
+
+.list-wrapper {
+  flex: 1 1 auto;
+  position: relative;
+  min-height: 100px;
+}
+
+.list__drop-down {
+  width: 100%;
+}
+
+.list__button {
+  height: 20px;
+  width: 100%;
+  min-height: 0px !important;
+  min-width: 0px !important;
+}
+
+.list__button-row-divider-large {
+  min-height: 0px !important;
+  width: 100px;
+  display: inline-block;
+}
+
+.list__button-row-divider-small {
+  min-height: 0px !important;
+  width: 30px;
+  display: inline-block;
+}
+
+.list__button-vertical-divider {
+  min-width: 0px !important;
+  height: 1px;
+  display: inline-block;
+}
+
+.list-entry-dirty-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+}
+.dirty-dot-wrapper {
+  margin-top: 7px;
+}
+.list-toolbar-wrapper {
+  margin-bottom: 4px;
+}    

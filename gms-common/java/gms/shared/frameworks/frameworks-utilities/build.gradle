@@ -1,0 +1,9 @@
+plugins {
+    id "java-library"
+}
+dependencies {
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+    implementation 'org.apache.commons:commons-lang3'
+    api project(":frameworks-shared-objects")
+}

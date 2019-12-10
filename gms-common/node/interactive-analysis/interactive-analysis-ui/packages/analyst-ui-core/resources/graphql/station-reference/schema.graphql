@@ -1,0 +1,216 @@
+# Represents a group of stations used for monitoring.
+type Network {
+
+    # Unique identifier for the network
+    id: String!
+
+    # Name of the network
+    name: String
+
+    # The monitoring organization the station is affiliated with
+    monitoringOrganization: String
+
+    # The geographic region associated with the network
+    region: String
+
+    # Provenance information about the network configuration
+    configurationInfo: ConfigurationInfo
+
+    # Source of network configuration information
+    informationSource: InformationSource
+
+    # Many-to-many association object between the network and associated stations
+    # The association object is included to record provenance information
+    networkMemberships: [NetworkMembership]
+}
+
+# Represents a many-to-may relationship between networks and stations
+# with associated provenance information recorded in the associated
+# configuration information
+type NetworkMembership {
+
+    # Unique identifier
+    id: String!
+
+    # Provenance information for this configuration item
+    configurationInfo: ConfigurationInfo!
+
+    # Station associated with the network
+    station: Station!
+
+    # Network associated with the station
+    network: Network!
+}
+
+# Represents a many-to-may relationship between stations & sites
+# with associated provenance information recorded in the associated
+# configuration information
+type StationMembership {
+
+    # Unique identifier
+    id: String!
+
+    # Provenance information for this configuration item
+    configurationInfo: ConfigurationInfo!
+
+    # Site associated with the station
+    site: Site!
+
+    # Station associated with the site
+    station: Station!
+}
+
+# An installation where monitoring sensors are installed.
+# Multiple sensors can be installed at the same station.
+type Station {
+
+    # Unique identifier for the station
+    id: String!
+
+    # Name of the station
+    name: String
+
+    # The type of station (seismic, hydroacoustic, infrasonic)
+    stationType: StationType
+
+    # Provenance information about the station configuration
+    configurationInfo: ConfigurationInfo
+
+    # Source of station configuration information
+    informationSource: InformationSource
+
+    # Location of the station
+    location: Location!
+
+    # Aliases for the site
+    aliases: [Alias]
+
+    # Many-to-many association object between the station and associated networks
+    # The association object is included to record provenance information
+    networkMemberships: [NetworkMembership]
+
+    # Many-to-many association object between the station and associated sites
+    # The association object is included to record provenance information
+    stationMemberships: [StationMembership]
+}
+
+# Represents a many-to-may relationship between sites & channels
+# with associated provenance information recorded in the associated
+# configuration information
+type SiteMembership {
+
+    # Unique identifier
+    id: String!
+
+    # Provenance information for this configuration item
+    configurationInfo: ConfigurationInfo!
+
+    # Site associated with the channel
+    site: Site!
+
+    # channel associated with the site
+    channel: Channel!
+}
+
+
+# Represents a physical installation (e.g., building, underground vault, borehole)
+# containing a collection of Instruments that produce Raw Channel waveform data.
+type Site {
+
+    # Unique identifier for the site
+    id: String!
+
+    # The name of the site
+    name: String
+
+    # Provenance information about the site configuration
+    configurationInfo: ConfigurationInfo
+
+    # Source of site configuration information
+    informationSource: InformationSource
+
+    # Location of the site
+    location: Location!
+
+    # Aliases for the site
+    aliases: [Alias]
+
+    # Many-to-many association object between the site and associated stations
+    # The association object is included to record provenance information
+    stationMemberships: [StationMembership]
+
+    # Many-to-many association object between the site and associated channels
+    # The association object is included to record provenance information
+    stationMemberships: [StationMembership]
+}
+
+# Represents an measurement instrument associated with a raw channel.
+type Instrument {
+
+    #  Unique identifier for the instrument
+    id: String!
+
+    # The name of the instrument manufacturer
+    manufacturer: String
+
+    # The name of the instrument model
+    model: String
+
+    # The instrument serial number
+    serialNumber: String
+
+    # Corner period of the instrument
+    cornerPeriod: Float
+
+    # Provenance information about the instrument configuration
+    configurationInfo: ConfigurationInfo
+
+    # Source of instrument configuration information
+    informationSource: InformationSource
+}
+
+# Represents a source for unprocessed (raw) or processed (derived) time series data
+# from a seismic, hydroacoustic, or infrasonic sensor
+type Channel {
+
+    # Unique identifier for the channel
+    id: String!
+
+    # Name of the channel
+    name: String!
+
+    # The type of the channel
+    channelType: ChannelType!
+
+    # Location code of the channel
+    locationCode: String
+
+    # The vertical angle (degrees) of the channel
+    verticalAngle: Float
+
+    # The horizontal angle (degrees) of the channel
+    horizontalAngle: Float
+
+    # The sample rate of the channel
+    sampleRate: Float
+
+    # The instrument associated with the channel
+    instrument: Instrument
+
+    # Provenance information about the channel configuration
+    configurationInfo: ConfigurationInfo
+
+    # Source of channel configuration information
+    informationSource: InformationSource
+
+    # List of aliases for the channel
+    aliases: [Alias]
+
+}
+
+# The following channel-related queries are supported.
+extend type Query {
+
+    # Retrieve the default channel list for use in automated and interactive analysis
+    defaultChannels: [Channel]
+}

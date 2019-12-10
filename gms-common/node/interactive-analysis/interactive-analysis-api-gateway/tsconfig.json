@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "outDir": "./build",
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "lib": [
+            "es5",
+            "es6",
+            "dom",
+            "esnext.asynciterable"
+        ],
+        "plugins": [
+            {
+              "name": "tslint-language-service",
+              "alwaysShowRuleFailuresAsWarnings": true,
+              "ignoreDefinitionFiles": true,
+              "configFile": "./tslint.json"
+            }
+          ]
+    },
+    "include": [
+        "src/ts/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}

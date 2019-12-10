@@ -1,0 +1,55 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+.filterable-option-list__search {
+  border: 1px rgb(101, 111, 160) solid;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 2px 6px 2px 6px;
+  color: white;
+  background-color: rgba(16, 22, 26, 0.3);
+  min-width: 120px;
+}
+.filterable-option-list__search:focus {
+    border: 1px rgb(121, 131, 200) solid;
+    box-shadow: 0px 0px 10px rgb(121, 131, 200);
+}
+.filterable-option-list__search--disabled {
+  cursor: not-allowed;
+}
+.fitlerable-option-list__list {
+  background-color: rgba(16, 22, 26, 0.3);
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 150px;
+  min-width: 8em;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+.filterable-option-list__list:focus {
+    border: 1px rgb(101, 111, 160) solid;
+}
+.fitlerable-option-list__divider {
+  border-top: 1px solid white;
+  padding: 2px 0 2px 0;
+
+}
+.filterable-option-list-item__selected {
+  background-color: $blue1;
+  color: white;
+}
+.filterable-option-list-item__selected--disabled {
+  background-color: #b6cddb;
+  color: $gray1;
+}
+.filterable-option-list-item {
+  cursor: pointer;
+  padding-left: 2px;
+
+}
+.filterable-option-list-item--disabled {
+  cursor: not-allowed;
+  color: $gray1;
+}
+.filterable-option-list-item:hover {
+  background-color: $gray2;
+}

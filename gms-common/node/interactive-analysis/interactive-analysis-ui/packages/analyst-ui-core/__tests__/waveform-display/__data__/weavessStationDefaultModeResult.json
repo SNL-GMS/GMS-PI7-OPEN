@@ -1,0 +1,570 @@
+[
+    {
+        "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "name": "PDAR",
+        "distance": 3.166,
+        "distanceUnits": "degrees",
+        "defaultChannel": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR/fkb",
+            "height": 24.8,
+            "timeOffsetSeconds": 0,
+            "channelType": "FK_BEAM",
+            "waveform": {
+                "channelSegmentId": "unfiltered",
+                "predictedPhases": [],
+                "signalDetections": [
+                    {
+                        "timeSecs": 1274397856.442,
+                        "label": "Pn",
+                        "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+                        "color": "#DB3737"
+                    },
+                    {
+                        "timeSecs": 1274393774.95,
+                        "label": "P",
+                        "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+                        "color": "#DB3737"
+                    },
+                    {
+                        "timeSecs": 1274394244.6,
+                        "label": "P",
+                        "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+                        "color": "#DB3737"
+                    },
+                    {
+                        "timeSecs": 1274396487.275,
+                        "label": "Pn",
+                        "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+                        "color": "#DB3737"
+                    },
+                    {
+                        "timeSecs": 1274392950.85,
+                        "label": "Pg",
+                        "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+                        "color": "#D9822B"
+                    },
+                    {
+                        "timeSecs": 1274396002.474,
+                        "label": "Pn",
+                        "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+                        "color": "#DB3737"
+                    }
+                ],
+                "markers": {
+                    "verticalMarkers": [
+                        {
+                            "id": "startTime",
+                            "color": "#44EE55",
+                            "lineStyle": "solid",
+                            "timeSecs": 1274392801
+                        },
+                        {
+                            "id": "endTime",
+                            "color": "#44EE55",
+                            "lineStyle": "solid",
+                            "timeSecs": 1274400000
+                        }
+                    ],
+                    "selectionWindows": []
+                }
+            }
+        },
+        "nonDefaultChannels": [
+            {
+                "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                "name": "PD01/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                "name": "PD02/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                "name": "PD03/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                "name": "PD04/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                "name": "PD05/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                "name": "PD06/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                "name": "PD07/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                "name": "PD09/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                "name": "PD10/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                "name": "PD11/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                "name": "PD12/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                "name": "PD13/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                "name": "PD31/BHE",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                "name": "PD31/BHN",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                "name": "PD31/BHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                "name": "PD32/SHE",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                "name": "PD32/SHN",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                "name": "PD32/SHZ",
+                "timeOffsetSeconds": 0,
+                "height": 24.8,
+                "waveform": {
+                    "channelSegmentId": "unfiltered",
+                    "masks": [],
+                    "markers": {
+                        "verticalMarkers": [
+                            {
+                                "id": "startTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274392801
+                            },
+                            {
+                                "id": "endTime",
+                                "color": "#44EE55",
+                                "lineStyle": "solid",
+                                "timeSecs": 1274400000
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+]

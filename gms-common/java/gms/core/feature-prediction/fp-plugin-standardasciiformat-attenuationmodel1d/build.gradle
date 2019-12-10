@@ -1,0 +1,12 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    implementation project(":osd-commonobjects")
+    implementation project(":fp-plugins")
+    implementation project(":fp-plugin-standardasciiformat-earthmodel1d")
+    implementation project(":standard-earthmodel-format")
+    implementation project(":plugin-registry")
+    implementation("org.apache.commons:commons-lang3")
+}

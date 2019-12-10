@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creating new Beam Input Parameter should match snapshot 1`] = `
+Object {
+  "beamDefinition": Object {
+    "beamPoint": Object {
+      "elevationKm": 0.627,
+      "latDegrees": -23.66513,
+      "lonDegrees": 133.90526,
+    },
+    "coherent": true,
+    "minimumWaveformsForBeam": 1,
+    "nominalWaveformSampleRate": 20,
+    "phaseType": "P",
+    "relativePositionsByChannelId": Object {
+      "channel1-1111-1111-1111-111111111110": Object {
+        "eastDisplacementKm": 0,
+        "northDisplacementKm": 0,
+        "verticalDisplacementKm": 0,
+      },
+    },
+    "snappedSampling": true,
+    "twoDimensional": true,
+    "waveformSampleRateTolerance": 0.01,
+  },
+  "outputChannelId": "station1-1111-1111-1111-111111111111",
+  "waveforms": Array [
+    Object {
+      "channelId": "channel1-1111-1111-1111-111111111110",
+      "creationInfo": Object {
+        "creationTime": "2010-05-20T20:40:04.350Z",
+        "creatorName": "Spencer",
+        "softwareInfo": Object {
+          "name": "Default Name",
+          "version": "Default Version",
+        },
+      },
+      "endTime": "2010-05-20T20:45:04.350Z",
+      "id": "de59f588-5f41-3f82-b8f1-2d1c20d0471f",
+      "name": "AS01/SHZ ACQUIRED",
+      "startTime": "2010-05-20T20:40:04.350Z",
+      "timeseries": Array [
+        Object {
+          "sampleCount": 5999,
+          "sampleRate": 20,
+          "startTime": "2010-05-20T20:40:04.350Z",
+          "values": Array [],
+        },
+      ],
+      "timeseriesType": "WAVEFORM",
+      "type": "ACQUIRED",
+    },
+  ],
+}
+`;

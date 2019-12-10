@@ -1,0 +1,18 @@
+{
+  "name": "Interactive Analysis API Gateway",
+  "mode": "modules",
+  "out": "doc",
+  "theme": "default",
+  "includes": "./src",
+  "includeDeclarations": "true",
+  "ignoreCompilerErrors": "false",
+  "preserveConstEnums": "true",
+  "excludeExternals": "true",
+  "stripInternal": "false",
+  "exclude": [
+    "**/node_modules/**/*"
+  ],
+  "excludeNotExported": "true",
+  "excludePrivate": "true",
+  "readme": "none"
+}

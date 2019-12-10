@@ -1,0 +1,3 @@
+STATION_REFERENCE_SERVICE_SUFFIX: 'mechanisms/object-storage-distribution/station-reference/'
+WAVEFORMS_SERVICE_SUFFIX: 'mechanisms/object-storage-distribution/waveforms/'
+SIGNAL_DETECTION_SERVICE_SUFFIX: 'mechanisms/object-storage-distribution/signal-detection/'

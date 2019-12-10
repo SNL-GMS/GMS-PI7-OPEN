@@ -1,0 +1,3718 @@
+[
+    {
+        "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "8c40e02d-5c26-401f-a72d-1cc8fffa11d6",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "8c40e02d-5c26-401f-a72d-1cc8fffa11d6",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "2eb932d7-b7fb-4b72-9290-3d2ba9e61e77",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "2eb932d7-b7fb-4b72-9290-3d2ba9e61e77",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "395b94c9-2baa-4d79-b58a-94b82e25487f",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "395b94c9-2baa-4d79-b58a-94b82e25487f",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "3637d879-6e90-481a-a443-0cd44aa4eb33",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274397856.442,
+                        "standardDeviation": 0.552,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "3637d879-6e90-481a-a443-0cd44aa4eb33",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "583562c2-e792-4fce-9824-7d5ab18d2d3b",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": 70.19,
+                            "standardDeviation": 5.99,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "583562c2-e792-4fce-9824-7d5ab18d2d3b",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "41224edc-2a9c-42d3-8a85-b74d7904607b",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "41224edc-2a9c-42d3-8a85-b74d7904607b",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "5ca5618e-ef7f-41dc-9d15-9b2ba7fc950b",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "5ca5618e-ef7f-41dc-9d15-9b2ba7fc950b",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "da4c5c67-8658-45ec-a867-4966aea3e8e5",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "da4c5c67-8658-45ec-a867-4966aea3e8e5",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "ffe1b01d-c66e-439a-b753-aa02997b7f2c",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": 29.8,
+                            "standardDeviation": 3.12,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "ffe1b01d-c66e-439a-b753-aa02997b7f2c",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "7abe92f1-c847-4e19-994f-8742e3c4ed42",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274397856.442,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "7abe92f1-c847-4e19-994f-8742e3c4ed42",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "5f71bf28-ff77-42a6-90c0-385e67634869",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "Pn",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "5f71bf28-ff77-42a6-90c0-385e67634869",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+                "creationTime": 1553709593.992,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+                "phase": "Pn",
+                "rejected": false,
+                "arrivalTimeSecs": 1274397856.442,
+                "arrivalTimeUncertainty": 0.552,
+                "creationInfo": {
+                    "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+                    "creationTime": 1553709593.992,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "45db56ed-4393-3234-9ffe-8378e5d7be57",
+            "creationTime": 1553709593.992,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    },
+    {
+        "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "ae8bb8d6-c505-4641-a73f-5434969bd046",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "ae8bb8d6-c505-4641-a73f-5434969bd046",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "b903fbe5-ca9d-4fe4-9dc9-3d8766923f2a",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "b903fbe5-ca9d-4fe4-9dc9-3d8766923f2a",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "0343ccba-23ef-4f87-8fd7-cf41fa5694eb",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "0343ccba-23ef-4f87-8fd7-cf41fa5694eb",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "edf005dd-de6f-44c5-aa64-c477c82d529d",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274393774.95,
+                        "standardDeviation": 0.808,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "edf005dd-de6f-44c5-aa64-c477c82d529d",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "83f0f7e9-f645-469e-9541-578918501184",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 171.47,
+                            "standardDeviation": 36.72,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "83f0f7e9-f645-469e-9541-578918501184",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "fe0bb5c9-4ee0-42d2-939f-3d3337f84b06",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 81.63,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "fe0bb5c9-4ee0-42d2-939f-3d3337f84b06",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "67453b02-a53f-4390-877b-17efd01d96c7",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 0.5,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "67453b02-a53f-4390-877b-17efd01d96c7",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "1e31c0ea-5d91-467a-b323-b38dac7129c9",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 0.709,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "1e31c0ea-5d91-467a-b323-b38dac7129c9",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "8387dfc3-c354-4e73-8a27-b50de3a77c62",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 3,
+                            "standardDeviation": 1.89,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "8387dfc3-c354-4e73-8a27-b50de3a77c62",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "77fae485-fc2a-4ddf-a878-fa876f405499",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274393774.95,
+                        "measurementValue": {
+                            "value": 4.9,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "77fae485-fc2a-4ddf-a878-fa876f405499",
+                        "creationTime": 1553709593.992,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "2128e8af-aebe-453c-8caa-0b8f4d86b761",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "P",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "2128e8af-aebe-453c-8caa-0b8f4d86b761",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+                "creationTime": 1553709593.993,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+                "phase": "P",
+                "rejected": false,
+                "arrivalTimeSecs": 1274393774.95,
+                "arrivalTimeUncertainty": 0.808,
+                "creationInfo": {
+                    "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+                    "creationTime": 1553709593.993,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "72c13b5d-efad-3a2c-bf7d-73af1fcb3f09",
+            "creationTime": 1553709593.993,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    },
+    {
+        "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "42c2940d-cc07-410e-bfff-8e6b7133d510",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "42c2940d-cc07-410e-bfff-8e6b7133d510",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "a3d85025-20c1-4168-a761-bd9a43efb423",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "a3d85025-20c1-4168-a761-bd9a43efb423",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "69c59664-4f90-4bb8-99a2-c6e2e6e6b1f4",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "69c59664-4f90-4bb8-99a2-c6e2e6e6b1f4",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "83fc6211-0f8b-4d48-8d7c-b87b6cab0978",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274394244.6,
+                        "standardDeviation": 0.28,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "83fc6211-0f8b-4d48-8d7c-b87b6cab0978",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "9767e4c3-d552-444c-8d6c-a8da93031e36",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 123.25,
+                            "standardDeviation": 3.71,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "9767e4c3-d552-444c-8d6c-a8da93031e36",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "73d265d6-f1b8-465c-9ed4-1b46256d3f5f",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 19.09,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "73d265d6-f1b8-465c-9ed4-1b46256d3f5f",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "a9b7957b-1e3b-4c26-b9f5-5dec0c16038c",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 0.67,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "a9b7957b-1e3b-4c26-b9f5-5dec0c16038c",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "de72af01-0e39-452b-8476-8d071b4c2587",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 0.924,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "de72af01-0e39-452b-8476-8d071b4c2587",
+                        "creationTime": 1553709593.993,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "c72b27d2-73ca-44f6-a07d-cc340568e1f2",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 10.81,
+                            "standardDeviation": 0.7,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "c72b27d2-73ca-44f6-a07d-cc340568e1f2",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "505ff284-f8cb-477c-b2d2-afe817587590",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274394244.6,
+                        "measurementValue": {
+                            "value": 13.13,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "505ff284-f8cb-477c-b2d2-afe817587590",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "3c185f3b-3df9-43ab-b2b0-23d43687b609",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "P",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "3c185f3b-3df9-43ab-b2b0-23d43687b609",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+                "creationTime": 1553709593.994,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+                "phase": "P",
+                "rejected": false,
+                "arrivalTimeSecs": 1274394244.6,
+                "arrivalTimeUncertainty": 0.28,
+                "creationInfo": {
+                    "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+                    "creationTime": 1553709593.994,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "b2230f3c-632d-308e-a765-8650ba0f1a0f",
+            "creationTime": 1553709593.994,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    },
+    {
+        "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "03711f7d-badf-4e0e-8311-bca834fa5257",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "03711f7d-badf-4e0e-8311-bca834fa5257",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "4b1ecc20-ec40-4e71-a2c2-b580eff18d26",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "4b1ecc20-ec40-4e71-a2c2-b580eff18d26",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "98083d52-27d6-4eb5-a482-7674f4683b29",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "98083d52-27d6-4eb5-a482-7674f4683b29",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "9a33a533-1b7f-4859-9cbd-2a447c71c36d",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274396487.275,
+                        "standardDeviation": 0.552,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "9a33a533-1b7f-4859-9cbd-2a447c71c36d",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "ca9cffad-f8f3-44dd-9a50-3e66b55a2bee",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": 52.82,
+                            "standardDeviation": 8.23,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "ca9cffad-f8f3-44dd-9a50-3e66b55a2bee",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "1549c2d8-cec1-4886-9d40-5de9867464ec",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "1549c2d8-cec1-4886-9d40-5de9867464ec",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "11a1fd97-aac4-4cd4-8901-0568be6235d3",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "11a1fd97-aac4-4cd4-8901-0568be6235d3",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "1dca8caa-99b2-4a79-a6ac-6f315fbdb17c",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "1dca8caa-99b2-4a79-a6ac-6f315fbdb17c",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "ec85247f-acb7-4dc4-9974-c84ec8396736",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": 16.41,
+                            "standardDeviation": 2.36,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "ec85247f-acb7-4dc4-9974-c84ec8396736",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "eb02a75e-20f8-4f66-bdaf-559841bbaca3",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274396487.275,
+                        "measurementValue": {
+                            "value": -1,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "eb02a75e-20f8-4f66-bdaf-559841bbaca3",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "8a1e6efd-3fc7-4ee5-a7dd-8ef920bea213",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "Pn",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "8a1e6efd-3fc7-4ee5-a7dd-8ef920bea213",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+                "creationTime": 1553709593.994,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+                "phase": "Pn",
+                "rejected": false,
+                "arrivalTimeSecs": 1274396487.275,
+                "arrivalTimeUncertainty": 0.552,
+                "creationInfo": {
+                    "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+                    "creationTime": 1553709593.994,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "634d931d-a20c-3ef2-8259-39212c95c612",
+            "creationTime": 1553709593.994,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    },
+    {
+        "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "f6afab5a-7baf-4d30-9e8d-22f00890a4bc",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "f6afab5a-7baf-4d30-9e8d-22f00890a4bc",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "5e701072-02f7-4f3a-9d0f-5f6c823c5ba0",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "5e701072-02f7-4f3a-9d0f-5f6c823c5ba0",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "b0ba2b52-473d-42d1-adcb-3e8b8e0a2184",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "b0ba2b52-473d-42d1-adcb-3e8b8e0a2184",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "c5b2ea01-ca08-44f8-be3a-3a3a81e9be22",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274392950.85,
+                        "standardDeviation": 0.12,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "c5b2ea01-ca08-44f8-be3a-3a3a81e9be22",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "02456987-1320-4806-83a0-264eb2220aa5",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 52.56,
+                            "standardDeviation": 2.69,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "02456987-1320-4806-83a0-264eb2220aa5",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "6d2ce7f0-5092-41e3-84e5-20f59981f2c0",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 37.92,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "6d2ce7f0-5092-41e3-84e5-20f59981f2c0",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "ed6ec89d-b950-4179-81ab-dcf2d738ca9f",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 0.33,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "ed6ec89d-b950-4179-81ab-dcf2d738ca9f",
+                        "creationTime": 1553709593.994,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "1542b3ff-afb4-4359-9f0d-74682a92b53a",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 0.956,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "1542b3ff-afb4-4359-9f0d-74682a92b53a",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "6abc532e-6656-472c-bc4b-512e75999332",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 18.65,
+                            "standardDeviation": 0.88,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "6abc532e-6656-472c-bc4b-512e75999332",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "0cef1027-859a-46de-8e8d-33493ed0842a",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274392950.85,
+                        "measurementValue": {
+                            "value": 18.52,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "0cef1027-859a-46de-8e8d-33493ed0842a",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "394b747f-e0bf-4330-b23e-884c85663aa2",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "Pg",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "394b747f-e0bf-4330-b23e-884c85663aa2",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "5550e3f1-edf2-4fa0-b7b7-1231b1230af2",
+                    "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                    "measurementValue": {
+                        "startTime": 1274392955.4,
+                        "period": 0.79,
+                        "amplitude": {
+                            "value": 3.6,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "AmplitudeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "5550e3f1-edf2-4fa0-b7b7-1231b1230af2",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+                "creationTime": 1553709593.995,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+                "phase": "Pg",
+                "rejected": false,
+                "arrivalTimeSecs": 1274392950.85,
+                "arrivalTimeUncertainty": 0.12,
+                "creationInfo": {
+                    "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+                    "creationTime": 1553709593.995,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "db31fbe6-322f-3e91-911c-578f22f4234b",
+            "creationTime": 1553709593.995,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    },
+    {
+        "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+        "monitoringOrganization": "CTBTO",
+        "station": {
+            "id": "3308666b-f9d8-3bff-a59e-928730ffa797",
+            "name": "PDAR",
+            "location": {
+                "latDegrees": 42.76738,
+                "lonDegrees": -109.5579,
+                "elevationKm": 2.215,
+                "__typename": "Location"
+            },
+            "defaultChannel": {
+                "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                "name": "PD08/SHZ",
+                "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                "sampleRate": 20,
+                "__typename": "ProcessingChannel"
+            },
+            "sites": [
+                {
+                    "id": "d966d7aa-b1d7-3ce9-a885-29fa5c8e119f",
+                    "name": "PD08",
+                    "channels": [
+                        {
+                            "id": "f866a188-6df6-385f-9963-5c1485439da1",
+                            "name": "PD08/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6e0109ff-badf-31ca-9f38-d03e83774899",
+                    "name": "PD04",
+                    "channels": [
+                        {
+                            "id": "a0445a17-5c14-3ddf-baf1-a582df98ba49",
+                            "name": "PD04/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "5d8ff3f7-5bd1-3df0-8582-302cccbd32ad",
+                    "name": "PD05",
+                    "channels": [
+                        {
+                            "id": "4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8",
+                            "name": "PD05/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "41fc1cf2-9a4e-36cc-b2fd-70a855e19a1d",
+                    "name": "PD07",
+                    "channels": [
+                        {
+                            "id": "3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc",
+                            "name": "PD07/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "6cc9958e-d604-3f1f-90ef-d421c7db7c65",
+                    "name": "PD10",
+                    "channels": [
+                        {
+                            "id": "a3af1caa-1579-32f2-85e8-378cacfd5233",
+                            "name": "PD10/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b3aea34d-ae6d-3127-8b7f-b7c95e5700aa",
+                    "name": "PD13",
+                    "channels": [
+                        {
+                            "id": "c71a4994-837e-3608-ba3e-b55f5cae32f6",
+                            "name": "PD13/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0a74d7aa-f7dc-3f77-9261-ba610e58786a",
+                    "name": "PD06",
+                    "channels": [
+                        {
+                            "id": "630aa95c-7528-3b43-8d7d-f172efb2a909",
+                            "name": "PD06/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b4160fd5-ad71-3435-8b8d-42d3e2cddff6",
+                    "name": "PD11",
+                    "channels": [
+                        {
+                            "id": "960ab525-f4c7-3669-871b-d7996adf2d22",
+                            "name": "PD11/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "37aad301-cb59-3d6b-94df-c12019bea5d3",
+                    "name": "PD31",
+                    "channels": [
+                        {
+                            "id": "ab74022d-7374-373e-9b00-2e7350c5b87b",
+                            "name": "PD31/BHE",
+                            "channelType": "BROADBAND_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "1711bc5c-6855-3d43-8163-d86098024abb",
+                            "name": "PD31/BHN",
+                            "channelType": "BROADBAND_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "bfa65bf8-c384-3918-943a-c74ee86683c8",
+                            "name": "PD31/BHZ",
+                            "channelType": "BROADBAND_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "0e496c07-c7f4-3e08-b772-3806548b5c4f",
+                    "name": "PD32",
+                    "channels": [
+                        {
+                            "id": "08e736e5-a390-3553-9093-8ece9050d7a4",
+                            "name": "PD32/SHE",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_EAST_WEST",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "5c93b628-6b57-323c-8533-d8fdf6f2518c",
+                            "name": "PD32/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        },
+                        {
+                            "id": "010820ee-49ce-3b81-9bbb-d0e5d0c90dfa",
+                            "name": "PD32/SHN",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_NORTH_SOUTH",
+                            "sampleRate": 40,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "cd805dec-7220-3df4-80aa-386c4cf82d23",
+                    "name": "PD09",
+                    "channels": [
+                        {
+                            "id": "34fa5a8c-2d2e-3281-9d52-ca5181ab81e5",
+                            "name": "PD09/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "2264810d-b530-3585-8c9b-8f314feb77d5",
+                    "name": "PD02",
+                    "channels": [
+                        {
+                            "id": "c8a8e4f8-3a48-3d4f-beba-17a861aa5306",
+                            "name": "PD02/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "ff740d72-fcf3-3695-a913-3fe35b114b5e",
+                    "name": "PD01",
+                    "channels": [
+                        {
+                            "id": "3bca2889-d638-3d25-8219-4c046cba4330",
+                            "name": "PD01/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "1ba1b2f7-363d-37fc-8a75-82e123cdb018",
+                    "name": "PD03",
+                    "channels": [
+                        {
+                            "id": "1f2e35b6-fe75-345b-9256-1fbf49a9562d",
+                            "name": "PD03/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                },
+                {
+                    "id": "b702870f-7302-3604-b72b-ab7a36c10f2e",
+                    "name": "PD12",
+                    "channels": [
+                        {
+                            "id": "3c4f60f1-de07-3cc1-9e46-ebeb423c1124",
+                            "name": "PD12/SHZ",
+                            "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+                            "sampleRate": 20,
+                            "__typename": "ProcessingChannel"
+                        }
+                    ],
+                    "__typename": "ProcessingSite"
+                }
+            ],
+            "__typename": "ProcessingStation"
+        },
+        "currentHypothesis": {
+            "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+            "rejected": false,
+            "featureMeasurements": [
+                {
+                    "id": "4e6e7851-1fbe-4d82-b1e7-565c63c8fdcb",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "4e6e7851-1fbe-4d82-b1e7-565c63c8fdcb",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "3b36609c-5c29-45e6-9b4b-f23e98302b1c",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "3b36609c-5c29-45e6-9b4b-f23e98302b1c",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "4c6bfea3-9aeb-4edc-ba44-7c1f25f772a3",
+                    "featureMeasurementType": "FILTERED_BEAM",
+                    "measurementValue": {
+                        "strValue": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+                        "__typename": "StringMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "4c6bfea3-9aeb-4edc-ba44-7c1f25f772a3",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "4f603d2c-10ca-4bbd-91e2-2fc9e3cc96f5",
+                    "featureMeasurementType": "ARRIVAL_TIME",
+                    "measurementValue": {
+                        "value": 1274396002.474,
+                        "standardDeviation": 0.277,
+                        "__typename": "InstantMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "4f603d2c-10ca-4bbd-91e2-2fc9e3cc96f5",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "32b42bdc-82d7-431d-8678-7b877638f1ca",
+                    "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 46.76,
+                            "standardDeviation": 4.13,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "32b42bdc-82d7-431d-8678-7b877638f1ca",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "c4a85b76-874e-4c39-b801-94fe68088eb0",
+                    "featureMeasurementType": "EMERGENCE_ANGLE",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 59.75,
+                            "standardDeviation": 0,
+                            "units": "DEGREES",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "c4a85b76-874e-4c39-b801-94fe68088eb0",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "5f1134c9-df53-4fca-8cda-9b7f892cffe0",
+                    "featureMeasurementType": "PERIOD",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 0.33,
+                            "standardDeviation": 0,
+                            "units": "SECONDS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "5f1134c9-df53-4fca-8cda-9b7f892cffe0",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "8a494599-7da8-400e-911d-b4a7c594bb9c",
+                    "featureMeasurementType": "RECTILINEARITY",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 0.861,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "8a494599-7da8-400e-911d-b4a7c594bb9c",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "46e739e9-9762-48d6-acdd-0237eefa25d2",
+                    "featureMeasurementType": "SLOWNESS",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 14.27,
+                            "standardDeviation": 1.03,
+                            "units": "SECONDS_PER_DEGREE",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "46e739e9-9762-48d6-acdd-0237eefa25d2",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "bcfb5a24-e824-49e1-afea-e3ed67366da5",
+                    "featureMeasurementType": "SNR",
+                    "measurementValue": {
+                        "referenceTime": 1274396002.474,
+                        "measurementValue": {
+                            "value": 13.21,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "NumericMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "bcfb5a24-e824-49e1-afea-e3ed67366da5",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "a86df8d8-b7d6-407a-a779-bc9e4599e254",
+                    "featureMeasurementType": "PHASE",
+                    "measurementValue": {
+                        "phase": "Pn",
+                        "confidence": 1,
+                        "__typename": "PhaseTypeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "a86df8d8-b7d6-407a-a779-bc9e4599e254",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                },
+                {
+                    "id": "b1d1a9cb-5c85-41be-abb1-93d6b9313788",
+                    "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                    "measurementValue": {
+                        "startTime": 1274396010.15,
+                        "period": 0.4,
+                        "amplitude": {
+                            "value": 1.05,
+                            "standardDeviation": 0,
+                            "units": "UNITLESS",
+                            "__typename": "DoubleValue"
+                        },
+                        "__typename": "AmplitudeMeasurementValue"
+                    },
+                    "creationInfo": {
+                        "id": "b1d1a9cb-5c85-41be-abb1-93d6b9313788",
+                        "creationTime": 1553709593.995,
+                        "creatorId": "creatorId",
+                        "creatorType": "Analyst",
+                        "creatorName": "Matthew Carrasco",
+                        "__typename": "CreationInfo"
+                    },
+                    "definingRules": [
+                        {
+                            "operationType": "Location",
+                            "isDefining": true,
+                            "__typename": "DefiningRule"
+                        }
+                    ],
+                    "__typename": "FeatureMeasurement"
+                }
+            ],
+            "creationInfo": {
+                "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+                "creationTime": 1553709593.995,
+                "creatorId": "creatorId",
+                "creatorType": "Analyst",
+                "creatorName": "Matthew Carrasco",
+                "__typename": "CreationInfo"
+            },
+            "__typename": "SignalDetectionHypothesis"
+        },
+        "signalDetectionHypothesisHistory": [
+            {
+                "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+                "phase": "Pn",
+                "rejected": false,
+                "arrivalTimeSecs": 1274396002.474,
+                "arrivalTimeUncertainty": 0.277,
+                "creationInfo": {
+                    "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+                    "creationTime": 1553709593.995,
+                    "creatorId": "creatorId",
+                    "creatorType": "Analyst",
+                    "creatorName": "Matthew Carrasco",
+                    "__typename": "CreationInfo"
+                },
+                "__typename": "SignalDetectionHypothesisHistory"
+            }
+        ],
+        "modified": false,
+        "hasConflict": false,
+        "associationModified": null,
+        "creationInfo": {
+            "id": "54567141-b9f2-371a-bfea-89a5b4df6bf5",
+            "creationTime": 1553709593.995,
+            "creatorId": "creatorId",
+            "creatorType": "Analyst",
+            "creatorName": "Matthew Carrasco",
+            "__typename": "CreationInfo"
+        },
+        "__typename": "SignalDetection"
+    }
+]

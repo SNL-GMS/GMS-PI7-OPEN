@@ -1,0 +1,25 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9:${TAG}
+
+services:
+  gradle4:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9/gradle4:${TAG}
+    build:
+      context: ./gradle4
+      args:
+        FROM_IMAGE: *parent_image
+
+  maven3:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9/maven3:${TAG}
+    build:
+      context: ./maven3
+      args:
+        FROM_IMAGE: *parent_image
+
+  nifi:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9/nifi:${TAG}
+    build:
+      context: ./nifi
+      args:
+        FROM_IMAGE: *parent_image

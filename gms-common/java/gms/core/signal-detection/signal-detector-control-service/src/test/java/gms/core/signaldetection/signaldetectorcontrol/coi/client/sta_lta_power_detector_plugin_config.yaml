@@ -1,0 +1,6 @@
+staLeadSamples: 3
+staLengthSamples: 4
+ltaLeadSamples: 103
+ltaLengthSamples: 100
+triggerThreshold: 10.0
+detriggerThreshold: 6.0

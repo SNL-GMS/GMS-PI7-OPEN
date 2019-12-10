@@ -1,0 +1,580 @@
+# Common GraphQL schema definitions shared across the components of the
+# API Gateway (e.g. waveform, workflow)
+
+# Units used in DoubleValue part of feature prediction
+enum Units {
+    DEGREES
+    SECONDS
+    SECONDS_PER_DEGREE
+    UNITLESS
+}
+
+# Represents Double fields for a double value representation.
+type DoubleValue {
+    value: Float # Optional Guidance is value can be a NaN i.e. FP predicted value
+    standardDeviation: Float!
+    units: Units!
+}
+
+# Represents Double fields for a double value representation input from UI.
+input DoubleValueInput {
+    value: Float!
+    standardDeviation: Float!
+    units: Units!
+}
+
+# Phase types
+enum PhaseType {
+    P
+    S
+    P3KPbc
+    P4KPdf_B
+    P7KPbc
+    P7KPdf_D
+    PKiKP
+    PKKSab
+    PKP2bc
+    PKP3df_B
+    PKSab
+    PP_1
+    pPKPbc
+    PS
+    Rg
+    SKiKP
+    SKKSac
+    SKPdf
+    SKSdf
+    sPdiff
+    SS
+    sSKSdf
+    Lg
+    P3KPbc_B
+    P5KPbc
+    P7KPbc_B
+    Pb
+    PKKP
+    PKKSbc
+    PKP2df
+    PKPab
+    PKSbc
+    PP_B
+    pPKPdf
+    PS_1
+    SKKP
+    SKKSac_B
+    SKS
+    SKSSKS
+    sPKiKP
+    SS_1
+    SSS
+    nNL
+    P3KPdf
+    P5KPbc_B
+    P7KPbc_C
+    PcP
+    PKKPab
+    PKKSdf
+    PKP3
+    PKPbc
+    PKSdf
+    pPdiff
+    PPP
+    pSdiff
+    Sb
+    SKKPab
+    SKKSdf
+    SKS2
+    Sn
+    sPKP
+    SS_B
+    SSS_B
+    NP
+    P3KPdf_B
+    P5KPdf
+    P7KPdf
+    PcS
+    PKKPbc
+    PKP
+    PKP3ab
+    PKPdf
+    Pn
+    pPKiKP
+    PPP_B
+    pSKS
+    ScP
+    SKKPbc
+    SKP
+    SKS2ac
+    SnSn
+    sPKPab
+    sSdiff
+    NP_1
+    P4KPbc
+    P5KPdf_B
+    P7KPdf_B
+    Pdiff
+    PKKPdf
+    PKP2
+    PKP3bc
+    PKPPKP
+    PnPn
+    pPKP
+    PPS
+    pSKSac
+    ScS
+    SKKPdf
+    SKPab
+    SKS2df
+    SP
+    sPKPbc
+    sSKS
+    P4KPdf
+    P5KPdf_C
+    P7KPdf_C
+    Pg
+    PKKS
+    PKP2ab
+    PKP3df
+    PKS
+    PP
+    pPKPab
+    PPS_B
+    pSKSdf
+    Sdiff
+    SKKS
+    SKPbc
+    SKSac
+    SP_1
+    sPKPdf
+    sSKSac
+    Sx
+    tx
+    N
+    Px
+    PKhKP
+    LR
+    pP
+    UNKNOWN
+}
+
+# A date/time Type
+scalar Date
+
+# Represents a time range
+# type TimeRange {
+#     startTime: Float!
+#     endTime: Float!
+# }
+
+# Input verion of a time range
+input TimeRange {
+    startTime: Float!
+    endTime: Float!
+}
+
+# Represents a location specified using latitude (degrees), longitude (degrees),
+# and altitude (kilometers).
+type Location {
+
+    # Latitude in degrees
+    latDegrees: Float!
+    
+    # Longitude in degrees
+    lonDegrees: Float!
+
+    # Elevation in kilometers
+    elevationKm: Float!
+}
+
+input LocationInput {
+
+    # Latitude in degrees
+    latDegrees: Float!
+    
+    # Longitude in degrees
+    lonDegrees: Float!
+
+    # Elevation in kilometers
+    elevationKm: Float!
+}
+
+# Distance value's units degrees or kilometers
+enum DistanceUnits {
+    degrees
+    km
+}
+
+# Enumerated list of source types used to compute distances to
+enum DistanceSourceType {
+    Event
+    UserDefined
+}
+
+# Represents a distance measurement relative to a specified source location
+type DistanceToSource {
+
+    # The distance in kilometers or degrees to the source
+    distance: Float!
+
+    # The units distance was calculated
+    distanceUnits: DistanceUnits
+
+    # The source location
+    sourceLocation: Location!
+
+    # The type of the source the distance is measured to (e.g. and event)
+    sourceType: DistanceSourceType!
+
+    # Optional: the unique ID of the source object
+    sourceId: String!
+
+    # Which station distance to the source
+    stationId: String!
+}
+
+input DistanceToSourceInput {
+    # The source location
+    sourceLocation: LocationInput
+
+    # The type of the source the distance is measured to (e.g. and event)
+    sourceType: DistanceSourceType
+
+    # The Distance Units to use
+    distanceUnits: DistanceUnits
+
+    # Optional: the unique ID of the source object
+    sourceId: String
+}
+
+# Represents a frequency range
+type FrequencyBand {
+    # Minimum frequency in Herz
+    minFrequencyHz: Float!
+
+    # Maximum frequency in Herz
+    maxFrequencyHz: Float!
+}
+
+# Represents a frequency range input to a mutation
+input FrequencyBandInput {
+    # Minimum frequency in Herz
+    minFrequencyHz: Float!
+
+    # Maximum frequency in Herz
+    maxFrequencyHz: Float!
+}
+
+# Enumeration representing the different types of stations in the monitoring network
+enum StationType {
+
+    Seismic3Component,
+    Seismic1Component,
+    SeismicArray,
+    Hydroacoustic,
+    HydroacousticArray,
+    Infrasound,
+    InfrasoundArray,
+    Weather,
+    UNKNOWN
+}
+
+# Type enumeration for channel segments
+enum ChannelSegmentType {
+    ACQUIRED
+    RAW
+    DETECTION_BEAM
+    FK_BEAM
+    FILTER
+    FK_SPECTRA
+}
+
+# Provenance reference details for information added to the System
+type InformationSource {
+
+    # Unique ID for the source
+    id: String!
+
+    # Source organization
+    organizationName: String!
+
+    # The time associated with the information source
+    referenceTime: Float!
+}
+
+# Enumeration of configuration status changes reflected in the configuration
+enum ConfigurationInfoStatus {
+
+    # Initial configuration
+    Initial
+
+    # The system's installed location for the item associated with the configuration was corrected
+    CorrectedSystemLocation
+
+    # The physical location of the ite associated with the configuration was changed
+    MovedPhysicalLocation
+
+    # The item associated with the configuration was decommissioned
+    Decommissioned
+}
+
+# Provenance information associated with a configuration item in the system
+type ConfigurationInfo {
+
+    # The unique ID of the user who created the Configuration
+    creatorId: String!
+
+    # The time the configuration took effect in the real world (e.g. station came online)
+    effectiveTime: Float!
+
+    # The time the configuration was installed (and thus took effect) in the System
+    installationTime: Float!
+
+    # The status change reflected in the configuration values
+    status: ConfigurationInfoStatus!
+
+    # Comment associated with the configuration information
+    comment: String
+}
+
+# Enumerated type of the actor (e.g. analyst, system) associated with a CreationInfo object
+enum CreatorType {
+    Analyst
+    System
+}
+
+# Provenance information about the results of data processing completed by the System
+# and actions completed by users of the system
+type CreationInfo {
+    # The unique ID of the creation info object
+    id: String!
+
+    # The time (seconds since Unix epoch) the associated processing result was created
+    creationTime: Float!
+
+    # The unique ID of the user who created the associated processing result
+    creatorId: String!
+
+    # The enumerated type of the creator (e.g. analyst, system)
+    creatorType: CreatorType!
+
+     # The name of the creation
+    creatorName: String!
+
+    # TODO
+    # The processing step associated with the processing result
+    # processingStep: ProcessingStep!
+
+    # TODO
+    # The software component associated with the processing result
+    # softwareComponent: SoftwareComponent!
+}
+
+input CreationInfoInput {
+    # Identifier for the creation info
+    creatorName: String!
+    
+    # The time (seconds since Unix epoch) the associated processing result was created
+    creationTime: Float!
+
+    # The software information associated with the processing result
+    softwareInfo: SoftwareInfoInput!
+}
+
+type SoftwareInfo {
+    # Identifier for the creation info
+    name: String!
+
+    # The software version identifier
+    version: String!
+}
+
+input SoftwareInfoInput {
+    # Identifier for the creation info
+    name: String!
+
+    # The software version identifier
+    version: String!
+}
+
+input ProcessingContextInput {
+    analystActionReference: AnalystActionReferenceInput!
+    processingStepReference: ProcessingStepReferenceInput!
+    storageVisibility: String!
+}
+
+input AnalystActionReferenceInput {
+    processingStageIntervalId: String!
+    processingActivityIntervalId: String!
+    analystId: String!
+}
+
+input ProcessingStepReferenceInput {
+    processingStageIntervalId: String!
+    processingSequenceIntervalId: String!
+    processingStepId: String!
+}
+
+# Represents an alias for a station, channel, site, etc.
+type Alias {
+
+    # The alias name
+    name: String!
+
+    # Provenance information about the alias
+    configurationInfo: ConfigurationInfo
+}
+
+# Represents calibration information associated with a waveform
+type ProcessingCalibration {
+
+    # Calibration factor
+    factor: Float!
+
+    # Calibration factor error
+    factorError: Float!
+
+    # Calibration period
+    period: Float!
+
+    # Calibration time shift
+    timeShift: Float!
+}
+
+# Input version of calibration information associated with a waveform
+input ProcessingCalibrationInput {
+
+    # Calibration factor
+    factor: Float!
+
+    # Calibration factor error
+    factorError: Float!
+
+    # Calibration period
+    period: Float!
+
+    # Calibration time shift
+    timeShift: Float!
+}
+
+# Represents a generic timeseries interface containing the fields common to the
+# concrete timeseries data types defined in the system (e.g. Waveform, FkPowerSpectrum, DetectionFeatureMap)
+interface Timeseries {
+    # The start date/time (seconds since epoch) of the timeseries
+    startTime: Float!
+
+    # The sample rate (Hz) of the samples in the timeseries
+    sampleRate: Float!
+
+    # The sample count in the timeseries
+    sampleCount: Float!
+}
+
+input TimeseriesInput {
+    # The start date/time (seconds since epoch) of the timeseries
+    startTime: String!
+    
+    # The sample rate (Hz) of the samples in the timeseries
+    sampleRate: Float!
+    
+    # The sample count in the timeseries
+    sampleCount: Float!
+}
+
+# Represents a time-bounded segment of waveform samples output from a channel (derived or raw).
+# Waveforms implement the Timeseries interface
+type Waveform implements Timeseries {
+    # Unique identifier for the waveform
+    # id: String!
+
+    # The start date/time (seconds since epoch) of the waveform
+    startTime: Float!
+
+    # The sample rate (Hz) of the samples in the waveform
+    sampleRate: Float!
+
+    # The sample count in the waveform
+    sampleCount: Float!
+
+    # The time-ordered collection of waveform sample values
+    values: [Float]
+}
+
+# Input version of a time-bounded segment of waveform samples output from a channel (derived or raw).
+# Waveforms implement the Timeseries interface
+input WaveformInput {
+    
+    # Unique identifier for the waveform
+    id: String!
+
+    # The start date/time (seconds since epoch) of the waveform
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the waveform
+    endTime: Float!    # The sample rate (Hz) of the samples in the waveform
+    sampleRate: Float!
+
+    # The sample count in the waveform
+    sampleCount: Float!
+
+    # The time-ordered collection of waveform sample values
+    values: [Float]
+
+    # Calibration information for the waveform
+    calibration: ProcessingCalibrationInput
+}
+
+# The following queries are supported
+type Query {
+    # Dummy
+    queryCount: Int
+}
+
+# The following mutations are supported
+type Mutation {
+    # Dummy
+    mutationCount: Int
+}
+
+# The following subscriptions are supported
+type Subscription {
+    # Dummy
+    subscriptionCount: Int
+}
+
+# Association Change object to return
+type AssociationChange {
+    events: [Event]
+    sds: [SignalDetection]
+}
+
+ # Used when we need to return the original event mutated where performed on
+ # in addition to the other data changed
+type EventAndAssociationChange {
+    event: Event!
+    associationChange: AssociationChange!
+}
+
+#
+enum LogLevel {
+    INFO
+    DEBUG
+    WARNING
+    ERROR
+    DATA
+}
+
+type ClientLog {
+    logLevel: LogLevel
+    message: String!
+    time: String
+}
+
+input ClientLogInput {
+    logLevel: LogLevel!
+    message: String!
+    time: String
+}
+
+extend type Mutation {
+    clientLog(clientLogInput: ClientLogInput): ClientLog
+}

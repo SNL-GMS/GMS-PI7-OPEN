@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "Channel AS01/SHZ is associated with site AS01", 
+        "status": "ACTIVE", 
+        "systemChangeTime": "2005-06-14T00:00:00Z", 
+        "channelId": "928aa00a-e8da-310f-a053-e053ef03f80f", 
+        "actualChangeTime": "2005-06-14T00:00:00Z", 
+        "siteId": "21b73745-1560-3caf-a9b9-3253f37b0965", 
+        "id": "808531a4-fdb4-302e-830f-f6742164c052"
+    }
+]

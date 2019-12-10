@@ -1,0 +1,3602 @@
+[
+    {
+        "id": "4aae599d-0142-45be-aa89-a23c6a9d0ebd",
+        "predictedValue": {
+            "value": 1274393620.4530761,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3c5c2283-23c5-4c79-87cb-27953eefa643",
+        "predictedValue": {
+            "value": 1274393543.825949,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "033600e9-bd5a-4534-b058-06b260339dda",
+        "predictedValue": {
+            "value": 1274393584.8263772,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7f3e1c85-b874-40cd-81a7-ef05c289e8a4",
+        "predictedValue": {
+            "value": 1274393267.384579,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5cfa677a-0a5c-4a27-8ab4-b219f86e2fe0",
+        "predictedValue": {
+            "value": 1274393488.490216,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3a9cde32-4d32-4bcb-8ea8-5fedecdb59fb",
+        "predictedValue": {
+            "value": 1274393604.0518792,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c9bf7e03-c4a6-41df-a102-69186610a3d3",
+        "predictedValue": {
+            "value": 1274394036.695674,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5c0218d1-585f-430b-9987-d5519393db28",
+        "predictedValue": {
+            "value": 1274393579.458741,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9242a276-0675-4218-8132-d46a13e44d36",
+        "predictedValue": {
+            "value": 1274393636.5401201,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9d0941e0-6fd3-424a-8570-88c1a6dfb3e2",
+        "predictedValue": {
+            "value": 1274393113.606421,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "41cfd193-0624-47e3-903c-5c35ae0951bc",
+        "predictedValue": {
+            "value": 1274393643.310792,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4a489e6a-adbc-47ee-bec2-7fad7993737a",
+        "predictedValue": {
+            "value": 1274393257.70177,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3d13f83a-5414-4cf2-9b43-50023de71ac5",
+        "predictedValue": {
+            "value": 1274393499.544405,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f3804946-8f24-41c9-b5fa-8969f9193967",
+        "predictedValue": {
+            "value": 1274393693.3289921,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "563df551-f93b-494c-80a7-4faad4117304",
+        "predictedValue": {
+            "value": 1274392941.472501,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f6e3b9cd-b476-4c72-b2ea-b4eab37eb7bb",
+        "predictedValue": {
+            "value": 1274393631.6873782,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4034de88-f212-49cc-ac60-306e1c474b8f",
+        "predictedValue": {
+            "value": 1274393049.206352,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4cf8b874-d12b-46d0-b07f-c36e0c8d43d4",
+        "predictedValue": {
+            "value": 1274393661.762716,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5b5c457c-40be-452b-a3f6-b85c45192ae8",
+        "predictedValue": {
+            "value": 1274393503.2810721,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4a3f856d-7db8-45d7-a809-4bf1f706911b",
+        "predictedValue": {
+            "value": 1274393566.666281,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3d6da867-aa37-4406-b542-27542a906cab",
+        "predictedValue": {
+            "value": 1274393526.012478,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b911359e-a8db-4503-aee7-53088f910d6e",
+        "predictedValue": {
+            "value": 1274393604.156837,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "987189c3-0453-458b-9d86-d105fbf8c275",
+        "predictedValue": {
+            "value": 1274393442.108675,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "392d075e-6468-43e0-b214-0c2449bb41bf",
+        "predictedValue": {
+            "value": 1274393516.157985,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2e0e54ac-075a-4bdc-99ac-bb6022826e72",
+        "predictedValue": {
+            "value": 1274393686.0431042,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0fc5375e-b8be-4717-ba5a-dfa0f3aaf55d",
+        "predictedValue": {
+            "value": 1274393624.498524,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "879df15f-52a5-4326-8505-8179d5a75e3f",
+        "predictedValue": {
+            "value": 1274393773.270864,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f6c4c1a9-c37d-4120-a665-077bb55efe0b",
+        "predictedValue": {
+            "value": 1274394031.537044,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c376dc1e-88f1-4809-82ca-8f8f463e2dc0",
+        "predictedValue": {
+            "value": 1274393662.4764152,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a15ace4e-8cef-447a-890a-9402e9b0d30e",
+        "predictedValue": {
+            "value": 1274393660.490952,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "P",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4be0fe38-5255-4362-85fe-f670aaf77713",
+        "predictedValue": {
+            "value": 1274393160.041129,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "de7db21e-ba2f-4a60-81c8-51c9b5f4d743",
+        "predictedValue": {
+            "value": 1274393159.53255,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "14a7235b-fa99-4c69-b879-4b1c6e79c326",
+        "predictedValue": {
+            "value": 1274393160.081459,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "210e84f6-07ec-4437-a946-0459d527c24c",
+        "predictedValue": {
+            "value": 1274393159.740359,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "fbb26a04-1ff6-40ac-8b0e-17ba5834a211",
+        "predictedValue": {
+            "value": 1274393159.72714,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "261771c9-9a39-416c-9fc8-c2f758964f75",
+        "predictedValue": {
+            "value": 1274393159.70278,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2ecabeff-c6b6-42b2-929e-16a8aafa619a",
+        "predictedValue": {
+            "value": 1274393160.106596,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3446c367-e5b4-465c-b56b-5e7fab0194d6",
+        "predictedValue": {
+            "value": 1274393159.874522,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4692adce-1a56-4d8c-8c08-f14ee994fde4",
+        "predictedValue": {
+            "value": 1274393159.924647,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9a1895e7-cc21-4202-950a-7380051c7078",
+        "predictedValue": {
+            "value": 1274393113.606421,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9ded58ee-8d1d-48d7-b5e6-c1c17d1a1bd1",
+        "predictedValue": {
+            "value": 1274393159.9580212,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d6fa755a-8b5a-4700-b2b9-fc24c6660e5e",
+        "predictedValue": {
+            "value": 1274393159.704704,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b82e0bfb-4d70-4f60-a8b3-049ea07d75f0",
+        "predictedValue": {
+            "value": 1274393159.478879,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a9112110-b759-41d3-9996-57f8e3da13a9",
+        "predictedValue": {
+            "value": 1274393160.130245,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a7f6de27-2f6e-4c7e-b634-5ebd2a1a3b98",
+        "predictedValue": {
+            "value": 1274392941.472501,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c2d81c86-266d-4199-b934-a38141cc90ce",
+        "predictedValue": {
+            "value": 1274393159.687509,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a9c9b070-9738-42f3-afa1-c1f167920e25",
+        "predictedValue": {
+            "value": 1274393049.206352,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d6d29332-924e-4e61-9ba3-f3b62d37d287",
+        "predictedValue": {
+            "value": 1274393159.837584,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "722649f9-fcff-4fd8-a205-0f361f4a13b4",
+        "predictedValue": {
+            "value": 1274393159.671487,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "986b3a23-b1e5-4ff4-b366-5a32fbd7f825",
+        "predictedValue": {
+            "value": 1274393159.993977,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "791dcc42-ba25-447b-9f5a-f5b03290461f",
+        "predictedValue": {
+            "value": 1274393159.581423,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c33a2ef8-dd89-4d8b-8e29-bac14caedeb5",
+        "predictedValue": {
+            "value": 1274393159.83019,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "80e62aca-514e-47fa-9ef4-b4e8fcbc2509",
+        "predictedValue": {
+            "value": 1274393159.432977,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0f32f26b-11c5-45ba-a03d-f7649f74260b",
+        "predictedValue": {
+            "value": 1274393159.629733,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "040d3df0-a044-4042-8b16-cdb1039dda42",
+        "predictedValue": {
+            "value": 1274393160.306476,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c3a0b19e-45b5-4cff-96b3-77dd72de8bcb",
+        "predictedValue": {
+            "value": 1274393159.6442041,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b25379d6-42bf-4d2b-81b9-ccfea4f2015c",
+        "predictedValue": {
+            "value": 1274393160.3244371,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "78570dd7-8856-4170-bde0-f8b169ed4c6c",
+        "predictedValue": {
+            "value": 1274393160.167371,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8fd6262a-96ee-40c3-9cac-52ebc48c20bd",
+        "predictedValue": {
+            "value": 1274393160.097145,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "aa559122-5bc5-4005-a66c-0aee9a689e49",
+        "predictedValue": {
+            "value": 1274393160.064976,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Pn",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f5088bc6-fc66-4452-a2e1-7a6de4c2de78",
+        "predictedValue": {
+            "value": 1274394023.105999,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f928abe3-7045-4633-9635-6199897a8a3b",
+        "predictedValue": {
+            "value": 1274394022.449496,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "aa98f42d-3a56-42a5-a090-fcccde022c3a",
+        "predictedValue": {
+            "value": 1274394022.785551,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ee8db0e3-613a-47b9-a656-19dea0fe9b95",
+        "predictedValue": {
+            "value": 1274394022.881658,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a80da87d-e307-4ea8-a5d9-8bdf48d51af7",
+        "predictedValue": {
+            "value": 1274394022.8999472,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "215151a3-d2e2-4d57-8657-1307fb9c1017",
+        "predictedValue": {
+            "value": 1274394022.644642,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b87d8e01-74ab-4be6-ad23-11398aecddc7",
+        "predictedValue": {
+            "value": 1274394036.695619,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "85d0980c-04cd-4e3c-8695-b73e9ece3df7",
+        "predictedValue": {
+            "value": 1274394022.939265,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "bb64873b-f7f4-450e-bc07-853a7008b869",
+        "predictedValue": {
+            "value": 1274394022.857549,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e8d5ed4d-bab2-4d4f-8f00-f9a0db6a2608",
+        "predictedValue": {
+            "value": 1274394023.262177,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "79a6f38e-9f40-43c9-adac-0f59b3b00744",
+        "predictedValue": {
+            "value": 1274394022.920898,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1bfba1f3-e5b2-4a5d-9ab3-868e3f528bce",
+        "predictedValue": {
+            "value": 1274394022.3665512,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "11136761-3398-4648-9db9-834114efc139",
+        "predictedValue": {
+            "value": 1274394022.324455,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3b750ae5-782c-4d07-9740-737dca118497",
+        "predictedValue": {
+            "value": 1274394023.0046492,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "45cbd61a-f4ce-4571-9d5b-5c93205ef8d2",
+        "predictedValue": {
+            "value": 1274394024.479085,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f93c5942-d331-4ba2-9870-02b52f6515b3",
+        "predictedValue": {
+            "value": 1274394022.542285,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c80faba1-3f5f-4e2f-b355-d99686641b05",
+        "predictedValue": {
+            "value": 1274394024.5198932,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "63fe2cec-386b-4cf0-b775-6c8f78d4785f",
+        "predictedValue": {
+            "value": 1274394022.67875,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "104492ae-4736-4ab9-9fc5-74724e59f976",
+        "predictedValue": {
+            "value": 1274394022.76894,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3d51edf6-f27a-4902-b182-ddfef49b624a",
+        "predictedValue": {
+            "value": 1274394023.198666,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4d81247b-3049-4dec-9906-8067badf760a",
+        "predictedValue": {
+            "value": 1274394022.552617,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e9b490d7-5ab5-4ee9-9d6a-b2b2fde3bbb8",
+        "predictedValue": {
+            "value": 1274394022.8487492,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0f468400-6624-4c1a-a47e-0456bf8877d2",
+        "predictedValue": {
+            "value": 1274394022.1297991,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "31a4d9f1-28a0-435e-bdfd-2ae3eb3bb54c",
+        "predictedValue": {
+            "value": 1274394022.61401,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "21e60740-92da-4a58-8cad-b447cb175b90",
+        "predictedValue": {
+            "value": 1274394023.253591,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d28ab9e1-0b26-47a3-8a70-57d71f71b528",
+        "predictedValue": {
+            "value": 1274394022.500919,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c1855bc9-4cbf-49a5-a628-ce12764534b9",
+        "predictedValue": {
+            "value": 1274394023.073522,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c1762655-80c8-47d1-b30c-496a6984448b",
+        "predictedValue": {
+            "value": 1274394031.5370271,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0c50f792-c747-4500-a27e-6a9568119811",
+        "predictedValue": {
+            "value": 1274394023.0301101,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "182b1826-80e7-458f-b68e-db2006539b03",
+        "predictedValue": {
+            "value": 1274394022.994975,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKP",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3ae7f452-9632-4aea-8345-19d3e78d6567",
+        "predictedValue": {
+            "value": 1274394078.855077,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "89c416b4-212c-439f-9cc2-e5678db71002",
+        "predictedValue": {
+            "value": 1274394078.51125,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "cb124726-654a-404c-bb6a-89adc07f7155",
+        "predictedValue": {
+            "value": 1274394077.232724,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b9e56e45-44fc-4fc7-906f-1ceb271dd30e",
+        "predictedValue": {
+            "value": 1274394079.577006,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e21cfcbc-a06c-4cf4-b8fa-405f75bb01d4",
+        "predictedValue": {
+            "value": 1274394079.081603,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7c1686dd-aefa-495e-bb35-055b5757ad84",
+        "predictedValue": {
+            "value": 1274394078.488343,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ab55485a-2378-4c90-979c-1de9e8b5344c",
+        "predictedValue": {
+            "value": 1274394077.814104,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "be7f4900-121f-431c-a7bc-2679d42f4b9f",
+        "predictedValue": {
+            "value": 1274394078.861124,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "6d3f1e24-c4bb-44f4-843f-c7e1e348c796",
+        "predictedValue": {
+            "value": 1274394078.573184,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0c52cdc7-39d2-4b95-afb6-433486a351a4",
+        "predictedValue": {
+            "value": 1274394076.041445,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "dd25fb76-ab79-468f-9942-3b5a65aac22e",
+        "predictedValue": {
+            "value": 1274394078.599616,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b6fd0414-ad44-4f59-8b6f-66965a77aada",
+        "predictedValue": {
+            "value": 1274394079.1929982,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7fac0152-6cf2-4e7e-befa-e1d3f758161b",
+        "predictedValue": {
+            "value": 1274394078.534511,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f39b5aef-7d60-4afa-95aa-9f35af90b875",
+        "predictedValue": {
+            "value": 1274394078.469394,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2ea3587e-c07c-40d6-b1d3-c425dd58e4d4",
+        "predictedValue": {
+            "value": 1274394078.351563,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c5fbb9b8-1fc2-493f-afb8-206b9171fcc4",
+        "predictedValue": {
+            "value": 1274394078.2752662,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5dead7f5-04ed-45d3-9beb-45991f447887",
+        "predictedValue": {
+            "value": 1274394078.973378,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "609fd90a-5b9a-4706-a04a-13a2a18709e2",
+        "predictedValue": {
+            "value": 1274394078.280627,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0b688564-6da4-4f12-a3b5-9e81021da566",
+        "predictedValue": {
+            "value": 1274394078.928908,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f395e40e-7160-47b9-b2c1-2b1dde3e0e92",
+        "predictedValue": {
+            "value": 1274394079.10204,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0a212888-3fee-49da-a7bf-a4c0d6c64cd7",
+        "predictedValue": {
+            "value": 1274394078.667395,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9a6b48bd-9c56-4e64-a253-6e772138c8c5",
+        "predictedValue": {
+            "value": 1274394078.6788812,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a985fdfd-8aa7-4ca8-8a54-5bb4881053e3",
+        "predictedValue": {
+            "value": 1274394078.518155,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "44a2c836-a4d3-4096-bdbf-834a1741a875",
+        "predictedValue": {
+            "value": 1274394078.759938,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "edb64c40-2247-4488-a909-18fc23e0cf55",
+        "predictedValue": {
+            "value": 1274394078.677124,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7e0466be-4533-4335-8843-8aa2cdeb2b98",
+        "predictedValue": {
+            "value": 1274394078.264094,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9433ddbc-e9ec-4a56-beac-615b27f020bb",
+        "predictedValue": {
+            "value": 1274394078.153284,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "10ac877e-aef7-41c0-871a-5b31e7c19390",
+        "predictedValue": {
+            "value": 1274394077.881774,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "eb5d9542-07cf-431f-98a8-87fd952e5926",
+        "predictedValue": {
+            "value": 1274394078.634846,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "39cc3d60-61f6-47e7-b676-1bf4151638d4",
+        "predictedValue": {
+            "value": 1274394078.6085021,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PKPbc",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9e6101d4-c23c-4a54-b515-de49a9053ee2",
+        "predictedValue": {
+            "value": 1274393628.137206,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "411ba89c-443d-4e7e-92b0-635179658eb3",
+        "predictedValue": {
+            "value": 1274393572.4225671,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8e5b12f8-471a-4723-bb80-f4f65119116f",
+        "predictedValue": {
+            "value": 1274393600.880451,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "18fc280f-4cdb-4e3a-afc4-545aab393ea9",
+        "predictedValue": {
+            "value": 1274393444.3880742,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ba18888e-101c-4189-b946-cf005a5c4c9a",
+        "predictedValue": {
+            "value": 1274393538.721179,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5c459e59-5170-413b-ab43-9271433cc660",
+        "predictedValue": {
+            "value": 1274393615.175765,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "292e72b0-fd02-4a79-824d-488ced9fc287",
+        "predictedValue": {
+            "value": 1274393699.8825371,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "6c0b04df-7ca9-413f-bd3b-44adb82b85a0",
+        "predictedValue": {
+            "value": 1274393596.979243,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "699e254b-9439-4d47-aa39-898be729626b",
+        "predictedValue": {
+            "value": 1274393641.3705251,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e85dd732-fac2-4455-a0de-f3ee4645f3ac",
+        "predictedValue": {
+            "value": 1274393413.746938,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "612cca65-d0de-4a1f-af19-e45c8340775c",
+        "predictedValue": {
+            "value": 1274393647.148515,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f71f36f9-aa2f-438b-8964-15f076c7f0e6",
+        "predictedValue": {
+            "value": 1274393441.463074,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "6dd789b0-b257-4854-8904-4400885feb1f",
+        "predictedValue": {
+            "value": 1274393544.95946,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7617403e-2fbd-4fca-b5b9-263534264d4d",
+        "predictedValue": {
+            "value": 1274393693.70873,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d08a9734-a2e7-4dcb-9d2c-60d305990855",
+        "predictedValue": {
+            "value": 1274393402.459271,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f4905c93-1e65-444d-b2bb-cd1bdf632361",
+        "predictedValue": {
+            "value": 1274393637.255101,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "57b68616-38ba-4e11-aa68-72c77180df21",
+        "predictedValue": {
+            "value": 1274393407.8127902,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a1578a77-b8e8-4a23-bf92-f6f616c1ec56",
+        "predictedValue": {
+            "value": 1274393663.597842,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0da63da9-4d95-44ce-a0d6-ed63f4a1b2c5",
+        "predictedValue": {
+            "value": 1274393547.2628942,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d3e2327e-ede0-45ce-aec7-95cc13e3c61f",
+        "predictedValue": {
+            "value": 1274393587.997621,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a27a9317-bc24-4ecc-82e7-7ff0a0577451",
+        "predictedValue": {
+            "value": 1274393561.0415041,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8de73852-44b5-4179-a7b6-8e878e70e8df",
+        "predictedValue": {
+            "value": 1274393615.289058,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c73dd19a-5447-464c-9475-bbfbe72f17f9",
+        "predictedValue": {
+            "value": 1274393513.6469162,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "33910ecb-a4d9-46f9-b1d1-21b5d62a4767",
+        "predictedValue": {
+            "value": 1274393554.974278,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "83d35366-7c36-4962-a78d-c0b6a9a1b145",
+        "predictedValue": {
+            "value": 1274393686.677597,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "70cb53f0-d72d-4726-8483-1735d62cb748",
+        "predictedValue": {
+            "value": 1274393631.326116,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2ea31b63-62e6-4aad-ab97-ba710f88f293",
+        "predictedValue": {
+            "value": 1274393699.812726,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c7e565ae-cf3e-4149-87c6-2f12f73902e3",
+        "predictedValue": {
+            "value": 1274393699.886755,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ce68e90d-c825-4ee7-ba4e-0bc2c9832838",
+        "predictedValue": {
+            "value": 1274393664.2818441,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a01ed4ef-1b5a-4e42-89cd-5714bd558b7e",
+        "predictedValue": {
+            "value": 1274393662.44119,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "PcP",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8fb60ee8-7ef0-40c7-be54-82bf5abeaffd",
+        "predictedValue": {
+            "value": 1274393619.894056,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "db0bf97c-5497-44c2-ba69-fe4537487642",
+        "predictedValue": {
+            "value": 1274393543.2400842,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4d9ecb9c-a1d5-4887-981b-2b3bce7d948e",
+        "predictedValue": {
+            "value": 1274393585.202151,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d3def9ac-2896-4ebc-a873-d670f3ae741c",
+        "predictedValue": {
+            "value": 1274393267.2422771,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "cfd5f322-41b0-4453-9276-313fa674a7e0",
+        "predictedValue": {
+            "value": 1274393488.11163,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0c4276bb-4791-4639-bb1a-f05aa1c54830",
+        "predictedValue": {
+            "value": 1274393603.339648,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5a975c57-a973-495b-91e4-ad7086a38e98",
+        "predictedValue": {
+            "value": 1274394037.165527,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0b5a8f69-683e-4dc3-8daa-55fc4d5846fd",
+        "predictedValue": {
+            "value": 1274393578.873519,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "fceded03-5e28-47e3-b2c2-7ca7b032e8c5",
+        "predictedValue": {
+            "value": 1274393635.699501,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "6c9d0fde-16c6-4320-bc81-c9c588d50b06",
+        "predictedValue": {
+            "value": 1274393113.577444,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f2df8a2e-8d91-4bed-9b54-4d47ff1ccb35",
+        "predictedValue": {
+            "value": 1274393642.627322,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "192a5082-53d9-4a0f-ac70-e6dc00581d35",
+        "predictedValue": {
+            "value": 1274393257.5589352,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ff8e59ca-35ac-4d17-8950-a073fef48a50",
+        "predictedValue": {
+            "value": 1274393499.0407732,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f88eaaaf-df95-43d2-b02b-50cd2b4ea69d",
+        "predictedValue": {
+            "value": 1274393692.4398181,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a5e329fe-a0b4-41b6-9c19-d7ca4d7fb494",
+        "predictedValue": {
+            "value": 1274392941.238959,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7142030f-08f0-4513-be87-f6fea2ab9cc3",
+        "predictedValue": {
+            "value": 1274393630.789622,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "83cd2b4e-5e9e-45a8-a613-425c3fddf27c",
+        "predictedValue": {
+            "value": 1274393049.053329,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "89ed8fc8-2e03-4293-b905-c260a6da4911",
+        "predictedValue": {
+            "value": 1274393660.760001,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "16853b74-9fa1-471e-b2d6-02e8ffe68e80",
+        "predictedValue": {
+            "value": 1274393502.854183,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "cce2307c-98a5-4053-987d-516a35024150",
+        "predictedValue": {
+            "value": 1274393566.2393801,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8bd2627b-792a-464a-b86f-b72a97301837",
+        "predictedValue": {
+            "value": 1274393525.4918242,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "101ce0e8-8079-4a2e-9cee-1b2254dc390d",
+        "predictedValue": {
+            "value": 1274393603.538146,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "109f755a-bd3a-443b-a29a-eda852bbfbb5",
+        "predictedValue": {
+            "value": 1274393441.701004,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c59111fe-e4f9-4913-986b-1eafdf46234e",
+        "predictedValue": {
+            "value": 1274393515.6581671,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "42030975-b01a-4608-bef9-5f660731c942",
+        "predictedValue": {
+            "value": 1274393685.7549322,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "80eead26-b001-44d1-bd6d-668c562e809e",
+        "predictedValue": {
+            "value": 1274393623.631186,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e4c1db63-98dc-48bf-aa9b-143fd0bda4f3",
+        "predictedValue": {
+            "value": 1274392904.945919,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "81624938-714e-43d8-8f40-40b41ebbfee1",
+        "predictedValue": {
+            "value": 1274394031.887438,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2e3720ca-d830-4824-a4bd-27e584e3c803",
+        "predictedValue": {
+            "value": 1274393661.625148,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8d086300-8181-4741-a6a1-ada3d0ca061a",
+        "predictedValue": {
+            "value": 1274393659.647309,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "pP",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "88dff0f6-8fc2-4e9c-bb43-5fe4985ba8e6",
+        "predictedValue": {
+            "value": 1274394224.491389,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2e615180-3366-4666-9832-c57c609e3355",
+        "predictedValue": {
+            "value": 1274394077.408524,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "94412497-a957-4f2b-94b6-ef833dcb9e93",
+        "predictedValue": {
+            "value": 1274394155.635886,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ae8f2bed-8cbd-4109-8a8e-9ddaa62893a1",
+        "predictedValue": {
+            "value": 1274393571.529161,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e85e756f-01cf-49ce-846c-30e6e6b30fce",
+        "predictedValue": {
+            "value": 1274393973.199191,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5fcc0a01-49f7-4f09-82cf-7f155d5a5a7c",
+        "predictedValue": {
+            "value": 1274394192.7697852,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3044d409-da5a-435f-9181-2b199d6f2d16",
+        "predictedValue": {
+            "value": 1274394464.2331882,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b770059f-9791-41dc-b1c5-97bb73ad7184",
+        "predictedValue": {
+            "value": 1274394145.1959531,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f30300fd-f7d3-4507-8f3a-fe1fa126752a",
+        "predictedValue": {
+            "value": 1274394255.887391,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "d56a4565-5206-4aad-96bb-f95fb96db6d7",
+        "predictedValue": {
+            "value": 1274393288.890664,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a7690c26-6bcc-4628-ba00-af29edaace1d",
+        "predictedValue": {
+            "value": 1274394268.113192,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "538fd37f-3e36-4a50-a4fd-671d2020681a",
+        "predictedValue": {
+            "value": 1274393554.309894,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8d1f2716-62f8-471b-bc96-95ad6d21dc95",
+        "predictedValue": {
+            "value": 1274393993.8911262,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2638b219-80fa-45e5-8025-42ad0471aa39",
+        "predictedValue": {
+            "value": 1274394330.034369,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "30e9ee68-c1df-48d7-bfb7-647b10b0d42e",
+        "predictedValue": {
+            "value": 1274392979.7865891,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c7019133-14d2-4b41-9368-bbba922d3c98",
+        "predictedValue": {
+            "value": 1274394246.5463521,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1cf43eb6-10dd-4c8b-9faf-b0519f2c8202",
+        "predictedValue": {
+            "value": 1274393173.026336,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "62f9eff6-db3d-4d13-8553-bf5dff84cffa",
+        "predictedValue": {
+            "value": 1274394291.169184,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "48881683-3420-458f-9b58-c496a1bae187",
+        "predictedValue": {
+            "value": 1274394000.898854,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8a8e9d64-ca65-462b-bb7f-32349e169c11",
+        "predictedValue": {
+            "value": 1274394120.753211,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b69dca80-7b84-43da-bedc-de764de53514",
+        "predictedValue": {
+            "value": 1274394043.678312,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b5142c77-daf8-45d0-b76b-bcd660e8ed3f",
+        "predictedValue": {
+            "value": 1274394192.957961,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "cf0a75a1-008d-43c9-92cf-f2f5acea1bf5",
+        "predictedValue": {
+            "value": 1274393887.149425,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "add3ac03-dee2-4792-8224-c783c89a49d0",
+        "predictedValue": {
+            "value": 1274394025.03248,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1f1a6b0e-2b5d-47fb-90c2-e05f399f8836",
+        "predictedValue": {
+            "value": 1274394321.551537,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "06c65bdd-f864-4946-8e80-cb37783cd221",
+        "predictedValue": {
+            "value": 1274394232.5050972,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8d87647d-92d2-4c79-bf9d-4455a74c68d2",
+        "predictedValue": {
+            "value": 1274394413.3837771,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "56d84ae2-6e07-4a65-bb25-73b47d8ff836",
+        "predictedValue": {
+            "value": 1274394455.907783,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ba320345-7d68-4d6b-869e-f79fa922da70",
+        "predictedValue": {
+            "value": 1274394292.1128712,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ff960c61-c887-4788-935e-55e6bd78cc40",
+        "predictedValue": {
+            "value": 1274394289.605406,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "S",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "67016765-43d4-438c-bd64-8100cc3f01b6",
+        "predictedValue": {
+            "value": 1274393451.409485,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "40357cba-074a-4871-9b3e-a56fb3d5bea8",
+        "predictedValue": {
+            "value": 1274393450.569271,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "62170d85-835a-4062-8f9a-5ea02dd787e0",
+        "predictedValue": {
+            "value": 1274393451.5600011,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a62b503b-4b41-4556-854d-3c2e019996c9",
+        "predictedValue": {
+            "value": 1274393450.963309,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3a831779-d708-43b8-92ee-0f399342cf61",
+        "predictedValue": {
+            "value": 1274393450.895541,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "43966dd2-69c6-4cf6-8a42-67fef2165e3b",
+        "predictedValue": {
+            "value": 1274393450.8649871,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "73d08445-607d-47b1-bab2-c1c88d8551f2",
+        "predictedValue": {
+            "value": 1274393451.548743,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f7d69310-94c9-4218-8344-d7b68b7c1874",
+        "predictedValue": {
+            "value": 1274393451.0454922,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8545ffea-6812-4023-b629-7927ef6c7eb4",
+        "predictedValue": {
+            "value": 1274393451.122783,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9a25c990-790b-4e20-8e25-ad6de7cfb69c",
+        "predictedValue": {
+            "value": 1274393288.8907511,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5a6233de-af6c-4c7b-ba35-c4ebf6658e9a",
+        "predictedValue": {
+            "value": 1274393451.384589,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "789ff4e5-c29e-4139-85c9-a3c2b11e2732",
+        "predictedValue": {
+            "value": 1274393450.864072,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "dd390b87-86b3-466c-8f1a-5636d751cbb5",
+        "predictedValue": {
+            "value": 1274393450.444749,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "de1e5fdc-c790-4974-90ec-14af584fb533",
+        "predictedValue": {
+            "value": 1274393451.6345541,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5c54bc31-c1c1-466f-b198-ee3aeb7824d6",
+        "predictedValue": {
+            "value": 1274392979.8381221,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "608ffe50-948f-4568-89ae-4e0461156f02",
+        "predictedValue": {
+            "value": 1274393450.819474,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "71521d5f-a5c9-4af8-b76a-80c70e65cde5",
+        "predictedValue": {
+            "value": 1274393173.026343,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4ba8ec18-7d2e-463c-8eb6-aca6f10f27de",
+        "predictedValue": {
+            "value": 1274393451.108712,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "7869e70e-f9d1-4eaf-b664-8e9c48725944",
+        "predictedValue": {
+            "value": 1274393450.805721,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "90798e79-e10e-405a-8da0-47ec88197846",
+        "predictedValue": {
+            "value": 1274393451.319273,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "772fbfd1-4ccd-4649-8fbf-464b5aaf6407",
+        "predictedValue": {
+            "value": 1274393450.6405652,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0e5fb8b2-2967-490f-a4b3-cd224374dd15",
+        "predictedValue": {
+            "value": 1274393451.096842,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e13d89e4-565a-422f-b04a-15bf5cef45f1",
+        "predictedValue": {
+            "value": 1274393450.38121,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a34be02e-ab5d-484d-80d3-6abde4018ed9",
+        "predictedValue": {
+            "value": 1274393450.670718,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "02320d32-2c43-4a15-a3de-54f1a8f874dd",
+        "predictedValue": {
+            "value": 1274393452.0116441,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "26b2e774-cae7-41d4-a067-50123ce2cc0b",
+        "predictedValue": {
+            "value": 1274393450.75038,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1bf3c5b7-1cb9-499c-8037-6a297573f4f4",
+        "predictedValue": {
+            "value": 1274393452.0076652,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8938cb2c-5011-4a2b-9904-6513e60b59b8",
+        "predictedValue": {
+            "value": 1274393451.664232,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2fa2d9cd-f470-4623-9aac-ed1a51f6b45b",
+        "predictedValue": {
+            "value": 1274393451.4597352,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "9332b06e-0c62-445b-931f-a5a9e346a7fd",
+        "predictedValue": {
+            "value": 1274393451.4320211,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Sn",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1357909a-c5c2-4fea-a19e-db4fac72ef9b",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a5a2e292-d57f-4c40-80f3-bf3e8dab0ba0",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "68dcd0c5-ded5-4a84-bd24-a528b8ef9c38",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "693dc7c8-0283-4dbc-967e-f9d346184679",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8c8c2215-1447-4502-a58b-43465e5255e6",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0f14595d-cd67-4ebe-960e-7c0e80eb5ebb",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "92e22e2a-670f-41a7-96c7-b8cece8c7fd6",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2d2dbaea-ab8b-4cbf-81b2-98e2e98fd352",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a5f138a9-3212-48aa-82c4-609df3764baf",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0f78a73d-503f-45ec-a169-1e9c8546dff7",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5a9fac3c-697d-429e-8ac1-60ef89c9d02a",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "54351020-c497-43ba-b99c-a1006dcb253f",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "6508a0d7-a09b-48bd-8e39-b10e392057d8",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "bb2b163c-56c6-4bcc-8f35-5222103ca9a7",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "20e96040-9079-4da8-9a93-ae93a76803c2",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "1ef3ddfd-de71-41dc-b34d-c4cdf6ae43f0",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a5a10ef6-b3ac-4e12-9f2b-6042781f6fa4",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ec56ef20-d24e-4021-a048-3d223f3451e2",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "719b6bec-c731-4576-851a-5e2202b699a2",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "eabacaa9-dd1d-430e-874a-52b0612ab747",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "acc80ae4-96dd-49c5-a3cb-547ef18d19b1",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "bc5737f9-94b9-415f-81da-bd4bd2609c81",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2ebca9a3-4cd0-48cb-b468-4a3ecca18e95",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "48b447f5-be95-4010-a1ab-6b23ae40625f",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "84fe42e2-0c07-449f-996e-7af57da4dbf1",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "818cefff-4aed-4268-9515-ce9e3f592e15",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8d3c6a91-a136-4b92-b45d-68b9f50d7e79",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0c300645-de36-4306-90cd-ff6841261e0a",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "197d874c-cb9e-42c9-a5c2-4342fd916cce",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "b670960c-f876-4277-a4c2-eee5b5ba0566",
+        "predictedValue": {
+            "value": 1273392891.23863,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "LR",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "88b34900-b3e2-496e-b943-be7aecc13c3e",
+        "predictedValue": {
+            "value": 1274393795.5883071,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "e8a22477-c2c1-3f8c-ab1b-b8b064d897e6",
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "adfab60d-0163-4fac-8df1-f11ed9e0c1cd",
+        "predictedValue": {
+            "value": 1274393794.730597,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "61310cc6-80ad-30bc-a3ec-2768f593dc27",
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "8839b6f0-c418-4c57-a93a-d1a43060ea38",
+        "predictedValue": {
+            "value": 1274393795.731579,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "b82a38a9-fa67-3cac-a1e7-d4c278f8c4db",
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "a1b96460-ba38-4df2-b386-5a136b370867",
+        "predictedValue": {
+            "value": 1274393795.1247041,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "c4a878d7-4468-34c5-b048-f269ec868f47",
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "ee83e6b5-59df-4070-aea0-b42eb91c83b8",
+        "predictedValue": {
+            "value": 1274393795.065411,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "42c3ab42-3c97-30bd-badc-4410ed622306",
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "11e3c7f4-f36e-497e-96f2-96877b80a2a5",
+        "predictedValue": {
+            "value": 1274393795.026655,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "fe9a9deb-d5ba-3196-9f33-55eb37f575e5",
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "473cc400-96c7-4470-8ee0-bf3289451764",
+        "predictedValue": {
+            "value": 1274393795.72637,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "8b8fe3d6-970c-3cec-b5da-f807d8181553",
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "dd2fe820-93b3-4d9f-a953-0465fb03a72d",
+        "predictedValue": {
+            "value": 1274393795.2404091,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "3273bd42-d4d4-3e5f-b51f-24097ec5373f",
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "0ac8258c-0e4e-4f21-925f-cade6dd334d4",
+        "predictedValue": {
+            "value": 1274393795.3273711,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "d02f0790-8152-39d6-b7a1-47d3b6e46856",
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "455de73f-81d9-49c0-b342-9677763d2dfc",
+        "predictedValue": {
+            "value": 1274393391.053731,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "61c8863e-adbd-3720-9b67-b216ccbca9a0",
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "15977e6e-032a-46bd-a9d3-cec80a90e817",
+        "predictedValue": {
+            "value": 1274393795.545505,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "735207bb-a362-33de-97f1-3210e72eeac5",
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "e775fab2-0b65-4afc-9f79-dd6b55828be4",
+        "predictedValue": {
+            "value": 1274393833.7794042,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "f4bf7511-5e03-3328-9f0b-5cd1ec668dd6",
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "afa21c18-6d90-474b-b4ef-6247c5e0308d",
+        "predictedValue": {
+            "value": 1274393794.61472,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "1bf378c2-e38c-315c-aeb3-bf694eafb2fc",
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4150b5cd-ad2c-44f9-ae97-709ce607d83f",
+        "predictedValue": {
+            "value": 1274393795.818434,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "fbf6bdf2-8fdd-3e7a-a44e-7eb281a24b08",
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "4afdcf56-4918-4f71-a1ed-4711d4f7a82d",
+        "predictedValue": {
+            "value": 1274392990.922754,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "f866a188-6df6-385f-9963-5c1485439da1",
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5d29a57d-912e-4dab-8743-2dc908d2ab6c",
+        "predictedValue": {
+            "value": 1274393794.990027,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "57e132dc-2c32-3b55-809b-761de6b89eb9",
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "89501462-fbc4-43ee-b06e-f2002726c085",
+        "predictedValue": {
+            "value": 1274393240.326641,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "674f5bd4-751f-3fdc-a84c-6786709fd405",
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "072ab7e5-bb10-4082-9ffc-a7ac041d080c",
+        "predictedValue": {
+            "value": 1274393795.28603,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "c9464459-1873-3f24-90ac-e59081d7d0d8",
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "5a6558bc-1fc8-477b-ad5d-50e958fdca7b",
+        "predictedValue": {
+            "value": 1274393794.972446,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "4f2a9ae4-ed9f-3274-86f1-105b29160de9",
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "49e9036a-1dba-42c8-9603-b78eff25b002",
+        "predictedValue": {
+            "value": 1274393795.5012732,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "b4a28b21-ad2a-307a-b98d-8579d53dafe4",
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "710c3f11-6ce9-46d0-990a-da931b3ab182",
+        "predictedValue": {
+            "value": 1274393794.806914,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "8e980f07-53eb-3134-a339-d8ce05b7cab7",
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "3d0649a5-ba01-453c-98fe-00f352de1e05",
+        "predictedValue": {
+            "value": 1274393795.258852,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "f673c739-5735-34d3-b8bf-d67f9efeadcf",
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "aac035dc-50cf-44f3-b934-2ba720313122",
+        "predictedValue": {
+            "value": 1274393794.548448,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "eb1b9bbf-2a1e-3a67-b5a5-5ce387fbee56",
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "c5759ae2-ffd9-469a-a2b4-c5befd1d10ac",
+        "predictedValue": {
+            "value": 1274393794.8514202,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "b409123f-ea12-320d-8cfd-c1951b4a9c94",
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "dac6f1e4-e2e8-4df2-add7-226098bfce3a",
+        "predictedValue": {
+            "value": 1274393796.175157,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "dffe602f-d02b-3834-a2dd-011e77b2f364",
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "bb53a1c6-6f11-408d-b973-5c3014068e0a",
+        "predictedValue": {
+            "value": 1274393794.914405,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "0b46c6c7-b3c2-3752-8183-c01572362a43",
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "dd3d41a3-9f59-458b-8fa3-5691a0f46f4c",
+        "predictedValue": {
+            "value": 1274393796.17439,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "03bb08be-5255-3bb6-b964-f0bab2c5599c",
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "fa407d3c-9524-4d1e-b74a-e3d72983bbbf",
+        "predictedValue": {
+            "value": 1274393795.833725,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "01dbecad-ef2e-3029-99aa-fe9f563c3ff6",
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "f00bc06a-5c8e-49ea-a334-6ba37704cb17",
+        "predictedValue": {
+            "value": 1274393795.6664422,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "4b03b9dd-c968-3065-8211-d669dfdda8b3",
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "FeaturePrediction"
+    },
+    {
+        "id": "2a45e4b0-4336-49ba-97c2-b66b74a14807",
+        "predictedValue": {
+            "value": 1274393795.63121,
+            "__typename": "DoubleValue"
+        },
+        "predictionType": "ARRIVAL_TIME",
+        "phase": "Lg",
+        "channelId": "de351704-58a3-3cc0-b510-1c288383f9db",
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "FeaturePrediction"
+    }
+]

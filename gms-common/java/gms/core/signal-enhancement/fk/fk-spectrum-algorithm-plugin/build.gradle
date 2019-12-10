@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    // GMS Dependencies
+    implementation project(':fk-plugin')
+    implementation project(':signal-processing-utility')
+    implementation project(':geomath')
+
+    // Third party dependencies.
+    implementation 'com.github.wendykierp:JTransforms:3.1'
+
+    // Test dependencies.
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

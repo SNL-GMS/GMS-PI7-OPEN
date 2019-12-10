@@ -1,0 +1,10 @@
+noiseWindowOffset: 66
+noiseWindowSize: 60
+signalWindowOffset: 3
+signalWindowSize: 6
+slidingWindowSize: 1
+minTimeUncertainty: 0.1
+maxTimeUncertainty: 1.0
+minSnr: 5.0
+maxSnr: 50.0
+transform: ABS

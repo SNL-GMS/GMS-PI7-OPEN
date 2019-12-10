@@ -1,0 +1,537 @@
+# Default configuration settings
+# The application uses the config npm library (https://www.npmjs.com/package/config)
+# These settings are overridden by settings in the other configuration json files (e.g. production, test)
+# All file-base settings can be overridden by command-line arguments and environment variables
+# See the config library documentation for details
+
+# Overall variable to coordinate use of backend (mock) or OSD data
+# each config (station, qcMask...) have their own variable that uses this value by default
+yamlName: "default"
+logLevel: "warn"
+defaultNetwork: demo
+# server module settings 
+server:
+    graphql:
+        # HTTP connection settings for GraphQL queries and mutations
+        http:
+            host: localhost
+            port: 3000
+            graphqlPath: /graphql   # GraphQL query/mutation/subscription path
+            graphiqlPath: /graphiql # GraphiQL browser-based IDE path
+            
+        # Websocket connection settings for GraphQL subscription support
+        ws:
+            host: localhost
+            port: 4000
+            path: /subscriptions
+# Initial beam component definition
+beam:
+    resolvers:
+# Configuration for common components of the API gateway
+common:
+    resolvers:
+# Configuration for the workflow API gateway
+workflow:
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            stagesChanged: stagesChanged
+    intervalService:
+        intervalCreationStartTimeSec: 1274400000 # Friday, May 21, 2010 12:00:00 AM GMT
+        mockedIntervalStartTimeSec: 1274299201 # Wednesday, Mat 19, 2010 20:00:00 GMT
+        createIntervalDurationSec: 7200 # How often to create new interval
+        intervalDurationSec: 7200 # Duration of an interval i.e. 2 hours
+        intervalCreationFrequencyMillis: 60000  # Wake every 60 seconds to check new interval
+        # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            workflowData:
+                requestConfig:
+                    method: get
+                    url: http://WORKFLOW_I_HAVE_NO_IDEA_URL
+                    # Set headers to indicate that the request is JSON and the response body is expected to be JSON
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+                    #responseType: application/json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 60 second timeout
+                    timeout: 60000
+
+# Configuration for the station reference API gateway
+stationReference:
+    resolvers:
+        
+# Configuration for the processing channel API gateway
+station:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            networkByName:
+                requestConfig:
+                    method: get
+                    url: http://osd-stationreference-coi-service:8080/mechanisms/object-storage-distribution/station-reference/networks/processing/
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    headers:
+                        accept: application/json
+                        content-type: application/json
+                    # 120 second timeout
+                    timeout: 120000
+            stationsByIds:
+                requestConfig:
+                    method: post
+                    url: http://osd-stationreference-coi-service:8080/coi/stations/query/versionIds
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    headers:
+                        accept: application/json
+                        content-type: application/json
+                    # 120 second timeout
+                    timeout: 120000
+            channelsByIds:
+                requestConfig:
+                    method: post
+                    url: http://osd-stationreference-coi-service:8080/coi/channels/query/versionIds
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    headers:
+                        accept: application/json
+                        content-type: application/json
+                    # 120 second timeout
+                    timeout: 120000
+    resolvers:
+
+# Configuration for the signal detection API gateway
+signalDetection:
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            sdsByStation:
+                requestConfig:
+                    method: post
+                    url: http://osd-signaldetection-repository-service:8080/coi/signal-detections/query/stations-and-time
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    headers:
+                        accept: application/json
+                        content-type: application/json
+                    # 60 second timeout
+                    timeout: 60000
+            saveSds:
+                requestConfig:
+                    method: post
+                    responseType: json
+                    headers:
+                        Accept: application/json
+                        Content-type: application/json
+                    url: http://osd-signaldetection-repository-service:8080/coi/signal-detections
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 60 second timeout
+                    timeout: 60000
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for a newly-created signal detections
+            detectionsCreated: detectionsCreated
+
+# Configuration for the qc mask API gateway
+qcMask:
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for notification of QC masks that have been created
+            qcMasksCreated: qcMasksCreated
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            masksByChannelIds:
+                requestConfig:
+                    method: post
+                    url: http://osd-signaldetection-repository-service:8080/mechanisms/object-storage-distribution/signal-detection/qc-mask
+                    # Set headers to indicate that the request is JSON and the response body is expected to be JSON
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+                    #responseType: application/json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 60 second timeout
+                    timeout: 60000
+            saveMasks:
+                requestConfig:
+                    method: post
+                    url: http://osd-signaldetection-repository-service:8080/coi/qc-masks
+                    # Set headers to indicate that the request is JSON and the response body is expected to be JSON
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+                    #responseType: application/json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 10 second timeout
+                    timeout: 60000
+
+# Configuration for the waveform filter API gateway
+waveformFilterDefinition:
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for notification of waveform filters that have changed
+            wfFiltersUpdated: wfFiltersUpdated
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            filtersByIds:
+                requestConfig:
+                    method: get
+                    url: http://WAVEFORM_FILTER_DEF_I_HAVE_NO_IDEA_URL
+                    # 60 second timeout
+                    timeout: 60000
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+
+# Configuration for the waveform API gateway and data files in the .w format
+waveform:
+    # `waveformMode` can be either `simulated` or `fromFile`.
+    waveformMode: fromFile
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for notification of waveform filters that have changed
+            waveformUpdated: waveformUpdated
+            # Subscription channel for notification of channel segments as they become available
+            waveformChannelSegmentsAdded: waveformChannelSegmentsAdded
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+                  
+# Configuration for the filtered waveform API gateway
+filter-waveform:
+    # FIXME: Remove when we can send all the waveform data
+    # Limit the amount of waveform samples for the filter control service -1 is all
+    # This value is only used if mock enable is false (calling OSD/Service)
+    numberFilterSamples: 100000
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            calculateWaveformSegments:
+                requestConfig:
+                    method: post
+                    url: http://filter-control-service:8080/signal-enhancement/waveform-filtering/streaming
+                    # Set headers to indicate that the request is JSON and the response body is expected to be msgpack
+                    headers:
+                        Accept: application/msgpack
+                        Content-Type: application/msgpack
+
+                    # Response type of arraybuffer is needed to decode msgpack from backend services
+                    responseType: arraybuffer
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 5 min timeout
+                    timeout: 300000
+
+# Configuration for the event API gateway
+event:
+    eventLocationParameters: apacheLmParameters #apacheLmParameters or geigersParameters
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for created events
+            eventsCreated: eventsCreated
+    # Configuration for mocking up backend services
+    backend:
+        mock:
+        # If true, mock up the backend services locally rather than
+        # connecting to the production services 
+            enable: true
+                # Simulated service response delay used for mocked up services
+            serviceDelayMs: 20
+        services:
+            getEventsByTimeAndLatLong: 
+                requestConfig:
+                    method: post
+                    url: http://osd-signaldetection-repository-service:8080/coi/events/query/time-lat-lon
+                    # 60 second timeout
+                    timeout: 60000
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # Possible values: 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+                    responseType: json
+            getEventsByIds: 
+                requestConfig:
+                    method: post
+                    url: http://osd-signaldetection-repository-service:8080/coi/events/query/ids
+                    timeout: 10000
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # Possible values: 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+                    responseType: json
+            computeFeaturePredictions: 
+                requestConfig:
+                    method: post
+                    url: http://fp-service:8080/feature-measurement/prediction/for-location-solution-and-channel
+                    timeout: 60000
+                    # Set headers to indicate that the request is JSON and the response body is expected to be msgpack
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+
+                    # Possible values: 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+            locateEvent: 
+                requestConfig:
+                    method: post
+                    url: http://event-location-control-service:8080/event/location/locate/interactive
+                    # 60 second timeout
+                    timeout: 60000
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # Possible values: 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+                    responseType: json
+config:
+    # The top-level key identifying UI-related configuration in the backend
+    # configuration store
+    rootKey: ui
+    backend:
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 20
+        services:
+            configByKey: 
+                requestConfig:
+                    method: 
+                    url: 
+                    # 60 second timeout
+                    timeout: 60000
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                # Possible values: 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+                responseType: json
+                # Configuration for the waveform API gateway and data files in the .w format
+channel-segment:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for notification of fk data that have changed
+            fksCreated: fksCreated
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            channelSegments:
+                requestConfig:
+                    method: post
+                    url: http://osd-waveforms-repository-service:8080/mechanisms/object-storage-distribution/waveforms/channel-segment
+                    # Set headers to indicate that the request is JSON and the response body is expected to be msgpack
+                    headers:
+                        Accept: application/msgpack
+                        Content-Type: application/json
+                    # Response type of arraybuffer is needed to decode msgpack from backend services
+                    responseType: arraybuffer
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 10 second timeout
+                    timeout: 60000
+            computeFk:
+                requestConfig:
+                    method: post
+                    url: http://fk-control-service:8080/signal-enhancement/fk/spectra/interactive
+                     # Set headers to indicate that the request is JSON and the response body is expected to be msgpack
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+                    # 60 second timeout
+                    timeout: 60000
+                    # responseType: msgpack
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+            computeBeam:
+                requestConfig:
+                    method: post
+                    url: http://beam-control-service:8080/signal-enhancement/beam/streaming
+                    # Set headers to indicate that the request is JSON and the response body is expected to be msgpack
+                    headers:
+                        Accept: application/json
+                        Content-Type: application/json
+                    # Response type of arraybuffer is needed to decode msgpack from backend services
+                    # responseType: arraybuffer
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 10 second timeout
+                    timeout: 60000
+
+
+
+                    
+# Configuration of test data for exercising API gateway services
+testData:
+
+    # Configuration of standard test data for exercising API gateway services 
+    standardTestDataSet:
+        stdsDataHome: ${HOME}/Test_Data_Sets/Standard_Test_Data
+        featurePredictions: feature-prediction
+        # dataPath: resources/test_data/standard-test-data-set
+        stdsJsonDir: gms_test_data_set
+        # Filenames for metadata in the meta data directory
+        stationReference:
+            networkFileName: network.json
+            networkMembershipFileName: network-memberships.json
+            stationFileName: station.json
+            stationMembershipFileName: station-memberships.json
+            siteFileName: site.json
+            siteMembershipFileName: site-memberships.json
+            channelFileName: channel.json
+        signalDetection:
+            signalDetectionFilename: signal-detections.json
+        qcMask:
+            qcMaskFileName: converted-qc-masks.json
+        events:
+            eventsFileName: events.json
+        fk:
+            fkDataPath: FkSpectra/ChanSeg
+            fkSpectraDefinition: FkSpectra/FkSpectraDefinition.json
+        channelSegment:
+            # channelSegmentSubDir: resources/test_data/standard-test-data-set/segments-and-soh
+            channelSegmentSubDir: segments-and-soh
+            channelSegmentIdToW: chan-seg-id-to-w.json
+        waveform:
+            channelCalibrationFile: calibration.json
+            files: w
+
+        filterMappings: resources/test_data/filterIdToNameMapping.json
+
+    # Data not provided by the STDS but still needed/used
+    additionalTestData:
+        dataPath: resources/test_data/additional-test-data/
+        filterChannelFileName: filterProcessingChannels.json
+        waveformFilterFileName: filterParameters.json
+        workflowFilename: workflow.json
+        qcMaskFileName: qcMasks.json
+        uiConfigFileName: uiConfig.json
+        transferredFileName: transferredFile.json
+        featurePredictionAzimuth: featurePredictionAzimuth.json
+        featurePredictionSlowness: featurePredictionSlowness.json
+        featurePredictionArrival: featurePredictionArrival.json
+
+    # Simulate a subset of the test data as being late-arriving - i.e.
+    # Push the data via GraphQL subscriptions after the configured delay
+    lateData:
+        # The number of late-arriving detections to make available in each late batch
+        detectionCount: 10
+        # The number of late-arriving detections to make available in each late batch
+        channelSegmentCount: 4     
+        # The delay between each late-arriving batch of data
+        delayMillis: 10000
+        # The delay prior to sending the first late signal detections
+        preStartDelay: 40000
+
+# Configuration for the data acquisition status API gateway
+dataAcquisition:
+    resolvers:
+    subscriptions:
+        # GraphQL subscription channel names
+        channels:
+            # Subscription channel for notification of gaps that have changed
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: true
+            # Simulated service response delay used for mocked up services
+            serviceDelayMs: 0
+        services:
+            transferredFilesByTimeRange:
+                requestConfig:
+                    method: post
+                    url: http://osd-transferredfile-repository-service:8080/data-acquisition/status/transferred-file/by-transfer-time
+                    # 60 second timeout
+                    timeout: 60000
+                    responseType: json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+            saveReferenceStation:
+                requestConfig:
+                    method: post
+                    url: http://osd-stationreference-coi-service:8080/coi/reference-stations
+                    #responseType: application/json
+                    # Setting proxy to false causes the HTTP client to ignore proxy environment variables
+                    proxy: false
+                    # 10 second timeout
+                    timeout: 60000
+                    

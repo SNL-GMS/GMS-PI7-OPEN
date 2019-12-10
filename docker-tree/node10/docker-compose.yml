@@ -1,0 +1,11 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/node10:${TAG}
+
+services:
+  node-builder:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/node10/node-builder:${TAG}
+    build:
+      context: ./node-builder
+      args:
+        FROM_IMAGE: *parent_image

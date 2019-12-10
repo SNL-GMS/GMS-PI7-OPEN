@@ -1,0 +1,11 @@
+build/
+dist/
+node_modules/
+typings
+.idea
+.idea
+*.iml
+npm-debug.log
+debug.log
+**/.DS_STORE
+coveage/

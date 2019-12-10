@@ -1,0 +1,19 @@
+$foreground-color: #ddd;
+
+.x-axis {
+  background-color: #202b33;
+
+  .x-axis-axis {
+    path,
+    line {
+      fill: none;
+      stroke: $foreground-color;
+      shape-rendering: crispEdges;
+    }
+    text {
+      font-family: sans-serif;
+      font-size: 11px;
+      fill: #ddd;
+    }
+  }
+}

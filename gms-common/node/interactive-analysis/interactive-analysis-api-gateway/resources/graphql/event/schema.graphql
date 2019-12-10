@@ -1,0 +1,431 @@
+# Enumerated status of an event
+enum EventStatus {
+
+    # The event is ready to be opened for refinement
+    ReadyForRefinement
+
+    # The event is open for refinement
+    OpenForRefinement
+
+    # The event is awaiting review
+    AwaitingReview
+
+    # The event is marked as complete
+    Complete
+}
+
+# Represents an event marking the occurrence of some transient
+# source of energy in the ground, oceans, or atmosphere 
+type Event {
+
+    # The unique ID of the event
+    id: String!
+
+    # The monitoring organization associated with the event
+    monitoringOrganization: String
+
+    # The preferred hypothesis of the event for the provided
+    # processing stage
+    preferredHypothesisForStage (forStage: ForStage!): PreferredEventHypothesis
+
+    # The current event hypothesis (UI sources values)
+    currentEventHypothesis: PreferredEventHypothesis!
+
+    # The history of preferred hypotheses for the event, ordered from
+    # earliest to latest
+    preferredHistory: [PreferredEventHypothesis]!
+
+    # The list of preferred hypotheses for the event associated with 
+    # each processing stage
+    preferredForStageHistory: [PreferredEventHypothesis]!
+
+    # The collection of hypotheses associated with the event
+    hypotheses: [EventHypothesis]!
+
+    # The current state of the event
+    status: EventStatus
+
+    # The list of currently-active analysts for the event
+    activeAnalysts: [Analyst]
+
+    # Modified flag indicates something in the event has changed and needs saving
+    modified: Boolean!
+
+    # Flag that indicates if the event has an associated SD Hyp that is also associated to another event
+    hasConflict: Boolean!
+
+    # List of Signal Detection hypotheses with conflict
+    conflictingSdHypIds: [String]!
+}
+
+# Input for queries by processing stage
+input ForStage {
+    stageId: String!
+}
+
+# The preferred hypothesis for the event at a given processing stage
+type PreferredEventHypothesis {
+
+    # The processing stage that the event hypothesis is preferred for
+    processingStage: ProcessingStage
+
+    # The preferred event hypothesis for the stage
+    eventHypothesis: EventHypothesis!
+}
+
+# Represents a proposed explanation for an event, such that the set of
+# event hypotheses grouped by an Event represents the history of that event.
+type EventHypothesis {
+
+    # The unique ID of the event hypothesis
+    id: String! # ! must come back
+
+    # Flag indicating whether or not the event hypothesis has been rejected
+    rejected: Boolean!
+
+    # The event this hypothesis pertains to
+    event: Event!
+
+    # The max arrival time is set so we don't have to send all the feature
+    # measurements for each SignalDetectionEventAssociation below.
+    # max arrival time value is set in the resolver for the signalDetectionAssociations
+    associationsMaxArrivalTime: Float!
+    
+    # The signal detection hypothesis associations for the event hypothesis
+    signalDetectionAssociations: [SignalDetectionEventAssociation]!
+
+    # The location solutions associated with the event hypothesis
+    # multiple solutions are formed using different location constraints such as depth
+    # (i.e. unconstrained, fixed to surface, fixed to a depth below the surface), location, or time.
+    locationSolutionSets: [LocationSolutionSet]! # this is a required array
+
+    # The preferred location solution for the event hypothesis
+    preferredLocationSolution: PreferredLocationSolution
+}
+
+type SignalDetectionEventAssociationInput {
+
+    # The unique ID of the association
+    id: String!
+
+    # The associated signal detection hypothesis
+    signalDetectionHypothesisId: String!
+
+    # The associated event hypothesis
+    eventHypothesisId: String!
+
+    # Flag indicating whether or not the association has been rejected
+    rejected: Boolean!
+}
+
+# Represents the linkage between Event Hypotheses and Signal Detection Hypotheses.
+# The rejected attribute is used to ensure that any rejected associations will not
+# be re-formed in subsequent processing stages.
+type SignalDetectionEventAssociation {
+
+    # The unique ID of the association
+    id: String!
+
+    # The associated signal detection hypothesis
+    signalDetectionHypothesis: SignalDetectionHypothesis!
+
+    # The associated event hypothesis
+    eventHypothesisId: String!
+
+    # Flag indicating whether or not the association has been rejected
+    rejected: Boolean!
+}
+
+# Location Solution Set
+# defines a list of location solutions for an event hypotheis
+# including a snapshot of association when solutions were created
+type LocationSolutionSet {
+    id: String!
+    count: Int!
+    locationSolutions: [LocationSolution]!
+}
+
+# Snapshot of state of associations when location solution was created
+type SignalDetectionSnapshot {
+    signalDetectionId: String!
+    signalDetectionHypothesisId: String!
+    stationId: String!
+    stationName: String!
+    channelName: String!
+    phase: String!
+    time: EventSignalDetectionAssociationValues!
+    slowness: EventSignalDetectionAssociationValues!
+    azimuth: EventSignalDetectionAssociationValues!
+}
+
+# Generic interface for snapshot values of a signal detection association
+type EventSignalDetectionAssociationValues {
+    defining: Boolean!
+    observed: Float!
+    residual: Float
+    correction: Float
+}
+
+# Represents an estimate of the location of an event, defined as latitude, longitude, depth, and time.
+# A location solution is often determined by a location algorithm that minimizes the difference between
+# feature measurements (usually arrival time, azimuth, and slowness) and corresponding feature predictions.
+type LocationSolution {
+    id: String!
+    location: EventLocation!
+    featurePredictions: [FeaturePrediction]!
+    locationRestraint: LocationRestraint!
+    locationUncertainty: LocationUncertainty
+    locationBehaviors: [LocationBehavior]!
+    locationType: String!
+    snapshots: [SignalDetectionSnapshot]!
+}
+# Restraint used in location calcs
+type LocationRestraint {
+    depthRestraintType: String!
+    depthRestraintKm: Float
+    latitudeRestraintType: String!
+    latitudeRestraintDegrees: Float
+    longitudeRestraintType: String!
+    longitudeRestraintDegrees: Float
+    timeRestraintType: String!
+    timeRestraint: String
+}
+
+type LocationUncertainty {
+    xy: Float!
+    xz: Float!
+    xt: Float!
+    yy: Float!
+    yz: Float!
+    yt: Float!
+    zz: Float!
+    zt: Float!
+    tt: Float!
+    stDevOneObservation: Float!
+    ellipses: [Ellipse]
+    ellipsoids: [Ellipsoid]
+}
+type Ellipse {
+    scalingFactorType: String!
+    kWeight: Float!
+    confidenceLevel: Float!
+    majorAxisLength: String!
+    majorAxisTrend: Float!
+    minorAxisLength: String!
+    minorAxisTrend: Float!
+    depthUncertainty: Float!
+    timeUncertainty: String!
+}
+
+type Ellipsoid {
+    scalingFactorType: String!
+    kWeight: Float!
+    confidenceLevel: Float!
+    majorAxisLength: String!
+    majorAxisTrend: Float!
+    majorAxisPlunge: Float!
+    intermediateAxisLength: Float!
+    intermediateAxisTrend: Float!
+    intermediateAxisPlunge: Float!
+    minorAxisLength: String!
+    minorAxisTrend: Float!
+    minorAxisPlunge: Float!
+    depthUncertainty: Float!
+    timeUncertainty: String!
+}
+
+# LocationBehavoir type and input
+type LocationBehavior {
+    residual: Float!
+    weight: Float!
+    defining: Boolean!
+    featurePredictionId: String!
+    featureMeasurementId: String!
+}
+
+input LocationBehaviorInput {
+    residual: Float!
+    weight: Float!
+    defining: Boolean!
+    featurePredictionId: String!
+    featureMeasurementId: String!
+}
+
+type EventLocation {
+  latitudeDegrees: Float!
+  longitudeDegrees: Float!
+  depthKm: Float!
+  time: Float!
+}
+# Enumerated type of magnitude solution (surface wave, body wave, local, etc.)
+#enum MagnitudeType {
+#    mb
+#    mbMLE
+#    mbrel
+#    ms
+#    msMLE
+#    msVMAX
+#    ml
+#}
+
+# An estimate of the event's magnitude based on detections from multiple stations
+#type NetworkMagnitudeSolution {
+
+    # The type of magnitude estimate (e.g. surface wave, body wave, local, etc.)
+#    magnitudeType: MagnitudeType!
+
+    # The magnitude value
+#    magnitude: Float!
+#}
+
+# Represents a preference relationship between an event hypothesis and a location solution.
+# Creation information is included in order to capture provenance of the preference.
+type PreferredLocationSolution {
+
+    # The preferred location solution
+    locationSolution: LocationSolution!
+
+    # Creation information for the preference relationship
+    creationInfo: CreationInfo!
+}
+
+# Encapsulates input used to create a location solution for an event hypothesis
+input EventLocationInput {
+
+    # Latitude in degrees
+    latitudeDegrees: Float!
+    
+    # Longitude in degrees
+    longitudeDegrees: Float!
+
+    # Depth in kilometers
+    depthKm: Float!
+
+    # Time (seconds since Unix epoch)
+    time: Float!
+}
+
+# Represents a Feature Prediction as part of the Location Solution. This should represent a 
+# predicted location of the event.
+type FeaturePrediction {
+    id: String
+    phase: String
+    predictedValue: FeatureMeasurementValue!
+    featurePredictionComponents: [FeaturePredictionComponent]! # Java declares as a set not sure in JSON
+    extrapolated: Boolean!
+    predictionType: FeatureMeasurementTypeName
+    sourceLocation: EventLocation!
+    receiverLocation: Location!
+    channelId: String
+    stationId: String
+}
+
+# Feature Prediction Component definition
+type FeaturePredictionComponent {
+    value: DoubleValue!
+    extrapolated: Boolean!
+    predictionComponentType: FeaturePredictionCorrectionType!
+}
+
+# Enumerated types for the Feature Prediction Corrections
+enum FeaturePredictionCorrectionType {
+    BASELINE_PREDICTION
+    ELEVATION_CORRECTION
+    ELLIPTICITY_CORRECTION
+}
+
+# Encapsulates input used to create a new event hypothesis.
+input CreateEventHypothesisInput {
+
+    # The IDs of signal detection hypothesis associated with the event hypothesis
+    associatedSignalDetectionIds: [String]!
+
+    # The location solution input for the event hypothesis
+    eventLocationInput: EventLocationInput
+
+    # The ID of the actor who is creating the event hypothesis (e.g. analyst userId)
+    creatorId: String!
+
+    # The ID of the processing stage the event hypothesis is being created in
+    processingStageId: String!
+}
+
+# Encapsulates input parameters used to update an existing event hypothesis in line.
+input UpdateEventHypothesisInput {
+
+    # Flag indicating whether or not the event hypothesis has been rejected
+    rejected: Boolean
+
+    # The IDs of signal detection hypothesis associated with the event hypothesis
+    associatedSignalDetectionIds: [String]
+
+    # The location solution input for the event hypothesis
+    eventLocationInput: EventLocationInput
+
+    # The ID of the actor who is creating the event hypothesis (e.g. analyst userId)
+    creatorId: String!
+
+    # The ID of the processing stage the event hypothesis is being created in
+    processingStageId: String!
+}
+
+# Encapsulates input parameters used to update an existing event (without the need for
+# a new event hypothesis)
+input UpdateEventInput {
+
+    # The ID of the actor who is creating the event hypothesis (e.g. analyst userId)
+    creatorId: String!
+
+    # The ID of the processing stage the event hypothesis is being created in
+    processingStageId: String!
+
+    # The event status to update (optional)
+    status: EventStatus
+
+    # The preferred event hypothesis ID (optionsl)
+    preferredHypothesisId: String
+
+    # The list of currently-active analysts for the event
+    activeAnalystUserNames: [String]
+}
+
+# The following event related queries are supported.
+extend type Query {
+    eventHypothesesInTimeRange(timeRange: TimeRange!): [EventHypothesis]
+    eventsInTimeRange(timeRange: TimeRange!): [Event]
+    eventById(eventId: String!): Event
+}
+
+# The following event related mutations are supported.
+extend type Mutation {
+    # Creates a new event and associates the SD Hyps passed in
+    # SD Hyps are not required, an empty event can be created
+    createEvent (signalDetectionHypoIds: [String]): EventAndAssociationChange
+
+    # Update the list of existing events event for cases where new event
+    # hypotheses will not be created (e.g. event status)
+    updateEvents (eventIds: [String]!, input: UpdateEventInput!): [Event]
+    
+    # Create a new list of event hypotheses based on the input
+    createEventHypotheses (eventIds: [String]!, input: CreateEventHypothesisInput!): [EventHypothesis]
+
+    # Update an existing list of event hypotheses in place using the provided input
+    # (i.e. without creating a new event hypotheses)
+    updateEventHypothesis (hypothesisIds: [String]!, input: UpdateEventHypothesisInput!): EventHypothesis
+
+    # Call to recompute the feature prediction for event based on input params (TBD)
+    updateFeaturePredictions(eventId: String!): Event
+
+    # Mutation to (un)associate Signal Detections to event hypothesis
+    changeSignalDetectionAssociations(eventHypothesisId: String!, signalDetectionHypoIds:[String]!, associate: Boolean!): AssociationChange
+
+    # Mutation to Locate Event
+    locateEvent(eventHypothesisId: String!, preferredLocationSolutionId: String!, locationBehaviors: [LocationBehaviorInput]!): EventHypothesis
+},
+
+# The following event-related subscriptions are supported.
+extend type Subscription {
+    # Subscribe for events that have been saved to OSD
+    # via the save event mutation.
+    eventsCreated: [Event]
+}

@@ -1,0 +1,131 @@
+version: '3.7'
+
+services:
+
+  nifi-data-acq:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/openjdk9/nifi:${DOCKERTREE_VERSION}'
+    environment:
+      ZOO_QUORUM: zoo1:2181
+    depends_on:
+      - zoo1
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.docker.network=traefik-net-data-diode"
+        - "traefik.app.port=8080"
+        - "traefik.app.frontend.rule=Host:nifi-data-acq.${SUBDOMAIN}.${BASE_DOMAIN}"
+        - "traefik.app.frontend.headers.customRequestHeaders=X-ProxyScheme:http||X-ProxyHost:nifi-data-acq.${SUBDOMAIN}.${BASE_DOMAIN}||X-ProxyPort:80"
+        - "traefik.debug.port=8081"
+        - "traefik.debug.frontend.rule=Host:debug.nifi-data-acq.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.nifi-data-acq == true
+    volumes:
+      - nifi-data-acq:/grid/persistence:rw
+      - nifi-frames:/grid/frames:rw
+
+  nifi-registry-data-acq:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/nifi-registry:${DOCKERTREE_VERSION}'
+    depends_on:
+      - nifi-data-acq
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=18080"
+        - "traefik.docker.network=traefik-net-data-diode"
+        - "traefik.frontend.rule=Host:nifi-registry-data-acq.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  zoo1:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/zookeeper:${DOCKERTREE_VERSION}'
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=zoo1:2888:3888
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  ims2-service:
+    image: ${CI_DOCKER_REGISTRY}/gms/ims2_service
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  postgresql-stationreceiver:
+    image: registry.hub.docker.com/library/postgres:9.5.14
+    environment:
+      POSTGRES_DB: xmp_metadata
+      POSTGRES_USER: xmp
+      POSTGRES_PASSWORD: "gmsdb:xmp@postgres=bird-hero-calendar"
+    volumes:
+      - postgres-data-acq:/var/lib/postgresql/data:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  da-connman:
+    image: ${CI_DOCKER_REGISTRY}/gms-common/cd11-connman:latest
+    ports:
+      - "8041:8041"
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  da-dataman:
+    image: ${CI_DOCKER_REGISTRY}/gms-common/cd11-dataman:latest
+    volumes:
+      - cd11:/dare-receiver/shared-volume:rw
+    ports:
+      - "8100-8110:8100-8110"
+    deploy:
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.cd11-data-acq == true
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  # The names of these containers must match the hostnames from config
+
+  osd-stationreference-coi-service:
+    image: ${CI_DOCKER_REGISTRY}/gms-common/osd-stationreference-coi-service:latest
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  osd-waveforms-repository-service:
+    image: ${CI_DOCKER_REGISTRY}/gms-common/osd-waveforms-repository-service
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+volumes:
+  nifi-data-acq:
+  postgres-data-acq:
+  nifi-frames:
+    name: ${GMS_STACK}_seedlink
+    external: true
+  cd11:
+    name: ${GMS_STACK}_cd11-dataframes
+    external: true
+
+networks:
+  default:
+    name: traefik-net-data-diode
+    external: true

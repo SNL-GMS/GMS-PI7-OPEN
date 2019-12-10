@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+dependencies {
+    implementation 'com.google.guava:guava'
+    implementation 'org.apache.commons:commons-lang3'
+
+    // Serialization (dependencies are api as we expose our ObjectMapper as a singleton).
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}   

@@ -1,0 +1,63 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+$HEIGHT_OF_BLUEPRINT_DATE_PICKER: -228px;
+
+.time-picker__input {
+    color: #eee;
+    font-size: 14px;
+    background-color: rgba(16, 22, 26, 0.3);
+    border-radius: 4px;
+    line-height: 14px;
+    border-color: #656Fa0;
+    padding: 0.5em 0 .5em .5em;
+    font-family: monospace;
+    resize: none;
+    overflow: hidden;
+
+
+
+}
+.time-picker__input:focus {
+    border-color: #3781E1;
+}
+.time-picker__input--invalid {
+    color: #eee;
+    font-size: 14px;
+    background-color: rgba(16, 22, 26, 0.3);
+    border-radius: 4px;
+    line-height: 14px;
+    border-color: red;
+    padding: 0.5em 0 .5em .5em;
+    font-family: monospace;
+    resize: none;
+
+}
+.time-picker {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0px;
+
+}
+
+.time-picker__date-picker{
+    position: absolute;
+    top: -232px;
+    border-radius: 4px;
+    border: 1px solid #3781E1;
+    right: 0px;
+    z-index: 5;
+}
+.time-picker__date-picker--bottom {
+    top: 32px;
+}
+.time-picker__date-picker-button--active{
+    border: 1px solid #3781E1 !important;
+}
+.time-picker__date-picker-button {
+    position: relative;
+    left: 0px;
+    margin-left: .3em; 
+    z-index: 5;
+    width: 30px;
+}

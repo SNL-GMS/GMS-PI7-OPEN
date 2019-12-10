@@ -1,0 +1,40 @@
+version: '3'
+services:
+
+  filter-control:
+    image: "${CI_DOCKER_REGISTRY}/filter-control"
+    depends_on:
+      - osd-postgres
+    ports:
+      - "8080:8080"
+    restart: always
+    networks:
+      - gms
+
+  waveforms-repository:
+    image: "${CI_DOCKER_REGISTRY}/object-storage-distribution/waveforms-repository-service"
+    ports:
+      - "8082:8080"
+    depends_on:
+      - osd-postgres
+    restart: always
+    networks:
+      - gms
+
+  osd-postgres:
+    image: "${CI_DOCKER_REGISTRY}/postgres:9.5.4"
+    ports:
+          - "5432:5432"
+    env_file:
+      - ./env.db
+    volumes:
+      - "postgres-data:/var/lib/postgresql/data:rw"
+    restart: always
+    networks:
+      - gms
+
+volumes:
+  postgres-data:
+
+networks:
+  gms:

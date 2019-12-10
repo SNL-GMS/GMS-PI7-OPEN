@@ -1,0 +1,7 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':osd-repository')
+
+    implementation 'org.apache.commons:commons-lang3'
+}

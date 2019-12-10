@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "removeComments": true,
+        "jsx": "react",
+        "outDir": "./build/js",
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "declarationDir": "./packages",
+        "lib": [
+            "dom",
+            "es5",
+            "scripthost",
+            "es6"
+        ],
+        "baseUrl": "./",
+        "paths": { 
+            "analyst-ui-core/" : ["packages/analyst-ui-core/"],
+            "analyst-ui-electron/" : ["packages/analyst-ui-electron/"],
+            "ui-core-components/" : ["packages/ui-core-components/"],
+            "weavess/" : ["packages/weavess/"],
+            }
+    }  
+}

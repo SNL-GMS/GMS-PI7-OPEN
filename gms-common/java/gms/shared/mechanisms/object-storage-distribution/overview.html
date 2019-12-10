@@ -1,0 +1,22 @@
+
+<body>
+<h1>Overview of the Object Storage Distribution (OSD) Module</h1>
+<p>A central component of the GMS System is the persistent storage of an extensive history of sensor
+  and station data, station configuration data, significant signal detections and events.
+  In previous versions of the system access to the data was achieved by directly interacting with
+  the RDBMS query language.  This direct form of access resulted in strong dependencies between the
+  application software and tools and the database structure, resulting in significant impact when
+  modifying or expanding the underlying database schema.  A design goal for the modernized system
+  is to isolate the application software from the underlying database schema and data storage
+  technology to limit the impact of changing the database structure and implementation.
+</p>
+<p>This isolation will be achieved through a mechanism called the Object Storage and Distribution
+  Mechanism or OSD.  The OSD will be responsible for persisting and retrieving data in the System.
+  The OSD will be responsible for translating the data calls into
+  queries on the underlying data storage technologies, integrating results if the query required
+  data from multiple data stores, and returning results.  The definition of the query interface
+  to the persisted data and associated data class definitions is described in the Common Object
+  Interface (COI).
+</p>
+
+</body>

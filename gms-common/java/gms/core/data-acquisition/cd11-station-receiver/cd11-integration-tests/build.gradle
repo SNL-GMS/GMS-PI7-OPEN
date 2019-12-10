@@ -1,0 +1,17 @@
+dependencies {
+    // Project dependencies.
+    testImplementation project(':cd11-common')
+    testImplementation project(':cd11-connman')
+    testImplementation project(':cd11-dataman')
+    testImplementation project(':cd11-dataprovider')
+    testImplementation project(':cd11-stationreceiver-osd-client')
+    testImplementation project(':osd-repository')
+    testImplementation project(':java-utilities')
+
+    // Third-party dependencies.
+    testImplementation 'com.h2database:h2'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

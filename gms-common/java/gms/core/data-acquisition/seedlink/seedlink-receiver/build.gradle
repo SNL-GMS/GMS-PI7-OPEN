@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+// apply plugin: 'application'
+// mainClassName = 'gms.dataacquisition.seedlink.receiver.Application'
+
+
+dependencies {
+    api project(':java-utilities')
+    implementation project(':seedlink-client-library')
+    implementation project(':osd-commonobjects')
+
+    // Google AutoValue
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}   

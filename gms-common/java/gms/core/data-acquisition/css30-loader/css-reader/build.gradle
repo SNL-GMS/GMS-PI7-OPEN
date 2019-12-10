@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+dependencies {
+    // Project dependencies.
+    implementation project(':osd-commonobjects')
+    implementation project(':waveman')
+
+    // Third-party dependencies.
+    api 'com.google.guava:guava'
+    implementation 'com.github.ffpojo:ffpojo'
+    implementation 'org.apache.commons:commons-lang3'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

@@ -1,0 +1,15 @@
+name: "filter2-4"
+constraints:
+  - constraintType: "STRING"
+    criterion: "name"
+    operator:
+      type: "EQ"
+      negated: false
+    value:
+      - "filter2-4"
+    #priority: 100
+parameters:
+  min_freq_hz: 2
+  max_freq_hz: 3
+  order: 3
+  name: "butterworth"

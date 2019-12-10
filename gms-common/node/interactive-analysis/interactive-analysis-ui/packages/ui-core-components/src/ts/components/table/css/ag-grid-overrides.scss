@@ -1,0 +1,60 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+$icons-path: "~ag-grid-community/src/styles/ag-theme-balham/icons/";
+
+// Alphabetized
+
+$border-color: $gray5;
+$background-color: $dark-gray2; // Not actually the background color, changes color within only table
+
+$cell-horizontal-border: none; // The vertical border between columns 
+
+$editor-background-color: $dark-gray1;
+
+$header-background-color: $dark-gray5;
+$hover-color: none;
+
+$icon-color: white; // Responsable for icon color
+
+$odd-row-background-color: $dark-gray1;
+
+$panel-background-color: $dark-gray1; // Color of the ag-grid table background not the container
+$primary-color: white; // Responsable for icon color 
+
+$row-group-indent-size: 25px; // Determines row child on expand indent
+
+$selected-color: $blue1;
+
+$value-change-value-highlight-background-color: $forest2;
+$value-change-delta-up-color: $forest2;
+
+@import 'ag-grid-community/src/styles/ag-grid.scss';
+@import 'ag-grid-community/src/styles/ag-theme-dark/sass/ag-theme-dark.scss';
+
+/**
+  * Begin of non-variable overrideable manual overrides 
+ */
+ 
+ // Background to the 
+.ag-theme-dark {
+    background-color: $dark-gray1;
+}
+
+.ag-theme-dark .ag-cell {
+    padding-left: 2px;
+} 
+
+.ag-theme-dark .ag-header-cell {
+    padding: 2px;
+}
+
+.ag-theme-dark .ag-cell-not-inline-editing {
+    padding: 2px;
+    // compensate for the transparent borders;
+    padding-left: 1px;
+}
+
+// Currently the actual css that is changing the icon color 
+.ag-theme-dark .ag-icon {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}

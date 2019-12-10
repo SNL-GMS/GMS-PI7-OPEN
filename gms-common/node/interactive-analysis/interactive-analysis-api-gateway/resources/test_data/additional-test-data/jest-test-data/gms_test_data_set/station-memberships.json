@@ -1,0 +1,20 @@
+[
+    {
+        "comment": "Relationship for station ASAR and site AS01", 
+        "status": "ACTIVE", 
+        "systemChangeTime": "2005-06-14T00:00:00Z", 
+        "actualChangeTime": "2005-06-14T00:00:00Z", 
+        "stationId": "d1a4092a-62ab-3ed3-a46e-06ae16dc6f7e", 
+        "siteId": "21b73745-1560-3caf-a9b9-3253f37b0965", 
+        "id": "441a076f-1089-3944-88e7-0234417a2133"
+    }, 
+    {
+        "comment": "Relationship for station ASAR and site AS01", 
+        "status": "ACTIVE", 
+        "systemChangeTime": "1989-06-25T00:00:00Z", 
+        "actualChangeTime": "1989-06-25T00:00:00Z", 
+        "stationId": "d1a4092a-62ab-3ed3-a46e-06ae16dc6f7e", 
+        "siteId": "21b73745-1560-3caf-a9b9-3253f37b0965", 
+        "id": "c5f5bf6c-e3cc-3699-913a-ee587c8545b6"
+    }
+]

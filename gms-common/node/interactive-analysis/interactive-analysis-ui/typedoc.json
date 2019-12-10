@@ -1,0 +1,10 @@
+{
+  "name": "Interactive Analysis",
+  "mode": "modules",
+  "out": "doc",
+  "theme": "default",
+  "ignoreCompilerErrors": "false",
+  "preserveConstEnums": "true",
+  "excludeExternals": "true",
+  "stripInternal": "false"
+}

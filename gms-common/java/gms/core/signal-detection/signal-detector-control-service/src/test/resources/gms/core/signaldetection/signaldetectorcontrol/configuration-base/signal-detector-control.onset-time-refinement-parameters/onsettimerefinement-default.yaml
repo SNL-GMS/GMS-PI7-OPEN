@@ -1,0 +1,9 @@
+name: "ONSET-TIME-REFINEMENT-DEFAULT"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  pluginName: "aicOnsetTimeRefinementPlugin"
+  pluginParameters:
+    $ref=global.config:
+      - criterion: "name"
+        value: "aic-default"

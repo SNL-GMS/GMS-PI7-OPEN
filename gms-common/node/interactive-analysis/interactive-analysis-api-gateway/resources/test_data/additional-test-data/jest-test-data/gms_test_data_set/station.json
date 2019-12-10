@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Loaded from site file.", 
+        "elevation": 0.607, 
+        "description": "Alice_Springs_Array,_Australia", 
+        "actualChangeTime": "1989-06-25T00:00:00Z", 
+        "systemChangeTime": "1989-06-25T00:00:00Z", 
+        "longitude": 133.9044, 
+        "source": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2005-06-14T00:00:00Z, Loaded from CSS file"
+        }, 
+        "versionId": "station1-1111-1111-1111-111111111110", 
+        "stationType": "SeismicArray", 
+        "latitude": -23.6664, 
+        "entityId": "d1a4092a-62ab-3ed3-a46e-06ae16dc6f7e", 
+        "aliases": [], 
+        "name": "ASAR"
+    }, 
+    {
+        "comment": "Loaded from site file.", 
+        "elevation": 0.627, 
+        "description": "Alice_Springs_Array,_Australia", 
+        "actualChangeTime": "2005-06-14T00:00:00Z", 
+        "systemChangeTime": "2005-06-14T00:00:00Z", 
+        "longitude": 133.90526, 
+        "source": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2286-11-20T00:00:00Z, Loaded from CSS file"
+        }, 
+        "versionId": "station1-1111-1111-1111-111111111111", 
+        "stationType": "SeismicArray", 
+        "latitude": -23.66513, 
+        "entityId": "d1a4092a-62ab-3ed3-a46e-06ae16dc6f7e", 
+        "aliases": [], 
+        "name": "ASAR"
+    }
+]

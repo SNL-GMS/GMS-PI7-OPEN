@@ -1,0 +1,12 @@
+name: gms
+
+dependencies:
+- python=3.6.0
+- pip
+- pip:
+  - tenacity==4.12.0
+  - etcd3==0.8.1
+  - six==1.11.0
+  - jproperties==2.0.0
+  - protobuf==3.6.0
+  - grpcio==1.12.1

@@ -1,0 +1,53 @@
+version: '2'
+services:
+
+  postgresql-stationreceiver:
+    image: registry.hub.docker.com/library/postgres:9.5.14
+    env_file:
+      - postgres/env.db
+    volumes:
+      - "postgres-data:/var/lib/postgresql/data:rw"
+    restart: always
+
+  da-connman:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/cd11-connman:latest
+    volumes:
+      - "./shared-volume:/dare-receiver/shared-volume:rw"
+    ports:
+      - "8041:8041"
+    restart: always
+
+  da-dataman:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/cd11-dataman:latest
+    volumes:
+      - "./shared-volume:/dare-receiver/shared-volume:rw"
+    ports:
+      - "8100-8110:8100-8110"
+    restart: always
+
+  da-frame-management:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/frame-management-low:latest
+    environment:
+      HARDLINK_DIRECTORIES: "docker-compose-sandbox docker-compose-release docker-swarm-sandbox docker-swarm-release"
+      DELETION_AGE_MINS: 120
+      DELETION_SLEEP: 5
+    volumes:
+      - "./shared-volume:/frame-management/shared-volume:rw"
+    restart: always
+
+  # The names of these containers must match the hostnames from config
+
+  osd-stationreference-coi-service:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/osd-stationreference-coi-service:latest
+    ports:
+      - "8080:8080"
+    restart: always
+
+  osd-waveforms-repository-service:
+    image: ${DATA_ACQ_DOCKER_REGISTRY}/gms-common/osd-waveforms-repository-service
+    restart: always
+
+
+volumes:
+  postgres-data:
+  shared-volume:

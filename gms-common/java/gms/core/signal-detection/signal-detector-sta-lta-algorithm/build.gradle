@@ -1,0 +1,7 @@
+dependencies {
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

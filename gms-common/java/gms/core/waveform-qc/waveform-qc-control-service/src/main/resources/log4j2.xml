@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="MyApp" packages="" status="warn">
+  <Appenders>
+    <Console name="STDOUT" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d %p %c [%t] %m%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="STDOUT"/>
+    </Root>
+  </Loggers>
+</Configuration>
+
+  <!--<?xml version="1.0" encoding="UTF-8"?>-->
+  <!--<ServiceConfiguration name="MyApp" packages="" status="warn">-->
+  <!--<Appenders>-->
+  <!--<RollingFile fileName="logs/app.log"-->
+  <!--filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz"-->
+  <!--name="RollingFile">-->
+  <!--<PatternLayout>-->
+  <!--<Pattern>%d %p %c [%t] %m%n</Pattern>-->
+  <!--</PatternLayout>-->
+  <!--<Policies>-->
+  <!--<TimeBasedTriggeringPolicy/>-->
+  <!--<SizeBasedTriggeringPolicy size="250 MB"/>-->
+  <!--</Policies>-->
+  <!--</RollingFile>-->
+  <!--</Appenders>-->
+  <!--<Loggers>-->
+  <!--<Root level="info">-->
+  <!--<AppenderRef ref="RollingFile"/>-->
+  <!--</Root>-->
+  <!--</Loggers>-->
+  <!--</ServiceConfiguration>-->

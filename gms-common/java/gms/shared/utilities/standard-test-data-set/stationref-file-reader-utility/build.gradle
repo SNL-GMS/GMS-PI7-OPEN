@@ -1,0 +1,14 @@
+apply plugin: "java-library"
+
+dependencies {
+    //GMS Dependencies
+    implementation project(':osd-commonobjects')
+
+    implementation 'com.google.guava:guava'
+
+    // Serialization (dependencies are api as we expose our ObjectMapper as a singleton).
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+}
+

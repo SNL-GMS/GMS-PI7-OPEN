@@ -1,0 +1,280 @@
+# Represents a signal detection marking the arrival of a signal of interest on
+# channel within a time interval.
+type SignalDetection {
+
+    # The unique ID of the signal detection
+    id: String!
+
+    # The monitoring organization that created the signal detection
+    monitoringOrganization: String!
+
+    # The processing station associates with the signal detection
+    station: ProcessingStation!
+
+    # The current hypothesis of the signal detection
+    currentHypothesis: SignalDetectionHypothesis!
+
+    # The collection of hypotheses associated with the signal detection
+    hypotheses: [SignalDetectionHypothesis]!
+}
+
+# Represents a proposed explanation for a Signal Detection
+type SignalDetectionHypothesis {
+
+    # The unique ID of the signal detection hypothesis
+    id: String!
+
+    # The phase label associated with the signal detection hypothesis
+    phase: String!
+
+    # Flag indicating whether or not the signal detection hypothesis has been rejected
+    rejected: Boolean!
+
+    # The signal detection the hypothesis is associated with
+    signalDetection: SignalDetection!
+
+    # The arrival time feature measurement for the signal deteciton hypothesis
+    arrivalTimeMeasurement: TimeFeatureMeasurement!
+
+    # The azimuth/slowness feature measurement for the signal detection hypothesis
+    azSlownessMeasurement: AzSlownessFeatureMeasurement
+
+    # The feature measurements associated with the signal detection hypothesis
+    # featureMeasurements: [FeatureMeasurement]!
+
+    # The event hypothesis associations for the signal detection hypothesis
+    signalDetectionAssociations: [SignalDetectionEventAssociation]!
+
+    # Provenance creation information for the signal detection hypothesis
+    creationInfo: CreationInfo!
+}
+
+# Enumeration of feature measurement types
+enum FeatureType {
+
+    # Signal detection ime measurements
+    ArrivalTime
+
+    # Signal detection azimuth/slowness measurements
+    AzimuthSlowness
+
+    # Signal detection amplitude measurements
+    Amplitude
+}
+
+ # Enumeration of operation types used in defining rules
+enum DefiningOperationType {
+    # Event location operation
+    Location
+
+    # Event magnitude operation
+    Magnitude
+}
+
+# Represents the defining relationship (isDefining: true|false) for an operation type (e.g. location, magnitude)
+type DefiningRule {
+
+    # The operation the defining relationship applies to
+    operationType: DefiningOperationType!
+
+    # Indicates whether a defining relationship (true) is set for the operation type or not (false)
+    isDefining: Boolean!
+}
+
+# Represents a generic feature measurement interface containing the fields common to the
+# concrete feature measurement data types defined in the system (e.g. TimeFeatureMeasurement, AzSlownessFeatureMeasurement)
+# interface FeatureMeasurement {
+
+    # The unique ID of the feature
+    # id: String!
+
+    # The type of the feature measurement
+    # featureType: FeatureType!
+
+    # The channel segment the feature was measured on
+    # channelSegment: ChannelSegment
+# }
+
+# Represents a measurement of signal detection azimuth & slowness
+# type AzSlownessFeatureMeasurement implements FeatureMeasurement {
+type AzSlownessFeatureMeasurement {
+    # The unique ID of the feature
+    id: String!
+
+    # The signal detection hypothesis the feature measurement applies to
+    hypothesis: SignalDetectionHypothesis!
+
+    # The type of the feature measurement
+    featureType: FeatureType!
+
+    # The channel segment the feature was measured on
+    # channelSegment: ChannelSegment
+
+    # The defining rules for the azimuth feature measurement
+    azimuthDefiningRules: [DefiningRule]!
+
+    # The defining rules for the slowness feature measurement
+    slownessDefiningRules: [DefiningRule]!
+
+    # Azimuth measurment value
+    azimuthDeg: Float!
+
+    # Slowness measurement value
+    slownessSecPerDeg: Float!
+
+    # Azimuth uncertainty
+    azimuthUncertainty: Float!
+
+    # Slowness uncertainty
+    slownessUncertainty: Float!
+
+    # The Frequency Wavenumber data associated with the azimuth/slowness measurement
+    fkData: FkPowerSpectra
+}
+type FkPowerSpectra {
+  id: String!
+  contribChannels: [ProcessingChannel]!
+  startTime: Float!
+  sampleRate: Float!
+  sampleCount: Float!
+  windowLead: Float!
+  windowLength: Float!
+  phaseType: String!
+  lowFrequency: Float!
+  highFrequency: Float!
+  xSlowStart: Float!
+  xSlowCount: Float!
+  xSlowDelta: Float!
+  ySlowStart: Float!
+  ySlowCount: Float!
+  ySlowDelta: Float!
+  accepted: Boolean!
+  values: [FkPowerSpectrum]!
+  fStatData: FstatData!
+}
+type FstatData {
+    azimuthWf: Waveform!
+    slownessWf: Waveform!
+    fstatWf: Waveform!
+    beamWf: Waveform!
+}
+type FkPowerSpectrum {
+  power: [[Float]]!
+  fstat: [[Float]]!
+  quality: Float!
+  attributes: FkAttributes!
+}
+type FkAttributes {
+  peakFStat: Float!
+  azimuth: Float!
+  slowness: Float!
+  azimuthUncertainty: Float!
+  slownessUncertainty: Float!
+}
+
+# Represents a measurement of signal detection onset time
+# type TimeFeatureMeasurement implements FeatureMeasurement {
+type TimeFeatureMeasurement {    
+    # The unique ID of the feature
+    id: String!
+
+    # The signal detection hypothesis the feature measurement applies to
+    hypothesis: SignalDetectionHypothesis!
+
+    # The type of the feature measurement
+    featureType: FeatureType!
+
+    # The channel segment the feature was measured on
+    # channelSegment: ChannelSegment
+
+    # The defining rules for the time feature measurement
+    definingRules: [DefiningRule]!
+
+    # Time value (seconds since UNIX epoch)
+    timeSec: Float!
+
+    # Time uncertainty
+    uncertaintySec: Float!
+}
+
+# Input parameters used to create a new signal detection
+input NewDetectionInput {
+
+    # The ID of the station the detection will be created on
+    stationId: String!
+    
+    # The phase to assign to the new detection's initial hypothesis
+    phase: String!
+
+    # The detection time (seconds since epoch) to assign to the new detection's initial hypothesis
+    time: Float!
+
+    # The uncertainty (seconds) associated with the time input
+    timeUncertaintySec: Float!
+}
+
+# Input parameters to update an existing signal detection
+# Each element of the input is optional; if present in the input, the value
+# will be applied to the signal detection
+input UpdateDetectionInput {
+
+    # The updated date/time (seconds since epoch) to apply to the signal detection hypothesis
+    time: Float
+
+    # The uncertainty (seconds) associated with the time input
+    timeUncertaintySec: Float
+
+    # The updated phase label to apply to the signal detection hypothesis
+    phase: String
+}
+
+# The following signal detection-related queries are supported.
+extend type Query {
+    signalDetectionHypothesesByStation (stationIds: [String]!, timeRange: TimeRange!): [SignalDetectionHypothesis]
+    signalDetectionHypothesesById (hypothesisIds: [String]!): [SignalDetectionHypothesis]
+    signalDetectionsByStation (stationIds: [String]!, timeRange: TimeRange!): [SignalDetection]
+    signalDetectionsById(detectionIds: [String]!): [SignalDetection]
+}
+
+# The following signal detection-related mutations are supported.
+extend type Mutation {
+
+    # Create a new signal detection & initial hypothesis using the provided input
+    createDetection (input: NewDetectionInput!): SignalDetection
+
+    # Update an existing signal detection using the provided input (creates a new hypothesis)
+    updateDetection (detectionId: String!, input: UpdateDetectionInput!): SignalDetection
+
+    # TODO
+    # updateFeatureMeasurement (detectionId: String!, fmInput: FeatureMeasurementInput)
+
+    # Update a collection of signal detection hypothesis using the provided input
+    updateDetections (detectionIds: [String]!, input: UpdateDetectionInput!): [SignalDetection]
+
+    # Reject a signal detection hypothesis
+    rejectDetections(detectionIds: [String]!): [SignalDetection]
+},
+
+# The following signal detection-related subscriptions are supported.
+extend type Subscription {
+
+    # Subscribe for signal detections that have been created
+    # via the createDetection mutation, or by the System.
+    detectionsCreated(startTime: Float, endTime: Float): [SignalDetection]
+
+    # Subscribe for signal detections that have been updated
+    # via the updateDetection mutation.
+    detectionUpdated: SignalDetection
+
+    # Subscribe for a collection of signal detections that have
+    # been updated via the updateDetections mutation.
+    detectionsUpdated: [SignalDetection]
+
+    # Subscribe for a collection of signal detections that have
+    # been rejected via the rejectDetections mutation.
+    detectionsRejected: [SignalDetection]
+
+    # Subscribe for when a SignalDetectionHypothesis
+    # has been updated (used when Az Slow changes in a Fk)
+    sdHypothesisUpdated: SignalDetectionHypothesis
+}

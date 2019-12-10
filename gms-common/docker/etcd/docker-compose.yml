@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  etcd:
+    image: '${CI_DOCKER_REGISTRY}/etcd:latest'
+    ports:
+      - 2379:2379
+    environment:
+      GMS_ETCD_PASSWORD: "gmsdb:gms@etcd=prevent-important-guest"
+      GMS_ETCD_ADMIN_PASSWORD: "gmsdb:gmsadmin@etcd=gravity-behave-proposal"
+      GMS_ETCD_ROOT_PASSWORD: "gmsdb:root@etcd=coffee-outline-taxi"
+    restart: on-failure
+    healthcheck:
+      test: ['CMD', 'etcdctl', 'endpoint', 'health', '--user', 'gms:gmsdb:gms@etcd=prevent-important-guest']
+      interval: 10s
+      timeout: 10s
+      retries: 10

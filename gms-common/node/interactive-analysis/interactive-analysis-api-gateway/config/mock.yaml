@@ -1,0 +1,5 @@
+yamlName: "mock"
+testData:
+    # Configuration of standard test data for exercising API gateway services 
+    standardTestDataSet:
+        stdsDataHome: /opt/app-root/src/Test_Data_Sets/Standard_Test_Data

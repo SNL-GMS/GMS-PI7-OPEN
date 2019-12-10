@@ -1,0 +1,11 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/docker:${TAG}
+
+services:
+  docker:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/docker/docker-compose:${TAG}
+    build:
+      context: ./docker-compose
+      args:
+        FROM_IMAGE: *parent_image

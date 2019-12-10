@@ -1,0 +1,75 @@
+
+# Represents the transfer gap fields used for gap status.
+type FileGap {
+    # Station Id
+    stationName: String
+
+    # Channel Id
+    channelNames: [String]
+
+    # Start time for transfer gap
+    startTime: String
+
+    # End time for transfer gap
+    endTime: String
+
+    # Duration for transfer gap
+    duration: String
+
+    # Location for transfer gap
+    location: String
+
+    # Priority for transfer gap
+    priority: String
+}
+
+# The following queries are supported.
+extend type Query {
+    # Retrieve transfer file information by time range
+    transferredFilesByTimeRange(timeRange: TimeRange!): [FileGap]
+}
+
+# Input to Reference Station mutations
+input ReferenceStation {
+    name: String!
+    description: String!
+    stationType: StationType!
+    comment: String!
+    source: InformationSourceInput!
+    latitude: Float!
+    longitude: Float!
+    elevation: Float!
+    actualChangeTime: String!
+    systemChangeTime: String!
+    aliases: [ReferenceAliasInput]!
+}
+
+input InformationSourceInput {
+    originatingOrganization: String
+    informationTime: String
+    reference: String
+}
+
+input ReferenceAliasInput {
+    id: String
+    name: String
+    status: StatusTypeName
+    comment: String
+    actualChangeTime: String
+    systemChangeTime: String
+}
+
+enum StatusTypeName {
+    INACTIVE,
+    ACTIVE
+}
+
+type SaveStationResult{
+    id: String!
+    result: Boolean!
+}
+
+# The following Data Aquisition mutations are supported.
+extend type Mutation {
+    saveReferenceStation (input: ReferenceStation!): SaveStationResult
+}

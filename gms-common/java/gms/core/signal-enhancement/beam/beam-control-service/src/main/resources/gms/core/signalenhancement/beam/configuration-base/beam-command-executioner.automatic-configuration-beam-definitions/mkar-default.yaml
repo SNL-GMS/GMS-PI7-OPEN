@@ -1,0 +1,87 @@
+name: "MKAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "channel-processing-group-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "0e7b18b9-d7ab-438d-a224-5808f777a638"
+    priority: 100
+parameters:
+  beamPoint:
+    latitudeDegrees: 46.793683
+    longitudeDegrees: 82.290569
+    depthKm: 0.0
+    elevationKm: 0.6176
+  relativePositionsByChannelId:
+    531443af-7d91-4b7c-8ea9-29829cc0aafd:
+      northDisplacementKm: -3.0993449712215355
+      eastDisplacementKm: 0.8174486664086149
+      verticalDisplacementKm: 0.011699999999999933
+    73c4b1d0-9c03-4ae8-9627-ab02a86f4763:
+      northDisplacementKm: -2.74705572395441
+      eastDisplacementKm: 0.7702303946063784
+      verticalDisplacementKm: -0.009500000000000064
+    671d4db0-773c-46d8-b2a5-a9ceffe5058f:
+      northDisplacementKm: 1.9246774295742795
+      eastDisplacementKm: 4.4549363977030145
+      verticalDisplacementKm: 0.07279999999999998
+    ec682ff5-4806-4383-b12c-495358126a5e:
+      northDisplacementKm: -4.265490191741564
+      eastDisplacementKm: -0.5892401826252712
+      verticalDisplacementKm: 0.0035999999999999366
+    8d7478a5-4b64-42f7-be1f-5db79466a3fd:
+      northDisplacementKm: -2.6245493337720838
+      eastDisplacementKm: 1.3747319605396393
+      verticalDisplacementKm: 0.017899999999999916
+    9541f309-b70f-4ce4-b7c9-ae206f68cdbc:
+      northDisplacementKm: -2.0802741193137213
+      eastDisplacementKm: 1.7260116934242136
+      verticalDisplacementKm: 0.0252
+    ff3867b0-97ef-4858-9d10-3f9b921056c3:
+      northDisplacementKm: 0.029681675298326746
+      eastDisplacementKm: 0.040464802873514255
+      verticalDisplacementKm: -0.012600000000000056
+    7bfeea91-a06e-4c2a-847f-94133ee4461c:
+      northDisplacementKm: -4.474707094031362
+      eastDisplacementKm: 1.9166868614157464
+      verticalDisplacementKm: 0.022199999999999998
+    9461e4f7-91e4-4a95-b8e6-9b05e0be2e78:
+      northDisplacementKm: -2.481921658087334
+      eastDisplacementKm: 0.35226993930012235
+      verticalDisplacementKm: -0.019500000000000073
+    7265ac9e-ee94-4e7a-8581-782145e7878e:
+      northDisplacementKm: -2.1297435781448275
+      eastDisplacementKm: -1.0744949911376485
+      verticalDisplacementKm: -0.04050000000000009
+  snappedSampling: true
+  beamGrid:
+    - slowness: 0.040931678676839806
+      azimuth: 53.083487527974796
+    - slowness: 0.06022357793894427
+      azimuth: 98.4219459268874
+    - slowness: 0.0682695641481502
+      azimuth: 105.1628154664315
+    - slowness: 0.06751015004210807
+      azimuth: 105.33864941019878
+    - slowness: 0.07302259689481606
+      azimuth: 73.0717784451373
+    - slowness: 0.07216124921552042
+      azimuth: 81.56485729721867
+    - slowness: 0.07759591881718156
+      azimuth: 162.256204725241
+    - slowness: 0.06689781578273099
+      azimuth: 121.1783560178298
+    - slowness: 0.07362112407771981
+      azimuth: 228.14279120231492
+    - slowness: 0.06363210098807612
+      azimuth: 98.06562061061669
+    - slowness: 0.06340635332411894
+      azimuth: 98.23416843048996
+  coherent: true
+  nominalWaveformSampleRate: 40.0
+  twoDimensional: true
+  waveformSampleRateTolerance: 0.5
+  phaseType: "P"
+  minimumWaveformsForBeam: 2

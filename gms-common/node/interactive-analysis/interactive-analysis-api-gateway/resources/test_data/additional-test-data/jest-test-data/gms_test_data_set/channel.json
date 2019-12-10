@@ -1,0 +1,31 @@
+[
+    {
+        "informationSource": {
+            "informationTime": "2005-06-14T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2286-11-20T00:00:00Z, Loaded from CSS file"
+        }, 
+        "comment": "Channel is associated with site AS01", 
+        "systemTime": "2005-06-14T00:00:00Z", 
+        "elevation": 0.622, 
+        "name": "AS01/SHZ", 
+        "dataType": "UNKNOWN", 
+        "depth": 0.0274, 
+        "longitude": 133.95199, 
+        "nominalSampleRate": 20.0, 
+        "versionId": "channel1-1111-1111-1111-111111111110", 
+        "verticalAngle": 0.0, 
+        "latitude": -23.66322, 
+        "position": {
+            "eastDisplacementKm": 0.0, 
+            "verticalDisplacementKm": 0.0, 
+            "northDisplacementKm": 0.0
+        }, 
+        "entityId": "928aa00a-e8da-310f-a053-e053ef03f80f", 
+        "aliases": [], 
+        "type": "SHORT_PERIOD_HIGH_GAIN_VERTICAL", 
+        "horizontalAngle": -1.0, 
+        "locationCode": "", 
+        "actualTime": "2005-06-14T00:00:00Z"
+    }
+]

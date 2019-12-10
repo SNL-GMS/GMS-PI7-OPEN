@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "Relationship for network demo and station ASAR", 
+        "networkId": "3345a578-ab68-39f7-aea3-cfaefc55c4cb", 
+        "systemChangeTime": "1989-06-25T14:59:46Z", 
+        "actualChangeTime": "1989-06-25T14:59:46Z", 
+        "stationId": "d1a4092a-62ab-3ed3-a46e-06ae16dc6f7e", 
+        "status": "ACTIVE", 
+        "id": "92671df8-3606-384b-9efd-6c8ad64dcb3a"
+    }
+]

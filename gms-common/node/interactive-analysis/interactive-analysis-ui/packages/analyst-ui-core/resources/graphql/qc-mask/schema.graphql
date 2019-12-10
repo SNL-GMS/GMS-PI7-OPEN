@@ -1,0 +1,79 @@
+# Represents a qc mask for a time segment for one or more channels.
+type QcMask {
+
+    # Unique identifier of QC mask
+    id: String!
+
+    # The id for the channel
+    channelId: String!
+
+    # QC Mask Version 
+    qcMaskVersions: [QcMaskVersion]!
+
+    # Current Mask Version
+    currentVersion: QcMaskVersion!
+},
+
+# QC mask information
+type QcMaskVersion {
+    category: String!
+    channelSegmentIds: [String]!
+    creationInfo: CreationInfo!
+    startTime: Float!
+    endTime: Float!
+    parentQcMasks: [QcMask]!
+    rationale: String!
+    type: String!
+    version: String!
+},
+
+
+enum QcMaskCategory {
+    AnalystDefined
+    ChannelProcessing
+    DataAuthentication
+    Rejected
+    StationSOH
+    WaveformQuality
+    WAVEFORM_QUALITY
+}
+
+enum QcMaskType {
+    SensorProblem
+    StationProblem
+    Calibration
+    StationSecurity
+    Timing
+    Gap
+    Spike
+    REPEATED_ADJACENT_AMPLITUDE_VALUE
+}
+
+extend type Query {
+    # Get all QcMasks for each channel that that fall within the start and endtime
+    # If no channelIds are provided, Get all masks in the specified time range
+    qcMasksByChannelId(timeRange: TimeRange!, channelIds: [String]): [QcMask]
+},
+
+# Comment these later
+input UpdateQcMaskInput {
+    timeRange: TimeRange
+
+    category: String
+
+    type: String
+}
+
+# The following QC Mask mutations are supported.
+extend type Mutation {
+    # Update an existing QC Mask using the provided input
+    updateQcMask (qcMaskId: String!, input: UpdateQcMaskInput): [QcMask]   
+}
+
+# The following subscription are supported.
+extend type Subscription {
+    # Subscribe for updates to QC masks on the specified channels in the
+    # specified time range
+    # If no parameters are provided, subscribe for all mask updates
+    qcMasksUpdated (timeRange: TimeRange, channelIds: [String]): [QcMask]   
+}

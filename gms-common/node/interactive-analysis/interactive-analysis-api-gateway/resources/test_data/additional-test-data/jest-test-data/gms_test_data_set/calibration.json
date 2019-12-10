@@ -1,0 +1,19 @@
+[
+    {
+        "informationSource": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2286-11-20T17:46:39.999Z, Loaded from CSS file"
+        }, 
+        "comment": "Calibration is associated with channel AS01/SHZ", 
+        "systemTime": "2005-06-14T00:00:00Z", 
+        "calibrationFactor": 0.009291, 
+        "timeShift": 0.0, 
+        "channelId": "efcd2260-c92a-3f0b-94aa-e903dd156407", 
+        "calibrationPeriod": 1.0, 
+        "calibrationFactorError": 0.0, 
+        "calibrationInterval": 0.0, 
+        "id": "f8dcbf1a-0574-39a9-bd81-9d99bf13e040", 
+        "actualTime": "2005-06-14T00:00:00Z"
+    }
+]

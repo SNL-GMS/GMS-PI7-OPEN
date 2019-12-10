@@ -1,0 +1,14 @@
+.pick-marker {
+  cursor: auto;
+
+  .pick-marker-pick {
+    position: absolute;
+  }
+
+  .pick-marker-label {
+    line-height: 80%;
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 200;
+  }
+}

@@ -1,0 +1,9 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+
+.ag-row.signal-detections-disabled-row {
+    background-color: $dark-gray1;
+    color: #666;
+    cursor: not-allowed;
+    pointer-events: none;
+}

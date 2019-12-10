@@ -1,0 +1,20 @@
+name: "ASAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "station-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "1c4a8d11-178a-3c5d-a902-ac599a155621"
+    priority: 100
+parameters:
+  fkAttributesParameters:
+    - pluginName: "maxPowerFkAttributesPlugin"
+      pluginParameters:
+        highFrequency: 2.0
+        eastSlowStart: -0.4
+        eastSlowDelta: 0.01
+        northSlowDelta: 0.01
+        northSlowStart: -0.4
+        lowFrequency: 1.0

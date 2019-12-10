@@ -1,0 +1,517 @@
+version: '3.7'
+
+services:
+
+  etcd:
+    image: '${CI_DOCKER_REGISTRY}/etcd:${VERSION}'
+    environment:
+      GMS_ETCD_PASSWORD: "gmsdb:gms@etcd=prevent-important-guest"
+      GMS_ETCD_ADMIN_PASSWORD: "gmsdb:gmsadmin@etcd=gravity-behave-proposal"
+      GMS_ETCD_ROOT_PASSWORD: "gmsdb:root@etcd=coffee-outline-taxi"
+    healthcheck:
+      test: ['CMD', 'etcdctl', 'endpoint', 'health', '--user', 'gms:gmsdb:gms@etcd=prevent-important-guest']
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+
+  beam-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/beam-control-service:${VERSION}'
+    environment:
+      baseUrl: /signal-enhancement/beam/osd-gateway
+      host: beam-osd-gateway
+      port: 8080
+      gateway_host: beam-osd-gateway
+      gateway_port: 8080
+      gateway_baseUrl: /signal-enhancement/beam/osd-gateway
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:beam-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  cassandra:
+    image: '${CI_DOCKER_REGISTRY}/gms/cassandra:${DOCKERTREE_VERSION}'
+    volumes:
+      - cassandra-volume:/var/lib/cassandra:rw
+    healthcheck:
+      test: ['CMD-SHELL', '[ $$(nodetool statusgossip) = running ]']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.cassandra == true
+
+  cd11-dataframe-parser:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/cd11-dataframe-parser:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    volumes:
+      - cd11-dataframes:/cd11-dataframe-parser/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.cd11-data-acq == true
+
+  event-location-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/event-location-control-service:${VERSION}'
+    environment:
+      COI_SERVICE_HOST: osd-signaldetection-repository-service
+      COI_SERVICE_PORT: 8080
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:event-location-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  transferred-file-cleanup-utility:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/transferred-file-cleanup-utility:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:transferred-file-cleanup-utility.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  filter-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/filter-control-service:${VERSION}'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:filter-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  fk-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/fk-control-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:fk-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  fp-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/fp-service:${VERSION}'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:fp-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  frame-management-cd11:
+    image: '${CI_DOCKER_REGISTRY}/data-acquisition-frame-management-dpp:latest'
+    environment:
+      MV_FROM: "/shared-volume/rsynced-files"
+      MV_TO: "/shared-volume/dataframes"
+      MV_FREQ: 5
+      DELETION_AGE_MINS: 1440
+      DELETION_SLEEP: 60
+    volumes:
+      - cd11-dataframes:/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.cd11-data-acq == true
+
+  frame-management-nifi:
+    image: '${CI_DOCKER_REGISTRY}/data-acquisition-frame-management-dpp:latest'
+    environment:
+      MV_FROM: "/shared-volume/rsynced-files"
+      MV_TO: "/shared-volume/dataframes"
+      MV_FREQ: 5
+      DELETION_AGE_MINS: 30
+      DELETION_SLEEP: 60
+    volumes:
+      - seedlink:/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.nifi-data-acq == true
+
+  interactive-analysis-api-gateway:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/interactive-analysis-api-gateway:${VERSION}'
+    environment:
+      GRAPHQL_PROXY_URI: http://interactive-analysis-api-gateway:4000
+      NODE_ENV: production
+      NODE_CONFIG_ENV: osd
+      http_proxy: ''
+      https_proxy: ''
+      no_proxy: ''
+      HTTP_PROXY: ''
+      HTTPS_PROXY: ''
+      NO_PROXY: ''
+    volumes:
+      - interactive-analysis-api-gateway-volume:/opt/app-root/src/Test_Data_Sets
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.graphql.port=3000"
+        - "traefik.graphql.frontend.rule=Host:graphql.interactive-analysis-api-gateway.${SUBDOMAIN}.${BASE_DOMAIN}"
+        - "traefik.subscriptions.port=4000"
+        - "traefik.subscriptions.frontend.rule=Host:subscriptions.interactive-analysis-api-gateway.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.interactive-analysis-api-gateway == true
+
+  interactive-analysis-ui:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/interactive-analysis-ui:${VERSION}'
+    environment:
+      NODE_ENV: production
+      GRAPHQL_PROXY_URI: http://interactive-analysis-api-gateway:3000
+      WAVEFORMS_PROXY_URI: http://interactive-analysis-api-gateway:3000
+      SUBSCRIPTIONS_PROXY_URI: http://interactive-analysis-api-gateway:4000
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:interactive-analysis-ui.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  nifi:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/openjdk9/nifi:${DOCKERTREE_VERSION}'
+    volumes:
+      - nifi-volume:/grid/persistence
+      - seedlink:/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.app.port=8080"
+        - "traefik.app.frontend.rule=Host:nifi.${SUBDOMAIN}.${BASE_DOMAIN}"
+        - "traefik.app.frontend.headers.customRequestHeaders=X-ProxyScheme:http||X-ProxyHost:nifi.${SUBDOMAIN}.${BASE_DOMAIN}||X-ProxyPort:80"
+        - "traefik.debug.port=8081"
+        - "traefik.debug.frontend.rule=Host:debug.nifi.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.nifi-data-acq == true
+
+  nifi-registry:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/nifi-registry:${DOCKERTREE_VERSION}'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=18080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:nifi-registry.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.nifi-registry == true
+    volumes:
+      - nifi-registry-volume:/usr/hdf/3.2.0.0-520/nifi-registry
+
+  zoo1:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/zookeeper:${DOCKERTREE_VERSION}'
+    environment:
+      ZOO_MY_ID: 1
+    volumes:
+      - zoo1-volume:/grid
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.zoo1 == true
+
+  zoo2:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/zookeeper:${DOCKERTREE_VERSION}'
+    environment:
+      ZOO_MY_ID: 2
+    volumes:
+      - zoo2-volume:/grid
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.zoo2 == true
+
+  zoo3:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/zookeeper:${DOCKERTREE_VERSION}'
+    environment:
+      ZOO_MY_ID: 3
+    volumes:
+      - zoo3-volume:/grid
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.zoo3 == true
+
+  osd-channelsegments-repository-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/osd-channelsegments-repository-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:osd-channelsegments-repository-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  osd-signaldetection-repository-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/osd-signaldetection-repository-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:osd-signaldetection-repository-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  osd-stationreference-coi-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/osd-stationreference-coi-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:osd-stationreference-coi-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  osd-transferredfile-repository-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/osd-transferredfile-repository-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:osd-transferredfile-repository-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  osd-waveforms-repository-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/osd-waveforms-repository-service:${VERSION}'
+    environment:
+      persistence_url: jdbc:postgresql://postgresql-stationreceiver:5432/xmp_metadata
+      cassandra_connect_points: cassandra
+    deploy:
+      replicas: 2
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:osd-waveforms-repository-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  postgresql-stationreceiver:
+    image: 'registry.hub.docker.com/library/postgres:9.5.14'
+    environment:
+      POSTGRES_DB: xmp_metadata
+      POSTGRES_USER: xmp
+      POSTGRES_PASSWORD: "gmsdb:xmp@postgres=bird-hero-calendar"
+    volumes:
+      - postgresql-stationreceiver-volume:/var/lib/postgresql/data:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.postgresql-stationreceiver == true
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready --username xmp --dbname xmp_metadata']
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  rsync-client-cd11:
+    image: '${CI_DOCKER_REGISTRY}/data-acquisition-rsync-client:latest'
+    environment:
+      RSYNC_REMOTE_HOST: ${CD11_RSYNC_REMOTE_HOST}
+      CI_CURRENT_PROJECT: ${SUBDOMAIN}
+      CI_CURRENT_ENV: docker-swarm
+      RSYNC_REMOTE_DIR: /docker/station-gateway-service/shared-volume/frame-transfer
+      RSYNC_JUMP_HOSTS: ${CD11_RSYNC_JUMP_HOSTS}
+    volumes:
+      - cd11-dataframes:/rsync/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.cd11-data-acq == true
+
+  rsync-client-seedlink:
+    image: '${CI_DOCKER_REGISTRY}/data-acquisition-rsync-client:latest'
+    environment:
+      RSYNC_REMOTE_HOST: ${SEEDLINK_RSYNC_REMOTE_HOST}
+      CI_CURRENT_PROJECT: ${SUBDOMAIN}
+      CI_CURRENT_ENV: docker-swarm
+      RSYNC_REMOTE_DIR: /docker/nifi/shared-volume/frame-transfer
+      RSYNC_JUMP_HOSTS: ${SEEDLINK_RSYNC_JUMP_HOSTS}
+    volumes:
+      - seedlink:/rsync/shared-volume:rw
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.nifi-data-acq == true
+
+  signal-detection-association-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/signal-detection-association-control-service:${VERSION}'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:signal-detection-association-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  signal-detector-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/signal-detector-control-service:${VERSION}'
+    environment:
+      channelSegments_host: osd-waveforms-repository-service
+      channelSegments_port: 8080
+      channelSegments_baseUrl: /mechanisms/object-storage-distribution/waveforms/channel-segment
+      signalDetections_host: osd-signaldetection-repository-service
+      signalDetections_port: 8080
+      signalDetections_baseUrl: /coi/signal-detections
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:signal-detector-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  waveform-qc-control-service:
+    image: '${CI_DOCKER_REGISTRY}/gms-common/waveform-qc-control-service:${VERSION}'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:waveform-qc-control-service.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+
+  wiremock:
+    image: '${CI_DOCKER_REGISTRY}/gms/centos7/openjdk8/wiremock:latest'
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=${COLLECTION}"
+        - "traefik.port=8080"
+        - "traefik.docker.network=traefik-net-${SUBDOMAIN}"
+        - "traefik.frontend.rule=Host:wiremock.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.labels.${SUBDOMAIN}.wiremock == true
+
+volumes:
+  cassandra-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  cd11-dataframes:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  data-pipeline-monitor:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  interactive-analysis-api-gateway-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  nifi-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  nifi-registry-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  postgresql-stationreceiver-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  seedlink:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  zoo1-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  zoo2-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+  zoo3-volume:
+    labels:
+      com.docker.ucp.access.label: ${COLLECTION}
+
+networks:
+  default:
+    name: traefik-net-${SUBDOMAIN}
+    external: true

@@ -1,0 +1,49 @@
+plugins {
+    id "application"
+    id "com.palantir.docker"
+}
+
+mainClassName = "gms.core.eventlocation.control.service.Application"
+
+dependencies {
+
+    // GMS Dependencies
+
+    implementation project(":http-service-library")
+    implementation project(":osd-commonobjects")
+    implementation project(":plugin-registry")
+    implementation project(":event-location-plugins")
+    implementation project(":osd-repository")
+
+    // TODO: GET RID OF THIS ONCE WE HAVE CONFIG
+    // We have to directly instantiate EventLocationPluginGeigers in EventLocationConfiguration
+    implementation project(":event-location-plugin-geigers")
+    implementation project(":event-location-plugin-apachelm")
+
+    // Apache configuration
+
+    implementation 'commons-configuration:commons-configuration'
+
+    // Google AutoValue
+
+    implementation 'com.google.guava:guava'
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    // Unirest
+
+    implementation "com.mashape.unirest:unirest-java"
+
+    // WireMock
+
+    testImplementation('com.github.tomakehurst:wiremock') {
+        exclude group: 'junit', module: 'junit'
+    }
+
+    testImplementation 'javax.xml.bind:jaxb-api'
+    testImplementation 'com.h2database:h2'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    //      Wiremock uses JUnit4 for @Rule and @ClassRule to set up server
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

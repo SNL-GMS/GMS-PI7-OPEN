@@ -1,0 +1,762 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creating a new detection should match snapshot 1`] = `
+Object {
+  "createDetection": Object {
+    "sds": Array [
+      Object {
+        "currentHypothesis": Object {
+          "featureMeasurements": Array [
+            Object {
+              "featureMeasurementType": "ARRIVAL_TIME",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SLOWNESS",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PHASE",
+              "measurementValue": Object {
+                "phase": "P",
+              },
+            },
+            Object {
+              "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+              "measurementValue": Object {},
+            },
+          ],
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`Querying for signal detection by ID should match snapshot 1`] = `
+Object {
+  "signalDetectionsById": Array [
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "a2dbb528-0606-4b94-ad54-8f049d384363",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "362d767e-a85c-436c-ab52-e37f1f20b6af",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "9f2e438d-0e52-44cd-a5b7-9af1f0e89009",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "b00bd259-0516-4e9a-bdee-9e790fd05a52",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "2dabc0e6-63b8-4a1b-81b0-b8553e43b7b9",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "0f13d437-4a17-4330-bda9-437c5fef0ded",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "4fdfe690-70dc-4433-a340-fd5c48ce1db2",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "e3a09d56-f8c9-4145-81d3-c7272474caf6",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111110",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111110",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "d8485c20-ac4d-4eba-ba26-25e3ab6f1917",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "3a400814-ed16-4b52-b97d-d260ff426d1b",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "5f8c2bfb-e9d3-4819-b978-73767ad1618c",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "ededa710-d71e-4052-9909-fd1615d2449e",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "2efa190b-0027-4743-a177-af8b56b6982b",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "7f89acc0-0c8e-4e3e-b9cd-b220a06ca72d",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "3e91da53-99fc-4d1b-9571-c5425dbc493a",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "4914556c-8a0c-4980-9fe0-7db5d23fe1ff",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111111",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111111",
+    },
+  ],
+}
+`;
+
+exports[`Querying for signal detection hypothesis by ID with valid Az/Slow & FK data should match snapshot 1`] = `undefined`;
+
+exports[`Querying for signal detection hypothesis by station and time range should match snapshot 1`] = `undefined`;
+
+exports[`Querying for signal detections by station and time range should match snapshot 1`] = `
+Object {
+  "signalDetectionsByStation": Array [
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "a2dbb528-0606-4b94-ad54-8f049d384363",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "362d767e-a85c-436c-ab52-e37f1f20b6af",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "9f2e438d-0e52-44cd-a5b7-9af1f0e89009",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "b00bd259-0516-4e9a-bdee-9e790fd05a52",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "2dabc0e6-63b8-4a1b-81b0-b8553e43b7b9",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "0f13d437-4a17-4330-bda9-437c5fef0ded",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "4fdfe690-70dc-4433-a340-fd5c48ce1db2",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "e3a09d56-f8c9-4145-81d3-c7272474caf6",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111110",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111110",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "d8485c20-ac4d-4eba-ba26-25e3ab6f1917",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "3a400814-ed16-4b52-b97d-d260ff426d1b",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "5f8c2bfb-e9d3-4819-b978-73767ad1618c",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "ededa710-d71e-4052-9909-fd1615d2449e",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "2efa190b-0027-4743-a177-af8b56b6982b",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "7f89acc0-0c8e-4e3e-b9cd-b220a06ca72d",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "3e91da53-99fc-4d1b-9571-c5425dbc493a",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "4914556c-8a0c-4980-9fe0-7db5d23fe1ff",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111111",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111111",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "0dfd30fb-8e67-44ff-9a67-b4a06203e037",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "8ea6a682-86d0-4d5b-b19b-d7a356ad702b",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "321fcbbf-3c4f-4e66-b1a2-676f6ba00e0c",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "704db1b7-985b-4ecf-8af3-2e132d2e2750",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "111527e4-3eee-436d-acb9-19cdc4161282",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "25256a2f-061f-4ac8-97b0-8efe3f1f15e6",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "4a071d4e-3ef9-4fc1-923c-37ac7effb124",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "b613dfa8-ad12-436e-ba43-ff1cef2e6d2a",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111112",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111112",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "270ef7c6-3f24-46f7-aa81-fc69b84c9ef2",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "a170962d-868c-43f0-b3c7-614b142f4a79",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "cbba6a8e-06fa-4bfc-b4cf-582ea399d470",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "3a71e125-88ce-4443-b7f7-06c0365a9e63",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "8b5b17dd-0ea9-49c3-a330-c30ae8b97cda",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "1cddc8e5-3ea5-4efb-aad1-520b7b4fd48f",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "f129d4b3-6d11-4f13-8fdb-e11543a13ac8",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "1a231466-478b-433e-bd51-6827b8255940",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111113",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111113",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "16120f60-7558-45ff-a83d-811a51539d57",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "3bb2a7e6-a525-442e-9fa8-e653a7cc457c",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "6c11a8cd-61c1-4b62-a349-fb8c1c00a223",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "59d3aa52-43a3-479d-be40-0c631fe54507",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "0b5ee337-a19e-4491-a6a4-8f5bdb4cf1b3",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "29c48d59-2447-489b-a392-5c7058d2eee7",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "8d51170e-b6a4-4c53-a2ad-97652e57b9e0",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "2f53fbab-a897-4426-aa03-4caa0df8e660",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111114",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111114",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "660995aa-0247-4fb1-8887-273925333ba2",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "e0c129be-e5d4-417e-8d16-bc50eab0e3fe",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "71a252b4-428a-4c29-bb71-0f383604b8c4",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "d9b717d0-559d-4745-8697-8c11450a423b",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "f3b70bcc-f559-4b56-b84c-88250b359158",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "68b9d6eb-2318-4426-97f5-e2039f95ae4e",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "6a627023-17d6-40a6-ace8-d5189932d370",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "5e530b9d-24a7-4d5f-a6b0-a1f3cd0f54ab",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111115",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111115",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "0ce97eff-59d6-4a4f-8c23-c98caafbb062",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "e3e251b7-2c0f-4764-947e-29a1dc3c44cf",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "d155ab04-736b-412c-a1ff-69e2c42fa1f2",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "fcf00ab7-a22c-4cec-af8f-88c4efa77f3a",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "2d260afe-cf5c-4d17-876d-14ba36c5e12e",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "a7e2d959-1508-49db-aac6-0618b2588bd5",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "abe92f50-e56c-4a6a-9665-93661abbe9a4",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "62409590-f296-45b8-bf1e-08d88ba6b7ed",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111116",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111116",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "a7d87ae9-e1d4-44cb-ab5d-e04ce7243d74",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "850d3974-eda3-4dac-afda-cc820b8be61a",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "59417c0c-b291-4965-996e-e1d235946f77",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "0e44e364-3975-4d8f-92d1-a6fa897a0da0",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "25e58304-e49b-4810-af2b-49915c588fbe",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "0325c7b9-b0c4-4bb9-9ec3-19ede1040e6f",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "11df40e1-aeb7-47b2-8c3f-510605723e5e",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "6760a448-67a4-49bf-a0b7-8bcda1f50e05",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111117",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111117",
+    },
+    Object {
+      "currentHypothesis": Object {
+        "featureMeasurements": Array [
+          Object {
+            "featureMeasurementType": "ARRIVAL_TIME",
+            "id": "10d0e0c6-2d4c-4fa7-9813-2a9c23299095",
+          },
+          Object {
+            "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+            "id": "522b81c2-8e95-4166-93ef-d7ebbb4237bb",
+          },
+          Object {
+            "featureMeasurementType": "EMERGENCE_ANGLE",
+            "id": "1bb4df30-db69-484c-9081-992aac156398",
+          },
+          Object {
+            "featureMeasurementType": "PERIOD",
+            "id": "5c288877-3782-4adc-83e3-9a5b3f36667b",
+          },
+          Object {
+            "featureMeasurementType": "RECTILINEARITY",
+            "id": "a6cda8db-4943-4958-b679-d54c153011f4",
+          },
+          Object {
+            "featureMeasurementType": "SLOWNESS",
+            "id": "87fb3066-2351-425c-aeda-6ccacf3e9ca6",
+          },
+          Object {
+            "featureMeasurementType": "SNR",
+            "id": "c5962482-a508-49a3-849a-f1f62f62fcb5",
+          },
+          Object {
+            "featureMeasurementType": "PHASE",
+            "id": "e5838cd3-4055-4c00-9a01-73e1a106e39c",
+          },
+        ],
+        "id": "sd111111-1111-1111-1111-111111111118",
+        "rejected": false,
+      },
+      "id": "sd111111-1111-1111-1111-111111111118",
+    },
+  ],
+}
+`;
+
+exports[`Rejecting a collection of detection hypotheses should match snapshot 1`] = `
+Object {
+  "rejectDetections": Object {
+    "sds": Array [
+      Object {
+        "currentHypothesis": Object {
+          "rejected": true,
+        },
+      },
+      Object {
+        "currentHypothesis": Object {
+          "rejected": true,
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`Updating a collection of detections for time & phase should match snapshot 1`] = `
+Object {
+  "updateDetections": Object {
+    "sds": Array [
+      Object {
+        "currentHypothesis": Object {
+          "featureMeasurements": Array [
+            Object {
+              "featureMeasurementType": "ARRIVAL_TIME",
+              "measurementValue": Object {
+                "standardDeviation": 0.12,
+                "value": 1274324502,
+              },
+            },
+            Object {
+              "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "EMERGENCE_ANGLE",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PERIOD",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECTILINEARITY",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SLOWNESS",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SNR",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PHASE",
+              "measurementValue": Object {
+                "phase": "S",
+              },
+            },
+            Object {
+              "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+              "measurementValue": Object {
+                "amplitude": Object {
+                  "standardDeviation": 0.1,
+                  "units": "UNITLESS",
+                  "value": 2,
+                },
+                "period": 1,
+                "startTime": 2,
+              },
+            },
+          ],
+        },
+      },
+      Object {
+        "currentHypothesis": Object {
+          "featureMeasurements": Array [
+            Object {
+              "featureMeasurementType": "ARRIVAL_TIME",
+              "measurementValue": Object {
+                "standardDeviation": 0.761,
+                "value": 1274324502,
+              },
+            },
+            Object {
+              "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "EMERGENCE_ANGLE",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PERIOD",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECTILINEARITY",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SLOWNESS",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SNR",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PHASE",
+              "measurementValue": Object {
+                "phase": "S",
+              },
+            },
+            Object {
+              "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+              "measurementValue": Object {
+                "amplitude": Object {
+                  "standardDeviation": 0.1,
+                  "units": "UNITLESS",
+                  "value": 2,
+                },
+                "period": 1,
+                "startTime": 2,
+              },
+            },
+          ],
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`Updating a signal detection hypothesis az/slow measurement's FK should match snapshot 1`] = `undefined`;
+
+exports[`Updating an existing detection phase should match snapshot 1`] = `
+Object {
+  "updateDetection": Object {
+    "sds": Array [
+      Object {
+        "currentHypothesis": Object {
+          "featureMeasurements": Array [
+            Object {
+              "featureMeasurementType": "ARRIVAL_TIME",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "EMERGENCE_ANGLE",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PERIOD",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECTILINEARITY",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SLOWNESS",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SNR",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PHASE",
+              "measurementValue": Object {
+                "phase": "S",
+              },
+            },
+          ],
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`Updating an existing detection time & phase should match snapshot 1`] = `
+Object {
+  "updateDetection": Object {
+    "sds": Array [
+      Object {
+        "currentHypothesis": Object {
+          "featureMeasurements": Array [
+            Object {
+              "featureMeasurementType": "ARRIVAL_TIME",
+              "measurementValue": Object {
+                "standardDeviation": 0.12,
+                "value": 1274324502,
+              },
+            },
+            Object {
+              "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "EMERGENCE_ANGLE",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PERIOD",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "RECTILINEARITY",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SLOWNESS",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "SNR",
+              "measurementValue": Object {},
+            },
+            Object {
+              "featureMeasurementType": "PHASE",
+              "measurementValue": Object {
+                "phase": "S",
+              },
+            },
+            Object {
+              "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+              "measurementValue": Object {
+                "amplitude": Object {
+                  "standardDeviation": 0.1,
+                  "units": "UNITLESS",
+                  "value": 2,
+                },
+                "period": 1,
+                "startTime": 2,
+              },
+            },
+          ],
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`Updating an existing detection time should match snapshot 1`] = `undefined`;

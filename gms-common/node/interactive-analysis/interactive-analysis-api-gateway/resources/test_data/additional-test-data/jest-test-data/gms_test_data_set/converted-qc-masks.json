@@ -1,0 +1,86 @@
+[
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [
+                    {
+                        "qcMaskVersionId": 0, 
+                        "qcMaskId": "dad89e5a-d72a-3a6a-a810-77297cb50895"
+                    }
+                ], 
+                "startTime": "2010-05-20T22:30:00Z", 
+                "channelSegmentIds": [
+                    "f09572e5-979f-3e07-a181-c1dd75c356b9"
+                ], 
+                "creationInfoId": "4b3259fe-17f0-3a58-9158-a30628cfbe40", 
+                "version": 0, 
+                "rationale": "", 
+                "endTime": "2010-05-20T22:45:00Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "channel1-1111-1111-1111-111111111110", 
+        "id": "qcmask11-1111-1111-1111-111111111110", 
+        "currentVersionAsReference": {
+            "qcMaskVersionId": 0, 
+            "qcMaskId": "dad89e5a-d72a-3a6a-a810-77297cb50895"
+        }
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [
+                    {
+                        "qcMaskVersionId": 0, 
+                        "qcMaskId": "1dfb5a6c-08de-32af-91aa-2ee3f567d612"
+                    }
+                ], 
+                "startTime": "2010-05-20T23:00:00Z", 
+                "channelSegmentIds": [
+                    "1de72c35-9666-3f21-a5cc-f91457a309eb"
+                ], 
+                "creationInfoId": "4b5b7643-863f-31a1-a620-d5500212e941", 
+                "version": 0, 
+                "rationale": "", 
+                "endTime": "2010-05-20T23:10:00Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "channel1-1111-1111-1111-111111111110", 
+        "id": "qcmask11-1111-1111-1111-111111111111", 
+        "currentVersionAsReference": {
+            "qcMaskVersionId": 0, 
+            "qcMaskId": "1dfb5a6c-08de-32af-91aa-2ee3f567d612"
+        }
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [
+                    {
+                        "qcMaskVersionId": 0, 
+                        "qcMaskId": "3abc443c-8e2e-3253-bb14-59413d26af41"
+                    }
+                ], 
+                "startTime": "2010-05-20T23:20:00Z", 
+                "channelSegmentIds": [
+                    "794b3a5c-bb13-389e-8129-81c6a305d5b2"
+                ], 
+                "creationInfoId": "ee19f467-c846-3e08-889a-a2462aaca461", 
+                "version": 0, 
+                "rationale": "", 
+                "endTime": "2010-05-20T23:30:00Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "channel1-1111-1111-1111-111111111110", 
+        "id": "qcmask11-1111-1111-1111-111111111112", 
+        "currentVersionAsReference": {
+            "qcMaskVersionId": 0, 
+            "qcMaskId": "3abc443c-8e2e-3253-bb14-59413d26af41"
+        }
+    }
+]

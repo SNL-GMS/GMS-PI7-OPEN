@@ -1,0 +1,40 @@
+.interval-picker {
+    display: flex;
+}
+.interval-picker--stacked {
+    display: flex;
+    padding: 8px 12px 8px 12px;
+}
+.interval-picker__input-row {
+    display: flex;
+}
+.interval-picker__input_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.interval-picker__input {
+    display: flex;
+    align-items: center;
+}
+.interval-picker__input--right {
+    margin-left: 4px
+}
+.interval-picker__input--stacked {
+    margin-bottom: 8px;
+}
+.toolbar-button {
+    width: 128px;
+    max-width: auto;
+}
+.interval-picker__time-picker-label {
+    margin-right: 8px;
+    white-space: nowrap;
+}
+.interval-picker__enter-button--stacked {
+    margin-top: 8px;
+}
+.interval-picker__enter-button--flat {
+    margin-left: 4px;
+}
+

@@ -1,0 +1,5 @@
+{
+  "noiseWindowSize" : "PT15S",
+  "signalWindowSize" : "PT15S",
+  "order" : "10"
+}

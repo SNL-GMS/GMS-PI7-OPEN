@@ -1,0 +1,18 @@
+[
+    {
+        "comment": "Loaded from CSS network file", 
+        "description": "list of stations used during UI demo", 
+        "actualChangeTime": "1970-01-01T00:00:00Z", 
+        "systemChangeTime": "1970-01-01T00:00:00Z", 
+        "region": "GLOBAL", 
+        "source": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "Loaded from CSS file"
+        }, 
+        "versionId": "ca500621-7a58-34b9-a1db-e28256b49c9c", 
+        "organization": "CTBTO", 
+        "entityId": "3345a578-ab68-39f7-aea3-cfaefc55c4cb", 
+        "name": "demo"
+    }
+]

@@ -1,0 +1,11 @@
+dependencies {
+
+    // Google AutoValue
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    implementation project(':configuration')
+    implementation project(':osd-commonobjects')
+    implementation project(':onset-time-refinement-plugin')
+    implementation project(':signal-processing-utility')
+}

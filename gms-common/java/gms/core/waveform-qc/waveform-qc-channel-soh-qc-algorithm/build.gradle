@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation project(':osd-commonobjects')
+    implementation project(':waveform-qc-plugin')
+
+    // Google AutoValue
+    api 'com.google.guava:guava'
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+}

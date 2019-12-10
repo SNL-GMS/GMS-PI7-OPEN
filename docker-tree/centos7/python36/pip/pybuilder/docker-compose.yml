@@ -1,0 +1,11 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python36/pip/pybuilder:${TAG}
+
+services:
+  behave:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python36/pip/pybuilder/behave:${TAG}
+    build:
+      context: ./behave
+      args:
+        FROM_IMAGE: *parent_image

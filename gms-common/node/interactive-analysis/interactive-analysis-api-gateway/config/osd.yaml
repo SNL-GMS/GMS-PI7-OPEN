@@ -1,0 +1,70 @@
+yamlName: "osd"
+# Override configuration for the processing channel API gateway
+station:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+# Override configuration for the signal detection processor
+signalDetection:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+# Override configuration for the qcmask processor
+qcMask:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+# Override configuration for the filtered waveforms processor
+filter-waveform:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+# Override configuration for the fk processor
+event:
+    # Configuration for the access to backend applications  
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+#  Override configuration for the fk processor
+channel-segment:
+    # Configuration for the access to backend applications  
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # Override the backend mocking to enable integration with the backend OSD service
+            enable: false
+
+# Configuration for the data acquisition status API gateway
+dataAcquisition:
+    # Configuration for the access to backend applications
+    backend:
+        # Configuration for mocking up backend services
+        mock:
+            # If true, mock up the backend services locally rather than
+            # connecting to the production services 
+            enable: false
+
+testData:
+    # Configuration of standard test data for exercising API gateway services 
+    standardTestDataSet:
+        stdsDataHome: /opt/app-root/src/Test_Data_Sets/Standard_Test_Data/
+

@@ -1,0 +1,34 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+.events-status-bar {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events-status-bar__visibility-menu-button {
+    padding-left: 0px; // Override for default to make flush left
+}
+
+.events-status-bar__event-counters {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    &>* {
+        padding-right: 0.5rem; // All direct children have right padding to enforce spacing
+    }
+}
+
+.events-status-bar__mark-button {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+}
+
+.events__mark-complete-button {
+    height: 20px;
+    min-height: 0px !important;
+    min-width: 0px !important;
+}
+

@@ -1,0 +1,12 @@
+{
+  "maxTimeUncertainty" : 1.0,
+  "transform" : "ABS",
+  "noiseWindowOffset" : "PT1M6S",
+  "noiseWindowSize" : "PT1M",
+  "minTimeUncertainty" : 0.1,
+  "signalWindowSize" : "PT6S",
+  "slidingWindowSize" : "PT1S",
+  "signalWindowOffset" : "PT3S",
+  "maxSnr" : 50.0,
+  "minSnr" : 5.0
+}

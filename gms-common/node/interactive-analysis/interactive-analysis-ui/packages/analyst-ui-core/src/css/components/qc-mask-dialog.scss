@@ -1,0 +1,108 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+.qc-dialog {
+    display: flex;
+    flex-direction: column;
+}
+
+.qc-dialog__header-text {
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.qc-dialog-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .5em;
+    margin-top: .25em;
+    align-items: center;
+}
+
+.qc-dialog-row--centered {
+    justify-content: space-evenly;
+}
+
+.qc-dialog-row__label {
+    width: 120px;
+    color: #b8b8b8;
+}
+
+.qc-dialog-row__value--uneditable {
+    color: #eee;
+    margin-right: 1em;
+}
+
+.qc-dialog-row__value--time {
+    font-family: monospace;
+}
+
+.qc-dialog-row__text-input {
+    border-color: black;
+    border-radius: 4px;
+    background-color: rgba(16, 22, 26, 0.3);
+    color: #eee;
+    font-size: 14px;
+}
+
+.qc-dialog__header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .5em;
+    margin-top: .25em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qc-dialog-buttons__left {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 100;
+}
+
+.qc-mask-modify {
+    width: 650px;
+    padding: 0.5em 0.5em 0.1em 0.5em
+}
+
+.qc-mask-modify__label {
+    color: $gray1;
+    margin: 0px 0.2rem .1rem 0;
+    white-space: nowrap;
+    user-select: 'none';
+}
+
+.qc-mask-history-table__button {
+    min-height: 21px !important;
+    min-width: 21px !important;
+}
+
+.qc-mask-history-table__button--reject {
+    background-color: #D36666;
+}
+
+.qc-mask-history__row--first-in-table {
+    color: rgba(150, 200, 255, .5) !important;
+}
+
+.qc-mask-swatch {
+    height: 10px;
+    width: 20px;
+}
+
+.qc-mask-overlapping-table {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem 0rem 0rem 0rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.qc-mask-history-table {
+    height: 100%;
+    padding: 0.5rem 0rem 0rem 0rem;
+    overflow: auto;
+    position: relative;
+    min-height: 150px;
+    width: 480px;
+}

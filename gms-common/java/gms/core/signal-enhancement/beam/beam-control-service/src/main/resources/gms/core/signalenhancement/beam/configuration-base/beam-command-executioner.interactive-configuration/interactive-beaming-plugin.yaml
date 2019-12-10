@@ -1,0 +1,9 @@
+name: "default-interactive-plugin"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  name: "planeWaveBeamPlugin"
+  version:
+    major: 1
+    minor: 0
+    patch: 0

@@ -1,0 +1,60 @@
+version: '3.7'
+
+services:
+  cassandra:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/cassandra:${TAG}
+    build:
+      context: ./cassandra
+      args:
+        ENV_PROXY: ${PROXY_URL}
+        ENV_NO_PROXY: ${NO_PROXY_PATHS}
+
+  centos7:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7:${TAG}
+    build:
+      context: ./centos7
+      args:
+        REPOSITORY_URL: ${REPOSITORY_URL}
+        ENV_PROXY: ${PROXY_URL}
+        ENV_NO_PROXY: ${NO_PROXY_PATHS}
+        ID_RSA_PUB: ${GIT_ID_RSA_PUB}
+        ID_RSA_PRIV: ${GIT_ID_RSA_PRIV}
+
+  docker:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/docker:${TAG}
+    build:
+      context: ./docker
+      args:
+        REPOSITORY_URL: ${REPOSITORY_URL}
+        ENV_PROXY: ${PROXY_URL}
+        ENV_NO_PROXY: ${NO_PROXY_PATHS}
+        ID_RSA_PUB: ${GIT_ID_RSA_PUB}
+        ID_RSA_PRIV: ${GIT_ID_RSA_PRIV}
+
+  node8:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/node8:${TAG}
+    build:
+      context: ./node8
+      args:
+        REPOSITORY_URL: ${REPOSITORY_URL}
+        NPM_REGISTRY: ${NPM_REGISTRY}
+        ENV_PROXY: ${PROXY_URL}
+        ENV_NO_PROXY: ${NO_PROXY_PATHS}
+        ID_RSA_PUB: ${GIT_ID_RSA_PUB}
+        ID_RSA_PRIV: ${GIT_ID_RSA_PRIV}
+        CI_AUTH_BASE64: ${CI_AUTH_BASE64}
+        CI_EMAIL: ${CI_EMAIL}
+
+  node10:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/node10:${TAG}
+    build:
+      context: ./node10
+      args:
+        REPOSITORY_URL: ${REPOSITORY_URL}
+        NPM_REGISTRY: ${NPM_REGISTRY}
+        ENV_PROXY: ${PROXY_URL}
+        ENV_NO_PROXY: ${NO_PROXY_PATHS}
+        ID_RSA_PUB: ${GIT_ID_RSA_PUB}
+        ID_RSA_PRIV: ${GIT_ID_RSA_PRIV}
+        CI_AUTH_BASE64: ${CI_AUTH_BASE64}
+        CI_EMAIL: ${CI_EMAIL}

@@ -1,0 +1,8 @@
+apply plugin: 'application'
+apply plugin: 'com.palantir.docker'
+
+mainClassName = "gms.core.waveformqc.waveformqccontrol.Application"
+
+dependencies {
+    implementation project(":waveform-qc-control")
+}

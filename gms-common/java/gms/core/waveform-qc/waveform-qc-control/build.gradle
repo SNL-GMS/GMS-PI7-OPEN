@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(":frameworks-control")
+    api project(":waveform-qc-control-api")
+    implementation project(':waveform-qc-plugin')
+    implementation project(':configuration')
+    // Waveform QC Plugin Dependencies
+    runtimeOnly project(':waveform-qc-channel-soh-qc-plugin')
+    runtimeOnly project(':waveform-qc-gap-qc-plugin')
+    runtimeOnly project(':waveform-qc-repeated-amplitude-qc-plugin')
+    runtimeOnly project(':waveform-qc-spike-3pt-qc-plugin')
+
+    // Third party dependencies
+    implementation 'com.mashape.unirest:unirest-java'
+
+    // Google AutoValue
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    testImplementation 'javax.xml.bind:jaxb-api'
+    testImplementation "com.github.tomakehurst:wiremock"
+}

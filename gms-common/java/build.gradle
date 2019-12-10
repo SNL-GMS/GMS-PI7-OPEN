@@ -1,0 +1,172 @@
+/***************************************************************************************
+ Developers SHOULD NOT MODIFY this file!!!
+ /***************************************************************************************/
+plugins {
+    id "org.sonarqube" version "2.7"
+    id "com.palantir.docker" version "0.21.0" apply false
+    id "com.jfrog.artifactory" version "4.9.5"
+    id "net.ltgt.apt" version "0.18"
+    id "net.ltgt.apt-idea" version "0.18"
+    id "io.swagger.core.v3.swagger-gradle-plugin" version "2.0.7" apply false
+}
+
+// ***** Project-wide Configuration *****
+allprojects {
+    group 'gms'
+    version '7.5.1'
+}
+
+// Define global variables for Docker.
+ext {
+    dockerRegistry = System.getenv('CI_DOCKER_REGISTRY') ?: 'local'
+    dockerPath = System.getenv('CI_PROJECT_NAME') ?: 'gms-common'
+    dockerPull = false
+    dockerNoCache = false
+}
+
+// ***** Root Project Configuration *****
+// Do not publish a JAR to Artifactory for the root project (empty JAR).
+artifactoryPublish.skip = true
+
+// ***** Sub-project Configuration *****
+subprojects {
+    apply plugin: "com.jfrog.artifactory"
+    apply plugin: "java"
+    apply plugin: "jacoco"
+    apply plugin: "net.ltgt.apt"
+    apply plugin: "net.ltgt.apt-idea"
+
+    sourceCompatibility = 9
+
+    task allDependencies(type: DependencyReportTask, group: 'help') {}
+
+    // Add compiler args during java compilation.
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    // Default dependencies.
+    dependencies {
+        // Project-wide dependencies.
+        implementation 'org.apache.logging.log4j:log4j-slf4j-impl'
+        implementation 'org.apache.logging.log4j:log4j-core'
+
+        testCompileOnly 'org.junit.jupiter:junit-jupiter-api'
+        testCompileOnly 'org.junit.jupiter:junit-jupiter-params'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+        testImplementation 'org.mockito:mockito-core'
+        testImplementation 'org.mockito:mockito-junit-jupiter'
+
+        // Project-wide dependency constraints.
+        constraints {
+            annotationProcessor 'com.google.auto.value:auto-value:1.6.3'
+            testAnnotationProcessor 'com.google.auto.value:auto-value:1.6.3'
+
+            implementation 'args4j:args4j:2.33'
+            implementation 'com.commercehub:gradle-cucumber-jvm-plugin:0.13'
+            implementation 'com.datastax.cassandra:cassandra-driver-core:3.6.0'
+            implementation 'com.datastax.cassandra:cassandra-driver-extras:3.6.0'
+            implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+            implementation 'com.fasterxml.jackson.datatype:jackson-datatype-guava:2.9.8'
+            implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8'
+            implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8'
+            implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.8'
+            implementation 'com.github.ffpojo:ffpojo:1.0'
+            implementation 'com.github.tomakehurst:wiremock:2.13.0'
+            implementation 'com.google.auto.value:auto-value-annotations:1.6.3'
+            testImplementation 'com.google.auto.value:auto-value-annotations:1.6.3'
+            implementation 'com.google.guava:guava:27.0.1-jre'
+            implementation 'com.h2database:h2:1.4.196'
+            implementation 'com.mashape.unirest:unirest-java:1.4.9'
+            implementation 'com.netflix.archaius:archaius-core:0.7.6'
+            implementation 'com.sparkjava:spark-core:2.8.0'
+            implementation 'commons-beanutils:commons-beanutils:1.9.3'
+            implementation 'commons-configuration:commons-configuration:1.10'
+            implementation 'commons-io:commons-io:2.5'
+            implementation 'io.cucumber:cucumber-java8:2.3.1'
+            implementation 'io.cucumber:cucumber-junit:2.3.1'
+            implementation 'io.swagger.core.v3:swagger-core:2.0.7'
+            implementation 'javax.persistence:javax.persistence-api:2.2'
+            implementation 'javax.ws.rs:javax.ws.rs-api:2.1.1'
+            implementation 'javax.xml.bind:jaxb-api:2.3.0'
+            implementation 'junit:junit:4.12'
+            implementation 'nl.jqno.equalsverifier:equalsverifier:3.0'
+            implementation 'org.apache.commons:commons-configuration2:2.2'
+            implementation 'org.apache.commons:commons-lang3:3.6'
+            implementation 'org.apache.commons:commons-math3:3.6.1'
+            implementation 'org.apache.commons:commons-text:1.6'
+            implementation 'org.apache.httpcomponents:httpclient:4.5.2'
+            implementation 'org.apache.logging.log4j:log4j-core:2.8.2'
+            implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.8.2' // For use by Services ONLY (until Gradle 5.0 is released)
+            implementation 'org.github.wendykierp:JTransforms:3.1'
+            implementation 'org.hibernate:hibernate-c3p0:5.3.6.Final'
+            implementation 'org.hibernate:hibernate-core:5.3.6.Final'
+            implementation 'org.hibernate:hibernate-entitymanager:5.3.6.Final'
+            implementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+            implementation 'org.junit.jupiter:junit-jupiter-params:5.3.1'
+            implementation 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+            implementation 'org.junit.vintage:junit-vintage-engine:5.2.0'
+            implementation 'org.mockito:mockito-core:2.23.4'
+            implementation 'org.mockito:mockito-junit-jupiter:2.23.4'
+            implementation 'org.msgpack:jackson-dataformat-msgpack:0.8.14'
+            implementation 'org.postgresql:postgresql:42.2.5'
+            implementation 'org.yaml:snakeyaml:1.19'
+            implementation 'com.ibm.etcd:etcd-java:0.0.9'
+            // Force latest version of protobuf for etcd
+            implementation 'com.google.protobuf:protobuf-java:3.7.0'
+        }
+    }
+
+    pluginManager.withPlugin('java-library') {
+        apply plugin: 'maven-publish'
+
+        publishing {
+            publications {
+                mavenJava(MavenPublication) {
+                    from components.java
+                }
+            }
+        }
+    }
+
+    pluginManager.withPlugin('application') {
+        artifactoryPublish.skip = true
+    }
+
+    pluginManager.withPlugin('com.palantir.docker') {
+        docker {
+            name "${dockerRegistry}/${dockerPath}/${project.name}"
+            tag "${version}", "${dockerRegistry}/${dockerPath}/${project.name}:${version}"
+            tag 'latest', "${dockerRegistry}/${dockerPath}/${project.name}:latest"
+            pull dockerPull
+            noCache dockerNoCache
+            files tasks.distTar.outputs
+            buildArgs([DOCKER_REGISTRY: "localhost", HTTP_PROXY: "", HTTPS_PROXY: "", FTP_PROXY: "", NO_PROXY: "", ALL_PROXY: ""])
+        }
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
+
+// Root level task to generate javadoc for all sub-projects
+task allJavadoc(type: Javadoc, group: "Documentation") {
+    afterEvaluate {
+        exclude "**/generated/**"
+        exclude "module-info.java"
+        failOnError = false
+        title = "Geophysical Monitoring System (GMS), version ${version}"
+        description = 'Generate JavaDocs for all GMS modules'
+        source subprojects.collect { it.sourceSets.main.allJava }
+        classpath = files(subprojects.collect { it.sourceSets.main.runtimeClasspath })
+        options.memberLevel = JavadocMemberLevel.PROTECTED
+        options.overview = 'overview.html'
+        destinationDir = file("./docs/javadoc")
+    }
+}

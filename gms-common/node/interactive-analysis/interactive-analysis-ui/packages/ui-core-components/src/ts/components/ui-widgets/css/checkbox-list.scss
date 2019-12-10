@@ -1,0 +1,34 @@
+.checkbox-list { 
+    padding: 2px 4px 2px 4px;
+    background: rgba(0, 0, 20, .2);
+    border-radius: 2px;
+    overflow-y: scroll;
+    border: 1px #0f0f0f solid;
+}
+
+.checkbox-list-item {
+    display: flex;
+    justify-content: flex-start;
+}
+.checkbox-list-item__label{
+    margin-left: 8px;
+}
+.checkbox-list__search {
+    /* border-bottom: 1px white solid; */
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 2px 6px 2px 6px;
+    margin-bottom: 4px;
+    color: white;
+    background-color: rgba(16, 22, 26, 0.3);
+    width: 100%;
+}
+
+.checkbox-list__search:focus {
+    /* border-bottom: 1px white solid; */
+    border: none;
+    background-color: rgba(16, 22, 26, 0.3);
+    border-bottom: 1px solid white;
+}

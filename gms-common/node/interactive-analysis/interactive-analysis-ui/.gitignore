@@ -1,0 +1,11 @@
+docs/
+node_modules/
+build/
+dist/
+*.map
+*.log
+*.swp
+settings.json
+coverage/
+.scannerwork/
+**/.DS_STORE

@@ -1,0 +1,11 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python36:${TAG}
+
+services:
+  pip:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/python36/pip:${TAG}
+    build:
+      context: ./pip
+      args:
+        FROM_IMAGE: *parent_image

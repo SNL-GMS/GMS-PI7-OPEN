@@ -1,0 +1,15 @@
+name: "default-40Hz"
+constraints:
+  - constraintType: "NUMERIC_SCALAR"
+    criterion: "sampleRate"
+    operator:
+      type: "EQ"
+      negated: false
+    value: 40.0
+parameters:
+  filterParameters:
+    - pluginName: "linearWaveformFilterPlugin"
+      pluginParameters:
+        $ref=global.filters:
+          - criterion: "name"
+            value: "fir-0_5to4-40Hz"

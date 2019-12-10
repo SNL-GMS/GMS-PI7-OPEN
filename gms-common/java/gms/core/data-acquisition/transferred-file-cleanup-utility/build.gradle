@@ -1,0 +1,11 @@
+plugins {
+    id "application"
+    id "com.palantir.docker"
+}
+mainClassName = 'gms.utilities.transfercleanup.Application'
+
+dependencies {
+    implementation project(':osd-repository')
+    // Apache configuration
+    implementation 'commons-configuration:commons-configuration'
+}

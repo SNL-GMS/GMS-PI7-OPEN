@@ -1,0 +1,66 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+body {
+    background-color: $dark-gray1;
+    overflow: hidden;
+}
+
+// TODO be less ham-fisted about this.
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 2px;
+}
+
+:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+// override some focus styles from blueprint that dont look good.
+.pt-control input:focus~.pt-control-indicator {
+    outline: none;
+    outline-offset: 0px;
+}
+
+.max {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.duo-grid-left {
+    position: absolute;
+    top: 22%;
+    right: 0%;
+    left: 1.5%;
+    width: 48%;
+    height: 18%;
+}
+
+.duo-grid-right {
+    position: absolute;
+    top: 22%;
+    right: 0%;
+    left: 52%;
+    width: 48%;
+    height: 18%;
+}
+
+.pt-menu {
+    min-width: auto !important;
+}
+
+.ag-theme-dark .ag-row .ag-cell-data-changed {
+    background-color: red !important;
+}

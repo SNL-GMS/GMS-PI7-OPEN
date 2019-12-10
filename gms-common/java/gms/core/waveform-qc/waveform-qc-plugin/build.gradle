@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation project(':osd-commonobjects')
+    api project(':frameworks-plugin-registry')
+
+    // Google AutoValue
+    api 'com.google.guava:guava'
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    // Waveform QC Plugin Dependencies
+    runtimeOnly project(':waveform-qc-channel-soh-qc-plugin')
+    runtimeOnly project(':waveform-qc-gap-qc-plugin')
+    runtimeOnly project(':waveform-qc-repeated-amplitude-qc-plugin')
+    runtimeOnly project(':waveform-qc-spike-3pt-qc-plugin')
+}
+
+

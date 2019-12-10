@@ -1,0 +1,17 @@
+dependencies {
+
+    // Google AutoValue
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    implementation project(':configuration')
+    implementation project(':osd-commonobjects')
+    implementation project(':signal-detector-sta-lta-algorithm')
+    implementation project(':signal-detector-plugin')
+
+    testImplementation 'org.yaml:snakeyaml'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

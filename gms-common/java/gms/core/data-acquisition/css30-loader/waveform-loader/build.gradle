@@ -1,0 +1,26 @@
+apply plugin: 'application'
+
+mainClassName = 'gms.dataacquisition.css.waveformloader.Application'
+
+run {
+    if (System.getProperty("exec.args") != null) {
+        args System.getProperty("exec.args").split()
+    }
+}
+
+dependencies {
+    // GMS project dependencies.
+    implementation project(':css-reader')
+    implementation project(':css-waveform-converter') // needs WfdiscSampleReference
+    implementation project(':osd-commonobjects')
+
+    // Third-party dependencies.
+    implementation 'args4j:args4j'
+    implementation 'com.mashape.unirest:unirest-java'
+    compileOnly 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

@@ -1,0 +1,14 @@
+.channel {
+    width: 100%;
+    border-bottom: 1px solid;
+
+    .channel-label-container {
+        position: absolute;
+        left: 0;
+        z-index: 1;
+    }
+
+    .channel-content-container {
+        position: absolute;
+    }
+}

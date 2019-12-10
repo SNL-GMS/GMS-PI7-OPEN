@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9b24e53d-f4db-4b6b-bf3d-c9a9aad77e97",
+    "monitoringOrganization": "FAKE",
+    "stationId": "b7989f00-9fc6-3628-abc9-2e9fc2f48d7c",
+    "signalDetectionHypotheses": [
+      {
+        "id": "51e1d185-ad0b-4057-b77f-a889f806a6b7",
+        "parentSignalDetectionId": "9b24e53d-f4db-4b6b-bf3d-c9a9aad77e97",
+        "rejected": false,
+        "creationInfoId": "73dde712-728e-4877-b9e1-9dc46d89338b",
+        "featureMeasurements": [
+          {
+            "id": "a27e9f5c-9f72-4bce-b616-db45d765efe3",
+            "channelSegmentId": "353a0c6a-3b90-4296-b042-21f5ee208b00",
+            "measurementValue": {
+              "referenceTime": "1970-01-01T00:00:00Z",
+              "measurementValue": {
+                "value": 78.7747,
+                "standardDeviation": 10.0,
+                "units": "DEGREES"
+              }
+            },
+            "featureMeasurementType": "SOURCE_TO_RECEIVER_AZIMUTH"
+          },
+          {
+            "id": "0eca8cb0-e5bc-4b2e-9aca-ab282f7c2f70",
+            "channelSegmentId": "01082c06-e1f2-4502-8e5e-d4f8b31e2e2d",
+            "measurementValue": {
+              "referenceTime": "1970-01-01T00:00:00Z",
+              "measurementValue": {
+                "value": 4.6597,
+                "standardDeviation": 2.5,
+                "units": "SECONDS_PER_DEGREE"
+              }
+            },
+            "featureMeasurementType": "SLOWNESS"
+          },
+          {
+            "id": "d0a47a9e-00ba-4aa3-a150-8237544bcb3a",
+            "channelSegmentId": "f91f51ff-9957-47f0-a816-575094bb099e",
+            "measurementValue": {
+              "value": "2019-01-01T07:12:53.255Z",
+              "standardDeviation": "PT1.215S"
+            },
+            "featureMeasurementType": "ARRIVAL_TIME"
+          },
+          {
+            "id": "48496560-5efa-4df6-bc8a-7629faa42777",
+            "channelSegmentId": "a980144d-d675-4547-a911-a3e90fee73b0",
+            "measurementValue": {
+              "value": "P",
+              "confidence": 0.95
+            },
+            "featureMeasurementType": "PHASE"
+          }
+        ]
+      }
+    ],
+    "creationInfoId": "a3b4ca21-56fc-4bdc-96b0-3aab2b27a531"
+  }
+]

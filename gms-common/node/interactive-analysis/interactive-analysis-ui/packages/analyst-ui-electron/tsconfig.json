@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "outDir": "./build/js",
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "allowJs": false,
+        "removeComments": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noImplicitThis": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noFallthroughCasesInSwitch": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "@types",
+            "./@types",
+            "./node_modules/@types"
+        ],
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./src/*"
+            ]
+        },
+    },
+    "include": [
+        "src/ts/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "config",
+        "dist"
+    ]
+}

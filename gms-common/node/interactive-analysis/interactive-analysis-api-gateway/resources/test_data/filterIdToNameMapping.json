@@ -1,0 +1,24 @@
+{
+    "filterMappings": [
+        {
+        "filterId": "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+        "filterName": "f7"
+        },
+        {
+            "filterId": "0351d87a-fde9-43e2-8754-84a1d797fbc1",
+            "filterName": "f2"
+        },{
+            "filterId": "56893621-d9a1-4cfd-830a-13969f9d2aad",
+            "filterName": "f3"
+        },{
+            "filterId": "8bab76bd-db1a-4226-a151-786577adb3d8",
+            "filterName": "f4"
+        },{
+            "filterId": "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+            "filterName": "f5"
+        },{
+            "filterId": "b92d6ade-3e69-42b6-82e5-f9290f50120f",
+            "filterName": "f6"
+        }
+    ]
+}

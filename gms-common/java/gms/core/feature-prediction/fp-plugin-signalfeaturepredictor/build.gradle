@@ -1,0 +1,29 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    // GMS Dependencies
+    implementation project(':osd-commonobjects')
+    implementation project(':fp-plugins')
+    implementation project(':geomath')
+    implementation project(':plugin-registry')
+    implementation project(':standard-earthmodel-format')
+
+    //TODO: Reconsider this for proper plugin usage
+    implementation project(':fp-plugin-standardasciiformat-earthmodel1d')
+    implementation project(':fp-plugin-dziewonskigilbert-ellipticitycorrection')
+    implementation project(':fp-plugin-standardasciiformat-attenuationmodel1d')
+
+    // Third party dependencies.
+    implementation 'org.apache.commons:commons-math3'
+    implementation 'org.apache.commons:commons-lang3'
+    
+    implementation 'com.google.auto.service:auto-service:1.0-rc4'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc4'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}
+

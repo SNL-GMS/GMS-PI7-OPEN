@@ -1,0 +1,9 @@
+CD_1.1   Incoming CD-1.1 protocol stations                                                ww   -                      -1 29-AUG-19        
+mSeed    Incoming miniSeed protocol stations                                              ww   -                      -1 29-AUG-19        
+IMS2.0   Incoming IMS2.0 protocol stations                                                ww   -                      -1 29-AUG-19        
+IMS_AUX  IMS Auxiliary Seismic Stations                                                   ww   -                      -1 28-FEB-19        
+IMS_PRI  IMS Primary Seismic Stations                                                     ww   -                      -1 28-FEB-19        
+IMS_HYD  IMS Hydroacoustic Stations                                                       ww   -                      -1 28-FEB-19        
+IMS_INF  IMS Infrasound Stations                                                          ww   -                      -1 28-FEB-19        
+demo     list of stations used during UI demo                                             ww   -                      -1 28-FEB-19        
+IU       Global Seismograph Network (GSN)                                                 ww   -                      -1 28-FEB-19        

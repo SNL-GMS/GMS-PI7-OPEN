@@ -1,0 +1,6 @@
+FROM httpd:latest
+
+ENV TZ=America/Denver
+
+COPY docs/javadoc /var/www/html
+

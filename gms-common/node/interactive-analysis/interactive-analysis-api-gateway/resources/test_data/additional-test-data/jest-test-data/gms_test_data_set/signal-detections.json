@@ -1,0 +1,1010 @@
+[
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111110", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "a2dbb528-0606-4b94-ad54-8f049d384363", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.12S", 
+                            "value": "2010-05-20T20:41:04.350Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "362d767e-a85c-436c-ab52-e37f1f20b6af", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 2.17, 
+                                "value": 342.93
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "9f2e438d-0e52-44cd-a5b7-9af1f0e89009", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "b00bd259-0516-4e9a-bdee-9e790fd05a52", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "2dabc0e6-63b8-4a1b-81b0-b8553e43b7b9", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "0f13d437-4a17-4330-bda9-437c5fef0ded", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.45, 
+                                "value": 11.88
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "4fdfe690-70dc-4433-a340-fd5c48ce1db2", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:41:04.350Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 23.34
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "fd274eaa-3ac2-36e2-b1e3-d201ceb62a87", 
+                        "id": "e3a09d56-f8c9-4145-81d3-c7272474caf6", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111110", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111110", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111111", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "d8485c20-ac4d-4eba-ba26-25e3ab6f1917", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.12S", 
+                            "value": "2010-05-20T22:35:56Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "3a400814-ed16-4b52-b97d-d260ff426d1b", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 3.88, 
+                                "value": 110.65
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "5f8c2bfb-e9d3-4819-b978-73767ad1618c", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "ededa710-d71e-4052-9909-fd1615d2449e", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.67
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "2efa190b-0027-4743-a177-af8b56b6982b", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "7f89acc0-0c8e-4e3e-b9cd-b220a06ca72d", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.23, 
+                                "value": 3.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "3e91da53-99fc-4d1b-9571-c5425dbc493a", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:35:56Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 18.18
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "1aa53a45-f5d7-3d42-9e33-ba273cfe76e4", 
+                        "id": "4914556c-8a0c-4980-9fe0-7db5d23fe1ff", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "PKhKP"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111111", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111111", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111112", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "0dfd30fb-8e67-44ff-9a67-b4a06203e037", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.761S", 
+                            "value": "2010-05-20T22:06:52.550Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "8ea6a682-86d0-4d5b-b19b-d7a356ad702b", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 3.63, 
+                                "value": 345.33
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "321fcbbf-3c4f-4e66-b1a2-676f6ba00e0c", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "704db1b7-985b-4ecf-8af3-2e132d2e2750", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "111527e4-3eee-436d-acb9-19cdc4161282", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "25256a2f-061f-4ac8-97b0-8efe3f1f15e6", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.78, 
+                                "value": 12.3
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "4a071d4e-3ef9-4fc1-923c-37ac7effb124", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:06:52.550Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 5.34
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "911381fd-5efd-3212-a2d8-610ee95312da", 
+                        "id": "b613dfa8-ad12-436e-ba43-ff1cef2e6d2a", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111112", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111112", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111113", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "270ef7c6-3f24-46f7-aa81-fc69b84c9ef2", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.433S", 
+                            "value": "2010-05-20T22:54:15.050Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "a170962d-868c-43f0-b3c7-614b142f4a79", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 2.26, 
+                                "value": 344.74
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "cbba6a8e-06fa-4bfc-b4cf-582ea399d470", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "3a71e125-88ce-4443-b7f7-06c0365a9e63", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "8b5b17dd-0ea9-49c3-a330-c30ae8b97cda", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "1cddc8e5-3ea5-4efb-aad1-520b7b4fd48f", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.43, 
+                                "value": 10.82
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "f129d4b3-6d11-4f13-8fdb-e11543a13ac8", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:54:15.050Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 9.86
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "ef570e08-6444-3cd9-9998-7b24c39fba32", 
+                        "id": "1a231466-478b-433e-bd51-6827b8255940", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111113", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111113", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111114", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "16120f60-7558-45ff-a83d-811a51539d57", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.671S", 
+                            "value": "2010-05-20T23:15:20.450Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "3bb2a7e6-a525-442e-9fa8-e653a7cc457c", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 3.98, 
+                                "value": 342.18
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "6c11a8cd-61c1-4b62-a349-fb8c1c00a223", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "59d3aa52-43a3-479d-be40-0c631fe54507", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "0b5ee337-a19e-4491-a6a4-8f5bdb4cf1b3", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "29c48d59-2447-489b-a392-5c7058d2eee7", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.82, 
+                                "value": 11.82
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "8d51170e-b6a4-4c53-a2ad-97652e57b9e0", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:15:20.450Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 6.33
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "0f79261a-9ac8-3b0d-a52f-552208c1ca07", 
+                        "id": "2f53fbab-a897-4426-aa03-4caa0df8e660", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111114", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111114", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111115", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "660995aa-0247-4fb1-8887-273925333ba2", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.808S", 
+                            "value": "2010-05-20T22:47:50.900Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "e0c129be-e5d4-417e-8d16-bc50eab0e3fe", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 25.36, 
+                                "value": 50.46
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "71a252b4-428a-4c29-bb71-0f383604b8c4", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "d9b717d0-559d-4745-8697-8c11450a423b", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.67
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "f3b70bcc-f559-4b56-b84c-88250b359158", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "68b9d6eb-2318-4426-97f5-e2039f95ae4e", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 1.17, 
+                                "value": 8.38
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "6a627023-17d6-40a6-ace8-d5189932d370", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T22:47:50.900Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 4.9
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "e68a5aad-254a-3f6c-8353-420934463c29", 
+                        "id": "5e530b9d-24a7-4d5f-a6b0-a1f3cd0f54ab", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111115", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111115", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111116", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "0ce97eff-59d6-4a4f-8c23-c98caafbb062", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.12S", 
+                            "value": "2010-05-20T20:29:36.500Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "e3e251b7-2c0f-4764-947e-29a1dc3c44cf", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 2.12, 
+                                "value": 87.97
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "d155ab04-736b-412c-a1ff-69e2c42fa1f2", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "fcf00ab7-a22c-4cec-af8f-88c4efa77f3a", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "2d260afe-cf5c-4d17-876d-14ba36c5e12e", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "a7e2d959-1508-49db-aac6-0618b2588bd5", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.3, 
+                                "value": 8.17
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "abe92f50-e56c-4a6a-9665-93661abbe9a4", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T20:29:36.500Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 20.45
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "9055926c-0f14-3b4e-8299-c79f3bc2f270", 
+                        "id": "62409590-f296-45b8-bf1e-08d88ba6b7ed", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111116", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111116", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111117", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "a7d87ae9-e1d4-44cb-ab5d-e04ce7243d74", 
+                        "measurementValue": {
+                            "standardDeviation": "PT1.07S", 
+                            "value": "2010-05-20T21:22:35.696Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "850d3974-eda3-4dac-afda-cc820b8be61a", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 1.92, 
+                                "value": 334.01
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "59417c0c-b291-4965-996e-e1d235946f77", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "0e44e364-3975-4d8f-92d1-a6fa897a0da0", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.44
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "25e58304-e49b-4810-af2b-49915c588fbe", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "0325c7b9-b0c4-4bb9-9ec3-19ede1040e6f", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 0.6, 
+                                "value": 8.25
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "11df40e1-aeb7-47b2-8c3f-510605723e5e", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T21:22:35.696Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 1.17
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "d4d5e084-2057-3261-bd52-766476516777", 
+                        "id": "6760a448-67a4-49bf-a0b7-8bcda1f50e05", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111117", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111117", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }, 
+    {
+        "monitoringOrganization": "CTBTO", 
+        "stationId": "station1-1111-1111-1111-111111111111", 
+        "id": "sd111111-1111-1111-1111-111111111118", 
+        "signalDetectionHypotheses": [
+            {
+                "featureMeasurements": [
+                    {
+                        "featureMeasurementType": "ARRIVAL_TIME", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "10d0e0c6-2d4c-4fa7-9813-2a9c23299095", 
+                        "measurementValue": {
+                            "standardDeviation": "PT0.552S", 
+                            "value": "2010-05-20T23:59:08.850Z"
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "522b81c2-8e95-4166-93ef-d7ebbb4237bb", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 23.18, 
+                                "value": 178.09
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "EMERGENCE_ANGLE", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "1bb4df30-db69-484c-9081-992aac156398", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "DEGREES", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PERIOD", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "5c288877-3782-4adc-83e3-9a5b3f36667b", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "SECONDS", 
+                                "standardDeviation": 0.0, 
+                                "value": 0.67
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "RECTILINEARITY", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "a6cda8db-4943-4958-b679-d54c153011f4", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": -1.0
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SLOWNESS", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "87fb3066-2351-425c-aeda-6ccacf3e9ca6", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "SECONDS_PER_DEGREE", 
+                                "standardDeviation": 1.12, 
+                                "value": 2.78
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "SNR", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "c5962482-a508-49a3-849a-f1f62f62fcb5", 
+                        "measurementValue": {
+                            "referenceTime": "2010-05-20T23:59:08.850Z", 
+                            "measurementValue": {
+                                "units": "UNITLESS", 
+                                "standardDeviation": 0.0, 
+                                "value": 3.27
+                            }
+                        }
+                    }, 
+                    {
+                        "featureMeasurementType": "PHASE", 
+                        "channelSegmentId": "cd68138d-e2ab-321d-811d-c200b2042694", 
+                        "id": "e5838cd3-4055-4c00-9a01-73e1a106e39c", 
+                        "measurementValue": {
+                            "confidence": 1.0, 
+                            "value": "P"
+                        }
+                    }
+                ], 
+                "parentSignalDetectionId": "sd111111-1111-1111-1111-111111111118", 
+                "creationInfoId": "00000000-0000-0000-0000-000000000000", 
+                "id": "sd111111-1111-1111-1111-111111111118", 
+                "rejected": false
+            }
+        ], 
+        "creationInfoId": "00000000-0000-0000-0000-000000000000"
+    }
+]

@@ -1,0 +1,83 @@
+name: "TXAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "channel-processing-group-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "3d22a816-5e7c-4206-8ca4-b65784b8b4c0"
+    priority: 100
+parameters:
+  beamPoint:
+    latitudeDegrees: 29.33426
+    longitudeDegrees: -103.66768
+    depthKm: 0.0
+    elevationKm: 0.991
+  relativePositionsByChannelId:
+    0e6d4442-31c7-3d23-b313-4167422c8902:
+      northDisplacementKm: -0.032
+      eastDisplacementKm: -0.001
+      verticalDisplacementKm: 0.0
+    b02a8d7a-feb8-383d-830b-eb26c5858f53:
+      northDisplacementKm: -0.48
+      eastDisplacementKm: 0.942
+      verticalDisplacementKm: 0.0
+    be2297e0-f7b0-3172-9939-e25157872d53:
+      northDisplacementKm: -0.322
+      eastDisplacementKm: -0.645
+      verticalDisplacementKm: 0.0
+    8d232728-e1b4-3654-87c6-ab4f0b714c26:
+      northDisplacementKm: 0.627
+      eastDisplacementKm: 0.039
+      verticalDisplacementKm: 0.0
+    094df832-1ba9-3ee8-9c9b-14467fb6eb15:
+      northDisplacementKm: -1.692
+      eastDisplacementKm: -1.394
+      verticalDisplacementKm: 0.0
+    ab78c06a-4415-3ff4-be05-09f2ff99cc4a:
+      northDisplacementKm: 0.682
+      eastDisplacementKm: -2.067
+      verticalDisplacementKm: 0.0
+    a250318b-4f38-33b4-b33c-2e89071f7cd0:
+      northDisplacementKm: 1.843
+      eastDisplacementKm: -0.893
+      verticalDisplacementKm: 0.0
+    93111d68-d560-3932-b09b-753a71a57647:
+      northDisplacementKm: 1.044
+      eastDisplacementKm: 0.723
+      verticalDisplacementKm: 0.0
+    dc8be70a-f5a5-32cc-83ae-aee13e359dce:
+      northDisplacementKm: -0.421
+      eastDisplacementKm: -3.473
+      verticalDisplacementKm: 0.0
+  snappedSampling: true
+  beamGrid:
+    - slowness: 0.06985372411227087
+      azimuth: 270.2641942303304
+    - slowness: 0.04012162321500048
+      azimuth: 292.42091562801056
+    - slowness: 0.040633109271813045
+      azimuth: 253.74451781803955
+    - slowness: 0.04057882492339056
+      azimuth: 252.24474642130156
+    - slowness: 0.044495115071879365
+      azimuth: 317.0312426348897
+    - slowness: 0.04172766053511994
+      azimuth: 313.521709480053
+    - slowness: 0.05691729772367599
+      azimuth: 337.67967846276036
+    - slowness: 0.06211154399226899
+      azimuth: 302.15088795145743
+    - slowness: 0.05827677347045876
+      azimuth: 32.17380775497564
+    - slowness: 0.043504365712939176
+      azimuth: 242.07364140771656
+    - slowness: 0.041753802318296805
+      azimuth: 244.55470837101836
+  coherent: true
+  nominalWaveformSampleRate: 40.0
+  twoDimensional: true
+  waveformSampleRateTolerance: 0.5
+  phaseType: "P"
+  minimumWaveformsForBeam: 2

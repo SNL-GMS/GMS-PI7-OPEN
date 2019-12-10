@@ -1,0 +1,249 @@
+[
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "TRANSFERRED_FILE_INVOICE",
+    "metadata": {
+    "sequenceNumber": 12345
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T11:36:11.309924Z",
+      "payloadEndTime": "2018-12-19T11:36:15.319925Z",
+      "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+      "channelIds": [
+        "db8cbf4a-8f8f-3be3-a1b3-b6d97b30ce00"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:05.905580Z",
+      "payloadEndTime": "2018-12-19T22:36:10.905580Z",
+      "stationId": "3c048ea5-308c-4a5d-bd9a-cfa238a27980",
+      "channelIds": [
+        "61aec740-3eaa-4919-878a-7d019185a9c6"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:06.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:11.309924Z",
+      "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+      "channelIds": [
+        "3bca2889-d638-3d25-8219-4c046cba4330"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "TRANSFERRED_FILE_INVOICE",
+    "metadata": {
+      "sequenceNumber": 12346
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:05.905580Z",
+      "payloadEndTime": "2018-12-19T22:36:10.905580Z",
+      "stationId": "3c048ea5-308c-4a5d-bd9a-cfa238a27980",
+      "channelIds": [
+        "61aec740-3eaa-4919-878a-7d019185a9c6"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "TRANSFERRED_FILE_INVOICE",
+    "metadata": {
+      "sequenceNumber": 12347
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:26.310195Z",
+    "status": "RECEIVED",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:06.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:11.309924Z",
+      "stationId": "8316a1ae-0576-40c2-b863-7ff5fa891583",
+      "channelIds": [
+        "32c862a8-2957-43e7-81d8-2e54533a69bb"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:26.310129Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:06.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:11.309924Z",
+      "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+      "channelIds": [
+        "87f6a300-9f99-3d7e-bb98-d7d3d9790461"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:06.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:11.309924Z",
+      "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+      "channelIds": [
+        "72640921-630f-3273-bc94-809992aabb1f"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "TRANSFERRED_FILE_INVOICE",
+    "metadata": {
+      "sequenceNumber": 12348
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:05.905580Z",
+      "payloadEndTime": "2018-12-19T22:36:10.905580Z",
+      "stationId": "3c048ea5-308c-4a5d-bd9a-cfa238a27980",
+      "channelIds": [
+        "61aec740-3eaa-4919-878a-7d019185a9c6"
+      ]
+    }
+  },
+  { 
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:06.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:11.309924Z",
+      "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+      "channelIds": [
+        "aa8b8733-91e7-367b-b15c-5775de6cd9f1"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:11.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:15.309924Z",
+      "stationId": "a3853a26-1a0f-32bc-bbd6-44517c146b13",
+      "channelIds": [
+        "d55067f1-83ee-3eda-bae6-45215df10630"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:11.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:15.309924Z",
+      "stationId": "a3853a26-1a0f-32bc-bbd6-44517c146b13",
+      "channelIds": [
+        "d55067f1-83ee-3eda-bae6-45215df10630"
+      ]
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:10.905580Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT_AND_RECEIVED",
+    "metadataType": "TRANSFERRED_FILE_INVOICE",
+    "metadata": {
+      "sequenceNumber": 12349
+    }
+  },
+  {
+    "fileName": "testFile",
+    "priority": "testPriority",
+    "transferTime": "2018-12-19T22:36:11.309924Z",
+    "receptionTime": "2018-12-19T22:36:15.905580Z",
+    "status": "SENT",
+    "metadataType": "RAW_STATION_DATA_FRAME",
+    "metadata": {
+      "payloadStartTime": "2018-12-19T22:36:11.309924Z",
+      "payloadEndTime": "2018-12-19T22:36:15.309924Z",
+      "stationId": "bfe60bee-a42a-3fdc-b3ca-8efa063c07c1",
+      "channelIds": [
+        "eab9233f-486c-3a73-8aa3-a9617dc1ee28"
+      ]
+    }
+  }
+]

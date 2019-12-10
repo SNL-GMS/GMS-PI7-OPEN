@@ -1,0 +1,62 @@
+[
+    {
+        "id": "864c75c1-8171-4e58-a63f-5e323e9568ca",
+        "phase": "S",
+        "predictedValue": {
+            "referenceTime": "2019-04-11T15:59:17.495916Z",
+            "measurementValue": {
+                "value": 320.07450241254963,
+                "standardDeviation": 10,
+                "units": "DEGREES"
+            }
+        },
+        "featurePredictionComponents": [
+            {
+                "value": {
+                    "value": 320.07450241254963,
+                    "standardDeviation": 10,
+                    "units": "DEGREES"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "BASELINE_PREDICTION"
+            }
+        ],
+        "extrapolated": false,
+        "sourceLocation": {
+            "latitudeDegrees": 44.94862,
+            "longitudeDegrees": -106.38442,
+            "depthKm": 0,
+            "time": "2010-05-20T22:01:30.238Z"
+        },
+        "receiverLocation": {
+            "latitudeDegrees": 48.8465,
+            "longitudeDegrees": 13.6818,
+            "depthKm": 0.0052,
+            "elevationKm": 0.945
+        },
+        "channelId": "89f6a1a5-2ea2-3226-8651-addbc5a1b850",
+        "featurePredictionDerivativeMap": {
+            "D_DT": {
+                "value": 0,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DZ": {
+                "value": 0,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DX": {
+                "value": -0.8407793196169723,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DY": {
+                "value": 0.6252825490310441,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            }
+        },
+        "predictionType": "RECEIVER_TO_SOURCE_AZIMUTH"
+    }
+]

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="2.0"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+    <persistence-unit name="gms">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.emerging.provenance.repository.jpa.dataaccessobjects.CreationInformationDao
+        </class>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FilterDefinitionDao
+        </class>
+
+        <class>gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.EllipseDao
+        </class>
+        <class>gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.EllipsoidDao
+        </class>
+        <class>gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.EventDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.EventHypothesisDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.AmplitudeFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.DurationFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FirstMotionFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.InstantFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.NumericFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.PhaseFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.FeaturePredictionComponentDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.FeaturePredictionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.PhaseFeaturePredictionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.NumericFeaturePredictionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.InstantFeaturePredictionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.FinalEventHypothesisDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.LocationBehaviorDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.EventLocationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.LocationRestraintDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.LocationSolutionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.LocationUncertaintyDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.PreferredEventHypothesisDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.PreferredLocationSolutionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.event.repository.jpa.dataaccessobjects.SignalDetectionEventAssociationDao
+        </class>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.ChannelProcessingGroupDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.PhaseTypeMediumVelocityDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.NumericalMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.NumericalFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.EnumeratedMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.EnumeratedFeatureMeasurementDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.BeamCreationInfoDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.BeamDefinitionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FkSpectraCreationInformationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FkSpectraDefinitionDao
+        </class>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.LocationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.RelativePositionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.SignalDetectionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.SignalDetectionHypothesisDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.QcMaskDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.QcMaskVersionDao
+        </class>
+        <class>
+          gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.QcMaskVersionDescriptorDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.QcMaskVersionToChannelSegmentIdentityDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.ProcessingSiteDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.ProcessingChannelDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.CalibrationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.NetworkDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.StationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.ResponseDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.ChannelSegmentDao
+        </class>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.CalibrationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceChannelDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.InstrumentDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceSiteDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceStationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceNetworkDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceNetworkMembershipDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceStationMembershipDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceSiteMembershipDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceDigitizerMembershipDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.RelativePositionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceAliasDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceResponseDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceCalibrationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceDigitizerDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.commonobjects.repository.jpa.dataaccessobjects.ReferenceSensorDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.LocationDao
+        </class>
+
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.AcquiredChannelSohAnalogDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.AcquiredChannelSohBooleanDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.ChannelSegmentDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.RawStationDataFrameDao
+        </class>
+        <!-- FK -->
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FkSpectraCreationInformationDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.FkSpectraDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.FkSpectrumDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.FkAttributesDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.FkSpectraDefinitionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.PhaseTypeMediumVelocityDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.ChannelSegmentDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.RelativePositionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.LocationDao
+        </class>
+        <!-- Beam -->
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.BeamCreationInfoDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.BeamDefinitionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.waveforms.repository.jpa.dataaccessobjects.ChannelSegmentDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.RelativePositionDao
+        </class>
+        <class>
+            gms.shared.mechanisms.objectstoragedistribution.coi.signaldetection.repository.jpa.dataaccessobjects.LocationDao
+        </class>
+
+    <!-- TransferredFile -->
+    <class> gms.shared.mechanisms.objectstoragedistribution.coi.transferredfile.repository.jpa.dataaccessobjects.TransferredFileDao </class>
+    <class> gms.shared.mechanisms.objectstoragedistribution.coi.transferredfile.repository.jpa.dataaccessobjects.TransferredFileInvoiceDao </class>
+    <class> gms.shared.mechanisms.objectstoragedistribution.coi.transferredfile.repository.jpa.dataaccessobjects.TransferredFileRawStationDataFrameDao </class>
+
+
+        <properties>
+            <property name="hibernate.connection.url"
+                      value="jdbc:postgresql://localhost:5432/xmp_metadata"/>
+            <property name="hibernate.connection.username" value="xmp"/>
+            <property name="hibernate.connection.password" value="gmsdb:xmp@postgres=bird-hero-calendar"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL95Dialect"/>
+            <property name="hibernate.jdbc.time_zone" value="UTC"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.c3p0.min_size" value="2"/>
+            <property name="hibernate.c3p0.max_size" value="10"/>
+            <property name="hibernate.c3p0.acquire_increment" value="2"/>
+            <property name="hibernate.c3p0.timeout" value="300"/>
+            <!-- Useful for debugging connection leaks: time out and give a stack trace if a connection cannot be acquired in 15 seconds -->
+            <property name="hibernate.c3p0.unreturnedConnectionTimeout" value="120"/>
+            <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

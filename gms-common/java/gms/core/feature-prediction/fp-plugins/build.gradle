@@ -1,0 +1,16 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    implementation project(":osd-commonobjects")
+    implementation project(":plugin-registry")
+    implementation 'org.apache.commons:commons-math3'
+    implementation 'org.apache.commons:commons-lang3'
+    implementation project(":geomath")
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}
+

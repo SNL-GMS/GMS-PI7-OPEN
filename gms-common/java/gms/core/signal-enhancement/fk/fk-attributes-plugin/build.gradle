@@ -1,0 +1,12 @@
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    implementation project(':fk-measurements-algorithm')
+
+    // GMS dependencies
+    implementation project(':fk-plugin')
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

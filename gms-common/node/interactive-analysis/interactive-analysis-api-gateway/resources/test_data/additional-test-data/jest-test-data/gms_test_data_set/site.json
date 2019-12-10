@@ -1,0 +1,48 @@
+[
+    {
+        "comment": "Site is associated with station ASAR", 
+        "elevation": 0.605, 
+        "description": "Alice_Springs_Array,_Australia", 
+        "actualChangeTime": "1989-06-25T00:00:00Z", 
+        "systemChangeTime": "1989-06-25T00:00:00Z", 
+        "longitude": 133.9508, 
+        "source": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2005-06-14T00:00:00Z, Loaded from CSS file"
+        }, 
+        "versionId": "site1111-1111-1111-1111-111111111110", 
+        "latitude": -23.6647, 
+        "position": {
+            "eastDisplacementKm": 4.786, 
+            "verticalDisplacementKm": 0.0, 
+            "northDisplacementKm": 0.11
+        }, 
+        "entityId": "21b73745-1560-3caf-a9b9-3253f37b0965", 
+        "aliases": [], 
+        "name": "AS01"
+    }, 
+    {
+        "comment": "Site is associated with station ASAR", 
+        "elevation": 0.622, 
+        "description": "Alice_Springs_Array,_Australia", 
+        "actualChangeTime": "2005-06-14T00:00:00Z", 
+        "systemChangeTime": "2005-06-14T00:00:00Z", 
+        "longitude": 133.95199, 
+        "source": {
+            "informationTime": "2019-02-28T00:00:00Z", 
+            "originatingOrganization": "External", 
+            "reference": "OffDate: 2286-11-20T00:00:00Z, Loaded from CSS file"
+        }, 
+        "versionId": "site1111-1111-1111-1111-111111111111", 
+        "latitude": -23.66322, 
+        "position": {
+            "eastDisplacementKm": 4.765, 
+            "verticalDisplacementKm": 0.0, 
+            "northDisplacementKm": 0.211
+        }, 
+        "entityId": "21b73745-1560-3caf-a9b9-3253f37b0965", 
+        "aliases": [], 
+        "name": "AS01"
+    }
+]

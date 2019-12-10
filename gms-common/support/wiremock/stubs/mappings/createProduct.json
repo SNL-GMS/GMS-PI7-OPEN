@@ -1,0 +1,37 @@
+{
+
+ "request":
+
+ {
+
+ "urlPattern": "/createProduct",
+
+ "method": "POST",
+
+ "bodyPatterns" : [{
+
+ "equalToJson": "{ \"_id\" : \"p0003\", \"product_display_name\" : \"Brother - MFC-J4320DW Wireless All-In-One Printer - Black/Gray - New Product\", \"category_ids\" : [ \"pcmcat247400050001\" ], \"is_active\" : true, \"on_sale\" : true, \"price\" : { \"list_price\" : 149.99, \"sale_price\" : 123.99 }, \"upc\" : \"012502637677\", \"mpn\" : \"MFC-J4320DW\", \"manufacturer\" : \"Brother\", \"product_short_description\" : \"4-in-1 functionalityBuilt-in wireless LAN (802.11b/g/n)Prints up to 20 ISO ppm in black, up to 18 ISO ppm in color (Print speeds vary with use. See mfg. for info on print speeds.)150-sheet tray2.7\\\"\" }"
+ 
+ }]
+
+ },
+
+ "response":
+
+ {
+
+ "status": 200,
+
+ "headers":
+
+ {
+
+ "Content-Type" : "application/json"
+
+ },
+
+ "body": "{ \"_id\" : \"p0002\", \"product_display_name\" : \"Brother - MFC-J4320DW Wireless All-In-One Printer - Black/Gray - New Product\", \"category_ids\" : [ \"pcmcat247400050001\" ], \"is_active\" : true, \"on_sale\" : true, \"price\" : { \"list_price\" : 149.99, \"sale_price\" : 123.99 }, \"upc\" : \"012502637677\", \"mpn\" : \"MFC-J4320DW\", \"manufacturer\" : \"Brother\", \"product_short_description\" : \"4-in-1 functionalityBuilt-in wireless LAN (802.11b/g/n)Prints up to 20 ISO ppm in black, up to 18 ISO ppm in color (Print speeds vary with use. See mfg. for info on print speeds.)150-sheet tray2.7\\\"\" }"
+
+ }
+
+}

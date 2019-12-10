@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation project(':osd-commonobjects')
+
+    // Signal Detection plugins
+    runtimeOnly project(':signal-detector-sta-lta-plugin')
+
+    // Third party dependencies
+    implementation 'com.sparkjava:spark-core'
+    implementation 'com.mashape.unirest:unirest-java'
+    implementation 'org.yaml:snakeyaml'
+    implementation 'org.apache.commons:commons-configuration2'
+    implementation 'commons-beanutils:commons-beanutils'
+
+    testImplementation 'com.github.tomakehurst:wiremock'
+    testImplementation 'javax.xml.bind:jaxb-api'
+}

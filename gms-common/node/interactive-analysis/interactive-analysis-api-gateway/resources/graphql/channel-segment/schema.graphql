@@ -1,0 +1,140 @@
+enum TimeSeriesType {
+    WAVEFORM
+    FK_SPECTRA
+    DETECTION_FEATURE_MAP
+}
+
+# Represents a channel time segment comprised of one or more waveforms for a (derived or raw).
+type ChannelSegment {
+
+    # Unique identifier for the channel segment
+    id: String!
+
+    # Name of ChannelSegment
+    name: String!
+
+    # Type of timeseries
+    timeseriesType: TimeSeriesType!
+
+    # The type enumeration of the channel segment
+    type: ChannelSegmentType
+
+    # Unique identifier for the channel id
+    channelId: String!
+
+    # The start date/time (seconds since epoch) of the channel segment
+    startTime: Float!
+
+    # The end date/time ((seconds since epoch) of the channel segment
+    endTime: Float!
+
+    # The channel associated with the segment
+    channel: ProcessingChannel
+
+    # The collection of Waveforms associated with the channel segment
+    timeseries: [Timeseries]
+
+    # Provenance creation information for the channel segment
+    creationInfo: CreationInfo!
+}
+
+# Input version of the time window parameters provided as input to the FK mutation API
+input WindowParametersInput {
+
+    # The type of window (e.g. Hanning)
+    windowType: String!
+
+    # The lead period in seconds (prior to the detection onset time)
+    leadSeconds: Float!
+
+    # The length of the window in seconds (including the lead and lag around the detection onset time)
+    lengthSeconds: Float!
+
+    #  The number of FK Spectra per second to fetch
+    stepSize: Float!
+}
+
+input ContributingChannelsConfigurationInput {
+    id: String!
+    enabled: Boolean!
+    name: String
+}
+
+# Holds the configuration used to calculate an Fk
+  
+input FkConfigurationInput {
+    maximumSlowness: Float!
+    mediumVelocity: Float!
+    numberOfPoints: Float!
+    normalizeWaveforms: Boolean!
+    useChannelVerticalOffset: Boolean!
+    contributingChannelsConfiguration: [ContributingChannelsConfigurationInput]!
+    leadFkSpectrumSeconds: Float!
+}
+# Input parameters used to create a new FK data set
+input FkInput {
+
+    # The ID of the station the FK will be created for
+    stationId: String!
+
+    # Signal detection that Fk is created from
+    signalDetectionId: String!
+
+    # Signal detection hypothesis
+    signalDetectionHypothesisId: String!
+
+    # Phase of the signal detection
+    phase: String!
+
+    # The frequency band to compute the Fk on
+    frequencyBand: FrequencyBandInput!
+
+    # The window parameters to compute the Fk with
+    windowParams: WindowParametersInput!
+
+    # Configuration settings for the continous fk
+    configuration: FkConfigurationInput
+}
+
+# Input to modify leadSeconds and return SD with leadFkSpectrum and PowerSpectrum populated
+input FkLeadInput {
+     # Signal detection that Fk is created from
+    signalDetectionId: String!
+
+    # Window Lead Seconds and Lead Fk Spectrum Select Seconds (movie)
+    windowLeadSeconds: Float! # If lead is changed thru the widget
+    leadFkSpectrumSeconds: Float!
+}
+
+# Input parameters that indicate which Fk (ChannelSegment TimeSeries)
+# to set the reviewed flag
+input MarkFksReviewedInput {
+    # Signal detection that Fk is created from
+    signalDetectionIds: [String]!
+
+    # Boolean flag to set if reviewed by the Analyst
+    reviewed: Boolean!
+}
+
+extend type Query {
+    # Compute the Fk Thumbnails for UI Display. Should be called from UI after a
+    # new Fk is called
+    computeFkFrequencyThumbnails(fkInput: FkInput!): FkFrequencyThumbnailBySDId!
+}
+
+# Currently, no queries are provided. Fk data are accessed as members of
+# AzslownessFeatureMeasurements on SignalDetectionHypotheses
+
+# The following signal FK mutations are supported.
+extend type Mutation {
+    setFkWindowLead(leadInput: FkLeadInput!): AssociationChange
+
+    # Compute the new FKs and set for each signal detection id
+    computeFks(fkInput: [FkInput]!): AssociationChange
+
+    # update reviewed flag 
+    markFksReviewed(markFksReviewedInput: MarkFksReviewedInput!): AssociationChange
+
+    # Calculate new Beam (replaces ArrivalTime FM Beam)
+    computeBeam(fkInput: FkInput!): AssociationChange
+}

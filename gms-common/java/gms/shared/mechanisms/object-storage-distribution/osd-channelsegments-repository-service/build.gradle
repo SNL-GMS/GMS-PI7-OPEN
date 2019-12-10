@@ -1,0 +1,14 @@
+plugins {
+    id "application"
+    id "com.palantir.docker"
+}
+
+mainClassName = "gms.shared.mechanisms.objectstoragedistribution.coi.channelsegments.service.Application"
+
+dependencies {
+    // Apache configuration
+    implementation 'commons-configuration:commons-configuration'
+    implementation project(":http-service-library")
+    implementation project(":osd-repository")
+
+}

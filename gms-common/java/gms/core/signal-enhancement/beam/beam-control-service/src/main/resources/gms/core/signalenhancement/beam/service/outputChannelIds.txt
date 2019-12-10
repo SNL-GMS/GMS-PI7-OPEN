@@ -1,0 +1,14 @@
+These were originally defined in the BeamParameters class that has now been deleted.  These are the
+output channel ids to associate with the MKAR BeamDefinitions containing the indicated azimith and slowness.
+
+if(az == 53.083487527974796 && sl == 0.040931678676839806) {outputId = UUID.fromString("985f22db-2877-43a8-b01f-fc95c4f39a69");}
+else if (az == 98.4219459268874 && sl == 0.06022357793894427) {outputId = UUID.fromString("fcb09e96-003a-4e88-8e13-4ba9f2fc993f");}
+else if (az == 105.1628154664315 && sl == 0.0682695641481502) {outputId = UUID.fromString("4b7260c8-907e-4aa1-8375-36be3186bc6d");}
+else if (az == 105.33864941019878 && sl == 0.06751015004210807) {outputId = UUID.fromString("6b160154-8b59-4820-84a5-f196b72ffe6f");}
+else if (az == 73.0717784451373 && sl == 0.07302259689481606) {outputId = UUID.fromString("0f79f45f-fac3-4d41-a1fe-5bf9c56662e1");}
+else if (az == 81.56485729721867 && sl == 0.07216124921552042) {outputId = UUID.fromString("1701952b-1293-4c01-bc70-9e6fe68773d3");}
+else if (az == 162.256204725241 && sl == 0.07759591881718156) {outputId = UUID.fromString("0272ab52-396a-4140-b184-d44310156e65");}
+else if (az == 121.1783560178298 && sl == 0.06689781578273099) {outputId = UUID.fromString("bb37337a-4842-4d1f-b766-99089a886d6c");}
+else if (az == 228.14279120231492 && sl == 0.07362112407771981) {outputId = UUID.fromString("8f66e02e-233f-426b-bdfb-9b951ca425c9");}
+else if (az == 98.06562061061669 && sl == 0.06363210098807612) {outputId = UUID.fromString("4bbf9e76-ca75-4540-8a70-6dd0bdb25a1a");}
+else if (az == 98.23416843048996 && sl == 0.06340635332411894) {outputId = UUID.fromString("c4719ffa-1b24-4b3e-b3ce-5ec0bae7f6a8");}

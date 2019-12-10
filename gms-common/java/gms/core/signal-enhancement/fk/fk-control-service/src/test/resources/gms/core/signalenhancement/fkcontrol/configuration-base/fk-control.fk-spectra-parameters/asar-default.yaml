@@ -1,0 +1,117 @@
+name: "ASAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "station-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "1c4a8d11-178a-3c5d-a902-ac599a155621"
+    priority: 100
+parameters:
+  pluginName: "caponFkSpectraPlugin"
+  definition:
+    sampleRateHz: 40.0
+    windowLead: "PT1S"
+    windowLength: "PT4S"
+    lowFrequencyHz: 1.0
+    highFrequencyHz: 2.0
+    useChannelVerticalOffsets: false
+    normalizeWaveforms: false
+    phaseType: "P"
+    slowStartXSecPerKm: -0.4
+    slowDeltaXSecPerKm: 0.01
+    slowCountX: 81
+    slowStartYSecPerKm: -0.4
+    slowDeltaYSecPerKm: 0.01
+    slowCountY: 81
+    waveformSampleRateHz: 40.0
+    waveformSampleRateToleranceHz: 1.0E-4
+    beamPoint:
+      latitudeDegrees: 46.79368
+      longitudeDegrees: 82.29057
+      depthKm: 0.0
+      elevationKm: 0.618
+    minimumWaveformsForSpectra: 2
+    relativePositionsByChannelId:
+      efcd2260-c92a-3f0b-94aa-e903dd156407:
+        northDisplacementKm: 0.211
+        eastDisplacementKm: 4.765
+        verticalDisplacementKm: 0.0
+      3cea4a55-0025-3655-91c4-cc948b749d16:
+        northDisplacementKm: -2.081
+        eastDisplacementKm: 1.727
+        verticalDisplacementKm: 0.0
+      8a12dd2e-4e59-3bb8-a802-48123aa30813:
+        northDisplacementKm: -1.384
+        eastDisplacementKm: 3.36
+        verticalDisplacementKm: 0.0
+      70a23584-e6cd-3458-9082-370a77480c95:
+        northDisplacementKm: -0.857
+        eastDisplacementKm: 1.631
+        verticalDisplacementKm: 0.0
+      8b8fe3d6-970c-3cec-b5da-f807d8181553:
+        northDisplacementKm: 0.77
+        eastDisplacementKm: 2.571
+        verticalDisplacementKm: 0.0
+      d12f2c66-c78a-31b0-a0a4-088390074faa:
+        northDisplacementKm: 1.923
+        eastDisplacementKm: 4.453
+        verticalDisplacementKm: 0.0
+      1e5e1227-0e4b-36a2-95dc-593af04bd441:
+        northDisplacementKm: 2.094
+        eastDisplacementKm: 6.857
+        verticalDisplacementKm: 0.0
+      491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc:
+        northDisplacementKm: 0.12
+        eastDisplacementKm: 6.717
+        verticalDisplacementKm: 0.0
+      693c93a1-7ab0-3612-b926-fc12a4030e81:
+        northDisplacementKm: -1.639
+        eastDisplacementKm: 5.697
+        verticalDisplacementKm: 0.0
+      a4981075-c770-364c-8f52-1313b21add5e:
+        northDisplacementKm: -3.639
+        eastDisplacementKm: 3.801
+        verticalDisplacementKm: 0.0
+      8027c72b-a349-3209-b01f-ea42e78e7d7d:
+        northDisplacementKm: -3.364
+        eastDisplacementKm: 1.012
+        verticalDisplacementKm: 0.0
+      700d0ff4-59f6-3a4b-9ca7-e6025ed9e810:
+        northDisplacementKm: -1.299
+        eastDisplacementKm: -0.642
+        verticalDisplacementKm: 0.0
+      9f6b253d-0c83-3729-a5de-ca4b43155769:
+        northDisplacementKm: 0.027
+        eastDisplacementKm: 0.048
+        verticalDisplacementKm: 0.0
+      8fb51325-331c-3065-8e82-cbe7596087dc:
+        northDisplacementKm: 1.615
+        eastDisplacementKm: -0.976
+        verticalDisplacementKm: 0.0
+      0f93d71f-f509-34aa-a38b-7da324ecba55:
+        northDisplacementKm: 1.639
+        eastDisplacementKm: 0.65
+        verticalDisplacementKm: 0.0
+      e09923b3-14d3-32fe-9ee5-0eac235e64df:
+        northDisplacementKm: 3.441
+        eastDisplacementKm: 0.831
+        verticalDisplacementKm: 0.0
+      319c3310-acf9-3770-b9ea-d3fd16d7b3f0:
+        northDisplacementKm: 3.284
+        eastDisplacementKm: 2.654
+        verticalDisplacementKm: 0.0
+      eda3c769-bfdb-395a-9cbb-6eda2cb54f2c:
+        northDisplacementKm: 0.219
+        eastDisplacementKm: 8.928
+        verticalDisplacementKm: 0.0
+      9728dea3-9e0d-3d86-90b5-6ccb4ac3abf4:
+        northDisplacementKm: -2.597
+        eastDisplacementKm: 7.825
+        verticalDisplacementKm: 0.0
+      1b0b8eea-7512-31d1-b8fe-1c77d8dcfce1:
+        northDisplacementKm: -4.175
+        eastDisplacementKm: 5.965
+        verticalDisplacementKm: 0.0
+  outputChannelId: "00000000-0000-0000-0000-000000000000"

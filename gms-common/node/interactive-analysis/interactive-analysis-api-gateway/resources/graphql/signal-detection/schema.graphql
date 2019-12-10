@@ -1,0 +1,321 @@
+# Represents a signal detection marking the arrival of a signal of interest on
+# channel within a time interval.
+type SignalDetection {
+
+    # The unique ID of the signal detection
+    id: String!
+
+    # The monitoring organization that created the signal detection
+    monitoringOrganization: String!
+
+    # The processing station associates with the signal detection
+    station: ProcessingStation!
+
+    # The current hypothesis of the signal detection
+    currentHypothesis: SignalDetectionHypothesis!
+
+    # The collection of hypotheses associated with the signal detection
+    signalDetectionHypothesisHistory: [SignalDetectionHypothesisHistory]!
+
+    # Flag representing if the SD has been modified since loading from OSD
+    modified: Boolean!
+
+    # Flag representing if the SD has been associated to a new event since loading from OSD
+    # - this is a separate flag because this does not change the SD hypo
+    associationModified: Boolean
+
+    # Flag that indicates if the SD is associated to two or more events
+    hasConflict: Boolean!
+
+    # CreationInfo
+    creationInfo: CreationInfo!
+}
+
+# Represents a proposed explanation for a Signal Detection
+type SignalDetectionHypothesis {
+
+    # The unique ID of the signal detection hypothesis
+    id: String!
+
+    # Flag indicating whether or not the signal detection hypothesis has been rejected
+    rejected: Boolean!
+
+    # The signal detection the hypothesis is associated with
+    signalDetection: SignalDetection!
+
+    # The feature measurements associated with the signal detection hypothesis
+    featureMeasurements: [FeatureMeasurement]!
+
+    # Provenance creation information for the signal detection hypothesis
+    creationInfo: CreationInfo!
+}
+
+ # SignalDetectionHypothesisHistory used by SD History Table
+type SignalDetectionHypothesisHistory {
+  id: String!
+  phase: String!
+  rejected: Boolean!
+  arrivalTimeSecs: Float!
+  arrivalTimeUncertainty: Float!
+  creationInfo: CreationInfo!
+}
+
+# Represents a generic feature measurement interface containing the fields common to the
+# concrete feature measurement data types defined in the system (e.g. TimeFeatureMeasurement, AzSlownessFeatureMeasurement)
+type FeatureMeasurement {
+
+    #The unique ID of the feature
+    id: String!
+
+    #The type of the feature measurement
+    featureMeasurementType: FeatureMeasurementTypeName!
+
+    # Numeric value of feature used by Arrival Time for epoch time
+    measurementValue: FeatureMeasurementValue
+
+    #Creation Info
+    creationInfo: CreationInfo!
+
+    #Defining Rulues List
+    definingRules: [DefiningRule]
+
+    # Channel Segment if the type is a FkPowerSpectra or Beam otherwise not populated
+    channelSegment: ChannelSegment
+}
+
+type ContributingChannelsConfiguration {
+    id: String!
+    enabled: Boolean!
+    name: String
+}
+
+# Holds the configuration used to calculate an Fk
+  
+type FkConfiguration {
+    maximumSlowness: Float!
+    mediumVelocity: Float!
+    numberOfPoints: Float!
+    normalizeWaveforms: Boolean!
+    useChannelVerticalOffset: Boolean!
+    leadFkSpectrumSeconds: Float!
+    contributingChannelsConfiguration: [ContributingChannelsConfiguration]!
+}
+
+type FkPowerSpectra implements Timeseries {
+  id: String
+  contribChannels: [ProcessingChannel]!
+  startTime: Float!
+  sampleRate: Float!
+  sampleCount: Float!
+  windowLead: Float!
+  windowLength: Float!
+  stepSize: Float!
+  phaseType: String!
+  lowFrequency: Float!
+  highFrequency: Float!
+  xSlowStart: Float!
+  xSlowCount: Float!
+  xSlowDelta: Float!
+  ySlowStart: Float!
+  ySlowCount: Float!
+  ySlowDelta: Float!
+  reviewed: Boolean!
+  leadSpectrum: FkPowerSpectrum!
+  fstatData: FstatData
+  configuration: FkConfiguration
+}
+
+# FstatData for plots in UI
+type FstatData {
+    azimuthWf: Waveform!
+    slownessWf: Waveform!
+    fstatWf: Waveform!
+}
+
+type FkPowerSpectrum {
+  power: [[Float]]!
+  fstat: [[Float]]!
+  quality: Float!
+  attributes: FkAttributes!
+}
+type FkAttributes {
+  peakFStat: Float!
+  azimuth: Float!
+  slowness: Float!
+  azimuthUncertainty: Float!
+  slownessUncertainty: Float!
+}
+
+# FkFrequencyThumbnail preview Fk at a preset FrequencyBand
+type FkFrequencyThumbnail {
+    frequencyBand: FrequencyBand!
+    fkSpectra: FkPowerSpectra!
+}
+
+# Collection of thumbnails by signal detection id
+type FkFrequencyThumbnailBySDId {
+    signalDetectionId: String!
+    fkFrequencyThumbnails: [FkFrequencyThumbnail]!
+}
+
+# Enumeration of feature measurement types
+enum FeatureMeasurementTypeName {
+
+    # Signal detection time measurements
+    ARRIVAL_TIME
+
+    # Signal detection azimuth measurements
+    SOURCE_TO_RECEIVER_AZIMUTH
+    RECEIVER_TO_SOURCE_AZIMUTH
+
+    # Signal detection slowness measurements
+    SLOWNESS
+
+    # Signal detection amplitude measurements
+    AMPLITUDE
+    AMPLITUDE_A5_OVER_2
+    AMPLITUDE_ALR_OVER_2
+    AMPLITUDEh_ALR_OVER_2,
+    AMPLITUDE_ANL_OVER_2
+
+    # Signal detection phase measurements
+    PHASE
+
+    # Other feature measurements
+    EMERGENCE_ANGLE
+    PERIOD
+    RECTILINEARITY
+    SNR
+    FILTERED_BEAM
+}
+
+# Represents Feature Measurement Value (fields are dependent on type of FM)
+union FeatureMeasurementValue = AmplitudeMeasurementValue | InstantMeasurementValue | NumericMeasurementValue | PhaseTypeMeasurementValue | StringMeasurementValue
+
+# Represents Feature Measurement Value for a amplitude type.
+type AmplitudeMeasurementValue {
+    startTime: Float!
+    period: Float!
+    amplitude: DoubleValue!
+}
+
+# Represents Feature Measurement Value for a amplitude type as an input.
+input AmplitudeMeasurementValueInput {
+    startTime: Float!
+    period: Float!
+    amplitude: DoubleValueInput!
+}
+
+# Represents Feature Measurement Value for a instant type.
+type InstantMeasurementValue {
+    value: Float!
+    standardDeviation: Float!
+}
+
+# Represents Feature Measurement Value for a numeric type.
+type NumericMeasurementValue {
+    referenceTime: Float!
+    measurementValue: DoubleValue!
+}
+
+# Represents Feature Measurement Value for a numephaseric type.
+type PhaseTypeMeasurementValue {
+    phase: PhaseType!
+    confidence: Float!
+}
+
+# Represents Feature Measurement Value for a string.
+type StringMeasurementValue {
+    strValue: String!
+}
+
+ # Enumeration of operation types used in defining rules
+enum DefiningOperationType {
+    # Event location operation
+    Location
+
+    # Event magnitude operation
+    Magnitude
+}
+
+# Represents the defining relationship (isDefining: true|false) for an operation type (e.g. location, magnitude)
+type DefiningRule {
+
+    # The operation the defining relationship applies to
+    operationType: DefiningOperationType!
+
+    # Indicates whether a defining relationship (true) is set for the operation type or not (false)
+    isDefining: Boolean!
+}
+
+# Signal Detection Timing. Input object that groups ArrivalTime and AmplitudeMeasurement
+input SignalDetectionTimingInput {
+    # The detection time (seconds since epoch) to assign to the new detection's initial hypothesis
+    arrivalTime: Float!
+
+    # The uncertainty (seconds) associated with the time input
+    timeUncertaintySec: Float!
+
+    # The Amplitude Measurement Value
+    amplitudeMeasurement: AmplitudeMeasurementValueInput
+}
+
+# Input parameters used to create a new signal detection
+input NewDetectionInput {
+
+    # The ID of the station the detection will be created on
+    stationId: String!
+    
+    # The phase to assign to the new detection's initial hypothesis
+    phase: String!
+
+    # Signal Detection Timing Input for ArrivalTime and AmplitudeMeasurementjj
+    signalDetectionTiming: SignalDetectionTimingInput!
+
+    #id of the event that we want to associate
+    eventId: String
+}
+
+# Input parameters to update an existing signal detection
+# Each element of the input is optional; if present in the input, the value
+# will be applied to the signal detection
+input UpdateDetectionInput {
+    # The updated phase label to apply to the signal detection hypothesis
+    phase: String
+
+    signalDetectionTiming: SignalDetectionTimingInput
+}
+
+
+# The following signal detection-related queries are supported.
+extend type Query {
+    signalDetectionsByDefaultStations (timeRange: TimeRange!): [SignalDetection]
+    signalDetectionsByStation (stationIds: [String]!, timeRange: TimeRange!): [SignalDetection]
+    signalDetectionsById(detectionIds: [String]!): [SignalDetection]
+    signalDetectionsByEventId(eventId: String!): [SignalDetection]
+    loadSignalDetectionsByStation(stationIds: [String], timeRange: TimeRange!): [SignalDetection]
+}
+
+# The following signal detection-related mutations are supported.
+extend type Mutation {
+
+    # Create a new signal detection & initial hypothesis using the provided input
+    createDetection (input: NewDetectionInput!): AssociationChange
+
+    # Update an existing signal detection using the provided input (creates a new hypothesis)
+    updateDetection (detectionId: String!, input: UpdateDetectionInput!): AssociationChange
+
+    # Update a collection of signal detection hypothesis using the provided input
+    updateDetections (detectionIds: [String]!, input: UpdateDetectionInput!): AssociationChange
+
+    # Reject a signal detection hypothesis
+    rejectDetections(detectionIds: [String]!): AssociationChange
+},
+
+# The following signal detection-related subscriptions are supported.
+extend type Subscription {
+
+    # Subscribe for signal detections that have been created
+    # via the createDetection mutation, or by the System.
+    detectionsCreated(startTime: Float, endTime: Float): [SignalDetection]
+}

@@ -1,0 +1,12 @@
+name: "aic-default"
+constraints:
+  - constraintType: "STRING"
+    criterion: "name"
+    operator:
+      type: "EQ"
+      negated: false
+    value: ["aic-default"]
+parameters:
+  noiseWindowSize: PT15S
+  signalWindowSize: PT15S
+  order: 10

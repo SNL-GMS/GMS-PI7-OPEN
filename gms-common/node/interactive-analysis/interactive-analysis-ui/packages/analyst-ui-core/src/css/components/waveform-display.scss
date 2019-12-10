@@ -1,0 +1,126 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+.waveform-display-window {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    color: $gray4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waveform-display-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.waveform-display-control-pannel {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.waveform-display-control-pannel__waveform-count-input {
+    width: 80px;
+    & input { // applying this css to ALL input children
+        text-align: center;
+    }
+}
+
+.qc-mask-legend-table {
+    padding: 1rem;
+    & td {
+        vertical-align: middle;
+    }
+}
+
+.qc-mask-legend-table__checkbox {
+    margin-bottom: 0rem;
+}
+
+.qc-mask-legend-table__legend-box {
+    height: 10px;
+    width: 20px;
+    margin-left: 1rem;
+}
+
+.weavess-container {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.weavess-container__wrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.versions-table__row--first-in-table{
+    color: rgba(150, 200, 255, .5) !important;   
+}
+
+.waveform-display-controls__checkbox {
+    margin-bottom: 0px !important;
+}
+
+.alignment-dropdown {
+    padding: 12px 12px 12px 12px;
+    border-radius: 4px;
+}
+
+.alignment-dropdown__row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 258px;
+    margin-bottom: 4px;
+}
+
+.alignment-dropdown__list-positioner {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.alignment-dropdown__radio {
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+.alignment-dropdown__phase-type-selector {
+    margin-bottom: 7px;
+}
+
+.waveform-display-controls__alignment {
+    width: 160px;
+}
+
+.waveform-display-controls__phase-select {
+    width: 90px;
+}
+
+.qc-mask-legend__body {
+    width: 228px;
+    padding: 8px 12px 8px 12px;
+}
+
+.waveform-display-control-pannel__status {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.waveform-display-controls-status{
+    height: 30px;
+    left: 8px;
+    bottom: 6px;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}

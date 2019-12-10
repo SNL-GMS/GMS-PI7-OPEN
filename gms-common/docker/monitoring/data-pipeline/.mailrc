@@ -1,0 +1,4 @@
+set smtp-use-starttls
+set ssl-verify=ignore
+set smtp-auth=login
+set nss-config-dir=/etc/pki/nssdb

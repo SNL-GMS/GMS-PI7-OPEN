@@ -1,0 +1,43 @@
+version: '3.5'
+services:
+
+  signal-detection-association-control-service:
+    image: local/gms-common/signal-detection-association-control-service:latest
+    container_name: signal-detection-association-control-service
+    ports:
+      - "8080:8080"
+    environment:
+      - COI_SERVICE_HOST=osd-signaldetection-repository-service
+      - COI_SERVICE_PORT=8080
+      - persistence_url=jdbc:postgresql://postgres:5432/xmp_metadata
+    healthcheck:
+      test: ["CMD", "curl", "-f", "-X", "POST", "http://localhost:8080/is-alive"]
+      interval: 5s
+      timeout: 10s
+      retries: 12
+      start_period: 5s
+
+  osd-signaldetection-repository-service:
+    image: local/gms-common/osd-signaldetection-repository-service:latest
+    container_name: osd-signaldetection-repository-service
+    ports:
+      - "8081:8080"
+    environment:
+      - persistence_url=jdbc:postgresql://postgres:5432/xmp_metadata
+
+  osd-stationreference-coi-service:
+    image: local/gms-common/osd-stationreference-coi-service:latest
+    container_name: osd-stationreference-coi-service
+    ports:
+      - "8082:8080"
+    environment:
+      - persistence_url=jdbc:postgresql://postgres:5432/xmp_metadata
+
+  postgres:
+    image: postgres:9.5.4
+    container_name: postgres
+    env_file:
+    - scripts/postgres-env.db
+    ports:
+    - "5432:5432"
+    restart: on-failure

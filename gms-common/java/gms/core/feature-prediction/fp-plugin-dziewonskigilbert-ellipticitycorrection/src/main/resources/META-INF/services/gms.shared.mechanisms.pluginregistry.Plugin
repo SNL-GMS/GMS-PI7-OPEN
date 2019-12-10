@@ -1,0 +1,2 @@
+gms.core.featureprediction.plugins.implementations.ellipticitycorrection.DziewonskiGilbertEllipticityCorrection
+gms.core.featureprediction.plugins.implementations.ellipticitycorrection.StandardAsciiDgEllipticityCorrectionPlugin

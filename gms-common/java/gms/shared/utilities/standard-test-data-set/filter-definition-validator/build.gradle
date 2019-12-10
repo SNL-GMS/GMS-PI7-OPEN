@@ -1,0 +1,20 @@
+apply plugin: 'application'
+mainClassName = 'gms.shared.utilities.standardtestdataset.filterdefinitionvalidator.Application'
+
+run {
+    if (System.getProperty("exec.args") != null) {
+        args System.getProperty("exec.args").split()
+    }
+}
+
+dependencies {
+    //GMS Dependencies
+    implementation project(':osd-commonobjects')
+
+    //Third Party Dependencies
+    implementation 'args4j:args4j'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

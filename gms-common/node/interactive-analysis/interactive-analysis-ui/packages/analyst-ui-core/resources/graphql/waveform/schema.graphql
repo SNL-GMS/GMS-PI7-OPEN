@@ -1,0 +1,50 @@
+# Type enumeration for channel segments
+enum ChannelSegmentType {
+    Acquired
+    Raw
+    DetectionBeam
+    FkBean
+    Filter
+}
+
+# Represents a channel time segment comprised of one or more waveforms for a (derived or raw).
+type ChannelSegment {
+
+    # Unique identifier for the channel segment
+    id: String!
+
+    # The type enumeration of the channel segment
+    segmentType: ChannelSegmentType!
+
+    # The start date/time (seconds since epoch) of the channel segment
+    startTime: Float!
+
+    # The end date/time ((seconds since epoch) of the channel segment
+    endTime: Float!
+
+    # The channel associated with the segment
+    channel: ProcessingChannel
+
+    # The collection of Waveforms associated with the channel segment
+    timeseriesList: [Timeseries]
+
+    # The collection of feature measurements associated with the
+    # channel segment
+    # featureMeasurements: [FeatureMeasurement]
+
+    # Provenance creation information for the channel segment
+    creationInfo: CreationInfo!
+}
+
+# The following channel segment-related queries are supported.
+extend type Query {
+
+    # Retrieve channel segment data for the provided time range and list of channel IDs
+    waveformChannelSegments(timeRange: TimeRange!, channelIds: [String]!): [ChannelSegment]
+}
+
+# The following timeseries-related subscriptions are supported.
+extend type Subscription {
+    # Subscribe for ChannelSegments as they become available
+    waveformChannelSegmentsAdded(timeRange: TimeRange, channelIds: [String]): [ChannelSegment]
+}

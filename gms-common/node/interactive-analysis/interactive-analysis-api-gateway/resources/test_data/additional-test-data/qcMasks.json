@@ -1,0 +1,3189 @@
+[
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T21:59:56Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:00:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:00:01Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:01:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "cdf5ca15-2b8d-4685-a928-96eaf90b7ee0"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:01:56Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:02:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:02:01Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:03:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "228af456-22aa-418a-ba35-60c63405e202"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:03:56Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:04:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:04:01Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:05:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "f639e227-371b-4183-aaad-62b29dc9a3d2"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:05:56Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:06:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:06:01Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:07:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "4b166f9d-a9f9-4565-9779-a3f17356aecc"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:07:56Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:08:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:08:01Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:09:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "12b06350-477e-48b4-a620-5c80c8b2bd47"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:09:56Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:10:56Z", 
+                "type": "SENSOR_PROBLEM"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:10:01Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:11:01Z", 
+                "type": "SENSOR_PROBLEM"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "62dde032-225f-4685-b0c9-8680561446f0"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:11:56Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:12:56Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:12:01Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:13:01Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "94dd019c-f973-4861-a975-2e2921869dd2"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:13:56Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:14:56Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:14:01Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:15:01Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "672e3830-048c-4bec-bd84-e1b561099c7c"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:15:56Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:16:56Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:16:01Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:17:01Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "833548c1-83e5-4c58-bb3b-ab6dee9facc0"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:16:36Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:17:36Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:16:41Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:17:41Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "a8dd9663-ca52-4efe-ac0a-8e678dc89981"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:18:36Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:19:36Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:18:41Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:19:41Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "995d4adc-f541-47c0-aaea-a134ba82c8b2"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:19:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:20:16Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:19:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:20:21Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "74693188-6bf1-4fa3-af03-c2c27c1bef8d"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:21:16Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:22:16Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:21:21Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:22:21Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "04cfd41c-1ad7-430f-a02b-318b225a6172"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:21:56Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:22:56Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:22:01Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:23:01Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "a0dc3d27-49e3-4a39-aa59-252490ded585"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:23:56Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:24:56Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:24:01Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:25:01Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "59e40e2f-ffbb-4da7-9881-4c549a9369eb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:24:36Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:25:36Z", 
+                "type": "STATION_PROBLEM"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:24:41Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:25:41Z", 
+                "type": "STATION_PROBLEM"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "558f6cf4-549c-41f0-b24c-57e053fe8c16"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:26:36Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:27:36Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:26:41Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:27:41Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "7885186f-89fe-484a-8dda-29b34d7baeac"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:27:16Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:28:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:27:21Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:28:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "210a41d7-a9be-49f2-aa73-9466982ff5d1"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:29:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:30:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:29:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:30:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "72578b08-3c8a-49b1-8f30-87234105faac"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:29:56Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:30:56Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:30:01Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:31:01Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "e29d697a-cf4f-4f72-be39-00a58123a533"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:31:56Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:32:56Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:32:01Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:33:01Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "d5783e7e-3f58-4adb-82a6-4d8125c37cca"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:32:36Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:33:36Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:32:41Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:33:41Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "ff9f4b62-542e-45f0-92ef-c5ea61251ad7"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:34:36Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:35:36Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:34:41Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:35:41Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "ce3c3106-e81c-4634-9bbe-885dd327f454"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:35:16Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:36:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:35:21Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:36:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "7a257d95-2c21-4aac-a67c-9b40b1406659"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:37:16Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:38:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:37:21Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:38:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "455a16f4-42e6-4d91-bc23-d6b6287150b9"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:37:16Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:38:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:37:21Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:38:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "c06c67b3-044f-417b-9759-28c9d6dc202d"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:39:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:40:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:39:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:40:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "e470987e-7d9d-4e93-a37c-f3a7f9790feb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:39:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:40:16Z", 
+                "type": "CALIBRATION"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:39:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:40:21Z", 
+                "type": "CALIBRATION"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "e614a403-33fa-4bf4-a0c2-7f220d6aec07"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:41:16Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:42:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:41:21Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:42:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "e4dc09f3-310a-4751-9e4c-6e57860d5136"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:41:16Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:42:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:41:21Z", 
+                "channelSegmentIds": [
+                    "aaa7ebba-bd27-34b9-b0fe-94b661b412e1"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:42:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "aaa7ebba-bd27-34b9-b0fe-94b661b412e1", 
+        "id": "10a37bb3-ce61-4eea-9f1d-2da5ad9c2ac3"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:43:16Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:44:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:43:21Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:44:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "ee95c3fa-df5f-4035-9bfe-3124f3bd5f4e"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:43:16Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:44:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:43:21Z", 
+                "channelSegmentIds": [
+                    "571a11ae-95ea-3c91-8a78-0e7b321cf151"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:44:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "571a11ae-95ea-3c91-8a78-0e7b321cf151", 
+        "id": "c387bd12-eb4b-4bba-b369-7ca1f76fbcf9"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:45:16Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:46:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:45:21Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:46:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "2048bc55-dba3-4f6c-9533-689613f8f23e"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:45:16Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:46:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:45:21Z", 
+                "channelSegmentIds": [
+                    "9671b650-c8aa-3301-b0d2-b283aabf8a72"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:46:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "9671b650-c8aa-3301-b0d2-b283aabf8a72", 
+        "id": "5bfa6060-a97c-48aa-80a5-d54e55bbc269"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:47:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:48:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:47:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:48:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "0fe93f49-306b-486b-afe2-97697f190e35"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:47:16Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:48:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:47:21Z", 
+                "channelSegmentIds": [
+                    "f04909d8-1e0e-325e-899d-8b68d3bb211c"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:48:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "f04909d8-1e0e-325e-899d-8b68d3bb211c", 
+        "id": "b5c5bfe2-6ae8-49d0-b382-1d4bffa19cef"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:49:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:50:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:49:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:50:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "7b19ac34-6aab-4b6c-8e17-a4c8d60f48b7"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:49:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:50:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:49:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:50:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "04d914f9-46b2-4565-8f59-3da2bf9056d5"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:51:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:52:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:51:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:52:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "a5be0d7f-9cb8-4870-b599-d32d59ef83a9"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:51:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:52:16Z", 
+                "type": "STATION_SECURITY"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:51:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:52:21Z", 
+                "type": "STATION_SECURITY"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "9a208861-85a8-4344-8036-f97206f04087"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:53:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:54:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:53:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:54:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "81ac9a81-c163-4deb-beb7-9a9902c7a4cb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:53:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:53:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:53:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:54:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "a9a3efe5-a6d1-4113-b0ab-b73c7dd64d5e"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:55:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:56:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:55:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:56:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "3764dfc5-59fc-460c-8641-c3e40074b909"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:55:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:55:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:55:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:56:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "c1660da3-282e-4ea6-9948-592e75651bcb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:57:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:58:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:57:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:58:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "91860e96-ea96-4a0d-9b67-2638233aa060"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:57:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:57:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:57:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T22:58:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "37b3599d-6cf1-4de6-ab14-9b755473d1bb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:59:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:00:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:59:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:00:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "90cdcf96-1d23-44c7-b442-13a164fd8aa3"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:59:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T22:59:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T22:59:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:00:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "a02016c1-1826-44d9-ae8c-987abdd270df"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:01:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:02:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:01:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:02:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "c6457e55-3cb9-4ce7-8d7b-c87e69810584"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:01:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:01:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:01:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:02:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "093c4378-f545-49e9-a120-833967b2a4e5"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:03:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:04:16Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:03:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:04:21Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "29c4565e-e2cb-41a4-ae5d-325b1f6119c0"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:03:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:03:56Z", 
+                "type": "TIMING"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:03:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:04:01Z", 
+                "type": "TIMING"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "ad1395c9-3396-4348-83e0-8b9d303bdea7"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:05:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:06:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:05:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:06:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "f42795f5-a9b9-4642-a822-f874a725518b"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:05:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:05:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:05:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:06:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "290648ee-54c2-4121-a782-d8a85ccddfd4"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:07:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:08:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:07:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:08:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "1b33e11f-2536-449b-a344-69130904c0fa"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:07:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:07:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:07:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:08:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "8d96f395-45f0-4df0-82c0-d5b75d078853"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:09:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:10:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:09:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:10:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "f06dd1d8-ad40-484e-8d71-f88c9da1d578"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:09:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:09:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:09:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:10:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "3028478e-d6d7-4667-8735-5f402070d29e"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:11:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:12:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:11:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:12:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "486af286-cfd7-4b0a-a516-8993c2d4350f"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:11:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:11:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:11:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:12:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "6266a21a-48bc-4c29-8054-d188e22d034c"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:13:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:14:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:13:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:14:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "983049b7-7acd-40ef-925f-e721a535a857"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:13:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:13:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:13:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:14:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "a8d26161-e6f1-4eb9-8659-7e415c6b0fd1"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:15:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:16:16Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:15:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:16:21Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "f885ec69-ace8-40bb-be6a-2c5732802de9"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:15:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:15:56Z", 
+                "type": "REPAIRABLE_GAP"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:15:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:16:01Z", 
+                "type": "REPAIRABLE_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "8f529e5b-fd5b-4bd9-8b01-9904741fffc5"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:17:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:18:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:17:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:18:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "2dc37165-470b-418a-b25d-6b63b108d639"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:17:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:17:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:17:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:18:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "de5a7542-e3fd-4e21-8aa1-c5d316e287b2"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:19:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:20:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:19:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:20:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "356e1ca8-3114-4a90-866f-0b98d253e6a8"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:19:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:19:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:19:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:20:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "188e98b8-bd2c-41df-82c8-221cd595d8c9"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:21:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:22:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:21:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:22:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "1f9c65a5-47de-4ef5-b837-86727fdfd2bc"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:21:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:21:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:21:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:22:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "80a0e437-9338-4f2d-8553-1a8e9b41f438"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:23:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:24:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:23:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:24:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "5e0f16fe-e254-4cee-bb6c-579b0420073f"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:23:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:23:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:23:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:24:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "ee9035dc-bb63-44c3-b276-d301dd5343a1"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:25:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:26:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:25:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:26:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "ce3cc692-d9bf-4590-8fc7-a88507a0d1cd"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:25:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:25:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:25:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:26:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "74f1f165-be76-428f-9006-0f3e561048cb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:27:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:28:16Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:27:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:28:21Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "e235debc-ccac-4fea-9a3d-e933a26c0ed3"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:27:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:27:56Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:27:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:28:01Z", 
+                "type": "REPEATED_ADJACENT_AMPLITUDE_VALUE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "306e7fb7-0384-4489-80ae-34e214dfff0d"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:29:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:30:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:29:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:30:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "37952fd4-1519-4e1a-a171-f99250699100"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:29:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:29:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:29:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:30:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "f572e545-2dcd-428f-95c0-9a634bd5699e"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:31:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:32:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:31:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:32:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "ac2a1396-d4cf-4982-9237-e6c8f3d4e4d5"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:31:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:31:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:31:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:32:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "00b0b19a-c225-4a09-9f9e-4788d42ad2cc"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:33:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:34:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:33:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:34:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "405e7f21-bde2-403c-985b-2cfff80086fe"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:33:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:33:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:33:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:34:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "473c8988-34be-4c5d-9a4c-51a63cba0d97"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:35:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:36:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:35:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:36:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "8c51c5f1-31e6-4869-8c3d-02882c41ffb7"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:35:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:35:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:35:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:36:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "2e54d094-629c-47df-b4ff-863927c29532"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:37:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:38:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:37:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:38:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "d718b50d-3c4c-4f02-9187-21258e237c5d"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:37:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:37:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:37:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:38:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "9a9f04ce-2969-4ded-afd9-722162fa7f21"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:39:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:40:16Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:39:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:40:21Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "4d4381b5-8b1e-4f61-8a05-afdd1f54984f"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:39:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:39:56Z", 
+                "type": "LONG_GAP"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:39:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:40:01Z", 
+                "type": "LONG_GAP"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "b59eec07-5ac5-4ddf-9aaf-74374170f9bb"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:41:00Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "Mask with 0 length", 
+                "endTime": "2010-05-20T23:42:00Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "7a9380cc-7d2d-4260-bcb9-64d59887ea33"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:41:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:41:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:41:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:42:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "42a18352-e69d-4bd6-913a-e8e9ccabced8"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:43:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:44:16Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "CHANNEL_PROCESSING", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:43:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:44:21Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "da9b3b44-ecbd-4afb-8eea-916b5ced487b"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:43:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:43:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:43:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:44:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "e8075692-56b4-4daa-9f15-cc3bf17f95d2"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:45:16Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:46:16Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "DATA_AUTHENTICATION", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:45:21Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:46:21Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "33d245d6-43f2-4e45-963b-f221d1f5d8cc"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:45:31Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:45:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:45:36Z", 
+                "channelSegmentIds": [
+                    "70a23584-e6cd-3458-9082-370a77480c95"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:46:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "70a23584-e6cd-3458-9082-370a77480c95", 
+        "id": "2a482966-c631-4a11-a5e2-8770368b5678"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:47:16Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:48:16Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "REJECTED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:47:21Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:48:21Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "c69c37d3-fdca-47cc-9bb3-05b9c821214a"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:47:31Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:47:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:47:36Z", 
+                "channelSegmentIds": [
+                    "81365749-cc57-31de-9108-263992f35ee5"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:48:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "81365749-cc57-31de-9108-263992f35ee5", 
+        "id": "f4d38b5e-0eda-4538-a333-a7e8bf1073be"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:49:16Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:50:16Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "STATION_SOH", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:49:21Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:50:21Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "01f6db40-7233-412e-8776-5ca8914f5f77"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:49:31Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:49:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:49:36Z", 
+                "channelSegmentIds": [
+                    "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:50:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "491ed4d8-3f6e-3bb5-bc80-7d79e1aee9dc", 
+        "id": "a4ff1869-8c5b-4f93-9a80-ee3b5f21fef8"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:51:16Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:52:16Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "WAVEFORM_QUALITY", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:51:21Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:52:21Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "c1f360d4-e610-4174-825c-3567f2f76f98"
+    }, 
+    {
+        "qcMaskVersions": [
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:51:31Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 0, 
+                "rationale": "There was no possible justification for this mask", 
+                "endTime": "2010-05-20T23:51:56Z", 
+                "type": "SPIKE"
+            }, 
+            {
+                "category": "ANALYST_DEFINED", 
+                "parentQcMasks": [], 
+                "startTime": "2010-05-20T23:51:36Z", 
+                "channelSegmentIds": [
+                    "822afc0c-f046-3aec-947b-381f7ce0016e"
+                ], 
+                "creationInfoId": "51111111-1111-1111-1111-111111111111", 
+                "version": 1, 
+                "rationale": "There is no possible justification for this mask", 
+                "endTime": "2010-05-20T23:52:01Z", 
+                "type": "SPIKE"
+            }
+        ], 
+        "channelId": "822afc0c-f046-3aec-947b-381f7ce0016e", 
+        "id": "72bcf441-5ca2-481f-ab62-a9bbe38978b7"
+    }
+]

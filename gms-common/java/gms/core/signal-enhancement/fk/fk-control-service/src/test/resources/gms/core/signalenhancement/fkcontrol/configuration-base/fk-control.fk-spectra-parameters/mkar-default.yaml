@@ -1,0 +1,77 @@
+name: "MKAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "station-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a"
+    priority: 100
+parameters:
+  pluginName: "caponFkSpectraPlugin"
+  definition:
+    sampleRateHz: 40.0
+    windowLead: "PT1S"
+    windowLength: "PT4S"
+    lowFrequencyHz: 1.0
+    highFrequencyHz: 2.0
+    useChannelVerticalOffsets: false
+    normalizeWaveforms: false
+    phaseType: "P"
+    slowStartXSecPerKm: -0.4
+    slowDeltaXSecPerKm: 0.01
+    slowCountX: 81
+    slowStartYSecPerKm: -0.4
+    slowDeltaYSecPerKm: 0.01
+    slowCountY: 81
+    waveformSampleRateHz: 40.0
+    waveformSampleRateToleranceHz: 1.0E-4
+    beamPoint:
+      latitudeDegrees: 46.79368
+      longitudeDegrees: 46.79368
+      depthKm: 0.0
+      elevationKm: 0.618
+    minimumWaveformsForSpectra: 2
+    relativePositionsByChannelId:
+      70ba9365-f5fa-3667-842f-bfa2b55e2ffd:
+        northDisplacementKm: -2.484
+        eastDisplacementKm: 0.353
+        verticalDisplacementKm: 0.0
+      09c79723-f5f2-30ef-b12d-571884691971:
+        northDisplacementKm: -4.268
+        eastDisplacementKm: -0.59
+        verticalDisplacementKm: 0.0
+      9e5c1c14-c291-32c6-8c24-9efac6bf70cf:
+        northDisplacementKm: -3.101
+        eastDisplacementKm: 0.818
+        verticalDisplacementKm: 0.0
+      e1ae40b2-3921-3d4c-9095-938ced7833a9:
+        northDisplacementKm: -4.477
+        eastDisplacementKm: 1.919
+        verticalDisplacementKm: 0.0
+      df8d7e19-6ba1-3942-a167-23befbac3b2d:
+        northDisplacementKm: 0.0
+        eastDisplacementKm: 0.0
+        verticalDisplacementKm: 0.0
+      7233514a-946f-34d9-b004-55834dfa3e52:
+        northDisplacementKm: -2.626
+        eastDisplacementKm: 1.376
+        verticalDisplacementKm: 0.0
+      c9464459-1873-3f24-90ac-e59081d7d0d8:
+        northDisplacementKm: -2.131
+        eastDisplacementKm: -1.075
+        verticalDisplacementKm: 0.0
+      60c87a3c-5390-3a0c-8b05-acd217d0e014:
+        northDisplacementKm: 0.03
+        eastDisplacementKm: 0.041
+        verticalDisplacementKm: 0.0
+      3f174558-cff8-3aba-bea2-39f9b2b28b30:
+        northDisplacementKm: -2.749
+        eastDisplacementKm: 0.771
+        verticalDisplacementKm: 0.0
+      3cea4a55-0025-3655-91c4-cc948b749d16:
+        northDisplacementKm: -2.081
+        eastDisplacementKm: 1.727
+        verticalDisplacementKm: 0.0
+  outputChannelId: "00000000-0000-0000-0000-000000000000"

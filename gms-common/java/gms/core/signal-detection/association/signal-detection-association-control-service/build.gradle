@@ -1,0 +1,55 @@
+plugins {
+    id "application"
+    id "com.palantir.docker"
+}
+
+mainClassName = "gms.core.signaldetection.association.control.service.Application"
+
+dependencies {
+    // Caffeine (JCache)
+    implementation("com.github.ben-manes.caffeine:jcache:2.7.0")
+    
+    // Apache configuration
+    implementation 'commons-configuration:commons-configuration'
+
+    // Google AutoValue
+    implementation 'com.google.guava:guava'
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    implementation project(":configuration")
+    implementation project(":http-service-library")
+    implementation project(":osd-commonobjects")
+    implementation project(":plugin-registry")
+    implementation project(":signal-feature-prediction-utility")
+    implementation project(":signal-detection-association-plugins")
+    implementation project(":global-grid-signal-detection-associator")
+    implementation project(":osd-repository")
+
+    implementation "com.mashape.unirest:unirest-java"
+
+    testImplementation('com.github.tomakehurst:wiremock') {
+        exclude group: 'junit', module: 'junit'
+    }
+
+    testImplementation 'javax.xml.bind:jaxb-api'
+}
+
+test {
+    useJUnitPlatform() {
+        excludeTags "integration"
+    }
+}
+
+task testIntegration(type: Test) {
+    group="verification"
+    useJUnitPlatform {
+        includeTags "integration"
+    }
+    check.dependsOn it
+    shouldRunAfter test
+}
+
+build {
+    testIntegration.enabled = false
+}

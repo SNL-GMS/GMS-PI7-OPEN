@@ -1,0 +1,54 @@
+[
+  {
+    "id": "8eb8b7a8-f423-407c-9977-67c0309c7a1a",
+    "parentSignalDetectionId": "17826e23-7753-49ee-a9f6-f19e5de862cd",
+    "rejected": false,
+    "creationInfoId": "42c2b170-5807-4f58-b24a-772e6b48bb08",
+    "featureMeasurements": [
+      {
+        "id": "c1c0d3af-f172-459a-bf0a-4986631ae401",
+        "channelSegmentId": "2f730f1b-c4d0-4c1c-a969-2fd7bed3b087",
+        "measurementValue": {
+          "referenceTime": "1970-01-01T00:00:00Z",
+          "measurementValue": {
+            "value": 136.2817,
+            "standardDeviation": 10.0,
+            "units": "DEGREES"
+          }
+        },
+        "featureMeasurementType": "SOURCE_TO_RECEIVER_AZIMUTH"
+      },
+      {
+        "id": "fcaa6b08-ded1-47c9-bbaf-f17e41c4a874",
+        "channelSegmentId": "27008ab2-78f0-48c2-8f0d-6cdd9204536a",
+        "measurementValue": {
+          "referenceTime": "1970-01-01T00:00:00Z",
+          "measurementValue": {
+            "value": 7.7114,
+            "standardDeviation": 2.5,
+            "units": "SECONDS_PER_DEGREE"
+          }
+        },
+        "featureMeasurementType": "SLOWNESS"
+      },
+      {
+        "id": "517ba7a9-65b5-4071-9754-0cdcd5ac3298",
+        "channelSegmentId": "62850818-8b01-4759-ac64-ac461ba78ac7",
+        "measurementValue": {
+          "value": "2019-01-01T07:08:32.453Z",
+          "standardDeviation": "PT1.16S"
+        },
+        "featureMeasurementType": "ARRIVAL_TIME"
+      },
+      {
+        "id": "48496560-5efa-4df6-bc8a-7629faa42777",
+        "channelSegmentId": "a980144d-d675-4547-a911-a3e90fee73b0",
+        "measurementValue": {
+          "value": "P",
+          "confidence": 0.95
+        },
+        "featureMeasurementType": "PHASE"
+      }
+    ]
+  }
+]

@@ -1,0 +1,255 @@
+# Enumerated set of Processing Interval status values -
+# The status is used in both the Processing Stage and Processing Activity Intervals.
+enum IntervalStatus {
+    # Indicates that the Stage/Activity has not been opened for review.
+    NotStarted
+
+    # Indicates that the Stage/Activity is open as part of an in-progress review.
+    InProgress
+
+    # Indicates that the Stage/Activity has been marked as complete
+    Complete
+
+    # Indicates that the Complete status is not applicable for an Activity
+    # (e.g. scan).
+    NotComplete
+}
+
+# Enumerated set of Processing Stage Types
+enum ProcessingStageType {
+
+    # Indicates an Automatic Processing Stage that is part of the operational workflow
+    WorkflowAutomatic
+
+    # Indicates an interactive Processing Stage that is part of the operational workflow
+    WorkflowInteractive
+
+    # Indicates a stage that is not part of the operational workflow (e.g. a research stage)
+    NonWorkflow
+}
+
+# A named group of data processing and interactive analysis functions, used to track
+# status of increments of work performed on time intervals and events through the System.
+type ProcessingStage {
+
+    # Unique identifier for the stage
+    id: String!
+
+    # Name of the stage
+    name: String!
+
+    # The type enumeration for this stage
+    stageType: ProcessingStageType!
+
+    # The Processing Activities associated with this stage
+    activities: [ProcessingActivity]
+
+    # The Processing Stage Intervals associated with this stage - The
+    # optional timeRange parameter will filter the intervals to those
+    # within the specified time range as follows:
+    # (ProcessingStageInterval.startTime >= TimeRange.startTime AND
+    #  ProcessingStageInterval.endTime <= TimeRange.endTime)
+    intervals(timeRange: TimeRange): [ProcessingStageInterval]
+}
+
+# A Processing Interval, specifying a time range and associated
+# set of processing stage intervals
+type ProcessingInterval {
+
+    # Unique identifier for the interval
+    id: String!
+
+    # The start date/time (seconds since epoch) of the interval
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the interval
+    endTime: Float!
+
+    # The associated ProcessingStageIntervals
+    stageIntervals: [ProcessingStageInterval]
+}
+
+# A Processing Stage associated with a specified processing interval
+type ProcessingStageInterval {
+
+    # Unique identifier for the stage interval
+    id: String!
+
+    # The Analyst who marked the stage interval complete
+    # (null if the stage interval has a status other than Complete)
+    completedBy: Analyst
+
+    # The start date/time (seconds since epoch) of the stage interval
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the stage interval
+    endTime: Float!
+
+    # The count of events for the stage interval
+    eventCount: Int!
+
+    # The status of the stage interval
+    status: IntervalStatus!
+
+    # The Processing Stage for the stage interval
+    stage: ProcessingStage!
+
+    # The Processing Interval this stage interval is associated with
+    interval: ProcessingInterval!
+
+    # The associated Processing Activity Intervals for the stage
+    activityIntervals: [ProcessingActivityInterval]
+}
+
+# Enumerated set of Processing Activity types
+enum ProcessingActivityType {
+    # Indicates an interactive analysis scan activity
+    Scan
+
+    # Indicates an interactive analysis event review activity
+    EventReview
+
+    # Indicates an automated processing activity
+    Auto
+}
+
+# An analysis activity defined as part of an interactive Processing Stage
+type ProcessingActivity {
+
+    # Unique identifier for the activity
+    id: String!
+
+    # Name of the activity
+    name: String!
+
+    # The type of the activity (see ProcessingActivityType)
+    activityType: ProcessingActivityType!
+
+    # The interactive Processing Stage the activity is associated with
+    stage: ProcessingStage
+
+    # The list of time intervals the activity applies to
+    intervals: [ProcessingActivityInterval]
+}
+
+# An analyst supporting interactive analysis
+type Analyst {
+
+    # Username of the analyst in the System
+    userName: String!
+}
+
+# A Processing Activity associated with a specified Processing Interval
+type ProcessingActivityInterval {
+
+    # Unique identifier for the activity interval
+    id: String!
+
+    # List of Analysts who have participated in the analysis activity for the interval
+    activeAnalysts: [Analyst]
+
+    # The Analyst who marked the activity as Complete
+    # (null if the activity interval has a status other than Complete)
+    completedBy: Analyst
+
+    # The date and time (seconds since epoch) at which the activity was opened (TBD)
+    timeStarted: Float
+
+    # The count of events for the activity interval
+    eventCount: Int!
+
+    # The status of the activity interval
+    status: IntervalStatus!
+
+    # The Processing Activity for the interval
+    activity: ProcessingActivity
+
+    # The Processing Stage Interval the activity is associated with
+    stageInterval: ProcessingStageInterval
+}
+
+# Input parameters for Processing Stage Interval and Processing Activity Interval
+# status mutations
+input IntervalStatusInput {
+
+    # New status to assign to the interval
+    status: IntervalStatus!
+
+    # Username of the analyst to associate with the new status
+    analystUserName: String!
+}
+
+# The following workflow-related queries are supported.
+extend type Query {
+    # Retrieve all Analysts.
+    analysts: [Analyst]
+
+    # Retrieve all Processing Stages.
+    stages: [ProcessingStage]
+
+    # Retrieve the Processing Stage for the provided ID.
+    stage(id: String!): ProcessingStage
+
+    # Retrieve all Processing Intervals for the provided time stageIntervalsInRange
+    intervalsInRange(timeRange: TimeRange!): [ProcessingInterval]
+
+    # Retrieve the Processing Interval for the provided ID
+    interval(id: String!): ProcessingInterval
+
+    # Retrieve all Processing Stage Intervals.
+    stageIntervals: [ProcessingStageInterval]
+
+    # Retrieve the Processing Stage Interval for the provided ID.
+    stageInterval(id: String!): ProcessingStageInterval
+
+    # Retrieve all Processing Activities.
+    activities: [ProcessingActivity]
+
+    # Retrieve the Processing Activity for the provided ID.
+    activity(id: String!): ProcessingActivity
+
+    # Retrieve all Processing Activity Intervals.
+    activityIntervals: [ProcessingActivityInterval]
+
+    # Retrieve the Processing Activity Interval for the provided ID.
+    activityInterval(id: String!): ProcessingActivityInterval
+
+    # Retrieve the Processing Stage Intervals in the provided time range.
+    stageIntervalsInRange(timeRange: TimeRange!): [ProcessingStageInterval]
+}
+
+# The following workflow-related mutations are supported.
+extend type Mutation {
+
+    # Mark the Processing Stage Interval with a new status value
+    # Depending on the new status, update the 'active analysts' list
+    # to include the provided Analyst ID, or set the 'completed by' field
+    # to the provided Analyst ID.
+    markStageInterval (
+        stageIntervalId: String!
+        input: IntervalStatusInput!
+    ): ProcessingStageInterval
+
+    # Mark the Processing Activity Interval with a new status value
+    # Depending on the new status, update the 'active analysts' list
+    # to include the provided Analyst ID, or set the 'completed by' field
+    # to the provided Analyst ID.
+    markActivityInterval (
+        activityIntervalId: String!
+        input: IntervalStatusInput!
+    ): ProcessingActivityInterval
+}
+
+# The following workflow-related subscriptions are supported.
+extend type Subscription {
+
+    # Subscribe for Intervals that have been marked with a new status value
+    # via the markActiveInterval or markStageInterval mutation.
+    stageIntervalMarked: ProcessingStageInterval
+    activityIntervalMarked: ProcessingActivityInterval
+    # Subscribe for newly-created ProcessingStageIntervals
+    stageIntervalCreated: ProcessingStageInterval
+    # Subscribe for newly-created ProcessingStageIntervals
+    intervalCreated: ProcessingInterval
+}
+

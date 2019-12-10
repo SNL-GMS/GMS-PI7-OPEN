@@ -1,0 +1,36 @@
+apply plugin: 'application'
+apply plugin: 'com.palantir.docker'
+
+mainClassName = 'gms.dataacquisition.stationreceiver.cd11.dataman.Application'
+
+run {
+    if (System.getProperty("exec.args") != null) {
+        args System.getProperty("exec.args").split()
+    }
+    systemProperties System.properties
+}
+
+dependencies {
+    // Project dependencies.
+    implementation project(':java-utilities')
+    implementation project(':cd11-common')
+    implementation project(':cd11-stationreceiver-osd-client')
+    implementation project(':osd-commonobjects')
+    implementation project(':waveman')
+
+    // Third-party dependencies.
+    implementation 'com.google.guava:guava'
+    implementation 'com.netflix.archaius:archaius-core'
+    implementation 'commons-configuration:commons-configuration:1.8'
+    implementation 'org.apache.commons:commons-lang3'
+
+    testImplementation project(':cd11-dataprovider')
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}
+
+docker {
+    files tasks.distTar.outputs, 'wait-for-it.sh'
+}

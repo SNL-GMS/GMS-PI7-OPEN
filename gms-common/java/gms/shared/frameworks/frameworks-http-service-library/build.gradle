@@ -1,0 +1,15 @@
+apply plugin: "java-library"
+
+dependencies {
+    implementation 'com.sparkjava:spark-core'
+    implementation 'org.apache.commons:commons-lang3'
+    api project(":frameworks-utilities")
+    api project(":osd-commonobjects")
+
+    // Google AutoValue
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    // unirest for client HTTP usage in tests
+    testImplementation 'com.mashape.unirest:unirest-java'
+}

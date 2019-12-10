@@ -1,0 +1,3 @@
+gms.core.featureprediction.plugins.implementations.signalfeaturepredictor.BicubicSplineSignalFeaturePredictor
+gms.core.featureprediction.plugins.implementations.signalfeaturepredictor.StandardAsciiAzimuthUncertaintyPlugin
+gms.core.featureprediction.plugins.implementations.signalfeaturepredictor.StandardAsciiSlownessUncertaintyPlugin

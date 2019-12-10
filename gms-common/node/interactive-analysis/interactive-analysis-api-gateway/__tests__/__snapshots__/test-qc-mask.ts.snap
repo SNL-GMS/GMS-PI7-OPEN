@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QC Content query should match snapshot 1`] = `
+Object {
+  "channelsById": Array [
+    Object {
+      "qcMasks": Array [
+        Object {
+          "currentVersion": Object {
+            "category": "WAVEFORM_QUALITY",
+            "endTime": 1274395500,
+            "startTime": 1274394600,
+            "type": "LONG_GAP",
+          },
+        },
+        Object {
+          "currentVersion": Object {
+            "category": "WAVEFORM_QUALITY",
+            "endTime": 1274397000,
+            "startTime": 1274396400,
+            "type": "LONG_GAP",
+          },
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`QC Create mutation should match snapshot 1`] = `
+Object {
+  "createQcMask": Array [
+    Object {
+      "channelId": "channel1-1111-1111-1111-111111111110",
+      "currentVersion": Object {
+        "category": "ANALYST_DEFINED",
+        "channelSegmentIds": Array [
+          "channel1-1111-1111-1111-111111111110",
+        ],
+        "endTime": 1274393926,
+        "rationale": "testing",
+        "startTime": 1274393921,
+        "type": "SPIKE",
+        "version": 0,
+      },
+      "qcMaskVersions": Array [
+        Object {
+          "category": "ANALYST_DEFINED",
+          "channelSegmentIds": Array [
+            "channel1-1111-1111-1111-111111111110",
+          ],
+          "endTime": 1274393926,
+          "rationale": "testing",
+          "startTime": 1274393921,
+          "type": "SPIKE",
+          "version": 0,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`QC Create reject should match snapshot 1`] = `
+Object {
+  "rejectQcMask": Array [
+    Object {
+      "channelId": "channel1-1111-1111-1111-111111111110",
+      "currentVersion": Object {
+        "category": "REJECTED",
+        "channelSegmentIds": Array [
+          "f09572e5-979f-3e07-a181-c1dd75c356b9",
+        ],
+        "endTime": 1274393936,
+        "rationale": "This was a crappy mask anyway",
+        "startTime": 1274393921,
+        "type": "SPIKE",
+        "version": 2,
+      },
+      "id": "qcmask11-1111-1111-1111-111111111110",
+      "qcMaskVersions": Array [
+        Object {
+          "category": "WAVEFORM_QUALITY",
+          "channelSegmentIds": Array [
+            "f09572e5-979f-3e07-a181-c1dd75c356b9",
+          ],
+          "endTime": 1274395500,
+          "rationale": "",
+          "startTime": 1274394600,
+          "type": "LONG_GAP",
+          "version": 0,
+        },
+        Object {
+          "category": "ANALYST_DEFINED",
+          "channelSegmentIds": Array [
+            "f09572e5-979f-3e07-a181-c1dd75c356b9",
+          ],
+          "endTime": 1274393936,
+          "rationale": "Updating Test",
+          "startTime": 1274393921,
+          "type": "SPIKE",
+          "version": 1,
+        },
+        Object {
+          "category": "REJECTED",
+          "channelSegmentIds": Array [
+            "f09572e5-979f-3e07-a181-c1dd75c356b9",
+          ],
+          "endTime": 1274393936,
+          "rationale": "This was a crappy mask anyway",
+          "startTime": 1274393921,
+          "type": "SPIKE",
+          "version": 2,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`QC Update mutation should match snapshot 1`] = `
+Object {
+  "updateQcMask": Array [
+    Object {
+      "channelId": "channel1-1111-1111-1111-111111111110",
+      "currentVersion": Object {
+        "category": "ANALYST_DEFINED",
+        "channelSegmentIds": Array [
+          "f09572e5-979f-3e07-a181-c1dd75c356b9",
+        ],
+        "endTime": 1274393936,
+        "rationale": "Updating Test",
+        "startTime": 1274393921,
+        "type": "SPIKE",
+        "version": 1,
+      },
+      "id": "qcmask11-1111-1111-1111-111111111110",
+      "qcMaskVersions": Array [
+        Object {
+          "category": "WAVEFORM_QUALITY",
+          "channelSegmentIds": Array [
+            "f09572e5-979f-3e07-a181-c1dd75c356b9",
+          ],
+          "endTime": 1274395500,
+          "rationale": "",
+          "startTime": 1274394600,
+          "type": "LONG_GAP",
+          "version": 0,
+        },
+        Object {
+          "category": "ANALYST_DEFINED",
+          "channelSegmentIds": Array [
+            "f09572e5-979f-3e07-a181-c1dd75c356b9",
+          ],
+          "endTime": 1274393936,
+          "rationale": "Updating Test",
+          "startTime": 1274393921,
+          "type": "SPIKE",
+          "version": 1,
+        },
+      ],
+    },
+  ],
+}
+`;

@@ -1,0 +1,23 @@
+name: "default-plugin-config"
+constraints:
+- constraintType: "DEFAULT"
+parameters:
+  qcParameters:
+  - pluginName: "channelSohQcPlugin"
+    pluginParams:
+      mergeThreshold: PT0.037S
+      excludedTypes: []
+  - pluginName: "waveformGapQcPlugin"
+    pluginParams:
+      minLongGapLengthInSamples: 2
+  - pluginName: "waveformRepeatedAmplitudeQcPlugin"
+    pluginParams:
+      minSeriesLengthInSamples: 750
+      maxDeltaFromStartAmplitude: 85.0
+      maskMergeThresholdSeconds: 0.075
+  - pluginName: "waveformSpike3PtQcPlugin"
+    pluginParams:
+      minConsecutiveSampleDifferenceSpikeThreshold: 0.8
+      rmsAmplitudeRatioThreshold: 5.0
+      rmsLeadSampleDifferences: 200
+      rmsLagSampleDifferences: 200

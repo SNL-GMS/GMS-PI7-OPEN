@@ -1,0 +1,2 @@
+gms.core.signaldetection.association.plugins.implementations.redundancy.DefaultRedundancyRemovalPlugin
+gms.core.signaldetection.association.plugins.implementations.redundancy.DefaultWeightedEventCriteriaCalculationPlugin

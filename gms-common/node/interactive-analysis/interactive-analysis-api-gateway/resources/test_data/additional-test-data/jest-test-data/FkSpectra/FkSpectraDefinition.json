@@ -1,0 +1,4769 @@
+{
+    "FkSpectraDefinition": [
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "699396a0-e1db-4a13-874b-3a170b457baf", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "AKASG", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -0.0070605739309, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK01", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0101128714626
+                }, 
+                {
+                    "eastDisplacementKm": -0.0117757171126, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK02", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0439561421501
+                }, 
+                {
+                    "eastDisplacementKm": -0.0015891012783, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK03", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0251333409307
+                }, 
+                {
+                    "eastDisplacementKm": -0.0369935942743, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK04", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0214425250585
+                }, 
+                {
+                    "eastDisplacementKm": -0.0131220015572, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK05", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0816044425538
+                }, 
+                {
+                    "eastDisplacementKm": -0.0163829417016, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK06", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.115546638618
+                }, 
+                {
+                    "eastDisplacementKm": -0.0126309719602, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK07", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.150692126991
+                }, 
+                {
+                    "eastDisplacementKm": 0.0194865005649, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK08", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.067483294692
+                }, 
+                {
+                    "eastDisplacementKm": 0.0384792735679, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK09", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0861963786754
+                }, 
+                {
+                    "eastDisplacementKm": 0.017270572127, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK10", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.10232930897
+                }, 
+                {
+                    "eastDisplacementKm": -0.0359467839246, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK11", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0228157891513
+                }, 
+                {
+                    "eastDisplacementKm": -0.0441225166473, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK12", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.057553884837
+                }, 
+                {
+                    "eastDisplacementKm": -0.0637268283425, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK15", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00606502491275
+                }, 
+                {
+                    "eastDisplacementKm": -0.0753415668876, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK16", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0311803794113
+                }, 
+                {
+                    "eastDisplacementKm": -0.106106459717, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK17", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0160016293405
+                }, 
+                {
+                    "eastDisplacementKm": -0.0995396133478, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK18", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.021032434406
+                }, 
+                {
+                    "eastDisplacementKm": -0.135133863203, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK19", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0212212919434
+                }, 
+                {
+                    "eastDisplacementKm": -0.136090741392, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK20", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.042051378988
+                }, 
+                {
+                    "eastDisplacementKm": -0.115741791407, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK21", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0754413915859
+                }, 
+                {
+                    "eastDisplacementKm": -0.0971716995585, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK22", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.059778806491
+                }, 
+                {
+                    "eastDisplacementKm": -0.0627465677917, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AK23", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0614227663873
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AKBB", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 50.7012, 
+                "depth": 0, 
+                "elevation": 0.16, 
+                "longitude": 29.2242
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "a8dd72e5-34ba-48d0-9e17-3f84751000a3", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ARCES", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARA0", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.000480237737753, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARA1", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00144970642932
+                }, 
+                {
+                    "eastDisplacementKm": 0.000697873566473, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARA2", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00109627303805
+                }, 
+                {
+                    "eastDisplacementKm": -0.00134988173102, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARA3", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.000267997838671
+                }, 
+                {
+                    "eastDisplacementKm": 0.000743738968393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARB1", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00304420363725
+                }, 
+                {
+                    "eastDisplacementKm": 0.00266468991941, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARB2", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.000881335174154
+                }, 
+                {
+                    "eastDisplacementKm": 0.00171320765996, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARB3", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00243806087462
+                }, 
+                {
+                    "eastDisplacementKm": -0.00209362069942, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARB4", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00204056072465
+                }, 
+                {
+                    "eastDisplacementKm": -0.0025639658995, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARB5", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00143351864041
+                }, 
+                {
+                    "eastDisplacementKm": 0.000733846430724, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC1", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00624938584203
+                }, 
+                {
+                    "eastDisplacementKm": 0.00601736086761, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC2", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00350465629967
+                }, 
+                {
+                    "eastDisplacementKm": 0.00610009845539, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC3", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00193983670474
+                }, 
+                {
+                    "eastDisplacementKm": 0.0020765335889, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC4", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00557489463732
+                }, 
+                {
+                    "eastDisplacementKm": -0.00268267635153, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC5", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.004869826498
+                }, 
+                {
+                    "eastDisplacementKm": -0.00619092993763, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC6", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.000735645073936
+                }, 
+                {
+                    "eastDisplacementKm": -0.00426728102179, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARC7", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00480057873432
+                }, 
+                {
+                    "eastDisplacementKm": 0.00122307738454, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD1", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0135033139183
+                }, 
+                {
+                    "eastDisplacementKm": 0.00880525784708, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD2", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0103529903315
+                }, 
+                {
+                    "eastDisplacementKm": 0.0149620135637, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD3", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00170691240872
+                }, 
+                {
+                    "eastDisplacementKm": 0.0107073230444, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD4", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00776564207022
+                }, 
+                {
+                    "eastDisplacementKm": 0.00211340577476, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD5", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0135275956017
+                }, 
+                {
+                    "eastDisplacementKm": -0.00555870684841, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD6", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0122001969108
+                }, 
+                {
+                    "eastDisplacementKm": -0.0123287999005, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD7", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00549485501437
+                }, 
+                {
+                    "eastDisplacementKm": -0.0130761361553, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD8", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00355411898802
+                }, 
+                {
+                    "eastDisplacementKm": -0.0070470841068, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ARD9", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0106209881702
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 69.534859, 
+                "depth": 0, 
+                "elevation": 0.403, 
+                "longitude": 25.505777
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "1b87cac4-ce37-4a59-83d7-d15b20376c20", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ASAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0428490772528, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00189397130282
+                }, 
+                {
+                    "eastDisplacementKm": 0.0302127093629, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0124439130661
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146706333632, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00770268955778
+                }, 
+                {
+                    "eastDisplacementKm": 0.0231251557839, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00692567568996
+                }, 
+                {
+                    "eastDisplacementKm": 0.0400431938412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0172930551671
+                }, 
+                {
+                    "eastDisplacementKm": 0.061670079829, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0188272978275
+                }, 
+                {
+                    "eastDisplacementKm": 0.0604074322938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00107828660593
+                }, 
+                {
+                    "eastDisplacementKm": 0.0512379491961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0147434784133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0341868115411, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0327254139309
+                }, 
+                {
+                    "eastDisplacementKm": 0.00910473194197, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0302540781568
+                }, 
+                {
+                    "eastDisplacementKm": -0.00577094674749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0116830869872
+                }, 
+                {
+                    "eastDisplacementKm": 0.000429875727801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000238320225664
+                }, 
+                {
+                    "eastDisplacementKm": -0.00877468091247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0145276412278
+                }, 
+                {
+                    "eastDisplacementKm": 0.00584469111921, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0147416797701
+                }, 
+                {
+                    "eastDisplacementKm": 0.00747426186979, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0309465557937
+                }, 
+                {
+                    "eastDisplacementKm": 0.0238643981442, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0295310235854
+                }, 
+                {
+                    "eastDisplacementKm": 0.0802896343654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00197311160418
+                }, 
+                {
+                    "eastDisplacementKm": 0.0703701170481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0233580800799
+                }, 
+                {
+                    "eastDisplacementKm": 0.0536400372065, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0375430797757
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -23.665134, 
+                "depth": 0, 
+                "elevation": 0.6273, 
+                "longitude": 133.905261
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 1, 
+            "channelId": "31364f5a-be23-4669-b631-165206086b9b", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ASAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0428490772528, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00189397130282
+                }, 
+                {
+                    "eastDisplacementKm": 0.0302127093629, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0124439130661
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146706333632, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00770268955778
+                }, 
+                {
+                    "eastDisplacementKm": 0.0231251557839, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00692567568996
+                }, 
+                {
+                    "eastDisplacementKm": 0.0400431938412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0172930551671
+                }, 
+                {
+                    "eastDisplacementKm": 0.061670079829, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0188272978275
+                }, 
+                {
+                    "eastDisplacementKm": 0.0604074322938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00107828660593
+                }, 
+                {
+                    "eastDisplacementKm": 0.0512379491961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0147434784133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0341868115411, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0327254139309
+                }, 
+                {
+                    "eastDisplacementKm": 0.00910473194197, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0302540781568
+                }, 
+                {
+                    "eastDisplacementKm": -0.00577094674749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0116830869872
+                }, 
+                {
+                    "eastDisplacementKm": 0.000429875727801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000238320225664
+                }, 
+                {
+                    "eastDisplacementKm": -0.00877468091247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0145276412278
+                }, 
+                {
+                    "eastDisplacementKm": 0.00584469111921, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0147416797701
+                }, 
+                {
+                    "eastDisplacementKm": 0.00747426186979, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0309465557937
+                }, 
+                {
+                    "eastDisplacementKm": 0.0238643981442, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0295310235854
+                }, 
+                {
+                    "eastDisplacementKm": 0.0802896343654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00197311160418
+                }, 
+                {
+                    "eastDisplacementKm": 0.0703701170481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0233580800799
+                }, 
+                {
+                    "eastDisplacementKm": 0.0536400372065, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0375430797757
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2.5, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -23.665134, 
+                "depth": 0, 
+                "elevation": 0.6273, 
+                "longitude": 133.905261
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 1.5, 
+            "channelId": "8c9b9b52-14f0-4ee1-a398-8ca2c963aa19", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ASAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0428490772528, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00189397130282
+                }, 
+                {
+                    "eastDisplacementKm": 0.0302127093629, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0124439130661
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146706333632, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00770268955778
+                }, 
+                {
+                    "eastDisplacementKm": 0.0231251557839, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00692567568996
+                }, 
+                {
+                    "eastDisplacementKm": 0.0400431938412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0172930551671
+                }, 
+                {
+                    "eastDisplacementKm": 0.061670079829, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0188272978275
+                }, 
+                {
+                    "eastDisplacementKm": 0.0604074322938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00107828660593
+                }, 
+                {
+                    "eastDisplacementKm": 0.0512379491961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0147434784133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0341868115411, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0327254139309
+                }, 
+                {
+                    "eastDisplacementKm": 0.00910473194197, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0302540781568
+                }, 
+                {
+                    "eastDisplacementKm": -0.00577094674749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0116830869872
+                }, 
+                {
+                    "eastDisplacementKm": 0.000429875727801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000238320225664
+                }, 
+                {
+                    "eastDisplacementKm": -0.00877468091247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0145276412278
+                }, 
+                {
+                    "eastDisplacementKm": 0.00584469111921, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0147416797701
+                }, 
+                {
+                    "eastDisplacementKm": 0.00747426186979, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0309465557937
+                }, 
+                {
+                    "eastDisplacementKm": 0.0238643981442, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0295310235854
+                }, 
+                {
+                    "eastDisplacementKm": 0.0802896343654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00197311160418
+                }, 
+                {
+                    "eastDisplacementKm": 0.0703701170481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0233580800799
+                }, 
+                {
+                    "eastDisplacementKm": 0.0536400372065, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0375430797757
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 3, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -23.665134, 
+                "depth": 0, 
+                "elevation": 0.6273, 
+                "longitude": 133.905261
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 2, 
+            "channelId": "6d42338b-3e8f-4546-ba95-52afa76ddcc6", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ASAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0428490772528, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00189397130282
+                }, 
+                {
+                    "eastDisplacementKm": 0.0302127093629, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0124439130661
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146706333632, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00770268955778
+                }, 
+                {
+                    "eastDisplacementKm": 0.0231251557839, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00692567568996
+                }, 
+                {
+                    "eastDisplacementKm": 0.0400431938412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0172930551671
+                }, 
+                {
+                    "eastDisplacementKm": 0.061670079829, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0188272978275
+                }, 
+                {
+                    "eastDisplacementKm": 0.0604074322938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00107828660593
+                }, 
+                {
+                    "eastDisplacementKm": 0.0512379491961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0147434784133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0341868115411, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0327254139309
+                }, 
+                {
+                    "eastDisplacementKm": 0.00910473194197, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0302540781568
+                }, 
+                {
+                    "eastDisplacementKm": -0.00577094674749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0116830869872
+                }, 
+                {
+                    "eastDisplacementKm": 0.000429875727801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000238320225664
+                }, 
+                {
+                    "eastDisplacementKm": -0.00877468091247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0145276412278
+                }, 
+                {
+                    "eastDisplacementKm": 0.00584469111921, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0147416797701
+                }, 
+                {
+                    "eastDisplacementKm": 0.00747426186979, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0309465557937
+                }, 
+                {
+                    "eastDisplacementKm": 0.0238643981442, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0295310235854
+                }, 
+                {
+                    "eastDisplacementKm": 0.0802896343654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00197311160418
+                }, 
+                {
+                    "eastDisplacementKm": 0.0703701170481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0233580800799
+                }, 
+                {
+                    "eastDisplacementKm": 0.0536400372065, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0375430797757
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 4, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -23.665134, 
+                "depth": 0, 
+                "elevation": 0.6273, 
+                "longitude": 133.905261
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 3, 
+            "channelId": "e523d5c1-7326-419a-93fb-a16906c02fc3", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ASAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0428490772528, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00189397130282
+                }, 
+                {
+                    "eastDisplacementKm": 0.0302127093629, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0124439130661
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146706333632, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00770268955778
+                }, 
+                {
+                    "eastDisplacementKm": 0.0231251557839, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00692567568996
+                }, 
+                {
+                    "eastDisplacementKm": 0.0400431938412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0172930551671
+                }, 
+                {
+                    "eastDisplacementKm": 0.061670079829, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0188272978275
+                }, 
+                {
+                    "eastDisplacementKm": 0.0604074322938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00107828660593
+                }, 
+                {
+                    "eastDisplacementKm": 0.0512379491961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0147434784133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0341868115411, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0327254139309
+                }, 
+                {
+                    "eastDisplacementKm": 0.00910473194197, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0302540781568
+                }, 
+                {
+                    "eastDisplacementKm": -0.00577094674749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0116830869872
+                }, 
+                {
+                    "eastDisplacementKm": 0.000429875727801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000238320225664
+                }, 
+                {
+                    "eastDisplacementKm": -0.00877468091247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0145276412278
+                }, 
+                {
+                    "eastDisplacementKm": 0.00584469111921, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0147416797701
+                }, 
+                {
+                    "eastDisplacementKm": 0.00747426186979, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0309465557937
+                }, 
+                {
+                    "eastDisplacementKm": 0.0238643981442, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0295310235854
+                }, 
+                {
+                    "eastDisplacementKm": 0.0802896343654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00197311160418
+                }, 
+                {
+                    "eastDisplacementKm": 0.0703701170481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0233580800799
+                }, 
+                {
+                    "eastDisplacementKm": 0.0536400372065, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "AS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0375430797757
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 6, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -23.665134, 
+                "depth": 0, 
+                "elevation": 0.6273, 
+                "longitude": 133.905261
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "f1cdcf34-dc4e-4561-9790-145707aa7b3d", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "BRTR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00011601248721, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR101", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 9.26301254467e-05
+                }, 
+                {
+                    "eastDisplacementKm": 0.00739871885486, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR102", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0103772720149
+                }, 
+                {
+                    "eastDisplacementKm": 0.0139871489425, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR103", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00561176682318
+                }, 
+                {
+                    "eastDisplacementKm": 0.00195872245848, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR104", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0177849840858
+                }, 
+                {
+                    "eastDisplacementKm": -0.0166842144397, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR105", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00720266674469
+                }, 
+                {
+                    "eastDisplacementKm": -0.0161590106216, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BR106", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00844103259654
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 39.725253, 
+                "depth": 0, 
+                "elevation": 1.4776, 
+                "longitude": 33.638946
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "c7c1cce5-4b73-4496-88fd-f27b501b9a1b", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "BVAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 3.05769346135e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.96776130072e-05
+                }, 
+                {
+                    "eastDisplacementKm": 0.00110526625412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00431764303175
+                }, 
+                {
+                    "eastDisplacementKm": -0.00420972443899, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00111246082697
+                }, 
+                {
+                    "eastDisplacementKm": 0.00350285765646, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVA4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00314582697876
+                }, 
+                {
+                    "eastDisplacementKm": -0.0180907534319, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVB5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000695175601654
+                }, 
+                {
+                    "eastDisplacementKm": -0.00937722638867, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVB6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0167822404948
+                }, 
+                {
+                    "eastDisplacementKm": 0.00779531968323, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVB7", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0156697796678
+                }, 
+                {
+                    "eastDisplacementKm": 0.0170664261224, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVB8", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00461531848342
+                }, 
+                {
+                    "eastDisplacementKm": -0.00184900522251, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "BVB9", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0177625010456
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 53.02492, 
+                "depth": 0, 
+                "elevation": 0.42, 
+                "longitude": 70.38853
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "c81430b2-25c3-403d-a2cd-52fd024965f4", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "CMAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0150996097694, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0367372876165
+                }, 
+                {
+                    "eastDisplacementKm": 0.00348397190273, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0231017734221
+                }, 
+                {
+                    "eastDisplacementKm": 0.031651623933, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0311273194365
+                }, 
+                {
+                    "eastDisplacementKm": 0.034168825109, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0576258305655
+                }, 
+                {
+                    "eastDisplacementKm": 0.00208103019693, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0559297100161
+                }, 
+                {
+                    "eastDisplacementKm": -0.00214398270937, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.041708737456
+                }, 
+                {
+                    "eastDisplacementKm": -0.0118521594492, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0237133121144
+                }, 
+                {
+                    "eastDisplacementKm": 0.0140123299474, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0122073914836
+                }, 
+                {
+                    "eastDisplacementKm": 0.0454463180517, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0136579972346
+                }, 
+                {
+                    "eastDisplacementKm": 0.0559854679557, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0276622332875
+                }, 
+                {
+                    "eastDisplacementKm": 0.0165816917766, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0815082151419
+                }, 
+                {
+                    "eastDisplacementKm": -0.0165816917766, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.05127931799
+                }, 
+                {
+                    "eastDisplacementKm": -0.03420299933, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0361725136478
+                }, 
+                {
+                    "eastDisplacementKm": -0.0277539640914, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0213993576214
+                }, 
+                {
+                    "eastDisplacementKm": -0.0175763414731, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00512163654776
+                }, 
+                {
+                    "eastDisplacementKm": -0.000150186708249, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000144790778611
+                }, 
+                {
+                    "eastDisplacementKm": 0.0185161325517, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000120509095241
+                }, 
+                {
+                    "eastDisplacementKm": 0.0380601896993, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "CM18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00342012006868
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 18.4576, 
+                "depth": 0, 
+                "elevation": 0.3083, 
+                "longitude": 98.94315
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "bcab2914-03d9-4a7e-b4fb-8d9541d228a3", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "EKA", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -0.0302432862976, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00552453262737
+                }, 
+                {
+                    "eastDisplacementKm": -0.0215315578975, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0191393624248
+                }, 
+                {
+                    "eastDisplacementKm": 0.00581591282781, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB10", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0486146280706
+                }, 
+                {
+                    "eastDisplacementKm": -0.0185152332301, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0116228324396
+                }, 
+                {
+                    "eastDisplacementKm": -0.0164935582592, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00350465629967
+                }, 
+                {
+                    "eastDisplacementKm": -0.0124798859303, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00330950351111
+                }, 
+                {
+                    "eastDisplacementKm": -0.00968389505641, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0109267575163
+                }, 
+                {
+                    "eastDisplacementKm": -0.00644903523863, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB6", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.018243638105
+                }, 
+                {
+                    "eastDisplacementKm": -0.00342641531992, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB7", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0257610674119
+                }, 
+                {
+                    "eastDisplacementKm": -0.000223031758357, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB8", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.033479045437
+                }, 
+                {
+                    "eastDisplacementKm": 0.00260893197982, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKB9", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0406961013273
+                }, 
+                {
+                    "eastDisplacementKm": -0.0224416713631, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00912811430373
+                }, 
+                {
+                    "eastDisplacementKm": 0.0448338800378, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR10", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0180170090602
+                }, 
+                {
+                    "eastDisplacementKm": -0.0149638122069, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00601736086761
+                }, 
+                {
+                    "eastDisplacementKm": -0.00779442036162, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0022060359002
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.00745807408087, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00300643212979
+                }, 
+                {
+                    "eastDisplacementKm": 0.0149575169556, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR6", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00601106561637
+                }, 
+                {
+                    "eastDisplacementKm": 0.0224344767902, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR7", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00901479978134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0294734670026, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR8", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.012117459323
+                }, 
+                {
+                    "eastDisplacementKm": 0.0378218694737, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "EKR9", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0147164987652
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 55.3284, 
+                "depth": 0, 
+                "elevation": 0.308, 
+                "longitude": -3.13936
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "f0c2f099-a594-473c-b7bc-3bc2e40a66da", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ESDC", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0119636753283, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES01", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00419353665008
+                }, 
+                {
+                    "eastDisplacementKm": 0.0212230905866, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES02", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00269976346205
+                }, 
+                {
+                    "eastDisplacementKm": 0.0228472654075, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES03", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00808580056206
+                }, 
+                {
+                    "eastDisplacementKm": 0.015980045622, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES04", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0185745884561
+                }, 
+                {
+                    "eastDisplacementKm": 0.00308737107436, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES05", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0119843597253
+                }, 
+                {
+                    "eastDisplacementKm": 0.00841225430513, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES06", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00129862039947
+                }, 
+                {
+                    "eastDisplacementKm": 0.0085651389782, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES07", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0128845806532
+                }, 
+                {
+                    "eastDisplacementKm": 0.0292432406714, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES08", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0178839094625
+                }, 
+                {
+                    "eastDisplacementKm": 0.0489284913112, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES09", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00371239959072
+                }, 
+                {
+                    "eastDisplacementKm": 0.0467044689789, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES10", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0163631566262
+                }, 
+                {
+                    "eastDisplacementKm": 0.0331993564174, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES11", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0256594440704
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155204922812, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES12", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0356527057593
+                }, 
+                {
+                    "eastDisplacementKm": -0.00231575313617, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES13", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.024269092867
+                }, 
+                {
+                    "eastDisplacementKm": -0.0196870492831, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES14", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0225684757096
+                }, 
+                {
+                    "eastDisplacementKm": -0.0288691228832, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES15", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0101812199047
+                }, 
+                {
+                    "eastDisplacementKm": -0.0241530803798, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES16", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0123881551265
+                }, 
+                {
+                    "eastDisplacementKm": -0.00756059674399, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES17", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0259679113813
+                }, 
+                {
+                    "eastDisplacementKm": 0.0105679281954, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES18", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0357561277441
+                }, 
+                {
+                    "eastDisplacementKm": 0.049299011813, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ES19", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0261846478884
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ESBB", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 39.6744, 
+                "depth": 0, 
+                "elevation": 0.755, 
+                "longitude": -3.963
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "c9378413-40e6-4b1f-aa15-2642e818dc30", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "FINES", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIA0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.0010746893195, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000800396229588
+                }, 
+                {
+                    "eastDisplacementKm": -0.00169971783587, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00237870564861
+                }, 
+                {
+                    "eastDisplacementKm": -0.00265929398977, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00112864861588
+                }, 
+                {
+                    "eastDisplacementKm": 0.00354062916392, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000463150627234
+                }, 
+                {
+                    "eastDisplacementKm": 0.00215387524704, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00458204358399
+                }, 
+                {
+                    "eastDisplacementKm": -0.0031943903455, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00419533529329
+                }, 
+                {
+                    "eastDisplacementKm": -0.00580691961174, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 3.14762562198e-05
+                }, 
+                {
+                    "eastDisplacementKm": -0.00285264813512, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00310715614969
+                }, 
+                {
+                    "eastDisplacementKm": 0.00181662964468, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIB6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00328702047095
+                }, 
+                {
+                    "eastDisplacementKm": -0.0085075823954, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00510814672367
+                }, 
+                {
+                    "eastDisplacementKm": -0.00755160352793, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00527901782886
+                }, 
+                {
+                    "eastDisplacementKm": 0.000172669748406, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00911012787161
+                }, 
+                {
+                    "eastDisplacementKm": 0.00619632586726, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00521156870839
+                }, 
+                {
+                    "eastDisplacementKm": 0.00695175601654, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00405594044432
+                }, 
+                {
+                    "eastDisplacementKm": -0.000647511556521, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "FIC6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0090516719672
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 61.4436, 
+                "depth": 0, 
+                "elevation": 0.15, 
+                "longitude": 26.0771
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "d8de1e86-67f4-4918-ac53-d8b837a81014", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "GERES", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.000214038542294, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEA0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00831063096363
+                }, 
+                {
+                    "eastDisplacementKm": 0.00156032298689, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0088367341033
+                }, 
+                {
+                    "eastDisplacementKm": 0.000170871105193, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00649669928376
+                }, 
+                {
+                    "eastDisplacementKm": -0.00100724019903, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0101038782465
+                }, 
+                {
+                    "eastDisplacementKm": 0.00394622320835, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00622510415866
+                }, 
+                {
+                    "eastDisplacementKm": -0.0019479305992, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00557219667251
+                }, 
+                {
+                    "eastDisplacementKm": -0.00368452062093, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00816134357698
+                }, 
+                {
+                    "eastDisplacementKm": -0.00178605271007, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0123836585185
+                }, 
+                {
+                    "eastDisplacementKm": 0.00552273398416, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0038814720527
+                }, 
+                {
+                    "eastDisplacementKm": -0.00652188028874, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00273933361273
+                }, 
+                {
+                    "eastDisplacementKm": -0.00929269015768, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00991681935244
+                }, 
+                {
+                    "eastDisplacementKm": -0.00387517680146, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.015518693638
+                }, 
+                {
+                    "eastDisplacementKm": 0.00494626883454, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0183506573761
+                }, 
+                {
+                    "eastDisplacementKm": 0.00853815933001, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GEC7", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00967130455393
+                }, 
+                {
+                    "eastDisplacementKm": 0.00872881551055, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00670803986124
+                }, 
+                {
+                    "eastDisplacementKm": -0.00338594584764, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00812357206952
+                }, 
+                {
+                    "eastDisplacementKm": -0.0130554517584, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00139664645455
+                }, 
+                {
+                    "eastDisplacementKm": -0.0144817758259, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00653626943444
+                }, 
+                {
+                    "eastDisplacementKm": -0.00324924896349, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0257232959044
+                }, 
+                {
+                    "eastDisplacementKm": 0.00949413819749, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED7", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0242070396762
+                }, 
+                {
+                    "eastDisplacementKm": 0.0162075739884, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED8", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0119456888962
+                }, 
+                {
+                    "eastDisplacementKm": 0.0146859218305, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "GED9", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0016754361525
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 48.845106, 
+                "depth": 0, 
+                "elevation": 1.1325, 
+                "longitude": 13.701559
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "73fc8318-6b1e-463e-8f56-b00c34dc2299", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 80, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "HFS", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -0.0047547133324, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFA0", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.00852017289789
+                }, 
+                {
+                    "eastDisplacementKm": -0.0049561613722, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFA1", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.0110121930689
+                }, 
+                {
+                    "eastDisplacementKm": -0.00694725940851, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFA2", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.00711723119209
+                }, 
+                {
+                    "eastDisplacementKm": -0.00245514798514, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFA3", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.00701560785058
+                }, 
+                {
+                    "eastDisplacementKm": -0.0060731188072, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFB1", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.0147641628103
+                }, 
+                {
+                    "eastDisplacementKm": -0.0107828660593, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFB2", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.00868295010862
+                }, 
+                {
+                    "eastDisplacementKm": -0.0062296007667, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFB3", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.00357750134978
+                }, 
+                {
+                    "eastDisplacementKm": -9.3529447053e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFB4", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.0049984294877
+                }, 
+                {
+                    "eastDisplacementKm": 0.00095238158105, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "HFB5", 
+                    "channel": "EHZ", 
+                    "northDisplacementKm": 0.013264094371
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 60.133474, 
+                "depth": 0, 
+                "elevation": 0.2967, 
+                "longitude": 13.69449
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "3fb7ae29-1842-4246-9e14-ad02e1036b9a", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ILAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0002005487182, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000184360929287
+                }, 
+                {
+                    "eastDisplacementKm": 0.00950313141355, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0132964699488
+                }, 
+                {
+                    "eastDisplacementKm": 0.015121193488, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 4.76640451328e-05
+                }, 
+                {
+                    "eastDisplacementKm": 0.00450290328264, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0144502995697
+                }, 
+                {
+                    "eastDisplacementKm": -0.0155501698942, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00166644293644
+                }, 
+                {
+                    "eastDisplacementKm": -0.00743109443268, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00779801764805
+                }, 
+                {
+                    "eastDisplacementKm": 0.0202140517443, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0279958816035
+                }, 
+                {
+                    "eastDisplacementKm": 0.0383965359801, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0190970943093
+                }, 
+                {
+                    "eastDisplacementKm": 0.0442978843605, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0032375577826
+                }, 
+                {
+                    "eastDisplacementKm": 0.0186393396117, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.018590776245
+                }, 
+                {
+                    "eastDisplacementKm": -0.00464229813161, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0300364423281
+                }, 
+                {
+                    "eastDisplacementKm": -0.0244624470124, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0268168709776
+                }, 
+                {
+                    "eastDisplacementKm": -0.0428697616497, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236053935216
+                }, 
+                {
+                    "eastDisplacementKm": -0.039783289897, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00357750134978
+                }, 
+                {
+                    "eastDisplacementKm": -0.0240892285458, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00632582817857
+                }, 
+                {
+                    "eastDisplacementKm": -0.0149530203476, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0219488431228
+                }, 
+                {
+                    "eastDisplacementKm": -0.00136696884154, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0358766368393
+                }, 
+                {
+                    "eastDisplacementKm": 0.0471055664153, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0139862496209
+                }, 
+                {
+                    "eastDisplacementKm": 0.0382283628397, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "IL19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0253392855785
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 64.771446, 
+                "depth": 0, 
+                "elevation": 0.3873, 
+                "longitude": -146.886454
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "b32bc1e4-1a2b-4fdd-b204-d949948f1339", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "KSRS", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00798597586376, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0344296283748
+                }, 
+                {
+                    "eastDisplacementKm": 0.0148576922573, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.053474562031
+                }, 
+                {
+                    "eastDisplacementKm": 0.0267188449226, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0358442612615
+                }, 
+                {
+                    "eastDisplacementKm": 0.0290885573551, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0144556954993
+                }, 
+                {
+                    "eastDisplacementKm": 0.00648051149485, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0152803734123
+                }, 
+                {
+                    "eastDisplacementKm": -0.00976663264419, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0285363738888
+                }, 
+                {
+                    "eastDisplacementKm": -0.00923243561006, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0453779696096
+                }, 
+                {
+                    "eastDisplacementKm": 0.00299024434088, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0728828216161
+                }, 
+                {
+                    "eastDisplacementKm": 0.0298116119265, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0685175145392
+                }, 
+                {
+                    "eastDisplacementKm": 0.0365754097274, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0536966944677
+                }, 
+                {
+                    "eastDisplacementKm": 0.0551481995402, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0381914906539
+                }, 
+                {
+                    "eastDisplacementKm": 0.0537317680104, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS12", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0220450705347
+                }, 
+                {
+                    "eastDisplacementKm": 0.04532221167, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS13", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00216736507113
+                }, 
+                {
+                    "eastDisplacementKm": 0.0198849000364, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS14", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00859841387763
+                }, 
+                {
+                    "eastDisplacementKm": 0.000210441255869, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS15", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 4.4966080314e-05
+                }, 
+                {
+                    "eastDisplacementKm": -0.0228742450557, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS16", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00968749234284
+                }, 
+                {
+                    "eastDisplacementKm": -0.0346769418165, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS17", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0253491781162
+                }, 
+                {
+                    "eastDisplacementKm": -0.0317343615208, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS18", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0437816737585
+                }, 
+                {
+                    "eastDisplacementKm": -0.013691272134, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "KS19", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0600153280734
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 37.44209, 
+                "depth": 0, 
+                "elevation": 0.1381, 
+                "longitude": 127.884524
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "4cc02f4f-f808-4a9a-b980-509cdc653501", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 80, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MJAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJA0", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.00411529567033, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJA1", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0.00902019571098
+                }, 
+                {
+                    "eastDisplacementKm": 0.0148540949709, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJA2", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.000641216305277
+                }, 
+                {
+                    "eastDisplacementKm": -0.000370520501787, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJA3", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0290885573551
+                }, 
+                {
+                    "eastDisplacementKm": -0.00397949810779, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJA4", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0132326181148
+                }, 
+                {
+                    "eastDisplacementKm": -0.00681955574041, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB1", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0.0381609137192
+                }, 
+                {
+                    "eastDisplacementKm": 0.0554224926302, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB2", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0.0175763414731
+                }, 
+                {
+                    "eastDisplacementKm": 0.0380880686691, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB3", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0399235840675
+                }, 
+                {
+                    "eastDisplacementKm": 0.0277458701969, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB4", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0568955814212
+                }, 
+                {
+                    "eastDisplacementKm": 0.00827735606419, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB5", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0422150555203
+                }, 
+                {
+                    "eastDisplacementKm": 0.0028211718789, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB6", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0534439850963
+                }, 
+                {
+                    "eastDisplacementKm": -0.029333172832, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB7", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.034854108173
+                }, 
+                {
+                    "eastDisplacementKm": -0.0300625226547, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB8", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": -0.0033364831593
+                }, 
+                {
+                    "eastDisplacementKm": -0.0348613027458, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB9", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0.021018944582
+                }, 
+                {
+                    "eastDisplacementKm": -0.0348613027458, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MJB9B", 
+                    "channel": "HHZ", 
+                    "northDisplacementKm": 0.0210818970944
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 36.524717, 
+                "depth": 0, 
+                "elevation": 0.6617, 
+                "longitude": 138.24718
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "e03d54b2-841f-4495-9c14-6546265fde5d", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MKAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00693287026281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0247205523134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0123737659808, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236170847025
+                }, 
+                {
+                    "eastDisplacementKm": 0.00735824938258, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0278906609755
+                }, 
+                {
+                    "eastDisplacementKm": 0.00317100798374, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0223346520919
+                }, 
+                {
+                    "eastDisplacementKm": 0.000364225250543, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000267098517065
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155348814269, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0187184799131
+                }, 
+                {
+                    "eastDisplacementKm": 0.0172543843381, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0402653262779
+                }, 
+                {
+                    "eastDisplacementKm": -0.00530419883383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0383848447992
+                }, 
+                {
+                    "eastDisplacementKm": -0.00967130455393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0191645434298
+                }, 
+                {
+                    "eastDisplacementKm": 2.15837185507e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK32", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 46.793683, 
+                "depth": 0, 
+                "elevation": 0.6176, 
+                "longitude": 82.290569
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 1, 
+            "channelId": "71026ecf-6b9f-42f8-8580-b79572fae0bf", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MKAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00693287026281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0247205523134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0123737659808, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236170847025
+                }, 
+                {
+                    "eastDisplacementKm": 0.00735824938258, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0278906609755
+                }, 
+                {
+                    "eastDisplacementKm": 0.00317100798374, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0223346520919
+                }, 
+                {
+                    "eastDisplacementKm": 0.000364225250543, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000267098517065
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155348814269, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0187184799131
+                }, 
+                {
+                    "eastDisplacementKm": 0.0172543843381, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0402653262779
+                }, 
+                {
+                    "eastDisplacementKm": -0.00530419883383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0383848447992
+                }, 
+                {
+                    "eastDisplacementKm": -0.00967130455393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0191645434298
+                }, 
+                {
+                    "eastDisplacementKm": 2.15837185507e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK32", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2.5, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 46.793683, 
+                "depth": 0, 
+                "elevation": 0.6176, 
+                "longitude": 82.290569
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 1.5, 
+            "channelId": "afc1befc-43d0-4450-926a-b9d4dd93a9a0", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MKAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00693287026281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0247205523134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0123737659808, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236170847025
+                }, 
+                {
+                    "eastDisplacementKm": 0.00735824938258, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0278906609755
+                }, 
+                {
+                    "eastDisplacementKm": 0.00317100798374, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0223346520919
+                }, 
+                {
+                    "eastDisplacementKm": 0.000364225250543, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000267098517065
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155348814269, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0187184799131
+                }, 
+                {
+                    "eastDisplacementKm": 0.0172543843381, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0402653262779
+                }, 
+                {
+                    "eastDisplacementKm": -0.00530419883383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0383848447992
+                }, 
+                {
+                    "eastDisplacementKm": -0.00967130455393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0191645434298
+                }, 
+                {
+                    "eastDisplacementKm": 2.15837185507e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK32", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 3, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 46.793683, 
+                "depth": 0, 
+                "elevation": 0.6176, 
+                "longitude": 82.290569
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 2, 
+            "channelId": "615812f2-04c1-427e-b624-cfe81fc2b82f", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MKAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00693287026281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0247205523134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0123737659808, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236170847025
+                }, 
+                {
+                    "eastDisplacementKm": 0.00735824938258, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0278906609755
+                }, 
+                {
+                    "eastDisplacementKm": 0.00317100798374, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0223346520919
+                }, 
+                {
+                    "eastDisplacementKm": 0.000364225250543, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000267098517065
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155348814269, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0187184799131
+                }, 
+                {
+                    "eastDisplacementKm": 0.0172543843381, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0402653262779
+                }, 
+                {
+                    "eastDisplacementKm": -0.00530419883383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0383848447992
+                }, 
+                {
+                    "eastDisplacementKm": -0.00967130455393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0191645434298
+                }, 
+                {
+                    "eastDisplacementKm": 2.15837185507e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK32", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 4, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 46.793683, 
+                "depth": 0, 
+                "elevation": 0.6176, 
+                "longitude": 82.290569
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 3, 
+            "channelId": "f82bdd77-3d30-47f3-8c59-903245654b85", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "MKAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.00693287026281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0247205523134
+                }, 
+                {
+                    "eastDisplacementKm": 0.0123737659808, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0236170847025
+                }, 
+                {
+                    "eastDisplacementKm": 0.00735824938258, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0278906609755
+                }, 
+                {
+                    "eastDisplacementKm": 0.00317100798374, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0223346520919
+                }, 
+                {
+                    "eastDisplacementKm": 0.000364225250543, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK05", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000267098517065
+                }, 
+                {
+                    "eastDisplacementKm": 0.0155348814269, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0187184799131
+                }, 
+                {
+                    "eastDisplacementKm": 0.0172543843381, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0402653262779
+                }, 
+                {
+                    "eastDisplacementKm": -0.00530419883383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0383848447992
+                }, 
+                {
+                    "eastDisplacementKm": -0.00967130455393, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0191645434298
+                }, 
+                {
+                    "eastDisplacementKm": 2.15837185507e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "MK32", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 6, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 46.793683, 
+                "depth": 0, 
+                "elevation": 0.6176, 
+                "longitude": 82.290569
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "a339f794-fb7a-4c1d-9732-a46f0424d521", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "NOA", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -0.185476088079, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO00", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.217312072941
+                }, 
+                {
+                    "eastDisplacementKm": -0.159027039638, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO01", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.196726601374
+                }, 
+                {
+                    "eastDisplacementKm": -0.153730035377, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO02", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.235298505067
+                }, 
+                {
+                    "eastDisplacementKm": -0.197167268961, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO03", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.253006147495
+                }, 
+                {
+                    "eastDisplacementKm": -0.219632322685, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO04", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.230604046282
+                }, 
+                {
+                    "eastDisplacementKm": -0.19191523078, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NAO05", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.190323431537
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB200", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.038383046156, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB201", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0101263612867
+                }, 
+                {
+                    "eastDisplacementKm": 0.0309276700399, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB202", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0326273878758
+                }, 
+                {
+                    "eastDisplacementKm": -0.0226629044782, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB203", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0292279522041
+                }, 
+                {
+                    "eastDisplacementKm": -0.0275911868806, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB204", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00985656480482
+                }, 
+                {
+                    "eastDisplacementKm": -0.00852556882753, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NB205", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0312963918985
+                }, 
+                {
+                    "eastDisplacementKm": -0.212545668428, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO00", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00987455123694
+                }, 
+                {
+                    "eastDisplacementKm": -0.209676832504, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO01", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0209811730745
+                }, 
+                {
+                    "eastDisplacementKm": -0.173919805438, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO02", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00866046706847
+                }, 
+                {
+                    "eastDisplacementKm": -0.183515566977, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO03", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0276901122573
+                }, 
+                {
+                    "eastDisplacementKm": -0.224686510113, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO04", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0287423185367
+                }, 
+                {
+                    "eastDisplacementKm": -0.239525316616, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NBO05", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0191195773495
+                }, 
+                {
+                    "eastDisplacementKm": -0.184792603658, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC200", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.240631482192
+                }, 
+                {
+                    "eastDisplacementKm": -0.147003109762, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC201", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.258869724367
+                }, 
+                {
+                    "eastDisplacementKm": -0.148262160011, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC202", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.214470216665
+                }, 
+                {
+                    "eastDisplacementKm": -0.186447355414, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC203", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.203687350606
+                }, 
+                {
+                    "eastDisplacementKm": -0.21975822771, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC204", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.235820111599
+                }, 
+                {
+                    "eastDisplacementKm": -0.190952956661, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC205", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.283124428089
+                }, 
+                {
+                    "eastDisplacementKm": 0.0954539952905, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC300", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.223328534487
+                }, 
+                {
+                    "eastDisplacementKm": 0.131220015572, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC301", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.238257273152
+                }, 
+                {
+                    "eastDisplacementKm": 0.123099141467, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC302", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.194622188815
+                }, 
+                {
+                    "eastDisplacementKm": 0.0731508194547, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC303", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.186438362198
+                }, 
+                {
+                    "eastDisplacementKm": 0.0547596926063, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC304", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.239714174154
+                }, 
+                {
+                    "eastDisplacementKm": 0.0890238458056, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC305", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.25957119522
+                }, 
+                {
+                    "eastDisplacementKm": 0.244408632938, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC400", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0422141561987
+                }, 
+                {
+                    "eastDisplacementKm": 0.283475163515, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC401", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0441476976522
+                }, 
+                {
+                    "eastDisplacementKm": 0.263609149233, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC402", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00795000299951
+                }, 
+                {
+                    "eastDisplacementKm": 0.220225874946, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC403", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0164575853949
+                }, 
+                {
+                    "eastDisplacementKm": 0.208579660144, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC404", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0608301134487
+                }, 
+                {
+                    "eastDisplacementKm": 0.242169322139, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC405", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0759656960824
+                }, 
+                {
+                    "eastDisplacementKm": 0.121705192978, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC600", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.291910800182
+                }, 
+                {
+                    "eastDisplacementKm": 0.16217466526, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC601", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.26413974898
+                }, 
+                {
+                    "eastDisplacementKm": 0.162552380335, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC602", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.303512048903
+                }, 
+                {
+                    "eastDisplacementKm": 0.133135570594, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC603", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.334187908893
+                }, 
+                {
+                    "eastDisplacementKm": 0.0911102719321, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NC604", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.313305661196
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 61.0397, 
+                "depth": 0, 
+                "elevation": 0.717, 
+                "longitude": 11.2148
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "6d7a1534-80a0-4c64-9a37-7ea4a588d85d", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "NVAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV01", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": -0.00109987032448, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV02", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00778812511038
+                }, 
+                {
+                    "eastDisplacementKm": 0.00769729362814, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV03", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00169701987105
+                }, 
+                {
+                    "eastDisplacementKm": -0.0025918448693, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV04", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00638968001261
+                }, 
+                {
+                    "eastDisplacementKm": 0.00957957375009, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV05", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0167750459219
+                }, 
+                {
+                    "eastDisplacementKm": 0.0228571579452, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV06", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00718557963417
+                }, 
+                {
+                    "eastDisplacementKm": 0.00675660322797, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV07", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0190701146611
+                }, 
+                {
+                    "eastDisplacementKm": -0.0117064693489, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV08", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0254597946738
+                }, 
+                {
+                    "eastDisplacementKm": -0.024895020705, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV09", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00579522843086
+                }, 
+                {
+                    "eastDisplacementKm": -0.0124843825384, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV10", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0191717380027
+                }, 
+                {
+                    "eastDisplacementKm": 0.116313759948, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "NV11", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00248932220618
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 38.4296, 
+                "depth": 0, 
+                "elevation": 2.029, 
+                "longitude": -118.3035
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "4e48d5ea-95af-45e7-ac3f-309d8a0f5aa6", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "PDAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -0.0185817830289, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD01", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0091227183741
+                }, 
+                {
+                    "eastDisplacementKm": -0.00618373536478, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD02", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.0108008524914
+                }, 
+                {
+                    "eastDisplacementKm": 0.00619092993763, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD03", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00844193191814
+                }, 
+                {
+                    "eastDisplacementKm": -0.0120464129161, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD04", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00134988173102
+                }, 
+                {
+                    "eastDisplacementKm": -0.00629704988717, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD05", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00310625682809
+                }, 
+                {
+                    "eastDisplacementKm": -0.000163676532343, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD06", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.000622330551545
+                }, 
+                {
+                    "eastDisplacementKm": 0.00940870264489, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD07", 
+                    "channel": "sz", 
+                    "northDisplacementKm": 0.00266738788422
+                }, 
+                {
+                    "eastDisplacementKm": -0.0188021168225, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD08", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00840056312425
+                }, 
+                {
+                    "eastDisplacementKm": -0.0066315975247, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD09", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0054849624767
+                }, 
+                {
+                    "eastDisplacementKm": 0.000778812511038, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD10", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.00786456744691
+                }, 
+                {
+                    "eastDisplacementKm": -0.01392419643, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD11", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0147120021571
+                }, 
+                {
+                    "eastDisplacementKm": -0.00374297652533, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD12", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0121579287953
+                }, 
+                {
+                    "eastDisplacementKm": 0.00645802845469, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD13", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.0119960509062
+                }, 
+                {
+                    "eastDisplacementKm": -0.00019335414535, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "PD32", 
+                    "channel": "sz", 
+                    "northDisplacementKm": -0.000338144923961
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 42.767375, 
+                "depth": 0, 
+                "elevation": 2.2145, 
+                "longitude": -109.557904
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "63db35ca-fc77-4f10-966e-c4d3b3e0aac8", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 50, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "SONM", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONA0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.00556410277805, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.01208778171
+                }, 
+                {
+                    "eastDisplacementKm": 0.00246504052281, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0160007300189
+                }, 
+                {
+                    "eastDisplacementKm": 0.00994829560866, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0137200504254
+                }, 
+                {
+                    "eastDisplacementKm": 0.00626557363095, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONA4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00535366152218
+                }, 
+                {
+                    "eastDisplacementKm": 0.00601286425958, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0283583082108
+                }, 
+                {
+                    "eastDisplacementKm": 0.0189612967468, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0139727597968
+                }, 
+                {
+                    "eastDisplacementKm": 0.0132793828383, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000558478717499
+                }, 
+                {
+                    "eastDisplacementKm": -0.0232987248539, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000735645073936
+                }, 
+                {
+                    "eastDisplacementKm": -0.0172283040115, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SONB5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0192050129021
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 47.83469, 
+                "depth": 0, 
+                "elevation": 1.4158, 
+                "longitude": 106.39499
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "fdb2f2d4-2335-480f-8e17-7ff9777dcdea", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 80, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "SPITS", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPA0", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.00112415200785, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPA1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00199649396594
+                }, 
+                {
+                    "eastDisplacementKm": 0.00135797562548, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPA2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00184360929287
+                }, 
+                {
+                    "eastDisplacementKm": -0.00228427687995, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPA3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.000440667587077
+                }, 
+                {
+                    "eastDisplacementKm": 0.00421781833345, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPB1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00184360929287
+                }, 
+                {
+                    "eastDisplacementKm": 0.00299474094891, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPB2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0034803746163
+                }, 
+                {
+                    "eastDisplacementKm": -0.00236521582451, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPB3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00398399471582
+                }, 
+                {
+                    "eastDisplacementKm": -0.00445164195108, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPB4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00119609773635
+                }, 
+                {
+                    "eastDisplacementKm": -0.000332748994323, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "SPB5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00458654019202
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 78.1777, 
+                "depth": 0, 
+                "elevation": 0.323, 
+                "longitude": 16.37
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "b3347979-b1e3-433a-9598-59cdbe80ed8c", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "TORD", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOA0", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": -0.00276991054734, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOA1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00517829380896
+                }, 
+                {
+                    "eastDisplacementKm": 0.00554161973789, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOA2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -5.93552260144e-05
+                }, 
+                {
+                    "eastDisplacementKm": -0.00135078105263, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOA3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00551643873292
+                }, 
+                {
+                    "eastDisplacementKm": -0.00129772107786, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOB1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0134781329133
+                }, 
+                {
+                    "eastDisplacementKm": 0.0120302251272, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOB2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.00541751335623
+                }, 
+                {
+                    "eastDisplacementKm": 0.00929358947929, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOB3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0100193420156
+                }, 
+                {
+                    "eastDisplacementKm": -0.0106263840998, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOB4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00903548417829
+                }, 
+                {
+                    "eastDisplacementKm": -0.0137443321088, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOB5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0058150135062
+                }, 
+                {
+                    "eastDisplacementKm": 0.00683574352933, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0242340193244
+                }, 
+                {
+                    "eastDisplacementKm": 0.0250191270867, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0090660611129
+                }, 
+                {
+                    "eastDisplacementKm": 0.0251720117598, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0106740481449
+                }, 
+                {
+                    "eastDisplacementKm": 0.00458204358399, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.025952622914
+                }, 
+                {
+                    "eastDisplacementKm": -0.0191159800631, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0194217494092
+                }, 
+                {
+                    "eastDisplacementKm": -0.028410468864, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC6", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.000588156330507
+                }, 
+                {
+                    "eastDisplacementKm": -0.0155933373313, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TOC7", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0159440727577
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 13.14771, 
+                "depth": 0, 
+                "elevation": 0.2143, 
+                "longitude": 1.694709
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "9a02d483-f843-440a-9831-139ac3a9a29f", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "TXAR", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": -4.4966080314e-06, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX01", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000284185627584
+                }, 
+                {
+                    "eastDisplacementKm": 0.00846711292312, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX02", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00431404574532
+                }, 
+                {
+                    "eastDisplacementKm": -0.00580332232532, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX03", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00289221828579
+                }, 
+                {
+                    "eastDisplacementKm": 0.000349836104843, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX04", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00563514918494
+                }, 
+                {
+                    "eastDisplacementKm": -0.0125374425131, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX06", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0152156222566
+                }, 
+                {
+                    "eastDisplacementKm": -0.0185871789586, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX07", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0061297760684
+                }, 
+                {
+                    "eastDisplacementKm": -0.0080345392305, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX08", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0165762958469
+                }, 
+                {
+                    "eastDisplacementKm": 0.00650389385661, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX09", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00939251485598
+                }, 
+                {
+                    "eastDisplacementKm": -0.0312325400645, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX10", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00378524464083
+                }, 
+                {
+                    "eastDisplacementKm": 1.79864321256e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "TX11", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000109717235966
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 29.334257, 
+                "depth": 0, 
+                "elevation": 0.9914, 
+                "longitude": -103.667684
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "5d5668a7-33c5-4d40-98ed-dd466ec3ba4f", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "USRK", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USA0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": -0.000395701506763, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00403795401219
+                }, 
+                {
+                    "eastDisplacementKm": 0.000458654019202, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00265299873852
+                }, 
+                {
+                    "eastDisplacementKm": -0.0014029417058, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00348936783236
+                }, 
+                {
+                    "eastDisplacementKm": 0.00132200276123, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0165295311234
+                }, 
+                {
+                    "eastDisplacementKm": 0.0186968961945, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00156481959493
+                }, 
+                {
+                    "eastDisplacementKm": 0.0083636909384, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0167903343892
+                }, 
+                {
+                    "eastDisplacementKm": -0.0118260791226, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00859751455603
+                }, 
+                {
+                    "eastDisplacementKm": -0.0131840547481, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "USB5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0102073002313
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 44.1998, 
+                "depth": 0, 
+                "elevation": 0.17, 
+                "longitude": 131.9888
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "18551e16-eca7-41af-9e88-2ae3bd01df16", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "WRA", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 0.0495499225412, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB0", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.174799341969
+                }, 
+                {
+                    "eastDisplacementKm": 0.00656864501226, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0167498649169
+                }, 
+                {
+                    "eastDisplacementKm": 0.0109285561595, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.000120509095241
+                }, 
+                {
+                    "eastDisplacementKm": 0.0149377318803, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0195323659668
+                }, 
+                {
+                    "eastDisplacementKm": 0.0181303235826, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0388255123863
+                }, 
+                {
+                    "eastDisplacementKm": 0.0248725376649, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0641621
+                }, 
+                {
+                    "eastDisplacementKm": 0.0256972155778, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB6", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.087309738824
+                }, 
+                {
+                    "eastDisplacementKm": 0.0372211226407, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB7", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.101439879902
+                }, 
+                {
+                    "eastDisplacementKm": 0.0383848447992, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB8", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.128176711257
+                }, 
+                {
+                    "eastDisplacementKm": 0.0412896535875, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WB9", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.15063546973
+                }, 
+                {
+                    "eastDisplacementKm": -0.00050991535076, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WC1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0181617998388
+                }, 
+                {
+                    "eastDisplacementKm": 0.0243500318116, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WC2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0.0172247067251
+                }, 
+                {
+                    "eastDisplacementKm": 0.000282386984372, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WC4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0192454823744
+                }, 
+                {
+                    "eastDisplacementKm": 0.18922805782, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR0", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0163631566262
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR1", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.0215342558624, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR2", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00417285225314
+                }, 
+                {
+                    "eastDisplacementKm": 0.0446306333548, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR3", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00571788677272
+                }, 
+                {
+                    "eastDisplacementKm": 0.0631647523386, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR4", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.00745807408087
+                }, 
+                {
+                    "eastDisplacementKm": 0.0855434711893, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR5", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0092243417156
+                }, 
+                {
+                    "eastDisplacementKm": 0.106887070871, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR6", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0112019499278
+                }, 
+                {
+                    "eastDisplacementKm": 0.128513057537, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR7", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0120931776396
+                }, 
+                {
+                    "eastDisplacementKm": 0.151552777769, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR8", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0126228780657
+                }, 
+                {
+                    "eastDisplacementKm": 0.165122641486, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "WR9", 
+                    "channel": "BHZ", 
+                    "northDisplacementKm": -0.0144287158511
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": -19.9426, 
+                "depth": 0, 
+                "elevation": 0.3888, 
+                "longitude": 134.3395
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "03345a23-0b3b-495b-ba53-e6522e25e959", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 20, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "YKA", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 9.17308038405e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.113236281411
+                }, 
+                {
+                    "eastDisplacementKm": -4.58654019202e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0911453454748
+                }, 
+                {
+                    "eastDisplacementKm": -4.58654019202e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.068659607353
+                }, 
+                {
+                    "eastDisplacementKm": 4.58654019202e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0447682295606
+                }, 
+                {
+                    "eastDisplacementKm": 0.000187958215712, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0222833907604
+                }, 
+                {
+                    "eastDisplacementKm": 0.000232924296026, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0233895563361
+                }, 
+                {
+                    "eastDisplacementKm": 4.58654019202e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB7", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0459751191562
+                }, 
+                {
+                    "eastDisplacementKm": 0.000325554421473, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB8", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0686650032826
+                }, 
+                {
+                    "eastDisplacementKm": 0.00106659542505, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKB9", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0902478225117
+                }, 
+                {
+                    "eastDisplacementKm": -0.157074612431, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000112415200785
+                }, 
+                {
+                    "eastDisplacementKm": -0.134506136722, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 2.69796481884e-06
+                }, 
+                {
+                    "eastDisplacementKm": -0.112083351112, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 1.07918592753e-05
+                }, 
+                {
+                    "eastDisplacementKm": -0.0898728054019, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000312064597379
+                }, 
+                {
+                    "eastDisplacementKm": -0.0669437017282, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000141193492186
+                }, 
+                {
+                    "eastDisplacementKm": -0.0444759500385, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR6", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000103421984722
+                }, 
+                {
+                    "eastDisplacementKm": 0, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR8", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0
+                }, 
+                {
+                    "eastDisplacementKm": 0.0230936795276, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "YKR9", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -4.67647235265e-05
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 62.493099, 
+                "depth": 0, 
+                "elevation": 0.1667, 
+                "longitude": -114.606201
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }, 
+        {
+            "lowFrequency": 0.5, 
+            "channelId": "15b1075b-66e5-41fd-9784-9a18720a5bf6", 
+            "slowStartY": -40, 
+            "slowStartX": -40, 
+            "fkSpectraSampleRate": 0.5, 
+            "waveformSampleRateHz": 40, 
+            "slowCountX": 81, 
+            "slowCountY": 81, 
+            "mediumVelocityKmPerSec": -999, 
+            "station": "ZALV", 
+            "windowLead": 1, 
+            "fkSpectraCount": 151, 
+            "windowLength": 5, 
+            "waveformSampleRateToleranceHz": 0.01, 
+            "relativePositions": [
+                {
+                    "eastDisplacementKm": 1.34898240942e-05, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAA0", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 1.16911808816e-05
+                }, 
+                {
+                    "eastDisplacementKm": 0.00014029417058, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAA1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00437430029294
+                }, 
+                {
+                    "eastDisplacementKm": 0.00287333253206, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAA2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.00412159092158
+                }, 
+                {
+                    "eastDisplacementKm": -0.00574576574252, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAA3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.000370520501787
+                }, 
+                {
+                    "eastDisplacementKm": 0.00706776850375, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAB1", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.0156643837382
+                }, 
+                {
+                    "eastDisplacementKm": 0.0162120705964, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAB2", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.000787805727101
+                }, 
+                {
+                    "eastDisplacementKm": 0.00911282583643, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAB3", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0113017746261
+                }, 
+                {
+                    "eastDisplacementKm": -0.0120086414086, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAB4", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": -0.0103772720149
+                }, 
+                {
+                    "eastDisplacementKm": -0.0127388905529, 
+                    "verticalDisplacementKm": 0, 
+                    "site": "ZAB5", 
+                    "channel": "SHZ", 
+                    "northDisplacementKm": 0.00858942066157
+                }
+            ], 
+            "phaseType": "P", 
+            "fkSpectraLead": 60, 
+            "highFrequency": 2, 
+            "slowDeltaY": 1, 
+            "slowDeltaX": 1, 
+            "referenceLocation": {
+                "latitude": 53.948051, 
+                "depth": 0, 
+                "elevation": 0.2294, 
+                "longitude": 84.818784
+            }, 
+            "useChannelVerticalOffsets": "false"
+        }
+    ]
+}

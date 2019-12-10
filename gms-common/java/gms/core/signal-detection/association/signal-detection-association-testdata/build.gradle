@@ -1,0 +1,45 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    // Apache configuration
+    implementation 'commons-configuration:commons-configuration'
+
+    // Google AutoValue
+    implementation 'com.google.guava:guava'
+    implementation 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+    
+    implementation project(":http-service-library")
+    implementation project(":osd-commonobjects")
+    implementation project(":plugin-registry")
+
+    implementation "com.mashape.unirest:unirest-java"
+
+    testImplementation('com.github.tomakehurst:wiremock') {
+        exclude group: 'junit', module: 'junit'
+    }
+
+    testImplementation 'javax.xml.bind:jaxb-api'
+
+}
+
+test {
+    useJUnitPlatform() {
+        excludeTags "integration"
+    }
+}
+
+task testIntegration(type: Test) {
+    group="verification"
+    useJUnitPlatform {
+        includeTags "integration"
+    }
+    check.dependsOn it
+    shouldRunAfter test
+}
+
+build {
+    testIntegration.enabled = false
+}

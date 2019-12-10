@@ -1,0 +1,33 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    // Third-party dependencies.
+    implementation 'nl.jqno.equalsverifier:equalsverifier'
+
+    // Utility (dependency is api as apache commons classes are publicly exposed).
+    api 'org.apache.commons:commons-lang3'
+
+    // Google AutoValue
+    api 'com.google.guava:guava'
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor "com.google.auto.value:auto-value"
+
+    // Serialization (dependencies are api as we expose our ObjectMapper as a singleton).
+    api 'com.fasterxml.jackson.core:jackson-databind'
+    api 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
+    api 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    api 'com.fasterxml.jackson.datatype:jackson-datatype-guava'
+    
+    // msgpack and YAML serialization; kept as private so clients don't have to know about it
+    implementation 'org.msgpack:jackson-dataformat-msgpack'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml'
+
+    // Testing.
+    testImplementation 'nl.jqno.equalsverifier:equalsverifier'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5 once modules support JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

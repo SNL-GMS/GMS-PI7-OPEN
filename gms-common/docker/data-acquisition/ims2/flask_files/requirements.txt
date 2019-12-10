@@ -1,0 +1,2 @@
+dateutils==0.6.6
+Flask==1.0.2

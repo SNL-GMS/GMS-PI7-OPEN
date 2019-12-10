@@ -1,0 +1,76 @@
+[
+    {
+        "id": "ad31ca6b-2537-4ef8-be16-04c97ada55ad",
+        "phase": "S",
+        "predictedValue": {
+            "value": "2010-05-20T22:22:25.183248640Z",
+            "standardDeviation": "PT1.16S"
+        },
+        "featurePredictionComponents": [
+            {
+                "value": {
+                    "value": 1274394145.5294583,
+                    "standardDeviation": 1.16,
+                    "units": "SECONDS"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "BASELINE_PREDICTION"
+            },
+            {
+                "value": {
+                    "value": 0.25528429865864166,
+                    "standardDeviation": 0,
+                    "units": "SECONDS"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "ELEVATION_CORRECTION"
+            },
+            {
+                "value": {
+                    "value": -0.6014941754917669,
+                    "standardDeviation": 0,
+                    "units": "SECONDS"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "ELLIPTICITY_CORRECTION"
+            }
+        ],
+        "extrapolated": false,
+        "sourceLocation": {
+            "latitudeDegrees": 44.94862,
+            "longitudeDegrees": -106.38442,
+            "depthKm": 0,
+            "time": "2010-05-20T22:01:30.238Z"
+        },
+        "receiverLocation": {
+            "latitudeDegrees": 48.8465,
+            "longitudeDegrees": 13.6818,
+            "depthKm": 0.0052,
+            "elevationKm": 0.945
+        },
+        "channelId": "89f6a1a5-2ea2-3226-8651-addbc5a1b850",
+        "featurePredictionDerivativeMap": {
+            "D_DY": {
+                "value": -9.16646461692979,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DX": {
+                "value": -6.8170448862703354,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DZ": {
+                "value": -0.27519543332465474,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DT": {
+                "value": 1,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            }
+        },
+        "predictionType": "ARRIVAL_TIME"
+    }
+]

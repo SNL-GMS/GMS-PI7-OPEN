@@ -1,0 +1,13 @@
+name: "default-weighted-event-plugin"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  name: "defaultWeightedEventCriteriaCalculationPlugin"
+  version: "1.0.0"
+  primaryTimeWeight: 1.5
+  secondaryTimeWeight: 0.65
+  arrayAzimuthWeight: 0.5
+  threeComponentAzimuthWeight: 0.5
+  arraySlowWeight: 0.65
+  threeComponentSlowWeight: 0.65
+  weightThreshold: 0.77

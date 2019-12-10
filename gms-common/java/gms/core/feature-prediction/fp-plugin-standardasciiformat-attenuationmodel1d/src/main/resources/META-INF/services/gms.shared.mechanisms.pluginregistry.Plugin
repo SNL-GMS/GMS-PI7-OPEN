@@ -1,0 +1,2 @@
+gms.core.featureprediction.plugins.implementations.attenuationmodel1d.StandardAsciiAttenuation1dPlugin
+gms.core.featureprediction.plugins.implementations.attenuationmodel1d.StandardAsciiAttenuation1dUncertaintyPlugin

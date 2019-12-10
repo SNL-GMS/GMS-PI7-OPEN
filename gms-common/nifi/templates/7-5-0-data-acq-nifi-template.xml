@@ -1,0 +1,2826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description></description>
+    <groupId>0a2403c1-016b-1000-4c93-07070e988d67</groupId>
+    <name>7-5-0-nifi-data-acq-template</name>
+    <snippet>
+        <connections>
+            <id>097ec862-7e2b-3726-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>c8b754d9-3d9a-3eaa-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>965aadaf-29b4-3ba0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>0f72c1fe-78d3-38f4-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>fa7c10b0-75a9-3a73-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>c8b754d9-3d9a-3eaa-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>1d107b88-487e-37b1-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>df6f731d-0dd8-303d-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>965aadaf-29b4-3ba0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>2ae561d1-51df-3804-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>92a81f2d-1ff0-3454-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>b1ad4eb5-219c-39eb-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>38ada361-dcf1-3daa-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>965aadaf-29b4-3ba0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>d5e6bacb-504a-3b96-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>54978642-e334-392f-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>eceb0593-05b5-3101-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>118527fe-f879-3b7b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>6041d1f9-52eb-378c-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>5fe8d383-bbac-393b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>3dea1e53-e913-3801-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>65421ed9-5f5c-3726-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>118527fe-f879-3b7b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>1 hour</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Response</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>3dea1e53-e913-3801-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>83055baf-dd3d-3be5-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>def1c6c8-cd05-3032-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>1b7aa35d-89de-3948-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>903fa953-ffcc-3e76-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <bends>
+                <x>868.7570117089272</x>
+                <y>662.8476083924209</y>
+            </bends>
+            <bends>
+                <x>1008.5939868065834</x>
+                <y>726.9157236267959</y>
+            </bends>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>3dea1e53-e913-3801-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>1 hour</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>No Retry</selectedRelationships>
+            <selectedRelationships>Retry</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>3dea1e53-e913-3801-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>98655f02-6ca7-3bab-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>1b7aa35d-89de-3948-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>c8b754d9-3d9a-3eaa-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c5b558df-49e3-3d08-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>c8b754d9-3d9a-3eaa-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>118527fe-f879-3b7b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>cdaa87ed-6631-3150-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>e3a6fcf9-e331-3a49-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>def1c6c8-cd05-3032-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>dc67e456-5470-313f-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>3dea1e53-e913-3801-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>30 min</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>b1ad4eb5-219c-39eb-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>fca59d24-7ea0-3b4a-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>743882b8-f3fd-3a24-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>509f2366-86a4-3472-0000-000000000000</groupId>
+                <id>1b7aa35d-89de-3948-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <labels>
+            <id>0d9affd2-0713-3f47-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>17.305691418014703</x>
+                <y>389.73310629727087</y>
+            </position>
+            <height>126.433837890625</height>
+            <label>Will get triggered based on the Run Schedule in
+the Scheduling tab for this processor. When 
+triggered, for each station in the stations list
+property, will flow an ImsRequestInfo object
+containing the station name and an IMS formatted
+time string from "Request From Minutes Ago" to
+Request TO Minutes Ago</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>302.52484130859375</width>
+        </labels>
+        <labels>
+            <id>166c7d11-cef7-3c10-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>751.8151751822784</x>
+                <y>174.30296325683594</y>
+            </position>
+            <height>40.0</height>
+            <label>Packet's that fail to parse 
+or from unknown channel</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>155.0</width>
+        </labels>
+        <labels>
+            <id>4df8aef9-1f78-3a9e-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>679.743757067273</x>
+                <y>446.7169179559161</y>
+            </position>
+            <height>76.27032470703125</height>
+            <label>Sends the ImsRequestInfo to the flask endpoint 
+which uses the NMS Client to get an IMS response
+that is then forwarded here. IMS requests no more
+than 5 requests at a time and this will hang until a
+response is returned or a timeout occured.</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>291.0555419921875</width>
+        </labels>
+        <labels>
+            <id>66f52b94-6be0-3cda-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>2318.8833514518096</x>
+                <y>0.0</y>
+            </position>
+            <height>39.0</height>
+            <label>Successfully parsed RawStationDataFrame's, 
+one per flowfile, that were writen to disk
+</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>261.0</width>
+        </labels>
+        <labels>
+            <id>6e0f991e-0fdc-31bd-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>2553.2419940299346</x>
+                <y>191.5470733642578</y>
+            </position>
+            <height>26.0</height>
+            <label>Corrupt frames</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>96.0</width>
+        </labels>
+        <labels>
+            <id>73727e4f-df5c-394a-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1372.4076967642623</x>
+                <y>487.98929119312197</y>
+            </position>
+            <height>25.0</height>
+            <label>Parses raw IMS response data into RSDFs</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>233.0</width>
+        </labels>
+        <labels>
+            <id>858d6485-33a6-3087-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1459.4043475455596</x>
+                <y>18.091217041015625</y>
+            </position>
+            <height>38.0</height>
+            <label>Successfully parsed RawStationDataFrame's, 
+one per flowfile</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>264.0</width>
+        </labels>
+        <labels>
+            <id>873e8a7a-2453-3994-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>595.7171527213409</x>
+                <y>21.44757080078125</y>
+            </position>
+            <height>27.0</height>
+            <label>Flow file's of ReceivedStationDataPacket[]</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>256.0</width>
+        </labels>
+        <labels>
+            <id>8ae72ece-c4c3-301e-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>384.00449894268286</x>
+                <y>476.18932308327805</y>
+            </position>
+            <height>84.53875732421875</height>
+            <label>Holds flowfiles while the InvokeHTTP
+processor awaits a response to release
+one of its threads. Flowfiles older than
+the configured Flowfile expiration are 
+removed to keep this "near-real time".</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>236.40875244140625</width>
+        </labels>
+        <labels>
+            <id>e8acc7e7-85ca-3bfe-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>3577.241994029935</x>
+                <y>163.54705810546875</y>
+            </position>
+            <height>42.0</height>
+            <label>End of sequence, frames and invoices
+are now written to disk and awaiting transfer</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>261.0</width>
+        </labels>
+        <labels>
+            <id>fd3bdc08-dd7c-3078-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>2972.2419940299346</x>
+                <y>9.54705810546875</y>
+            </position>
+            <height>37.0</height>
+            <label>One TransferredFileInvoice 
+per flow file</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>12px</value>
+                </entry>
+            </style>
+            <width>159.0</width>
+        </labels>
+        <processors>
+            <id>118527fe-f879-3b7b-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1353.8148334121338</x>
+                <y>530.4092243413224</y>
+            </position>
+            <bundle>
+                <artifact>nifi-ims2.0-raw-frame-creator-nar</artifact>
+                <group>gms.shared.mechanisms.processing-sequence-controller.processors</group>
+                <version>7.4.0-SNAPSHOT</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>ids-by-received-name</key>
+                        <value>
+                            <name>ids-by-received-name</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>ids-by-received-name</key>
+                        <value>{"KURK/KUR12/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"8ef5646e-d6da-3d79-9e96-2a8ecf56df4b"},"KURK/KUR09/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"a9c430e8-da16-39b9-b6b6-58f73c39ac41"},"KURK/KUR20/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"fd5e9171-0b08-38d4-898e-ff727ca17e1b"},"AAK/AAK/BHE":{"stationId":"c7d44668-bbe4-369f-9f1e-7d725a57622d","channelId":"aba60bf2-0e2e-372c-afff-eae36d519745"},"KURK/KURBB/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"41f8a0f6-f8a1-31b9-b073-95f1c7fda5c0"},"KURK/KUR08/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"99726183-a6d8-3540-b2ca-ef0dffd0c91b"},"KURK/KUR04/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"5120ead3-cce2-31aa-9f2d-c65e46fcd800"},"KURK/KUR17/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"eb67666f-6a20-3ca5-8dbd-3429ec68b003"},"KURK/KUR05/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"7f410ecd-1d9a-343f-b274-1ce32ccf19e5"},"KURK/KUR13/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"e757dc53-d856-30e7-af30-2129b0d339f5"},"KURK/KUR14/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"84321d57-0c1d-33ac-a01f-15d5fca308f0"},"KURK/KUR01/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"75b9ea42-6419-3f3b-9c80-9755d9d4fd74"},"KURK/KUR18/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"33e39a96-76d5-37f3-b39f-399e1e9447a0"},"KURK/KURBB/BH1":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"006a8f28-b052-3d0e-9ef7-89f6d05a0160"},"KURK/KURBB/BH2":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"f0de344c-542d-35f3-adcd-000f2842f06b"},"KURK/KUR06/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"61858cac-56ec-3ca4-b31e-940c9147083d"},"KURK/KUR10/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"531fc7aa-f0eb-3776-8c0d-ca12a54f4c76"},"KURK/KUR15/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"7ee0aa7c-2b24-3718-adaf-1ecff28b3d89"},"KURK/KUR19/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"393ae525-118d-3a54-9484-5597e2c1271d"},"KURK/KUR02/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"795d2ae4-a369-31cb-8857-9097620c4cec"},"AAK/AAK/BHN":{"stationId":"c7d44668-bbe4-369f-9f1e-7d725a57622d","channelId":"21d53cd7-8aa4-3379-b729-4a6decbc35b8"},"KURK/KUR11/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"fa30cd9d-1ae1-336d-93b8-4abfa9734917"},"KURK/KUR07/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"54f364a5-3509-375b-a9af-1ffffe5d8a2d"},"KURK/KUR16/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"69e7475e-68cd-31cb-8071-4904e1ca9302"},"AAK/AAK/BHZ":{"stationId":"c7d44668-bbe4-369f-9f1e-7d725a57622d","channelId":"5f39af69-efa3-32fa-8c5e-542739fdc02d"},"KURK/KUR03/BHZ":{"stationId":"fb37fc1c-9aaf-3715-a4c7-2f97455d7a7b","channelId":"37d692d7-0267-3a16-8d7f-551d2ece45fa"}}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Ims2RawFrameCreatorProcessor</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>gms.processors.dataacquisition.ims2.rawframecreator.Ims2RawFrameCreatorProcessor</type>
+        </processors>
+        <processors>
+            <id>1b7aa35d-89de-3948-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>2591.2419940299346</x>
+                <y>16.547058105468693</y>
+            </position>
+            <bundle>
+                <artifact>nifi-transferred-file-creator-nar</artifact>
+                <group>gms.shared.mechanisms.processing-sequence-controller.processors</group>
+                <version>7.3.0-SNAPSHOT</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>50</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>flow-file-intake</key>
+                        <value>
+                            <name>flow-file-intake</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>resend-invoice</key>
+                        <value>
+                            <name>resend-invoice</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>sequence-number-file</key>
+                        <value>
+                            <name>sequence-number-file</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>flow-file-intake</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>resend-invoice</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>sequence-number-file</key>
+                        <value>/grid/frames/frame-transfer/invoice-sequence-number.txt</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>TransferredFileCreator</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>gms.processors.dataacquisition.transferredfilecreator.TransferredFileCreator</type>
+        </processors>
+        <processors>
+            <id>3dea1e53-e913-3801-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>634.0186083886147</x>
+                <y>529.5196970154677</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>5</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>HTTP Method</key>
+                        <value>
+                            <name>HTTP Method</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote URL</key>
+                        <value>
+                            <name>Remote URL</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                            <name>SSL Context Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Connection Timeout</key>
+                        <value>
+                            <name>Connection Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Read Timeout</key>
+                        <value>
+                            <name>Read Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Include Date Header</key>
+                        <value>
+                            <name>Include Date Header</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Follow Redirects</key>
+                        <value>
+                            <name>Follow Redirects</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Send</key>
+                        <value>
+                            <name>Attributes to Send</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Username</key>
+                        <value>
+                            <name>Basic Authentication Username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Password</key>
+                        <value>
+                            <name>Basic Authentication Password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
+                            <name>proxy-configuration-service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Host</key>
+                        <value>
+                            <name>Proxy Host</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Port</key>
+                        <value>
+                            <name>Proxy Port</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Type</key>
+                        <value>
+                            <name>Proxy Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-user</key>
+                        <value>
+                            <name>invokehttp-proxy-user</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-password</key>
+                        <value>
+                            <name>invokehttp-proxy-password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Put Response Body In Attribute</key>
+                        <value>
+                            <name>Put Response Body In Attribute</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Length To Put In Attribute</key>
+                        <value>
+                            <name>Max Length To Put In Attribute</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Digest Authentication</key>
+                        <value>
+                            <name>Digest Authentication</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Always Output Response</key>
+                        <value>
+                            <name>Always Output Response</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Trusted Hostname</key>
+                        <value>
+                            <name>Trusted Hostname</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Add Response Headers to Request</key>
+                        <value>
+                            <name>Add Response Headers to Request</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content-Type</key>
+                        <value>
+                            <name>Content-Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>send-message-body</key>
+                        <value>
+                            <name>send-message-body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Use Chunked Encoding</key>
+                        <value>
+                            <name>Use Chunked Encoding</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Penalize on "No Retry"</key>
+                        <value>
+                            <name>Penalize on "No Retry"</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>use-etag</key>
+                        <value>
+                            <name>use-etag</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>etag-max-cache-size</key>
+                        <value>
+                            <name>etag-max-cache-size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>HTTP Method</key>
+                        <value>POST</value>
+                    </entry>
+                    <entry>
+                        <key>Remote URL</key>
+                        <value>http://ims2-service:5000/request-ims-data</value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                    </entry>
+                    <entry>
+                        <key>Connection Timeout</key>
+                        <value>3 mins</value>
+                    </entry>
+                    <entry>
+                        <key>Read Timeout</key>
+                        <value>2 mins</value>
+                    </entry>
+                    <entry>
+                        <key>Include Date Header</key>
+                        <value>True</value>
+                    </entry>
+                    <entry>
+                        <key>Follow Redirects</key>
+                        <value>True</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Send</key>
+                        <value>timeRange,station</value>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Username</key>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Password</key>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Host</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Port</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Type</key>
+                        <value>http</value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-user</key>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-password</key>
+                    </entry>
+                    <entry>
+                        <key>Put Response Body In Attribute</key>
+                    </entry>
+                    <entry>
+                        <key>Max Length To Put In Attribute</key>
+                        <value>256</value>
+                    </entry>
+                    <entry>
+                        <key>Digest Authentication</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Always Output Response</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Trusted Hostname</key>
+                    </entry>
+                    <entry>
+                        <key>Add Response Headers to Request</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Content-Type</key>
+                        <value>application/json</value>
+                    </entry>
+                    <entry>
+                        <key>send-message-body</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Use Chunked Encoding</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Penalize on "No Retry"</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>use-etag</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>etag-max-cache-size</key>
+                        <value>10MB</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>InvokeHTTP</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>Failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>No Retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>Original</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>Response</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>Retry</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
+        </processors>
+        <processors>
+            <id>5fe8d383-bbac-393b-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>514.2209733498989</x>
+                <y>744.8574198152064</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>US-ASCII</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>743882b8-f3fd-3a24-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>2587.2419940299346</x>
+                <y>267.54705810546875</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>92a81f2d-1ff0-3454-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>738.4695674477971</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>US-ASCII</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>965aadaf-29b4-3ba0-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>899.6424090957275</x>
+                <y>20.652785132338067</y>
+            </position>
+            <bundle>
+                <artifact>nifi-seedlink-raw-frame-creator-nar</artifact>
+                <group>gms.shared.mechanisms.processing-sequence-controller.processors</group>
+                <version>6.5.0-SNAPSHOT</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>50</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>ids-by-received-name</key>
+                        <value>
+                            <name>ids-by-received-name</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>ids-by-received-name</key>
+                        <value>{"IU/ULN/HH2/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"5a5236ef-1af9-3bc3-87b0-f2e0a0175b1e"},"IM/TX01/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"2435a511-a234-3831-b974-4ef2f8f3a896"},"IU/ULN/BH1/00":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"e97721f1-1bdd-31cd-9739-24746ae38d52"},"IM/PD31/BHN/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"1711bc5c-6855-3d43-8163-d86098024abb"},"IU/ULN/BH2/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"bfe88e01-f244-3e58-8839-0f1198c3a2e9"},"IM/TX07/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"61c8863e-adbd-3720-9b67-b216ccbca9a0"},"IM/PD31/BHE/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"ab74022d-7374-373e-9b00-2e7350c5b87b"},"IM/PD11/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"960ab525-f4c7-3669-871b-d7996adf2d22"},"IM/PD03/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"1f2e35b6-fe75-345b-9256-1fbf49a9562d"},"IM/PD09/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"34fa5a8c-2d2e-3281-9d52-ca5181ab81e5"},"IM/PD31/BHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"bfa65bf8-c384-3918-943a-c74ee86683c8"},"IM/PD02/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"c8a8e4f8-3a48-3d4f-beba-17a861aa5306"},"IM/PD08/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"f866a188-6df6-385f-9963-5c1485439da1"},"IU/ULN/BH1/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"3d40700f-17ef-337f-ac49-e9dec9dd2311"},"IU/ULN/HH1/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"a2b5c8f8-c0df-3194-a467-67119ada0b17"},"IM/PD05/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"4f4dd1e5-6627-3502-b0a2-d8ee2a148ad8"},"IM/PD10/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"a3af1caa-1579-32f2-85e8-378cacfd5233"},"IM/PD13/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"c71a4994-837e-3608-ba3e-b55f5cae32f6"},"IM/TX06/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"c71a60a0-ad5d-3215-8598-f3bdec40f2cc"},"IM/TX31/BHN/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"6fb03580-d8e7-31da-a548-9d5845a8c4d6"},"IM/PD32/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"5c93b628-6b57-323c-8533-d8fdf6f2518c"},"IM/TX09/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"d0a1352f-d072-33c3-b86f-517e86fd6ccd"},"IM/PD32/SHE/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"08e736e5-a390-3553-9093-8ece9050d7a4"},"IM/TX03/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"57d66b29-a6bb-3796-8c82-aabb4574c3cb"},"IM/TX31/BHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"28ae16d8-f343-3514-83bf-d9f89eac8866"},"IM/TX32/BHN/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"34f3eed4-e3d7-3592-a3ba-d9ad2c90d301"},"IM/TX31/BHE/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"82bc0127-2639-36cf-b538-3937d6ad8793"},"IU/ULN/HHZ/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"228c679a-b49a-32ef-931f-6ebcccc7fb90"},"IM/PD32/SHN/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"010820ee-49ce-3b81-9bbb-d0e5d0c90dfa"},"IM/TX04/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"531dc765-707f-3018-93c1-62e05412ee92"},"IM/PD06/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"630aa95c-7528-3b43-8d7d-f172efb2a909"},"IU/ULN/BHZ/10":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"f1d907b9-cffb-38e6-8a4d-80c2239b9af5"},"IM/TX08/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"63ce3f7d-c073-317b-9cb0-c7be4a0472eb"},"IU/ULN/BH2/00":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"49f438bb-540e-35b7-9deb-564d3c74e14d"},"IM/TX10/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"2ee36e1f-861f-337f-a2d3-411765d2e0d5"},"IM/TX02/SHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"ca7daefb-4c1a-380f-bc59-5cbe1e062427"},"IM/PD07/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"3c23bfa1-0e02-31e6-b11a-8d0ca33f66cc"},"IM/PD04/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"a0445a17-5c14-3ddf-baf1-a582df98ba49"},"IM/TX32/BHZ/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"df869c1f-94b1-3893-9761-e73e4d3701b0"},"IM/PD12/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"3c4f60f1-de07-3cc1-9e46-ebeb423c1124"},"IM/TX32/BHE/":{"stationId":"565ca127-6d78-32ba-bdc9-ce05fc3b8ddf","channelId":"2f1c9126-3fef-3774-b371-a9a755bb9d6b"},"IU/ULN/BHZ/00":{"stationId":"c86ec6c1-26a6-335f-b2aa-be083d3e2081","channelId":"0c5ceef9-f3dd-3a71-a433-559253f91710"},"IM/PD01/SHZ/":{"stationId":"3308666b-f9d8-3bff-a59e-928730ffa797","channelId":"3bca2889-d638-3d25-8219-4c046cba4330"}}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>SeedlinkRawFrameCreatorProcessor</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>gms.processors.dataacquisition.seedlink.rawframecreator.SeedlinkRawFrameCreatorProcessor</type>
+        </processors>
+        <processors>
+            <id>b1ad4eb5-219c-39eb-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>4.634842442930221</x>
+                <y>528.2809838650496</y>
+            </position>
+            <bundle>
+                <artifact>nifi-ims2.0-request-generator-nar</artifact>
+                <group>gms.shared.mechanisms.processing-sequence-controller.processors</group>
+                <version>7.5.0-SNAPSHOT</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>stations-to-request-name</key>
+                        <value>
+                            <name>stations-to-request-name</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>request-from-minutes-ago</key>
+                        <value>
+                            <name>request-from-minutes-ago</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>request-to-minutes-ago</key>
+                        <value>
+                            <name>request-to-minutes-ago</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>stations-to-request-name</key>
+                        <value>KURK, AAK</value>
+                    </entry>
+                    <entry>
+                        <key>request-from-minutes-ago</key>
+                        <value>6</value>
+                    </entry>
+                    <entry>
+                        <key>request-to-minutes-ago</key>
+                        <value>1</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>5 min</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Ims2RequestGenerator</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>gms.processors.dataacquisition.ims2.requestgenerator.Ims2RequestGenerator</type>
+        </processors>
+        <processors>
+            <id>c8b754d9-3d9a-3eaa-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1936.1788836783726</x>
+                <y>11.999816894531193</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>50</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <name>Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <name>Conflict Resolution Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>
+                            <name>Create Missing Directories</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                        <value>
+                            <name>Maximum File Count</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                        <value>
+                            <name>Last Modified Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                        <value>
+                            <name>Permissions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                        <value>
+                            <name>Owner</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                        <value>
+                            <name>Group</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Directory</key>
+                        <value>/grid/frames/dataframes</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>fail</value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>50</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>PutFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutFile</type>
+        </processors>
+        <processors>
+            <id>d5e6bacb-504a-3b96-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>200.44948912039206</x>
+                <y>13.733704735825881</y>
+            </position>
+            <bundle>
+                <artifact>nifi-seedlink-connection-manager-nar</artifact>
+                <group>gms.shared.mechanisms.processing-sequence-controller.processors</group>
+                <version>6.5.0-SNAPSHOT</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>request-hours-back</key>
+                        <value>
+                            <name>request-hours-back</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>provider-hostname</key>
+                        <value>
+                            <name>provider-hostname</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>provider-port</key>
+                        <value>
+                            <name>provider-port</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>packet-batch-size</key>
+                        <value>
+                            <name>packet-batch-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>request-strings</key>
+                        <value>
+                            <name>request-strings</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>request-hours-back</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>provider-hostname</key>
+                        <value>rtserve.iris.washington.edu</value>
+                    </entry>
+                    <entry>
+                        <key>provider-port</key>
+                        <value>18000</value>
+                    </entry>
+                    <entry>
+                        <key>packet-batch-size</key>
+                        <value>50</value>
+                    </entry>
+                    <entry>
+                        <key>request-strings</key>
+                        <value>["STATION ULN IU","SELECT ??BH?.D","SELECT ??HH?.D","STATION PD01 IM","SELECT SHZ.D","STATION PD02 IM","SELECT SHZ.D","STATION PD03 IM","SELECT SHZ.D","STATION PD04 IM","SELECT SHZ.D","STATION PD05 IM","SELECT SHZ.D","STATION PD06 IM","SELECT SHZ.D","STATION PD07 IM","SELECT SHZ.D","STATION PD08 IM","SELECT SHZ.D","STATION PD09 IM","SELECT SHZ.D","STATION PD10 IM","SELECT SHZ.D","STATION PD11 IM","SELECT SHZ.D","STATION PD12 IM","SELECT SHZ.D","STATION PD13 IM","SELECT SHZ.D","STATION PD31 IM","SELECT BHE.D","SELECT BHN.D","SELECT BHZ.D","STATION PD32 IM","SELECT SHE.D","SELECT SHN.D","SELECT SHZ.D","STATION TX01 IM","SELECT SHZ.D","STATION TX02 IM","SELECT SHZ.D","STATION TX03 IM","SELECT SHZ.D","STATION TX04 IM","SELECT SHZ.D","STATION TX05 IM","SELECT SHZ.D","STATION TX06 IM","SELECT SHZ.D","STATION TX07 IM","SELECT SHZ.D","STATION TX08 IM","SELECT SHZ.D","STATION TX09 IM","SELECT SHZ.D","STATION TX10 IM","SELECT SHZ.D","STATION TX31 IM","SELECT BHE.D","SELECT BHN.D","SELECT BHZ.D","STATION TX32 IM","SELECT BHE.D","SELECT BHN.D","SELECT BHZ.D"]</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>SeedlinkConnectionManagerProcessor</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>gms.processors.dataacquisition.seedlink.SeedlinkConnectionManagerProcessor</type>
+        </processors>
+        <processors>
+            <id>def1c6c8-cd05-3032-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>3196.8062030143096</x>
+                <y>19.418762207031193</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>50</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <name>Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <name>Conflict Resolution Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>
+                            <name>Create Missing Directories</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                        <value>
+                            <name>Maximum File Count</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                        <value>
+                            <name>Last Modified Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                        <value>
+                            <name>Permissions</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                        <value>
+                            <name>Owner</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                        <value>
+                            <name>Group</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Directory</key>
+                        <value>/grid/frames/dataframes</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>fail</value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>50</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>PutFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.PutFile</type>
+        </processors>
+        <processors>
+            <id>df6f731d-0dd8-303d-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>896.9675799674349</x>
+                <y>222.30046081542963</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>e3a6fcf9-e331-3a49-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>3196.2419940299346</x>
+                <y>264.54705810546875</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>eceb0593-05b5-3101-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1354.221622511252</x>
+                <y>736.872573050953</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>US-ASCII</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
+        </processors>
+        <processors>
+            <id>fa7c10b0-75a9-3a73-0000-000000000000</id>
+            <parentGroupId>509f2366-86a4-3472-0000-000000000000</parentGroupId>
+            <position>
+                <x>1939.241994029935</x>
+                <y>271.54705810546875</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0.3.2.0.0-520</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+    </snippet>
+    <timestamp>05/31/2019 17:04:45 UTC</timestamp>
+</template>

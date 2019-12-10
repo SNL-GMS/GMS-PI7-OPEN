@@ -1,0 +1,3008 @@
+[
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "f1b76535-88e4-34e2-b3fc-408a15491573", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111110", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111110", 
+                        "id": "47a86a18-6623-4eb9-afea-04810d1b0530", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111110"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.56, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "9e26fb9f-7519-4b4e-a8ad-2e2e6207ff93"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.75, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "a3d9bc7f-867b-4cd9-a936-29fb8051846c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.002, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "dfafd9eb-fd17-424e-b489-63092b984bc6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.187, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "095c0eed-cb9c-42a9-96d0-4a42ff67fd07"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.66, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "60ab966f-4e9c-4d9f-b8d0-176fd64be369"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 7.9, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "94ed1e26-6a60-4ea8-ac08-045c3b701ed1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.38, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "491d7f61-ea08-4196-a07a-0f6e36f19a43"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -50.2, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "a67f1cbf-72be-46d9-a06b-157d86f29413"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.13, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "6ef0f58d-ad23-4014-8bf9-be778739d1c8"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.23, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "72733ff2-bffa-4e24-9cda-5265ee96b9d2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.104, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "a2dbb528-0606-4b94-ad54-8f049d384363"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -25.0, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "4e2cb220-9389-49f3-8a02-0b967a7210e3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.36, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "9f7a962d-6a18-4177-aae6-ecc62fc3e0b9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.9, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "514a94c8-4981-477b-8e96-42bc44ec43b0"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.145, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "59fbd151-4afb-4d38-9bfd-67fb8c795c75"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.382, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "1cd07351-8350-4467-a280-5939de7a7498"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.977, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "10965202-3056-49a7-9bcd-ccbc00f38270"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -9.0, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "1e6e6db2-5609-4d5e-8535-aacdbe336959"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.331, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "be9ab4fe-afd7-452b-895b-f143603abd5e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.159, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "aca46b7f-8141-4076-bd9c-386529433702"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 37.1, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "297856b9-17be-432b-9071-0f3d8379ff87"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 11.8, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "41d63462-b968-4cc6-ace4-b63aab7be744"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.25, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "0f13d437-4a17-4330-bda9-437c5fef0ded"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 12.2, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "0de424cd-93a5-4075-b9df-f613e56ab3d9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.8, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "362d767e-a85c-436c-ab52-e37f1f20b6af"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.55, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "5c9132cd-f489-4609-8d52-2b4b60e96e33"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -4.436, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "e3d2c452-514f-4987-8a98-74eb135ba77e"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 52.965, 
+                            "longitudeDegrees": 126.78543, 
+                            "latitudeDegrees": -2.0675, 
+                            "time": "2010-05-20T20:36:08.384Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "UNRESTRAINED", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "f1b76535-88e4-34e2-b3fc-408a15491573"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.56, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "9e26fb9f-7519-4b4e-a8ad-2e2e6207ff93"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.75, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "a3d9bc7f-867b-4cd9-a936-29fb8051846c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.002, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "dfafd9eb-fd17-424e-b489-63092b984bc6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.187, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "095c0eed-cb9c-42a9-96d0-4a42ff67fd07"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.66, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "60ab966f-4e9c-4d9f-b8d0-176fd64be369"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 7.9, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "94ed1e26-6a60-4ea8-ac08-045c3b701ed1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.38, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "491d7f61-ea08-4196-a07a-0f6e36f19a43"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -50.2, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "a67f1cbf-72be-46d9-a06b-157d86f29413"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.13, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "6ef0f58d-ad23-4014-8bf9-be778739d1c8"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.23, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "72733ff2-bffa-4e24-9cda-5265ee96b9d2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.104, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "a2dbb528-0606-4b94-ad54-8f049d384363"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -25.0, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "4e2cb220-9389-49f3-8a02-0b967a7210e3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.36, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "9f7a962d-6a18-4177-aae6-ecc62fc3e0b9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.9, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "514a94c8-4981-477b-8e96-42bc44ec43b0"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.145, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "59fbd151-4afb-4d38-9bfd-67fb8c795c75"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.382, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "1cd07351-8350-4467-a280-5939de7a7498"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.977, 
+                                "weight": 0.609, 
+                                "featureMeasurementId": "10965202-3056-49a7-9bcd-ccbc00f38270"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -9.0, 
+                                "weight": 0.951, 
+                                "featureMeasurementId": "1e6e6db2-5609-4d5e-8535-aacdbe336959"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.331, 
+                                "weight": 0.709, 
+                                "featureMeasurementId": "be9ab4fe-afd7-452b-895b-f143603abd5e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.159, 
+                                "weight": 0.685, 
+                                "featureMeasurementId": "aca46b7f-8141-4076-bd9c-386529433702"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 37.1, 
+                                "weight": 0.754, 
+                                "featureMeasurementId": "297856b9-17be-432b-9071-0f3d8379ff87"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 11.8, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "41d63462-b968-4cc6-ace4-b63aab7be744"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.25, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "0f13d437-4a17-4330-bda9-437c5fef0ded"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 12.2, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "0de424cd-93a5-4075-b9df-f613e56ab3d9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.8, 
+                                "weight": 0.644, 
+                                "featureMeasurementId": "362d767e-a85c-436c-ab52-e37f1f20b6af"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.55, 
+                                "weight": 0.701, 
+                                "featureMeasurementId": "5c9132cd-f489-4609-8d52-2b4b60e96e33"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -4.436, 
+                                "weight": 0.708, 
+                                "featureMeasurementId": "e3d2c452-514f-4987-8a98-74eb135ba77e"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 52.965, 
+                            "longitudeDegrees": 126.78543, 
+                            "latitudeDegrees": -2.0675, 
+                            "time": "2010-05-20T20:36:08.384Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "UNRESTRAINED", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "f1b76535-88e4-34e2-b3fc-408a15491573"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111110"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "f1b76535-88e4-34e2-b3fc-408a15491573"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111110"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "1503af2c-fc99-3fb5-99ea-88014f5ec6b2", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111111", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111111", 
+                        "id": "bd257898-f953-4454-9400-3fedc52a95ae", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111111"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.38, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "440ee38c-7bd8-4253-a194-02082203f68b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -172.2, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "f6febe14-4346-42e8-bde6-5ae2bb4361b1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -4.3, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "a0c9a0a0-4300-4572-9687-1c6845158a1f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.34, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "8bc0b8c1-e27e-4fe4-adc1-6dd6885aa5ce"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "d8485c20-ac4d-4eba-ba26-25e3ab6f1917"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -39.2, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "5d7a2b5a-913d-45e3-86d3-84d42218f39a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 3.9, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "7c4067b1-bb07-4863-961c-756069f8d7fb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.103, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "342552b3-07f0-4282-91bb-917213d0ec28"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.695, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "d64e007c-8e06-49d3-bba9-57ca2c09ff9e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.421, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "f3e0c17f-79d3-408e-8f92-398bc42d1a9c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.611, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "d163f6fd-d321-4e02-888c-cfc3761ae1f2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "dac9d2d1-e17a-409d-8c38-75d7e9834aa4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 29.1, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "2e6fe09b-ec80-436b-aebf-3daa6f501542"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.4, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "b654100f-696f-4d56-9722-a25e40a1cf01"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.924, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "db9097f0-6775-415f-b219-c578ca9a1f02"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -31.3, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "82dd8a22-082e-4f46-863e-b3146b70d457"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.08, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "62bc8fc7-4ea7-44fd-b661-4acb1ef9afcc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.07, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "89cd093c-7785-4019-b5ff-b501617ec848"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.853, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "b9b1a08d-70df-4579-b093-888d011a56ba"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.47, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "214f2623-e62e-4105-bc11-d94247d0c5d9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 3.5, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "aaa19bb4-7c56-4dab-aca0-6e2720b40ef3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -30.2, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "d9a1a78c-905c-47bd-8a6c-4ae403967b1b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.03, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "9f89cbed-bdc5-4adf-b040-6611fd91e893"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.9, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "2c17d199-8bba-4b23-a751-c94f2749e082"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.44, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "49cf0a8a-9b7f-4514-9aa2-a4ef06001f2f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.38, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "ff720525-3bec-4155-8852-74670a080363"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.989, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "7c00f219-7a64-472d-900e-d99f1c25f162"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 119.6, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "643cf472-e148-40fe-b7f1-0c515be255dc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.64, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "fa96b3a8-b0dc-4ebf-9a26-68a6512ce258"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.766, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "19c27d21-fb36-457a-b535-cec03c7bf55c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.016, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "cac06699-f4c1-41cc-b611-27af9f1edb7a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.229, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "8c721eba-4947-45da-9199-5205b6f03cf4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 141.9, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "6ed9c361-c4fd-407b-afbc-0ba2e95c5375"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.59, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "c7ba97b4-0d43-47bc-9860-0ab37b19efb5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.332, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "98191934-23b0-4f22-bab8-e22fe3358973"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -94.6, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "19ce766b-99f1-45d5-b4e7-674fc51cc9da"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -66.2, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "fc8248d3-1d7c-4597-8d0c-868e5fd7f770"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.5, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "3a400814-ed16-4b52-b97d-d260ff426d1b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 8.55, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "ccf7b8f8-e951-4c67-b584-0c2a12e626ab"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.25, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "de32c938-bd55-4391-815a-d04132784b3e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.112, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "413e44c5-99f9-41f6-829a-50717d25b213"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.97, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "78b9ea1e-9d29-482b-8afe-fab1c1d3d133"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.062, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "6a28f6d2-c0e6-4345-9614-1a2235a478c5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.38, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "1c3a915d-4a98-4ea4-87d4-9a7dd571e6c7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 8.52, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "b98d091e-b8d2-4754-b3ae-dd7359180864"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 7.44, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "426fbc06-f738-4bf2-9c04-08330c25faaa"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 15.7, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "ff403ef5-8d69-40f4-a812-8f8dad1467ef"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -124.3, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "87a893ca-c417-4d18-b99b-d104af1f32a1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -11.9, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "37595409-e0f0-45c9-a728-0175e44dd575"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.923, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "43996a24-ae1c-4704-8ed0-55dfde19c854"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.87, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "f0c32764-ad0b-46ea-b9dc-ff82476fbdb9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.72, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "75c306a6-08eb-4b47-9d2e-afb4ca287d09"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -164.6, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "f8814b7c-23c7-4a5c-9d69-fb30fe132588"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.464, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "95956a0f-2c9e-436d-8a7f-3eb5f7a3d766"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 6.55, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "3d5d3555-19ec-4e5c-a1a2-9fc448065245"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.22, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "8856f472-d3be-46f0-9752-c760daaea1e4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.43, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "94298a45-03ce-4b8c-b8a1-b81a179287d4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.117, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "efb2a9cf-1565-4470-9e9d-ce4bf1778fb2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.131, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "1e3704c3-eb74-499c-ad59-88af5af9827b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.504, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "1e086f24-c16e-45a9-96e3-e65105adfe7b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.49, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "dbe204f7-4aa8-4a57-ad92-f89bbbc809f6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.2, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "8d968736-69ca-4eb8-b99d-7805bc9b5866"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -156.4, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "8fa31ab6-220e-45a9-9739-9220084cf356"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.03, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "cc350a75-1d4d-4501-9d47-2e98159a96a3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -17.8, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "ee176079-a1b3-4a35-a71a-52edabf6c200"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.703, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "fa82800b-a28f-4582-ae8e-d1b86dda49ec"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 6.5, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "2bea84bb-8a27-471b-873e-8e0f393e3630"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.8, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "d5cf51e7-f0e8-4e23-bc9b-ef151d7e702e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "ce28192d-e98b-494d-9467-ab4653274f08"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.571, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "e81913b2-7474-4c84-b0eb-b3b330590e21"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.498, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "1a47129c-4538-4a12-8078-14a1a7eca9bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.014, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "32a03b4d-1c6c-40da-9b2b-c9bd91e48726"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.05, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "dc39c68a-9d51-4ac7-b2e4-8ba398af7792"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.211, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "0df23ddb-1ed1-4e99-9e28-a6bf57b4d178"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.2, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "358db7c1-6c84-41c2-9dca-475a7bd7ffa7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -36.2, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "e0c0f5c0-1a09-4942-91cf-3ba84831e3a4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -25.9, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "655e1d4e-d738-4b3e-8260-7ade42d28647"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.35, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "7bfb1116-32cc-4f86-94dc-f66745191f58"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -3.1, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "7c453ef5-92f7-4b2a-8101-4cfb36757386"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "7f89acc0-0c8e-4e3e-b9cd-b220a06ca72d"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.5, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "790c3a27-057d-44b3-83d7-5bf47591eaf7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.6, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "df93b500-b4fc-48c4-9eb5-81aff2c86c44"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 13.0, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "42f42f0a-e362-419e-9651-579ce3c79066"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.42, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "b8fbe4eb-20fa-46fe-8e0c-10749eee2700"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.2, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "c7376cbe-9a2a-46dc-be61-f4e9ce37434f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.359, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "e35b9038-096b-4cf5-ae07-397ba510d0fd"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.333, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "cdf82a27-8f55-4241-b35c-240bf9e9d804"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 55.983, 
+                            "longitudeDegrees": -84.13467, 
+                            "latitudeDegrees": 9.51039, 
+                            "time": "2010-05-20T22:16:36.363Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "UNRESTRAINED", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "1503af2c-fc99-3fb5-99ea-88014f5ec6b2"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.38, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "440ee38c-7bd8-4253-a194-02082203f68b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -172.2, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "f6febe14-4346-42e8-bde6-5ae2bb4361b1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -4.3, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "a0c9a0a0-4300-4572-9687-1c6845158a1f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.34, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "8bc0b8c1-e27e-4fe4-adc1-6dd6885aa5ce"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "d8485c20-ac4d-4eba-ba26-25e3ab6f1917"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -39.2, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "5d7a2b5a-913d-45e3-86d3-84d42218f39a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 3.9, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "7c4067b1-bb07-4863-961c-756069f8d7fb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.103, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "342552b3-07f0-4282-91bb-917213d0ec28"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.695, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "d64e007c-8e06-49d3-bba9-57ca2c09ff9e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.421, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "f3e0c17f-79d3-408e-8f92-398bc42d1a9c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.611, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "d163f6fd-d321-4e02-888c-cfc3761ae1f2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "dac9d2d1-e17a-409d-8c38-75d7e9834aa4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 29.1, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "2e6fe09b-ec80-436b-aebf-3daa6f501542"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.4, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "b654100f-696f-4d56-9722-a25e40a1cf01"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.924, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "db9097f0-6775-415f-b219-c578ca9a1f02"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -31.3, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "82dd8a22-082e-4f46-863e-b3146b70d457"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.08, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "62bc8fc7-4ea7-44fd-b661-4acb1ef9afcc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.07, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "89cd093c-7785-4019-b5ff-b501617ec848"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.853, 
+                                "weight": 0.916, 
+                                "featureMeasurementId": "b9b1a08d-70df-4579-b093-888d011a56ba"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.47, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "214f2623-e62e-4105-bc11-d94247d0c5d9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 3.5, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "aaa19bb4-7c56-4dab-aca0-6e2720b40ef3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -30.2, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "d9a1a78c-905c-47bd-8a6c-4ae403967b1b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.03, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "9f89cbed-bdc5-4adf-b040-6611fd91e893"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.9, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "2c17d199-8bba-4b23-a751-c94f2749e082"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.44, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "49cf0a8a-9b7f-4514-9aa2-a4ef06001f2f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.38, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "ff720525-3bec-4155-8852-74670a080363"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.989, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "7c00f219-7a64-472d-900e-d99f1c25f162"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 119.6, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "643cf472-e148-40fe-b7f1-0c515be255dc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.64, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "fa96b3a8-b0dc-4ebf-9a26-68a6512ce258"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.766, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "19c27d21-fb36-457a-b535-cec03c7bf55c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.016, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "cac06699-f4c1-41cc-b611-27af9f1edb7a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.229, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "8c721eba-4947-45da-9199-5205b6f03cf4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 141.9, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "6ed9c361-c4fd-407b-afbc-0ba2e95c5375"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.59, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "c7ba97b4-0d43-47bc-9860-0ab37b19efb5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.332, 
+                                "weight": 0.621, 
+                                "featureMeasurementId": "98191934-23b0-4f22-bab8-e22fe3358973"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -94.6, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "19ce766b-99f1-45d5-b4e7-674fc51cc9da"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -66.2, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "fc8248d3-1d7c-4597-8d0c-868e5fd7f770"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.5, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "3a400814-ed16-4b52-b97d-d260ff426d1b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 8.55, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "ccf7b8f8-e951-4c67-b584-0c2a12e626ab"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.25, 
+                                "weight": 0.615, 
+                                "featureMeasurementId": "de32c938-bd55-4391-815a-d04132784b3e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.112, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "413e44c5-99f9-41f6-829a-50717d25b213"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.97, 
+                                "weight": 0.696, 
+                                "featureMeasurementId": "78b9ea1e-9d29-482b-8afe-fab1c1d3d133"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.062, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "6a28f6d2-c0e6-4345-9614-1a2235a478c5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.38, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "1c3a915d-4a98-4ea4-87d4-9a7dd571e6c7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 8.52, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "b98d091e-b8d2-4754-b3ae-dd7359180864"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 7.44, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "426fbc06-f738-4bf2-9c04-08330c25faaa"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 15.7, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "ff403ef5-8d69-40f4-a812-8f8dad1467ef"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -124.3, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "87a893ca-c417-4d18-b99b-d104af1f32a1"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -11.9, 
+                                "weight": 0.837, 
+                                "featureMeasurementId": "37595409-e0f0-45c9-a728-0175e44dd575"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.923, 
+                                "weight": 0.581, 
+                                "featureMeasurementId": "43996a24-ae1c-4704-8ed0-55dfde19c854"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.87, 
+                                "weight": 0.832, 
+                                "featureMeasurementId": "f0c32764-ad0b-46ea-b9dc-ff82476fbdb9"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.72, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "75c306a6-08eb-4b47-9d2e-afb4ca287d09"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -164.6, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "f8814b7c-23c7-4a5c-9d69-fb30fe132588"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.464, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "95956a0f-2c9e-436d-8a7f-3eb5f7a3d766"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 6.55, 
+                                "weight": 0.322, 
+                                "featureMeasurementId": "3d5d3555-19ec-4e5c-a1a2-9fc448065245"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.22, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "8856f472-d3be-46f0-9752-c760daaea1e4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.43, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "94298a45-03ce-4b8c-b8a1-b81a179287d4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.117, 
+                                "weight": 0.314, 
+                                "featureMeasurementId": "efb2a9cf-1565-4470-9e9d-ce4bf1778fb2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.131, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "1e3704c3-eb74-499c-ad59-88af5af9827b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 1.504, 
+                                "weight": 0.318, 
+                                "featureMeasurementId": "1e086f24-c16e-45a9-96e3-e65105adfe7b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.49, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "dbe204f7-4aa8-4a57-ad92-f89bbbc809f6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.2, 
+                                "weight": 0.773, 
+                                "featureMeasurementId": "8d968736-69ca-4eb8-b99d-7805bc9b5866"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -156.4, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "8fa31ab6-220e-45a9-9739-9220084cf356"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.03, 
+                                "weight": 0.893, 
+                                "featureMeasurementId": "cc350a75-1d4d-4501-9d47-2e98159a96a3"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -17.8, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "ee176079-a1b3-4a35-a71a-52edabf6c200"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.703, 
+                                "weight": 1.812, 
+                                "featureMeasurementId": "fa82800b-a28f-4582-ae8e-d1b86dda49ec"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 6.5, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "2bea84bb-8a27-471b-873e-8e0f393e3630"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -2.8, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "d5cf51e7-f0e8-4e23-bc9b-ef151d7e702e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "ce28192d-e98b-494d-9467-ab4653274f08"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.571, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "e81913b2-7474-4c84-b0eb-b3b330590e21"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.498, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "1a47129c-4538-4a12-8078-14a1a7eca9bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.014, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "32a03b4d-1c6c-40da-9b2b-c9bd91e48726"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.05, 
+                                "weight": 0.874, 
+                                "featureMeasurementId": "dc39c68a-9d51-4ac7-b2e4-8ba398af7792"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.211, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "0df23ddb-1ed1-4e99-9e28-a6bf57b4d178"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.2, 
+                                "weight": 0.819, 
+                                "featureMeasurementId": "358db7c1-6c84-41c2-9dca-475a7bd7ffa7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -36.2, 
+                                "weight": 0.796, 
+                                "featureMeasurementId": "e0c0f5c0-1a09-4942-91cf-3ba84831e3a4"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -25.9, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "655e1d4e-d738-4b3e-8260-7ade42d28647"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.35, 
+                                "weight": 0.582, 
+                                "featureMeasurementId": "7bfb1116-32cc-4f86-94dc-f66745191f58"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -3.1, 
+                                "weight": 0.74, 
+                                "featureMeasurementId": "7c453ef5-92f7-4b2a-8101-4cfb36757386"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -999.0, 
+                                "weight": -1.0, 
+                                "featureMeasurementId": "7f89acc0-0c8e-4e3e-b9cd-b220a06ca72d"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.5, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "790c3a27-057d-44b3-83d7-5bf47591eaf7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 5.6, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "df93b500-b4fc-48c4-9eb5-81aff2c86c44"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 13.0, 
+                                "weight": 0.833, 
+                                "featureMeasurementId": "42f42f0a-e362-419e-9651-579ce3c79066"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.42, 
+                                "weight": 0.977, 
+                                "featureMeasurementId": "b8fbe4eb-20fa-46fe-8e0c-10749eee2700"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.2, 
+                                "weight": 0.88, 
+                                "featureMeasurementId": "c7376cbe-9a2a-46dc-be61-f4e9ce37434f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.359, 
+                                "weight": 0.8, 
+                                "featureMeasurementId": "e35b9038-096b-4cf5-ae07-397ba510d0fd"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -0.333, 
+                                "weight": 0.324, 
+                                "featureMeasurementId": "cdf82a27-8f55-4241-b35c-240bf9e9d804"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 55.983, 
+                            "longitudeDegrees": -84.13467, 
+                            "latitudeDegrees": 9.51039, 
+                            "time": "2010-05-20T22:16:36.363Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "UNRESTRAINED", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "1503af2c-fc99-3fb5-99ea-88014f5ec6b2"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111111"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "1503af2c-fc99-3fb5-99ea-88014f5ec6b2"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111111"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "7b6ecf2a-17ba-3d8a-9dfe-c93b83a42f9f", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111112", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111112", 
+                        "id": "80808891-47d6-4c98-be98-3310ebb8372a", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111112"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.55, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "25256a2f-061f-4ac8-97b0-8efe3f1f15e6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.432, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "0dfd30fb-8e67-44ff-9a67-b4a06203e037"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 3.6, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "8ea6a682-86d0-4d5b-b19b-d7a356ad702b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 2.1, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "4d04c110-bd80-4757-bf42-680288e3be56"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.26, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "076400f4-e040-41f3-a6be-f5573f16a489"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.22, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "dbe3770d-9cff-4279-87af-9cc3f2c58051"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 127.1657, 
+                            "latitudeDegrees": -2.62817, 
+                            "time": "2010-05-20T22:01:57.969Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "7b6ecf2a-17ba-3d8a-9dfe-c93b83a42f9f"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.55, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "25256a2f-061f-4ac8-97b0-8efe3f1f15e6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.432, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "0dfd30fb-8e67-44ff-9a67-b4a06203e037"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 3.6, 
+                                "weight": 0.521, 
+                                "featureMeasurementId": "8ea6a682-86d0-4d5b-b19b-d7a356ad702b"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 2.1, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "4d04c110-bd80-4757-bf42-680288e3be56"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.26, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "076400f4-e040-41f3-a6be-f5573f16a489"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.22, 
+                                "weight": 0.424, 
+                                "featureMeasurementId": "dbe3770d-9cff-4279-87af-9cc3f2c58051"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 127.1657, 
+                            "latitudeDegrees": -2.62817, 
+                            "time": "2010-05-20T22:01:57.969Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "7b6ecf2a-17ba-3d8a-9dfe-c93b83a42f9f"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111112"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "7b6ecf2a-17ba-3d8a-9dfe-c93b83a42f9f"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111112"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "434493a0-3fe4-316d-b216-70e17d0fd230", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111113", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111113", 
+                        "id": "f707f1d0-fc73-4a59-b018-39272132ba45", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111113"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 2.2, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "3d6c8dd2-0963-414a-be0e-e8fec9de6d20"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -6.4, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "a170962d-868c-43f0-b3c7-614b142f4a79"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -2.43, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "95f508f6-6fe0-40d2-af71-f2078a06cf72"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.95, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "1cddc8e5-3ea5-4efb-aad1-520b7b4fd48f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 3.016, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "b88bc87d-5b43-47a7-affa-05363102c4e7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -2.782, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "270ef7c6-3f24-46f7-aa81-fc69b84c9ef2"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 131.41511, 
+                            "latitudeDegrees": -7.43167, 
+                            "time": "2010-05-20T22:50:27.117Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "434493a0-3fe4-316d-b216-70e17d0fd230"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 2.2, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "3d6c8dd2-0963-414a-be0e-e8fec9de6d20"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -6.4, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "a170962d-868c-43f0-b3c7-614b142f4a79"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -2.43, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "95f508f6-6fe0-40d2-af71-f2078a06cf72"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -1.95, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "1cddc8e5-3ea5-4efb-aad1-520b7b4fd48f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 3.016, 
+                                "weight": 0.321, 
+                                "featureMeasurementId": "b88bc87d-5b43-47a7-affa-05363102c4e7"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -2.782, 
+                                "weight": 0.309, 
+                                "featureMeasurementId": "270ef7c6-3f24-46f7-aa81-fc69b84c9ef2"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 131.41511, 
+                            "latitudeDegrees": -7.43167, 
+                            "time": "2010-05-20T22:50:27.117Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "434493a0-3fe4-316d-b216-70e17d0fd230"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111113"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "434493a0-3fe4-316d-b216-70e17d0fd230"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111113"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "c1b04190-5d09-3d0e-8e1b-30bcd8ea71f6", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111114", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111114", 
+                        "id": "113750fc-e820-4695-b23d-ce55e3666121", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111114"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.5, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "3bb2a7e6-a525-442e-9fa8-e653a7cc457c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.194, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "8917beb9-8064-4dc0-911d-572c8fcb3973"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.2, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "8022fca9-cfa3-49ec-9783-cd984e7d87bc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.126, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "16120f60-7558-45ff-a83d-811a51539d57"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.01, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "79c993a2-bbd4-490d-847d-b7795316a781"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.09, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "29c48d59-2447-489b-a392-5c7058d2eee7"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 128.51893, 
+                            "latitudeDegrees": -1.90074, 
+                            "time": "2010-05-20T23:10:21.808Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "c1b04190-5d09-3d0e-8e1b-30bcd8ea71f6"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.5, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "3bb2a7e6-a525-442e-9fa8-e653a7cc457c"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.194, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "8917beb9-8064-4dc0-911d-572c8fcb3973"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.2, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "8022fca9-cfa3-49ec-9783-cd984e7d87bc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.126, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "16120f60-7558-45ff-a83d-811a51539d57"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.01, 
+                                "weight": 0.437, 
+                                "featureMeasurementId": "79c993a2-bbd4-490d-847d-b7795316a781"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.09, 
+                                "weight": 0.542, 
+                                "featureMeasurementId": "29c48d59-2447-489b-a392-5c7058d2eee7"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 128.51893, 
+                            "latitudeDegrees": -1.90074, 
+                            "time": "2010-05-20T23:10:21.808Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "c1b04190-5d09-3d0e-8e1b-30bcd8ea71f6"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111114"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "c1b04190-5d09-3d0e-8e1b-30bcd8ea71f6"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111114"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "566a8731-66c2-3680-b37d-ee1b8d32051c", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111115", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111115", 
+                        "id": "9e7ee996-d6c7-469c-a091-30708c1b938f", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111115"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.07, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "2549c0f4-ecd9-483e-8a09-a84d815a0b1f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.829, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "660995aa-0247-4fb1-8887-273925333ba2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 18.0, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "54df4978-f6bd-4669-aa24-6ada8814232d"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -9.6, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "e0c129be-e5d4-417e-8d16-bc50eab0e3fe"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.327, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "963544ab-bff4-4c6a-ba90-6ef261cdf259"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -14.2, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "0b40018c-9bf2-4b07-b0c0-124eac0f8dc2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.59, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "68b9d6eb-2318-4426-97f5-e2039f95ae4e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.244, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "fb5c5c27-df1f-40b1-8011-a93de4dcf456"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.07, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "28cf97f5-c02a-4fec-a241-9a2f67d882d5"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 155.25381, 
+                            "latitudeDegrees": -4.45198, 
+                            "time": "2010-05-20T22:41:58.037Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "566a8731-66c2-3680-b37d-ee1b8d32051c"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.07, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "2549c0f4-ecd9-483e-8a09-a84d815a0b1f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.829, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "660995aa-0247-4fb1-8887-273925333ba2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 18.0, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "54df4978-f6bd-4669-aa24-6ada8814232d"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -9.6, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "e0c129be-e5d4-417e-8d16-bc50eab0e3fe"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.327, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "963544ab-bff4-4c6a-ba90-6ef261cdf259"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -14.2, 
+                                "weight": 0.698, 
+                                "featureMeasurementId": "0b40018c-9bf2-4b07-b0c0-124eac0f8dc2"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.59, 
+                                "weight": 0.619, 
+                                "featureMeasurementId": "68b9d6eb-2318-4426-97f5-e2039f95ae4e"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.244, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "fb5c5c27-df1f-40b1-8011-a93de4dcf456"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.07, 
+                                "weight": 0.785, 
+                                "featureMeasurementId": "28cf97f5-c02a-4fec-a241-9a2f67d882d5"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 155.25381, 
+                            "latitudeDegrees": -4.45198, 
+                            "time": "2010-05-20T22:41:58.037Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "566a8731-66c2-3680-b37d-ee1b8d32051c"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111115"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "566a8731-66c2-3680-b37d-ee1b8d32051c"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111115"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "c6c156be-e2da-3f9f-b2de-a6c59412dbf6", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111116", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111116", 
+                        "id": "ec7857d1-290a-4b0b-86fa-569e4c7067b6", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111116"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.322, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "fa46ae6a-6ce4-41d4-b999-8e27b47e6092"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.7, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "e3e251b7-2c0f-4764-947e-29a1dc3c44cf"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.01, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "0e035b4a-c1f1-4e61-b2d0-d8b8cd6e6dcc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.0, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "a7e2d959-1508-49db-aac6-0618b2588bd5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.8, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "c9d4723f-d816-45ba-88ad-1500ea8d9fec"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.394, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "0ce97eff-59d6-4a4f-8c23-c98caafbb062"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": -173.01508, 
+                            "latitudeDegrees": -15.71236, 
+                            "time": "2010-05-20T20:20:36.893Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "c6c156be-e2da-3f9f-b2de-a6c59412dbf6"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.322, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "fa46ae6a-6ce4-41d4-b999-8e27b47e6092"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.7, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "e3e251b7-2c0f-4764-947e-29a1dc3c44cf"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.01, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "0e035b4a-c1f1-4e61-b2d0-d8b8cd6e6dcc"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.0, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "a7e2d959-1508-49db-aac6-0618b2588bd5"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.8, 
+                                "weight": 0.68, 
+                                "featureMeasurementId": "c9d4723f-d816-45ba-88ad-1500ea8d9fec"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.394, 
+                                "weight": 0.776, 
+                                "featureMeasurementId": "0ce97eff-59d6-4a4f-8c23-c98caafbb062"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": -173.01508, 
+                            "latitudeDegrees": -15.71236, 
+                            "time": "2010-05-20T20:20:36.893Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "c6c156be-e2da-3f9f-b2de-a6c59412dbf6"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111116"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "c6c156be-e2da-3f9f-b2de-a6c59412dbf6"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111116"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "a48a03c4-de3c-3ade-b8b3-7194393c29fd", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111117", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111117", 
+                        "id": "5cb84f3d-894d-4530-ab73-f7ff4a0d46a2", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111117"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.5, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "850d3974-eda3-4dac-afda-cc820b8be61a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.79, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "0325c7b9-b0c4-4bb9-9ec3-19ede1040e6f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.31, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "2a0a8908-2a40-48a3-9717-c068cc47546f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.897, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "5ede6113-8374-4e65-a752-2ffb3b9333e0"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.2, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "28744028-0713-4e24-8a13-d65c70d81e28"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.8, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "c8a24594-f08e-4dec-b6f1-66a7f2ec7902"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.935, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "a7d87ae9-e1d4-44cb-ab5d-e04ce7243d74"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.064, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "7712150e-78b2-4115-af7c-de9b4ab3f298"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.4, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "c3cf95ab-d26d-4242-a0cc-fd848a031220"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 124.12632, 
+                            "latitudeDegrees": 1.12693, 
+                            "time": "2010-05-20T21:16:56.161Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "a48a03c4-de3c-3ade-b8b3-7194393c29fd"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.5, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "850d3974-eda3-4dac-afda-cc820b8be61a"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.79, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "0325c7b9-b0c4-4bb9-9ec3-19ede1040e6f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.31, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "2a0a8908-2a40-48a3-9717-c068cc47546f"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.897, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "5ede6113-8374-4e65-a752-2ffb3b9333e0"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 1.2, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "28744028-0713-4e24-8a13-d65c70d81e28"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -3.8, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "c8a24594-f08e-4dec-b6f1-66a7f2ec7902"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.935, 
+                                "weight": 0.568, 
+                                "featureMeasurementId": "a7d87ae9-e1d4-44cb-ab5d-e04ce7243d74"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.064, 
+                                "weight": 0.682, 
+                                "featureMeasurementId": "7712150e-78b2-4115-af7c-de9b4ab3f298"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.4, 
+                                "weight": 0.607, 
+                                "featureMeasurementId": "c3cf95ab-d26d-4242-a0cc-fd848a031220"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": 124.12632, 
+                            "latitudeDegrees": 1.12693, 
+                            "time": "2010-05-20T21:16:56.161Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "a48a03c4-de3c-3ade-b8b3-7194393c29fd"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111117"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "a48a03c4-de3c-3ade-b8b3-7194393c29fd"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111117"
+    }, 
+    {
+        "rejectedSignalDetectionAssociations": [], 
+        "preferredEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "a6d15c94-417e-3e61-b352-8ce107905e29", 
+                "processingStageId": "00000000-0000-0000-0000-000000000000"
+            }
+        ], 
+        "hypotheses": [
+            {
+                "eventId": "event111-1111-1111-1111-111111111118", 
+                "associations": [
+                    {
+                        "eventHypothesisId": "event111-1111-1111-1111-111111111118", 
+                        "id": "82e504d1-eac8-4684-8ee3-3893d7d45a67", 
+                        "rejected": false, 
+                        "signalDetectionHypothesisId": "sd111111-1111-1111-1111-111111111118"
+                    }
+                ], 
+                "locationSolutions": [
+                    {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.1, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "e4428378-b430-4503-a7bc-f2f972951871"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.15, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "5f9f08ab-e974-4caf-8551-4914918836bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.66, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "87fb3066-2351-425c-aeda-6ccacf3e9ca6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -13.2, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "522b81c2-8e95-4166-93ef-d7ebbb4237bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.998, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "10d0e0c6-2d4c-4fa7-9813-2a9c23299095"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.304, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "0e43a1ac-250f-4b99-8052-aa4553d27eb4"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": -26.31535, 
+                            "latitudeDegrees": -55.50996, 
+                            "time": "2010-05-20T23:45:25.945Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "a6d15c94-417e-3e61-b352-8ce107905e29"
+                    }
+                ], 
+                "parentEventHypotheses": [], 
+                "rejected": false, 
+                "preferredLocationSolution": {
+                    "locationSolution": {
+                        "featurePredictions": [], 
+                        "locationBehaviors": [
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 2.1, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "e4428378-b430-4503-a7bc-f2f972951871"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": 0.15, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "5f9f08ab-e974-4caf-8551-4914918836bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -1.66, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "87fb3066-2351-425c-aeda-6ccacf3e9ca6"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": false, 
+                                "residual": -13.2, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "522b81c2-8e95-4166-93ef-d7ebbb4237bb"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": -0.998, 
+                                "weight": 0.544, 
+                                "featureMeasurementId": "10d0e0c6-2d4c-4fa7-9813-2a9c23299095"
+                            }, 
+                            {
+                                "featurePredictionId": "00000000-0000-0000-0000-000000000000", 
+                                "defining": true, 
+                                "residual": 0.304, 
+                                "weight": 0.904, 
+                                "featureMeasurementId": "0e43a1ac-250f-4b99-8052-aa4553d27eb4"
+                            }
+                        ], 
+                        "location": {
+                            "depthKm": 0.0, 
+                            "longitudeDegrees": -26.31535, 
+                            "latitudeDegrees": -55.50996, 
+                            "time": "2010-05-20T23:45:25.945Z"
+                        }, 
+                        "locationUncertainty": null, 
+                        "locationRestraint": {
+                            "longitudeRestraintDegrees": null, 
+                            "timeRestraint": null, 
+                            "depthRestraintType": "FIXED_AT_SURFACE", 
+                            "timeRestraintType": "UNRESTRAINED", 
+                            "depthRestraintKm": null, 
+                            "latitudeRestraintDegrees": null, 
+                            "latitudeRestraintType": "UNRESTRAINED", 
+                            "longitudeRestraintType": "UNRESTRAINED"
+                        }, 
+                        "id": "a6d15c94-417e-3e61-b352-8ce107905e29"
+                    }
+                }, 
+                "id": "event111-1111-1111-1111-111111111118"
+            }
+        ], 
+        "finalEventHypothesisHistory": [
+            {
+                "eventHypothesisId": "a6d15c94-417e-3e61-b352-8ce107905e29"
+            }
+        ], 
+        "monitoringOrganization": "CTBTO", 
+        "id": "event111-1111-1111-1111-111111111118"
+    }
+]

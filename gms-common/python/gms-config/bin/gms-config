@@ -1,0 +1,206 @@
+#!/usr/bin/env python3
+
+# -------------------------------------------------------
+#  gms-config
+#
+#  This gms-config script interfaces with...
+# -------------------------------------------------------
+
+from argparse import ArgumentParser
+from argparse import RawDescriptionHelpFormatter
+from argparse import FileType
+
+from jproperties import Properties
+
+import sys
+import os
+
+from gmsconfig import GmsSystemConfig
+
+def main():
+    (args, parser) = get_args()
+
+    # Call appropriate function if a command was specified, otherwise just print help.
+    if hasattr(args, 'command'):
+        args.command(args, parser)
+    else:
+        help_command(args, parser)
+
+def get_args():
+    "Get command-line arguments."
+
+    description = """
+description:
+  GMS System Configuration command-line utility.
+
+  This command-line utility is used to interact with the GMS system
+  configuration properties. System configuration values are stored
+  in a central repository.
+
+  Values can be overridden via an overrides file:
+  $(HOME)/configuration-overrides.properties
+
+  When setting or deleting keys, only the central repository is
+  affected. The overrides will remain in place, unchanged.
+
+examples:
+  List all values:
+    % gms-config list
+
+  Get the port for the 'space-modulator':
+    % gms-config get space-modulator.port
+    
+  Set the logging level for the 'time-inhibitor' to debug:
+    % gms-config set time-inhibitor.loglevel = debug
+
+  Load the properties file into the central configuration repository:
+    % gms-config load gms-common/config/system/gms-system-configuration.properties
+
+  Connect to a locally running etcd container to list all values:
+    % gms-config -l list
+    
+notes:
+    
+"""
+    parser = ArgumentParser(description=description,
+                            formatter_class=RawDescriptionHelpFormatter)
+
+    parser.add_argument('--localhost', '-l',
+                        default=False, action='store_true',
+                        help='Use locally running instance of etcd')
+    
+    parser.add_argument('--endpoints', '-e',
+                        default=os.getenv('GMS_ETCD_ENDPOINTS', 'etcd:2379'),
+                        help='hostname:port endpoint(s) for the central configuration repository')
+    
+    parser.add_argument('--username', '-u',
+                        default = os.getenv('GMS_ETCD_USERNAME', None),
+                        help='username for the central configuration repository')
+    
+    parser.add_argument('--password', '-p',
+                        default = os.getenv('GMS_ETCD_PASSWORD', None),
+                        help='password for the central configuration repository')
+    
+    parser.add_argument('--verbose', '-v', default=False, action='store_true', help='verbose output')
+
+    subparsers = parser.add_subparsers(help='Available sub-commands:')
+
+    parser_list = subparsers.add_parser('list', help='List all system configuration values')
+    # parser_export.add_argument('file', type=FileType('w'), help='File to export to')
+    parser_list.set_defaults(command=list_command)
+    
+    parser_get = subparsers.add_parser('get', help='Get the value of the given key from system configuration.')
+    parser_get.add_argument('key', help='Key to get')
+    parser_get.set_defaults(command=get_command)
+
+    parser_set = subparsers.add_parser('set', help='Set the value of the given key to the given value')
+    parser_set.add_argument('key', help='key to set')
+    parser_set.add_argument('value', help='value of key to set')
+    parser_set.add_argument('--force', '-f',
+                            default=False,
+                            action='store_true',
+                            help='Do not prompt for confirmation.')
+    parser_set.set_defaults(command=set_command)
+
+    parser_delete = subparsers.add_parser('delete', help='Delete one or more keys from the central system configuration repository')
+    parser_delete.add_argument('keys', nargs='+', help='Key(s) to delete')
+    parser_delete.add_argument('--force', '-f',
+                               default=False,
+                               action='store_true', 
+                               help='Do not prompt for confirmation.')
+    parser_delete.set_defaults(command=delete_command)
+    
+    parser_load = subparsers.add_parser('load', help='Load configuration into etcd from a properties file')
+    parser_load.add_argument('file', nargs='+', type=FileType('r'), help='File(s) to load')
+    parser.add_argument('--clear', '-c', default=False, action='store_true', help='Clear existing configuration before loading new configuration.')
+    parser_load.set_defaults(command=load_command)
+
+    parser_help = subparsers.add_parser('help', help='Display usage information')
+    parser_help.set_defaults(command=help_command)
+
+    args = parser.parse_args()
+
+    if args.localhost:
+        args.endpoints = 'localhost:2379'
+    
+    return (args, parser)
+
+
+def list_command(args, parser=None):
+    sysconfig = GmsSystemConfig(args.endpoints, args.username, args.password, args.verbose)
+    config = sysconfig.export()
+    for key in sorted(config):
+        print(f"{key} = {config[key]}")
+    sys.exit(0)
+
+        
+def get_command(args, parser=None):
+    sysconfig = GmsSystemConfig(args.endpoints, args.username, args.password, args.verbose)
+    value = sysconfig.get(args.key)
+    if not value:
+        print(f"No value found for {args.key}")
+        sys.exit(1)
+    else:
+        print(value)
+    sys.exit(0)
+
+    
+def set_command(args, parser=None):
+    sysconfig = GmsSystemConfig(args.endpoints, args.username, args.password, args.verbose)
+
+    # is this key already set?
+    current_value = sysconfig.central_get(args.key)
+
+    # take no action if the value is unchanged
+    if current_value == args.value:
+        print(f"{args.key} already set to '{args.value}'. Skipping...")
+        sys.exit(0)
+        
+    # if key is already set, ask user for confirmation to set 
+    if current_value and not args.force:
+        print(f"{args.key} currently set to '{current_value}'. Proceed to set to '{args.value}' [y/n]? ", end='')
+        if not input().lower().startswith('y'):
+            print(f"Aborting...")
+            sys.exit(1)
+
+    sysconfig.central_set(args.key, args.value)
+    print(f"{args.key} set to '{args.value}'...")
+    sys.exit(0)
+
+    
+def delete_command(args, parser=None):
+    sysconfig = GmsSystemConfig(args.endpoints, args.username, args.password, args.verbose)
+    for key in args.keys:
+        if sysconfig.central_get(key):
+            proceed = args.force
+            if not args.force:
+                print(f"Delete '{key}' from central configuration repository [y/n]? ", end='')
+                proceed = True if input().lower().startswith('y') else False
+            if proceed:
+                sysconfig.central_delete(key)
+                print(f"{key} deleted...")
+            else:
+                print(f"{key} not deleted...")
+        else:
+            print(f"{key} not present in central configuration repository. Skipping...")
+            
+    sys.exit(0)
+
+    
+def load_command(args, parser=None):
+    sysconfig = GmsSystemConfig(args.endpoints, args.username, args.password, args.verbose)
+    for config_file in args.file:
+        print(f"Loading configuration from properties file '{config_file.name}'...")
+        config = Properties()
+        with open(config_file.name, "rb") as f:
+            config.load(f, "utf-8")
+        sysconfig.central_load(config, args.clear)
+
+        
+def help_command(args, parser=None):
+    parser.print_help();
+
+
+if __name__ == "__main__":
+    main()
+

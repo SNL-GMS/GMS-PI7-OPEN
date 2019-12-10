@@ -1,0 +1,21 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    // GMS dependencies.
+    api project(":fp-plugins")
+    api project(":osd-commonobjects")
+    api project(":plugin-registry")
+
+    //TODO: How / if to remove this as a dependency so that it can be properly "plugged in"
+    implementation project(":geomath")
+    implementation project(":fp-plugin-signalfeaturepredictor")
+
+    implementation 'org.apache.commons:commons-math3'
+    //implementation 'org.apache.commons:commons-lang3'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

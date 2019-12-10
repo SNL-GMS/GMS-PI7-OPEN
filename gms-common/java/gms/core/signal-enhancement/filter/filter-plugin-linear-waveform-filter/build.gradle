@@ -1,0 +1,11 @@
+dependencies {
+    implementation project(':configuration')
+    implementation project(':osd-commonobjects')
+    implementation project(':filter-plugin')
+    implementation project(':signal-processing-utility')
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}
+

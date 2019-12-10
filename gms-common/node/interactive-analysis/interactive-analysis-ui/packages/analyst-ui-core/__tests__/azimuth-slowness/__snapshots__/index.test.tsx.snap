@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a ReduxApolloAzimuthSlowness component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Apollo(Apollo(Apollo(Apollo(Apollo(Apollo(Apollo(Apollo(AzimuthSlowness))))))))) />
+</Provider>
+`;

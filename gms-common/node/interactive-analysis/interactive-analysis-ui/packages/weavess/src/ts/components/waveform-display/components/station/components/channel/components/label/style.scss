@@ -1,0 +1,63 @@
+
+.label {
+    height: 100%;
+    transition: height 0.1s linear;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    &:focus {
+        outline: none;
+    }
+    background-color: #202B33;
+    cursor: pointer;
+
+    .label-container {
+        display: flex;
+        height: 100%;
+        flex: 0 0 auto;
+
+        .label-container-left-parent {
+            width: 24px;
+            flex: 0 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .label-container-left-parent-expansion-button {
+                padding: 2px;
+                cursor: pointer;
+            }
+        }
+
+        .label-container-left-child {
+            width: 0px;
+            flex: 0 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 24px solid dodgerblue;
+        }
+
+        .label-container-content {
+            display: flex;
+            cursor: pointer;
+
+            .label-container-content-label {
+                display: flex;
+                flex: 0 0 auto;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 5px;
+                padding-right: 5px;
+                text-align: center;
+                word-wrap: break-word;
+                position: relative;
+            }
+
+            .label-container-content-mask-indicator {
+                color: red;
+            }
+
+        }
+    }
+}

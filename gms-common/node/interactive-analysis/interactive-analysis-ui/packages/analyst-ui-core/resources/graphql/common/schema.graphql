@@ -1,0 +1,318 @@
+# Common GraphQL schema definitions shared across the components of the
+# API Gateway (e.g. waveform, workflow)
+
+# A date/time Type
+scalar Date
+
+# Represents a time range
+# type TimeRange {
+#     startTime: Float!
+#     endTime: Float!
+# }
+
+# Input verion of a time range
+input TimeRange {
+    startTime: Float!
+    endTime: Float!
+}
+
+# Represents a location specified using latitude (degrees), longitude (degrees),
+# and altitude (kilometers).
+type Location {
+
+    # Latitude in degrees
+    latDegrees: Float!
+    
+    # Longitude in degrees
+    lonDegrees: Float!
+
+    # Elevation in kilometers
+    elevationKm: Float!
+}
+
+input LocationInput {
+
+    # Latitude in degrees
+    latDegrees: Float!
+    
+    # Longitude in degrees
+    lonDegrees: Float!
+
+    # Elevation in kilometers
+    elevationKm: Float!
+}
+
+# Enumerated list of source types used to compute distances to
+enum DistanceSourceType {
+    Event
+    UserDefined
+}
+
+# Represents a distance measurement relative to a specified source location
+type DistanceToSource {
+
+    # The distance in kilometers to the source
+    distanceKm: Float!
+
+    # The source location
+    sourceLocation: Location!
+
+    # The type of the source the distance is measured to (e.g. and event)
+    sourceType: DistanceSourceType!
+
+    # Optional: the unique ID of the source object
+    sourceId: String!
+}
+
+input DistanceToSourceInput {
+    # The source location
+    sourceLocation: LocationInput
+
+    # The type of the source the distance is measured to (e.g. and event)
+    sourceType: DistanceSourceType
+
+    # Optional: the unique ID of the source object
+    sourceId: String
+}
+
+# Represents a frequency range
+type FrequencyBand {
+    # Minimum frequency in Herz
+    minFrequencyHz: Float!
+
+    # Maximum frequency in Herz
+    maxFrequencyHz: Float!
+}
+
+# Represents a frequency range input to a mutation
+input FrequencyBandInput {
+    # Minimum frequency in Herz
+    minFrequencyHz: Float!
+
+    # Maximum frequency in Herz
+    maxFrequencyHz: Float!
+}
+
+# Enumeration representing the different types of stations in the monitoring network
+enum StationType {
+
+    Seismic3Component,
+    Seismic1Component,
+    SeismicArray,
+    Hydroacoustic,
+    HydroacousticArray,
+    Infrasound,
+    InfrasoundArray,
+    Weather,
+    UNKNOWN
+}
+
+# Provenance reference details for information added to the System
+type InformationSource {
+
+    # Unique ID for the source
+    id: String!
+
+    # Source organization
+    organizationName: String!
+
+    # The time associated with the information source
+    referenceTime: Float!
+}
+
+# Enumeration of configuration status changes reflected in the configuration
+enum ConfigurationInfoStatus {
+
+    # Initial configuration
+    Initial
+
+    # The system's installed location for the item associated with the configuration was corrected
+    CorrectedSystemLocation
+
+    # The physical location of the ite associated with the configuration was changed
+    MovedPhysicalLocation
+
+    # The item associated with the configuration was decommissioned
+    Decommissioned
+}
+
+# Provenance information associated with a configuration item in the system
+type ConfigurationInfo {
+
+    # The unique ID of the user who created the Configuration
+    creatorId: String!
+
+    # The time the configuration took effect in the real world (e.g. station came online)
+    effectiveTime: Float!
+
+    # The time the configuration was installed (and thus took effect) in the System
+    installationTime: Float!
+
+    # The status change reflected in the configuration values
+    status: ConfigurationInfoStatus!
+
+    # Comment associated with the configuration information
+    comment: String
+}
+
+# Enumerated type of the actor (e.g. analyst, system) associated with a CreationInfo object
+enum CreatorType {
+    Analyst
+    System
+}
+
+# Provenance information about the results of data processing completed by the System
+# and actions completed by users of the system
+type CreationInfo {
+    
+    # The unique ID of the creation info object
+    id: String!
+
+    # The time (seconds since Unix epoch) the associated processing result was created
+    creationTime: Float!
+
+    # The unique ID of the user who created the associated processing result
+    creatorId: String!
+
+    # The enumerated type of the creator (e.g. analyst, system)
+    creatorType: CreatorType!
+
+    # TODO
+    # The processing step associated with the processing result
+    # processingStep: ProcessingStep!
+
+    # TODO
+    # The software component associated with the processing result
+    # softwareComponent: SoftwareComponent!
+}
+
+# Represents an alias for a station, channel, site, etc.
+type Alias {
+
+    # The alias name
+    name: String!
+
+    # Provenance information about the alias
+    configurationInfo: ConfigurationInfo
+}
+
+# Represents calibration information associated with a waveform
+type ProcessingCalibration {
+
+    # Calibration factor
+    factor: Float!
+
+    # Calibration factor error
+    factorError: Float!
+
+    # Calibration period
+    period: Float!
+
+    # Calibration time shift
+    timeShift: Float!
+}
+
+# Input version of calibration information associated with a waveform
+input ProcessingCalibrationInput {
+
+    # Calibration factor
+    factor: Float!
+
+    # Calibration factor error
+    factorError: Float!
+
+    # Calibration period
+    period: Float!
+
+    # Calibration time shift
+    timeShift: Float!
+}
+
+# Represents a generic timeseries interface containing the fields common to the
+# concrete timeseries data types defined in the system (e.g. Waveform, FkPowerSpectrum, DetectionFeatureMap)
+interface Timeseries {
+    # Unique identifier for the timeseries
+    id: String!
+
+    # The start date/time (seconds since epoch) of the timeseries
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the timeseries
+    endTime: Float!
+
+    # The sample rate (Hz) of the samples in the timeseries
+    sampleRate: Float!
+
+    # The sample count in the timeseries
+    sampleCount: Int!
+}
+
+# Represents a time-bounded segment of waveform samples output from a channel (derived or raw).
+# Waveforms implement the Timeseries interface
+type Waveform implements Timeseries {
+
+    # Unique identifier for the waveform
+    id: String!
+
+    # The start date/time (seconds since epoch) of the waveform
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the waveform
+    endTime: Float!
+
+    # The sample rate (Hz) of the samples in the waveform
+    sampleRate: Float!
+
+    # The sample count in the waveform
+    sampleCount: Int!
+
+    # The time-ordered collection of waveform sample values
+    waveformSamples: [Float]
+
+    # Calibration information for the waveform
+    calibration: ProcessingCalibration
+}
+
+# Input version of a time-bounded segment of waveform samples output from a channel (derived or raw).
+# Waveforms implement the Timeseries interface
+input WaveformInput {
+
+    # Unique identifier for the waveform
+    id: String!
+
+    # The start date/time (seconds since epoch) of the waveform
+    startTime: Float!
+
+    # The end date/time (seconds since epoch) of the waveform
+    endTime: Float!
+
+    # The sample rate (Hz) of the samples in the waveform
+    sampleRate: Float!
+
+    # The sample count in the waveform
+    sampleCount: Int!
+
+    # The time-ordered collection of waveform sample values
+    waveformSamples: [Float]
+
+    # Calibration information for the waveform
+    calibration: ProcessingCalibrationInput
+}
+
+# The following queries are supported
+type Query {
+    # Dummy
+    queryCount: Int
+}
+
+# The following mutations are supported
+type Mutation {
+    # Dummy
+    mutationCount: Int
+}
+
+# The following subscriptions are supported
+type Subscription {
+    # Dummy
+    subscriptionCount: Int
+}

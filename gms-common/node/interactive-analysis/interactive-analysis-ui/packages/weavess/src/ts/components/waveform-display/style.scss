@@ -1,0 +1,179 @@
+
+  .pt-toast-container {
+    position: absolute;
+  }
+
+// Waveform Display
+.weavess {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  outline: 1px solid;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+
+  .weavess-measure-window {
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom: 0.25rem solid;
+  
+    .weavess-measure-window-divider {
+      position: relative;
+      height: 0.5rem;
+      width: 100%;
+      cursor: row-resize;
+      flex: 0 0 auto;
+
+      .weavess-measure-window-divider-div {
+        position: absolute;
+        top: 0.2rem;
+        bottom: 0.2rem;
+        left: 0px;
+        right: 0px;
+      }
+    }
+
+    .weavess-measure-window-divider:hover {
+      & div {
+        background-color: 'green';
+      }
+    }
+  }
+
+  .weavess-waveform-display {
+    width: 100%;
+  }
+  
+}
+
+
+// Waveform Panel
+.weavess-wp {
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #222;
+    margin-left: 184px;
+  }
+  *::-webkit-scrollbar-corner {
+    background-color: #222;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: #666;
+  }
+  * {
+    cursor: default;
+  }
+
+  .weavess-wp-canvas {
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .weavess-wp-container {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    outline: 1px solid;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+
+    .weavess-wp-container-1 {
+      flex: 1 1 auto;
+      position: relative;
+
+      .weavess-wp-container-2 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+
+        .weavess-wp-container-3 {
+          flex: 1 0 auto;
+          position: relative;
+
+          .weavess-wp-container-viewport {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            overflow-x: auto;
+            overflow-y: scroll;
+
+            .weavess-wp-container-viewport-content {
+              display: flex;
+              flex-direction: column;
+              position: relative;
+
+              .weavess-wp-container-viewport-content-markers {
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                pointer-events: none;
+              }
+            }
+          }
+        }
+      }
+
+      .weavess-wp-container-overlay {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        bottom: 0px;
+        pointer-events: none;
+
+        .weavess-wp-container-overlay-cross-hair {
+          position: absolute;
+          width: 0px;
+          border-left: 1px solid rgba(255,255,255,0.4);
+          left: 0%;
+          top: 0px;
+          bottom: 0px;
+        }
+
+        .weavess-wp-container-overlay-selection-area {
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          display: none;
+          left: 0px;
+          right: 0px;
+        }
+      }
+    }
+  }
+
+  .weavess-wp-time-poppver-content {
+    font-size: .7rem;
+    height: 18px;
+    width: 170px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;      
+  }
+
+  .weavess-wp-time-range {
+    position: absolute;
+    bottom: 0px;
+    pointer-events: none;
+    font-size: 0.8rem;
+    z-index: 1;
+  }
+}

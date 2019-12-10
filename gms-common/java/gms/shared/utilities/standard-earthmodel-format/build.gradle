@@ -1,0 +1,12 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-math3'
+    implementation 'org.apache.commons:commons-lang3'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5 once modules support JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

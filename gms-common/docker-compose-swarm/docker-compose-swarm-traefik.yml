@@ -1,0 +1,43 @@
+version: '3.7'
+
+services:
+  traefik:
+    image: traefik:1.7.18
+    command:
+      - "--api"
+      - "--docker"
+      - "--docker.swarmMode"
+      - "--docker.watch"
+    deploy:
+      labels:
+        - "com.docker.ucp.access.label=/"
+        - "traefik.docker.network=traefik-net-sandbox"
+        - "traefik.port=8080"
+        - "traefik.frontend.rule=Host:traefik.${SUBDOMAIN}.${BASE_DOMAIN}"
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.role==manager
+    networks:
+      - traefik-net-sandbox
+      - traefik-net-release
+    ports:
+      - 80:80
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  traefik-net-sandbox:
+      name: traefik-net-sandbox
+      driver: overlay
+      attachable: true
+      labels:
+        com.docker.ucp.access.label: /
+  traefik-net-release:
+      name: traefik-net-release
+      driver: overlay
+      attachable: true
+      labels:
+        com.docker.ucp.access.label: /

@@ -1,0 +1,10 @@
+name: "reference-example"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  numeric: 1.0
+  binary: true
+  string: "string"
+  $ref=global.filters:
+    - criterion: "name"
+      value: "filter4-8"

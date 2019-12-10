@@ -1,0 +1,122 @@
+[
+  {
+    "id": "3f06d495-cf4e-4e45-8618-311c09d438f3",
+    "rejectedSignalDetectionAssociations": [],
+    "monitoringOrganization": "FAKE",
+    "hypotheses": [
+      {
+        "id": "de406cac-4754-45b4-92b0-0c7cc266d7fb",
+        "eventId": "3f06d495-cf4e-4e45-8618-311c09d438f3",
+        "parentEventHypotheses": [],
+        "rejected": false,
+        "locationSolutions": [
+          {
+            "id": "42e104ef-f0ea-4887-8c08-60fe06489770",
+            "location": {
+              "latitudeDegrees": 0.0,
+              "longitudeDegrees": 0.0,
+              "depthKm": 0.0,
+              "time": "1970-01-01T00:00:00Z"
+            },
+            "locationRestraint": {
+              "depthRestraintType": "UNRESTRAINED",
+              "depthRestraintKm": 0.0,
+              "positionRestraintType": "UNRESTRAINED",
+              "latitudeRestraintDegrees": 0.0,
+              "longitudeRestraintDegrees": 0.0,
+              "timeRestraintType": "UNRESTRAINED",
+              "timeRestraint": "1970-01-01T00:00:00Z"
+            },
+            "locationUncertainty": {
+              "xx": 0.0,
+              "xy": 0.0,
+              "xz": 0.0,
+              "xt": 0.0,
+              "yy": 0.0,
+              "yz": 0.0,
+              "yt": 0.0,
+              "zz": 0.0,
+              "zt": 0.0,
+              "tt": 0.0,
+              "stDevOneObservation": 0.0,
+              "ellipses": [],
+              "ellipsoids": []
+            },
+            "featurePredictions": [],
+            "locationBehaviors": []
+          }
+        ],
+        "preferredLocationSolution": {
+          "locationSolution": {
+            "id": "42e104ef-f0ea-4887-8c08-60fe06489770",
+            "location": {
+              "latitudeDegrees": 0.0,
+              "longitudeDegrees": 0.0,
+              "depthKm": 0.0,
+              "time": "1970-01-01T00:00:00Z"
+            },
+            "locationRestraint": {
+              "depthRestraintType": "UNRESTRAINED",
+              "depthRestraintKm": 0.0,
+              "positionRestraintType": "UNRESTRAINED",
+              "latitudeRestraintDegrees": 0.0,
+              "longitudeRestraintDegrees": 0.0,
+              "timeRestraintType": "UNRESTRAINED",
+              "timeRestraint": "1970-01-01T00:00:00Z"
+            },
+            "locationUncertainty": {
+              "xx": 0.0,
+              "xy": 0.0,
+              "xz": 0.0,
+              "xt": 0.0,
+              "yy": 0.0,
+              "yz": 0.0,
+              "yt": 0.0,
+              "zz": 0.0,
+              "zt": 0.0,
+              "tt": 0.0,
+              "stDevOneObservation": 0.0,
+              "ellipses": [],
+              "ellipsoids": []
+            },
+            "featurePredictions": [],
+            "locationBehaviors": []
+          }
+        },
+        "associations": [
+          {
+            "id": "97617b1f-120b-4be4-9d6f-2ade4083ae92",
+            "eventHypothesisId": "de406cac-4754-45b4-92b0-0c7cc266d7fb",
+            "signalDetectionHypothesisId": "51e1d185-ad0b-4057-b77f-a889f806a6b7",
+            "rejected": false
+          },
+          {
+            "id": "331b1351-e636-47f2-8769-63af3d3e12cf",
+            "eventHypothesisId": "de406cac-4754-45b4-92b0-0c7cc266d7fb",
+            "signalDetectionHypothesisId": "fe04657a-af3f-4a84-8ce9-3bcbf41815fc",
+            "rejected": false
+          },
+          {
+            "id": "f4b3105c-baf9-4b1d-8ed2-572e6b90831c",
+            "eventHypothesisId": "de406cac-4754-45b4-92b0-0c7cc266d7fb",
+            "signalDetectionHypothesisId": "a8510695-3086-4b58-90b9-89f77d654958",
+            "rejected": false
+          },
+          {
+            "id": "440d8cbb-315a-44e8-a1ae-9a48a28a1dfe",
+            "eventHypothesisId": "de406cac-4754-45b4-92b0-0c7cc266d7fb",
+            "signalDetectionHypothesisId": "8eb8b7a8-f423-407c-9977-67c0309c7a1a",
+            "rejected": false
+          }
+        ]
+      }
+    ],
+    "finalEventHypothesisHistory": [],
+    "preferredEventHypothesisHistory": [
+      {
+        "processingStageId": "2076d5ba-02c7-4b14-86f3-9fe71669ed9b",
+        "eventHypothesisId": "de406cac-4754-45b4-92b0-0c7cc266d7fb"
+      }
+    ]
+  }
+]

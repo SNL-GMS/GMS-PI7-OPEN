@@ -1,0 +1,5777 @@
+[
+		{
+			"Arid": 59212165,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 76.02789,
+			"Slowness": 2.5544875,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 50.7012,
+				"Longitude": 29.2242,
+				"Elevation": 0.16,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "AK01",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0070605739309,
+					"NorthDisplacement": -0.0101128714626,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK02",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0117757171126,
+					"NorthDisplacement": -0.0439561421501,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK03",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0015891012783,
+					"NorthDisplacement": 0.0251333409307,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK04",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0369935942743,
+					"NorthDisplacement": 0.0214425250585,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK05",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0131220015572,
+					"NorthDisplacement": -0.0816044425538,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK06",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0163829417016,
+					"NorthDisplacement": -0.115546638618,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK07",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0126309719602,
+					"NorthDisplacement": -0.150692126991,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK08",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0194865005649,
+					"NorthDisplacement": -0.067483294692,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK09",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0384792735679,
+					"NorthDisplacement": -0.0861963786754,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK10",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.017270572127,
+					"NorthDisplacement": -0.10232930897,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK11",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0359467839246,
+					"NorthDisplacement": -0.0228157891513,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK12",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0441225166473,
+					"NorthDisplacement": -0.057553884837,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK15",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0637268283425,
+					"NorthDisplacement": -0.00606502491275,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK16",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0753415668876,
+					"NorthDisplacement": -0.0311803794113,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK17",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.106106459717,
+					"NorthDisplacement": -0.0160016293405,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK18",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0995396133478,
+					"NorthDisplacement": 0.021032434406,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK19",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.135133863203,
+					"NorthDisplacement": 0.0212212919434,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK20",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.136090741392,
+					"NorthDisplacement": 0.042051378988,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK21",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.115741791407,
+					"NorthDisplacement": 0.0754413915859,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK22",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0971716995585,
+					"NorthDisplacement": 0.059778806491,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK23",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0627465677917,
+					"NorthDisplacement": 0.0614227663873,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AKBB",
+					"Channel": "BHZ",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212716,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 39.710076,
+			"Slowness": 3.5742599,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 50.7012,
+				"Longitude": 29.2242,
+				"Elevation": 0.16,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "AK01",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0070605739309,
+					"NorthDisplacement": -0.0101128714626,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK02",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0117757171126,
+					"NorthDisplacement": -0.0439561421501,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK03",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0015891012783,
+					"NorthDisplacement": 0.0251333409307,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK04",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0369935942743,
+					"NorthDisplacement": 0.0214425250585,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK05",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0131220015572,
+					"NorthDisplacement": -0.0816044425538,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK06",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0163829417016,
+					"NorthDisplacement": -0.115546638618,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK07",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0126309719602,
+					"NorthDisplacement": -0.150692126991,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK08",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0194865005649,
+					"NorthDisplacement": -0.067483294692,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK09",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0384792735679,
+					"NorthDisplacement": -0.0861963786754,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK10",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.017270572127,
+					"NorthDisplacement": -0.10232930897,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK11",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0359467839246,
+					"NorthDisplacement": -0.0228157891513,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK12",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0441225166473,
+					"NorthDisplacement": -0.057553884837,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK15",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0637268283425,
+					"NorthDisplacement": -0.00606502491275,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK16",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0753415668876,
+					"NorthDisplacement": -0.0311803794113,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK17",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.106106459717,
+					"NorthDisplacement": -0.0160016293405,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK18",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0995396133478,
+					"NorthDisplacement": 0.021032434406,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK19",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.135133863203,
+					"NorthDisplacement": 0.0212212919434,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK20",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.136090741392,
+					"NorthDisplacement": 0.042051378988,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK21",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.115741791407,
+					"NorthDisplacement": 0.0754413915859,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK22",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0971716995585,
+					"NorthDisplacement": 0.059778806491,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK23",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0627465677917,
+					"NorthDisplacement": 0.0614227663873,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AKBB",
+					"Channel": "BHZ",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212090,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 295.55997,
+			"Slowness": 7.2898084,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 50.7012,
+				"Longitude": 29.2242,
+				"Elevation": 0.16,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "AK01",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0070605739309,
+					"NorthDisplacement": -0.0101128714626,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK02",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0117757171126,
+					"NorthDisplacement": -0.0439561421501,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK03",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0015891012783,
+					"NorthDisplacement": 0.0251333409307,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK04",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0369935942743,
+					"NorthDisplacement": 0.0214425250585,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK05",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0131220015572,
+					"NorthDisplacement": -0.0816044425538,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK06",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0163829417016,
+					"NorthDisplacement": -0.115546638618,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK07",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0126309719602,
+					"NorthDisplacement": -0.150692126991,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK08",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0194865005649,
+					"NorthDisplacement": -0.067483294692,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK09",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0384792735679,
+					"NorthDisplacement": -0.0861963786754,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK10",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.017270572127,
+					"NorthDisplacement": -0.10232930897,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK11",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0359467839246,
+					"NorthDisplacement": -0.0228157891513,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK12",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0441225166473,
+					"NorthDisplacement": -0.057553884837,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK15",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0637268283425,
+					"NorthDisplacement": -0.00606502491275,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK16",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0753415668876,
+					"NorthDisplacement": -0.0311803794113,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK17",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.106106459717,
+					"NorthDisplacement": -0.0160016293405,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK18",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0995396133478,
+					"NorthDisplacement": 0.021032434406,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK19",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.135133863203,
+					"NorthDisplacement": 0.0212212919434,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK20",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.136090741392,
+					"NorthDisplacement": 0.042051378988,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK21",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.115741791407,
+					"NorthDisplacement": 0.0754413915859,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK22",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0971716995585,
+					"NorthDisplacement": 0.059778806491,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK23",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0627465677917,
+					"NorthDisplacement": 0.0614227663873,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AKBB",
+					"Channel": "BHZ",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59211924,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 291.08915,
+			"Slowness": 4.0456334,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 50.7012,
+				"Longitude": 29.2242,
+				"Elevation": 0.16,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "AK01",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0070605739309,
+					"NorthDisplacement": -0.0101128714626,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK02",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0117757171126,
+					"NorthDisplacement": -0.0439561421501,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK03",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0015891012783,
+					"NorthDisplacement": 0.0251333409307,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK04",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0369935942743,
+					"NorthDisplacement": 0.0214425250585,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK05",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0131220015572,
+					"NorthDisplacement": -0.0816044425538,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK06",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0163829417016,
+					"NorthDisplacement": -0.115546638618,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK07",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0126309719602,
+					"NorthDisplacement": -0.150692126991,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK08",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0194865005649,
+					"NorthDisplacement": -0.067483294692,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK09",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0384792735679,
+					"NorthDisplacement": -0.0861963786754,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK10",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.017270572127,
+					"NorthDisplacement": -0.10232930897,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK11",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0359467839246,
+					"NorthDisplacement": -0.0228157891513,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK12",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0441225166473,
+					"NorthDisplacement": -0.057553884837,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK15",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0637268283425,
+					"NorthDisplacement": -0.00606502491275,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK16",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0753415668876,
+					"NorthDisplacement": -0.0311803794113,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK17",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.106106459717,
+					"NorthDisplacement": -0.0160016293405,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK18",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0995396133478,
+					"NorthDisplacement": 0.021032434406,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK19",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.135133863203,
+					"NorthDisplacement": 0.0212212919434,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK20",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.136090741392,
+					"NorthDisplacement": 0.042051378988,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK21",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.115741791407,
+					"NorthDisplacement": 0.0754413915859,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK22",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0971716995585,
+					"NorthDisplacement": 0.059778806491,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK23",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0627465677917,
+					"NorthDisplacement": 0.0614227663873,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AKBB",
+					"Channel": "BHZ",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59211775,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 54.784378,
+			"Slowness": 6.465975,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 50.7012,
+				"Longitude": 29.2242,
+				"Elevation": 0.16,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "AK01",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0070605739309,
+					"NorthDisplacement": -0.0101128714626,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK02",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0117757171126,
+					"NorthDisplacement": -0.0439561421501,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK03",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0015891012783,
+					"NorthDisplacement": 0.0251333409307,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK04",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0369935942743,
+					"NorthDisplacement": 0.0214425250585,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK05",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0131220015572,
+					"NorthDisplacement": -0.0816044425538,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK06",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0163829417016,
+					"NorthDisplacement": -0.115546638618,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK07",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0126309719602,
+					"NorthDisplacement": -0.150692126991,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK08",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0194865005649,
+					"NorthDisplacement": -0.067483294692,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK09",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.0384792735679,
+					"NorthDisplacement": -0.0861963786754,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK10",
+					"Channel": "BHZ",
+					"EastDisplacement": 0.017270572127,
+					"NorthDisplacement": -0.10232930897,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK11",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0359467839246,
+					"NorthDisplacement": -0.0228157891513,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK12",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0441225166473,
+					"NorthDisplacement": -0.057553884837,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK15",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0637268283425,
+					"NorthDisplacement": -0.00606502491275,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK16",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0753415668876,
+					"NorthDisplacement": -0.0311803794113,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK17",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.106106459717,
+					"NorthDisplacement": -0.0160016293405,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK18",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0995396133478,
+					"NorthDisplacement": 0.021032434406,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK19",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.135133863203,
+					"NorthDisplacement": 0.0212212919434,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK20",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.136090741392,
+					"NorthDisplacement": 0.042051378988,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK21",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.115741791407,
+					"NorthDisplacement": 0.0754413915859,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK22",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0971716995585,
+					"NorthDisplacement": 0.059778806491,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AK23",
+					"Channel": "BHZ",
+					"EastDisplacement": -0.0627465677917,
+					"NorthDisplacement": 0.0614227663873,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "AKBB",
+					"Channel": "BHZ",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212121,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 76.130314,
+			"Slowness": 7.522121,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59211646,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 81.193207,
+			"Slowness": 8.7153039,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59211812,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 304.59229,
+			"Slowness": 4.273261,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184885,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 221.66908,
+			"Slowness": 12.069398,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212763,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 207.19379,
+			"Slowness": 29.394981,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210102,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 225.5654,
+			"Slowness": 14.840109,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210104,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 225.15198,
+			"Slowness": 24.03435,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210193,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 122.11274,
+			"Slowness": 14.51738,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210194,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 113.86833,
+			"Slowness": 14.989213,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210195,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 123.4615,
+			"Slowness": 25.300153,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59210196,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 125.68712,
+			"Slowness": 27.032192,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184896,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 221.98721,
+			"Slowness": 14.55543,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59211493,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 229.3527,
+			"Slowness": 24.35953,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212646,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 224.79919,
+			"Slowness": 14.834597,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212650,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 228.74335,
+			"Slowness": 24.705126,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212759,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 223.79955,
+			"Slowness": 15.50015,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212761,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 226.52689,
+			"Slowness": 24.850804,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212764,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 226.19872,
+			"Slowness": 14.995022,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212766,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 222.65835,
+			"Slowness": 23.092642,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184897,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 91.010997,
+			"Slowness": 15.329255,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184898,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 92.376055,
+			"Slowness": 21.746787,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184899,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 121.79517,
+			"Slowness": 23.442826,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 88184900,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 119.39605,
+			"Slowness": 14.694379,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212949,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 122.26035,
+			"Slowness": 15.032891,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		},
+		{
+			"Arid": 59212950,
+			"Coherent": "TRUE",
+			"TwoDimensional": "TRUE",
+			"SnappedSampling": "TRUE",
+			"PhaseType": "-",
+			"MediumVelocity": -999,
+			"Azimuth": 118.24425,
+			"Slowness": 33.32295,
+			"NominalSampleRate": 40,
+			"SampleRateTolerance": 0.01,
+			"ReferenceLocation": {
+				"Latitude": 69.534859,
+				"Longitude": 25.505777,
+				"Elevation": 0.403,
+				"Depth": 0
+			},
+			"RelativePosition": [
+				{
+					"Site": "ARA0",
+					"Channel": "sz",
+					"EastDisplacement": 0,
+					"NorthDisplacement": 0,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000480237737753,
+					"NorthDisplacement": 0.00144970642932,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA2",
+					"Channel": "sz",
+					"EastDisplacement": 0.000697873566473,
+					"NorthDisplacement": -0.00109627303805,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARA3",
+					"Channel": "sz",
+					"EastDisplacement": -0.00134988173102,
+					"NorthDisplacement": -0.000267997838671,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000743738968393,
+					"NorthDisplacement": 0.00304420363725,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00266468991941,
+					"NorthDisplacement": 0.000881335174154,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00171320765996,
+					"NorthDisplacement": -0.00243806087462,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB4",
+					"Channel": "sz",
+					"EastDisplacement": -0.00209362069942,
+					"NorthDisplacement": -0.00204056072465,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARB5",
+					"Channel": "sz",
+					"EastDisplacement": -0.0025639658995,
+					"NorthDisplacement": 0.00143351864041,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC1",
+					"Channel": "sz",
+					"EastDisplacement": 0.000733846430724,
+					"NorthDisplacement": 0.00624938584203,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00601736086761,
+					"NorthDisplacement": 0.00350465629967,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC3",
+					"Channel": "sz",
+					"EastDisplacement": 0.00610009845539,
+					"NorthDisplacement": -0.00193983670474,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0020765335889,
+					"NorthDisplacement": -0.00557489463732,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC5",
+					"Channel": "sz",
+					"EastDisplacement": -0.00268267635153,
+					"NorthDisplacement": -0.004869826498,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00619092993763,
+					"NorthDisplacement": -0.000735645073936,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARC7",
+					"Channel": "sz",
+					"EastDisplacement": -0.00426728102179,
+					"NorthDisplacement": 0.00480057873432,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD1",
+					"Channel": "sz",
+					"EastDisplacement": 0.00122307738454,
+					"NorthDisplacement": 0.0135033139183,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD2",
+					"Channel": "sz",
+					"EastDisplacement": 0.00880525784708,
+					"NorthDisplacement": 0.0103529903315,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD3",
+					"Channel": "sz",
+					"EastDisplacement": 0.0149620135637,
+					"NorthDisplacement": 0.00170691240872,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD4",
+					"Channel": "sz",
+					"EastDisplacement": 0.0107073230444,
+					"NorthDisplacement": -0.00776564207022,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD5",
+					"Channel": "sz",
+					"EastDisplacement": 0.00211340577476,
+					"NorthDisplacement": -0.0135275956017,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD6",
+					"Channel": "sz",
+					"EastDisplacement": -0.00555870684841,
+					"NorthDisplacement": -0.0122001969108,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD7",
+					"Channel": "sz",
+					"EastDisplacement": -0.0123287999005,
+					"NorthDisplacement": -0.00549485501437,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD8",
+					"Channel": "sz",
+					"EastDisplacement": -0.0130761361553,
+					"NorthDisplacement": 0.00355411898802,
+					"VerticalDisplacement": 0
+				},
+				{
+					"Site": "ARD9",
+					"Channel": "sz",
+					"EastDisplacement": -0.0070470841068,
+					"NorthDisplacement": 0.0106209881702,
+					"VerticalDisplacement": 0
+				}
+			],
+			"MinimumWaveformsForBeam": 2
+		}
+]

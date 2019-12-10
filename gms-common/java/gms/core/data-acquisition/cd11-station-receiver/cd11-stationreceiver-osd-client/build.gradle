@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    // Project dependencies.
+    api project(':osd-commonobjects')
+
+    // Third-party dependencies.
+    implementation 'com.mashape.unirest:unirest-java'
+    implementation 'org.apache.commons:commons-text:1.3'
+    testImplementation 'com.github.tomakehurst:wiremock'
+    testImplementation 'javax.xml.bind:jaxb-api'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

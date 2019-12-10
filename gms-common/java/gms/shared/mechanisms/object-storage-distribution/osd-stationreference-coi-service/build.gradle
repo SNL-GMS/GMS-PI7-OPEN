@@ -1,0 +1,20 @@
+apply plugin: 'application'
+apply plugin: 'com.palantir.docker'
+
+mainClassName = 'gms.shared.mechanisms.objectstoragedistribution.coi.stationreference.service.StationReferenceCoiServiceApplication'
+
+dependencies {
+    // Gradle sub-project dependencies.
+    implementation project(':osd-repository')
+
+    implementation 'com.sparkjava:spark-core'
+    implementation 'com.netflix.archaius:archaius-core'
+    implementation 'org.apache.commons:commons-lang3'
+    implementation 'commons-configuration:commons-configuration:1.8'
+
+    testImplementation 'com.mashape.unirest:unirest-java'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

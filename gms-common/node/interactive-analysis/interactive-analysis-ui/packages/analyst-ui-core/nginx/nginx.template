@@ -1,0 +1,91 @@
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+# user nginx; # not needed if we're not running as root
+worker_processes auto;
+error_log stderr;
+pid /tmp/nginx.pid; # Moved this from /var/run/nginx.pid since we're not root
+
+# Load dynamic modules. See /usr/share/nginx/README.dynamic.
+include /usr/share/nginx/modules/*.conf;
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_sid" "$http_x_forwarded_for"';
+
+    access_log  /dev/stdout  main;
+
+    underscores_in_headers on;
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 2048;
+    client_max_body_size 500M;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    #
+    # The default server
+    #
+
+    server {
+        listen       8080 default_server;
+        listen       [::]:8080 default_server;
+        add_header   X-Frame-Options "SAMEORIGIN";
+
+        root         /opt/interactive-analysis-ui;
+
+        #auth_basic "GMS User Authentication Required";
+        #auth_basic_user_file /etc/nginx/htpasswd;
+
+        # Internal redirect for items without trailing slashes
+        location @rewrite {
+           return 302 $scheme://$http_host$uri/;
+        }
+
+        location /graphql {             
+            proxy_pass ${GRAPHQL_PROXY_URI};
+            proxy_set_header Host $http_host;
+            proxy_buffering off;
+            proxy_connect_timeout 600;
+            proxy_send_timeout 600;
+            proxy_read_timeout 600;
+            send_timeout 600;
+        }
+
+        location /waveforms {
+            proxy_pass ${WAVEFORMS_PROXY_URI};
+            proxy_set_header Host $http_host;
+            proxy_buffering off;
+            proxy_connect_timeout 600;
+            proxy_send_timeout 600;
+            proxy_read_timeout 600;
+            send_timeout 600;
+        }
+
+        # GraphQL subscription websocket
+        location ~ /subscriptions.* {
+            # The url '/subscriptions' is what is used to configure the websocket
+            # client in its constructor.  We're grabbing everything after that because
+            # there are sub-uris (/info, */websocket) that also need proxying.
+            proxy_pass ${SUBSCRIPTIONS_PROXY_URI}; # No trailing slash: pass what matched above along
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Host $http_host;
+            proxy_connect_timeout 1d;
+            proxy_send_timeout 1d;
+            proxy_read_timeout 1d;
+        }
+    }
+}

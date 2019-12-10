@@ -1,0 +1,124 @@
+{
+    "ui": {
+        "extraLoadingTime": 1800,
+        "extraEventLoadingTime": 3600,
+        "waveformFilterIds": [
+            "48fd578e-e428-43ff-9f9e-62598e7e6ce6",
+            "0351d87a-fde9-43e2-8754-84a1d797fbc1",
+            "56893621-d9a1-4cfd-830a-13969f9d2aad",
+            "8bab76bd-db1a-4226-a151-786577adb3d8",
+            "db5e61a0-b8dc-48a7-b56c-5e497925e89c",
+            "b92d6ade-3e69-42b6-82e5-f9290f50120f"
+        ],
+        "defaultSdPhases": [
+            "P",
+            "Pn",
+            "PKP",
+            "PKPbc",
+            "PcP",
+            "pP",
+            "S",
+            "Sn",
+            "LR",
+            "Lg"
+        ],
+        "preferredLocationSolutionRestraintOrder":
+            ["UNRESTRAINED", "FIXED_AT_SURFACE", "FIXED_AT_DEPTH"],
+        "apacheLmParameters": {
+            "pluginInfo": {
+                "name": "eventLocationApacheLmPlugin",
+                "version": "1.0.0"
+            },
+            "eventLocationDefinition": {
+                "type": "EventLocationDefinitionApacheLm",
+                "maximumIterationCount": 100,
+                "convergenceThreshold": 0.01,
+                "uncertaintyProbabilityPercentile": 0.95,
+                "earthModel": "ak135",
+                "applyTravelTimeCorrections": false,
+                "scalingFactorType": "CONFIDENCE",
+                "kWeight": 0,
+                "aprioriVariance": 1,
+                "minimumNumberOfObservations": 4,
+                "locationRestraints": [{
+                    "latitudeRestraintType": "UNRESTRAINED",
+                    "latitudeRestraintDegrees": null,
+                    "longitudeRestraintType": "UNRESTRAINED",
+                    "longitudeRestraintDegrees": null,
+                    "depthRestraintType": "FIXED_AT_DEPTH",
+                    "depthRestraintKm": 0,
+                    "timeRestraintType": "UNRESTRAINED",
+                    "timeRestraint": null
+                }]
+            }
+        },
+        "geigersParameters": {
+            "pluginInfo": {
+                "name": "eventLocationGeigersPlugin",
+                "version": "1.0.0"
+            },
+            "eventLocationDefinition": {
+                "type": "EventLocationDefinitionGeigers",
+                "maximumIterationCount": 100,
+                "convergenceThreshold": 0.001,
+                "uncertaintyProbabilityPercentile": 0.90,
+                "earthModel": "ak135",
+                "applyTravelTimeCorrections": true,
+                "dampingFactorStep": 10,
+                "deltamThreshold": 0.001,
+                "depthFixedIterationCount": 3,
+                "lambda0": 1.00E-06,
+                "lambdaX": 10,
+                "singularValueWFactor": 1.00E-03,
+                "scalingFactorType": "CONFIDENCE",
+                "kWeight": 0,
+                "aprioriVariance": 1,
+                "minimumNumberOfObservations": 4,
+                "locationRestraints": [{
+                    "latitudeRestraintType": "UNRESTRAINED",
+                    "latitudeRestraintDegrees": null,
+                    "longitudeRestraintType": "UNRESTRAINED",
+                    "longitudeRestraintDegrees": null,
+                    "depthRestraintType": "FIXED_AT_DEPTH",
+                    "depthRestraintKm": 0,
+                    "timeRestraintType": "UNRESTRAINED",
+                    "timeRestraint": null
+                }]
+            }
+        },
+        "defaultFrequencyBands": [
+            {
+              "minFrequencyHz": 0.5,
+              "maxFrequencyHz": 2
+            },
+            {
+              "minFrequencyHz": 1,
+              "maxFrequencyHz": 2.5
+            },
+            {
+              "minFrequencyHz": 1.5,
+              "maxFrequencyHz": 3
+            },
+            {
+              "minFrequencyHz": 2,
+              "maxFrequencyHz": 4
+            },
+            {
+              "minFrequencyHz": 3,
+              "maxFrequencyHz": 6
+            }
+        ],
+        "leadBeamSeconds": 60,
+        "lagBeamSeconds": 240,
+        "computeBeamArg": {
+            "beamDefinition" : {
+                "coherent" : true,
+                "snappedSampling" : true,
+                "twoDimensional" : true,
+                "waveformSampleRateTolerance" : 0.01,
+                "minimumWaveformsForBeam": 1
+            },
+            "outputChannelId" : "4558989b-520b-4bc6-8845-7273dbacbd51"
+        }
+    }
+}

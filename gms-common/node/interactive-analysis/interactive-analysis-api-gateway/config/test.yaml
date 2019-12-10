@@ -1,0 +1,8 @@
+yamlName: "test"
+
+waveform:
+    waveformMode: simulated
+testData:
+    # Configuration of standard test data for exercising API gateway services 
+    standardTestDataSet:
+        stdsDataHome: resources/test_data/additional-test-data/jest-test-data

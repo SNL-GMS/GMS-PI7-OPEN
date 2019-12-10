@@ -1,0 +1,3 @@
+set smtp-auth-user=<username_of_email_addr>
+set smtp-auth-password=''
+set from="<email> (<friendly_name>)"

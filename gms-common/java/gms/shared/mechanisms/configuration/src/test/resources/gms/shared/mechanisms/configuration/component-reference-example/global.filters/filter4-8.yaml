@@ -1,0 +1,14 @@
+name: "filter4-8"
+constraints:
+  - constraintType: "STRING"
+    criterion: "name"
+    operator:
+      type: "EQ"
+      negated: false
+    value:
+      - "filter4-8"
+parameters:
+  min_freq_hz: 4
+  max_freq_hz: 8
+  order: 3
+  name: "butterworth"

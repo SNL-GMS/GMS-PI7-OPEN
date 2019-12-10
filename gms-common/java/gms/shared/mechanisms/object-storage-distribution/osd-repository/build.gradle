@@ -1,0 +1,32 @@
+apply plugin: 'java-library'
+
+dependencies {
+    // Project dependencies.
+    api project(':osd-commonobjects')
+
+    // Third-party dependencies.
+    implementation 'javax.xml.bind:jaxb-api'
+
+    // Utility (api dependency since Apache commons classes are publicly exposed).
+    api 'org.apache.commons:commons-lang3'
+    
+    // Persistence (api dependencies since persistence.xml requires Hibernate).
+    api 'javax.persistence:javax.persistence-api'
+    implementation 'org.hibernate:hibernate-core'
+    implementation 'org.hibernate:hibernate-c3p0'
+    implementation 'org.hibernate:hibernate-entitymanager'
+    implementation 'org.postgresql:postgresql'
+    implementation 'javax.persistence:javax.persistence-api'
+
+    implementation 'com.datastax.cassandra:cassandra-driver-core'
+    implementation 'com.datastax.cassandra:cassandra-driver-extras'
+    implementation 'com.netflix.archaius:archaius-core'
+    implementation 'commons-configuration:commons-configuration'
+
+    // Testing.
+    testImplementation 'com.h2database:h2'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

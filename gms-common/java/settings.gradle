@@ -1,0 +1,253 @@
+/***************************************************************************************
+ MODIFY THIS FILE WITH CARE!!!
+ /***************************************************************************************/
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "gms-common"
+
+// Include the Configuration subproject.
+include "configuration"
+project(":configuration").projectDir = file("gms/shared/mechanisms/configuration")
+
+// Include the plugin-registry subproject.
+include "plugin-registry"
+project(":plugin-registry").projectDir = file("gms/shared/mechanisms/plugin-registry")
+
+// Include the OSD subprojects.
+include "osd-commonobjects"
+project(":osd-commonobjects").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-commonobjects")
+include "osd-repository"
+project(":osd-repository").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-repository")
+
+// Include the HTTP Service Library subprojects.
+include "http-service-exemplate"
+project(":http-service-exemplate").projectDir = file("gms/shared/utilities/service/http-service-exemplate")
+include "http-service-library"
+project(":http-service-library").projectDir = file("gms/shared/utilities/service/http-service-library")
+
+// Include the CD 1.1 Receiver subprojects.
+include "cd11-common"
+project(":cd11-common").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-common")
+include "cd11-dataprovider"
+project(":cd11-dataprovider").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-dataprovider")
+include "cd11-connman"
+project(":cd11-connman").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-connman")
+include "cd11-dataframe-parser"
+project(":cd11-dataframe-parser").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-dataframe-parser")
+include "cd11-dataman"
+project(":cd11-dataman").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-dataman")
+include "cd11-integration-tests"
+project(":cd11-integration-tests").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-integration-tests")
+include "cd11-stationreceiver-osd-client"
+project(":cd11-stationreceiver-osd-client").projectDir = file("gms/core/data-acquisition/cd11-station-receiver/cd11-stationreceiver-osd-client")
+
+// Include the seedlink subprojects.
+include "seedlink-client-library"
+project(":seedlink-client-library").projectDir = file("gms/core/data-acquisition/seedlink/seedlink-client-library")
+include "seedlink-receiver"
+project(":seedlink-receiver").projectDir = file("gms/core/data-acquisition/seedlink/seedlink-receiver")
+
+// Include the IMS 2.0 subprojects.
+include "ims20-receiver"
+project(":ims20-receiver").projectDir = file("gms/core/data-acquisition/ims20/ims20-receiver")
+
+// Include the CSS 3.0 Loader subprojects.
+include "css-reader"
+project(":css-reader").projectDir = file("gms/core/data-acquisition/css30-loader/css-reader")
+include "css-stationref-converter"
+project(":css-stationref-converter").projectDir = file("gms/core/data-acquisition/css30-loader/css-stationref-converter")
+include "css-processing-converter"
+project(":css-processing-converter").projectDir = file("gms/core/data-acquisition/css30-loader/css-processing-converter")
+include "css-waveform-converter"
+project(":css-waveform-converter").projectDir = file("gms/core/data-acquisition/css30-loader/css-waveform-converter")
+include "waveform-loader"
+project(":waveform-loader").projectDir = file("gms/core/data-acquisition/css30-loader/waveform-loader")
+
+// Include the Waveform Reader Utility subprojects.
+include "waveman"
+project(":waveman").projectDir = file("gms/core/data-acquisition/waveform-reader-utility/waveman")
+
+// Include other data acquisition subprojects.
+include "transfer-auditor-utility"
+project(":transfer-auditor-utility").projectDir = file("gms/core/data-acquisition/transfer-auditor-utility")
+include "transferred-file-cleanup-utility"
+project(":transferred-file-cleanup-utility").projectDir = file("gms/core/data-acquisition/transferred-file-cleanup-utility")
+
+// Include the Signal Processing subproject
+include "signal-processing-utility"
+project(":signal-processing-utility").projectDir = file("gms/shared/utilities/signal-processing-utility")
+
+// Include the Standard Earthmodel Format utility
+include "standard-earthmodel-format"
+project(":standard-earthmodel-format").projectDir = file("gms/shared/utilities/standard-earthmodel-format")
+
+// Include the Signal Detector Control subprojects.
+include "signal-detector-plugin"
+project(":signal-detector-plugin").projectDir = file("gms/core/signal-detection/signal-detector-plugin")
+include "signal-detector-control-service"
+project(":signal-detector-control-service").projectDir = file("gms/core/signal-detection/signal-detector-control-service")
+include "signal-detector-sta-lta-algorithm"
+project(":signal-detector-sta-lta-algorithm").projectDir = file("gms/core/signal-detection/signal-detector-sta-lta-algorithm")
+include "signal-detector-sta-lta-plugin"
+project(":signal-detector-sta-lta-plugin").projectDir = file("gms/core/signal-detection/signal-detector-sta-lta-plugin")
+include "onset-time-uncertainty-plugin"
+project(":onset-time-uncertainty-plugin").projectDir = file("gms/core/signal-detection/onset-time-uncertainty-plugin")
+include "snr-onset-time-uncertainty-plugin"
+project(":snr-onset-time-uncertainty-plugin").projectDir = file("gms/core/signal-detection/snr-onset-time-uncertainty-plugin")
+include "onset-time-refinement-plugin"
+project(":onset-time-refinement-plugin").projectDir = file("gms/core/signal-detection/onset-time-refinement-plugin")
+include "aic-onset-time-refinement-plugin"
+project(":aic-onset-time-refinement-plugin").projectDir = file("gms/core/signal-detection/aic-onset-time-refinement-plugin")
+
+// Include the Signal Detection Association Subprojects
+include "signal-detection-association-testdata"
+project(":signal-detection-association-testdata").projectDir = file("gms/core/signal-detection/association/signal-detection-association-testdata")
+include "signal-detection-association-control-service"
+project(":signal-detection-association-control-service").projectDir = file("gms/core/signal-detection/association/signal-detection-association-control-service")
+include "signal-detection-association-plugins"
+project(":signal-detection-association-plugins").projectDir = file("gms/core/signal-detection/association/signal-detection-association-plugins")
+include "global-grid-signal-detection-associator"
+project(":global-grid-signal-detection-associator").projectDir = file("gms/core/signal-detection/association/global-grid-signal-detection-associator")
+include "event-redundancy-plugin-implementation"
+project(":event-redundancy-plugin-implementation").projectDir = file("gms/core/signal-detection/association/event-redundancy-plugin-implementation")
+
+
+// Include the Beam Control subprojects.
+include "beam-algorithm-plane-wave"
+project(":beam-algorithm-plane-wave").projectDir = file("gms/core/signal-enhancement/beam/beam-algorithm-plane-wave")
+include "beam-plugin"
+project(":beam-plugin").projectDir = file("gms/core/signal-enhancement/beam/beam-plugin")
+include "beam-plugin-plane-wave"
+project(":beam-plugin-plane-wave").projectDir = file("gms/core/signal-enhancement/beam/beam-plugin-plane-wave")
+include "beam-control-service"
+project(":beam-control-service").projectDir = file("gms/core/signal-enhancement/beam/beam-control-service")
+
+// Include Signal Detection subprojects.
+include "signal-detection"
+project(":signal-detection").projectDir = file("gms/shared/utilities/signal-detection")
+
+// Include Event Location subprojects.
+include "event-location-control-service"
+project(":event-location-control-service").projectDir = file("gms/core/event-location/event-location-control-service")
+include "event-location-plugins"
+project(":event-location-plugins").projectDir = file("gms/core/event-location/event-location-plugins")
+include "event-location-plugin-geigers"
+project(":event-location-plugin-geigers").projectDir = file("gms/core/event-location/event-location-plugin-geigers")
+include "event-location-plugin-apachelm"
+project(":event-location-plugin-apachelm").projectDir = file("gms/core/event-location/event-location-plugin-apachelm")
+
+// Include Signal Feature Prediction subprojects.
+include "fp-service"
+project(":fp-service").projectDir = file("gms/core/feature-prediction/fp-service")
+include "fp-plugin-signalfeaturepredictor"
+project(":fp-plugin-signalfeaturepredictor").projectDir = file("gms/core/feature-prediction/fp-plugin-signalfeaturepredictor")
+include "fp-plugin-dziewonskigilbert-ellipticitycorrection"
+project(":fp-plugin-dziewonskigilbert-ellipticitycorrection").projectDir = file("gms/core/feature-prediction/fp-plugin-dziewonskigilbert-ellipticitycorrection")
+include "fp-plugins"
+project(":fp-plugins").projectDir = file("gms/core/feature-prediction/fp-plugins")
+include "fp-plugin-standardasciiformat-earthmodel1d"
+project(":fp-plugin-standardasciiformat-earthmodel1d").projectDir = file("gms/core/feature-prediction/fp-plugin-standardasciiformat-earthmodel1d")
+include "signal-feature-prediction-utility"
+project(":signal-feature-prediction-utility").projectDir = file("gms/shared/utilities/signal-feature-prediction-utility")
+include "fp-plugin-standardasciiformat-attenuationmodel1d"
+project(":fp-plugin-standardasciiformat-attenuationmodel1d").projectDir = file("gms/core/feature-prediction/fp-plugin-standardasciiformat-attenuationmodel1d")
+
+// Include the Filter Control subprojects.
+include "filter-plugin"
+project(":filter-plugin").projectDir = file("gms/core/signal-enhancement/filter/filter-plugin")
+include "filter-plugin-linear-waveform-filter"
+project(":filter-plugin-linear-waveform-filter").projectDir = file("gms/core/signal-enhancement/filter/filter-plugin-linear-waveform-filter")
+include "filter-control-service"
+project(":filter-control-service").projectDir = file("gms/core/signal-enhancement/filter/filter-control-service")
+
+// Include the FK Control subprojects.
+include "fk-plugin"
+project(":fk-plugin").projectDir = file("gms/core/signal-enhancement/fk/fk-plugin")
+include "fk-control-service"
+project(":fk-control-service").projectDir = file("gms/core/signal-enhancement/fk/fk-control-service")
+include "fk-measurements-algorithm"
+project(":fk-measurements-algorithm").projectDir = file("gms/core/signal-enhancement/fk/fk-measurements-algorithm")
+include "fk-attributes-plugin"
+project(":fk-attributes-plugin").projectDir = file("gms/core/signal-enhancement/fk/fk-attributes-plugin")
+include "fk-spectrum-algorithm-plugin"
+project(":fk-spectrum-algorithm-plugin").projectDir = file("gms/core/signal-enhancement/fk/fk-spectrum-algorithm-plugin")
+
+// Include the Waveform QC Control subprojects.
+include "waveform-qc-control-api"
+project(":waveform-qc-control-api").projectDir = file("gms/core/waveform-qc/waveform-qc-control-api")
+include "waveform-qc-channel-soh-qc-algorithm"
+project(":waveform-qc-channel-soh-qc-algorithm").projectDir = file("gms/core/waveform-qc/waveform-qc-channel-soh-qc-algorithm")
+include "waveform-qc-channel-soh-qc-plugin"
+project(":waveform-qc-channel-soh-qc-plugin").projectDir = file("gms/core/waveform-qc/waveform-qc-channel-soh-qc-plugin")
+include "waveform-qc-gap-qc-algorithm"
+project(":waveform-qc-gap-qc-algorithm").projectDir = file("gms/core/waveform-qc/waveform-qc-gap-qc-algorithm")
+include "waveform-qc-gap-qc-plugin"
+project(":waveform-qc-gap-qc-plugin").projectDir = file("gms/core/waveform-qc/waveform-qc-gap-qc-plugin")
+include "waveform-qc-repeated-amplitude-qc-algorithm"
+project(":waveform-qc-repeated-amplitude-qc-algorithm").projectDir = file("gms/core/waveform-qc/waveform-qc-repeated-amplitude-qc-algorithm")
+include "waveform-qc-repeated-amplitude-qc-plugin"
+project(":waveform-qc-repeated-amplitude-qc-plugin").projectDir = file("gms/core/waveform-qc/waveform-qc-repeated-amplitude-qc-plugin")
+include "waveform-qc-spike-3pt-qc-algorithm"
+project(":waveform-qc-spike-3pt-qc-algorithm").projectDir = file("gms/core/waveform-qc/waveform-qc-spike-3pt-qc-algorithm")
+include "waveform-qc-spike-3pt-qc-plugin"
+project(":waveform-qc-spike-3pt-qc-plugin").projectDir = file("gms/core/waveform-qc/waveform-qc-spike-3pt-qc-plugin")
+include "waveform-qc-control-service"
+project(":waveform-qc-control-service").projectDir = file("gms/core/waveform-qc/waveform-qc-control-service")
+include "waveform-qc-control"
+project(":waveform-qc-control").projectDir = file("gms/core/waveform-qc/waveform-qc-control")
+include "waveform-qc-plugin"
+project(":waveform-qc-plugin").projectDir = file("gms/core/waveform-qc/waveform-qc-plugin")
+
+// Include the COI Data Service subprojects.
+include "osd-signaldetection-repository-service"
+project(":osd-signaldetection-repository-service").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-signaldetection-repository-service")
+include "osd-stationreference-coi-service"
+project(":osd-stationreference-coi-service").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-stationreference-coi-service")
+include "osd-waveforms-repository-service"
+project(":osd-waveforms-repository-service").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-waveforms-repository-service")
+include "osd-channelsegments-repository-service"
+project(":osd-channelsegments-repository-service").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-channelsegments-repository-service")
+include "osd-transferredfile-repository-service"
+project(":osd-transferredfile-repository-service").projectDir = file("gms/shared/mechanisms/object-storage-distribution/osd-transferredfile-repository-service")
+
+// Include Utility projects.
+include "geomath"
+project(":geomath").projectDir = file("gms/shared/utilities/geomath")
+include "geotess"
+project(":geotess").projectDir = file("gms/shared/utilities/geotess")
+include "java-utilities"
+project(":java-utilities").projectDir = file("gms/shared/utilities/java-utilities")
+include "filter-definition-validator"
+project(":filter-definition-validator").projectDir = file("gms/shared/utilities/standard-test-data-set/filter-definition-validator")
+include "qc-mask-converter"
+project(":qc-mask-converter").projectDir = file("gms/shared/utilities/standard-test-data-set/qc-mask-converter")
+include "stationref-file-reader-utility"
+project(":stationref-file-reader-utility").projectDir = file("gms/shared/utilities/standard-test-data-set/stationref-file-reader-utility")
+include "beam-converter"
+project(":beam-converter").projectDir = file("gms/shared/utilities/standard-test-data-set/beam-converter")
+
+// Include frameworks projects
+include "frameworks-utilities"
+project(":frameworks-utilities").projectDir = file("gms/shared/frameworks/frameworks-utilities")
+include "frameworks-control"
+project(":frameworks-control").projectDir = file("gms/shared/frameworks/frameworks-control")
+include "frameworks-http-service-library"
+project(":frameworks-http-service-library").projectDir = file("gms/shared/frameworks/frameworks-http-service-library")
+include "frameworks-plugin-registry"
+project(":frameworks-plugin-registry").projectDir = file("gms/shared/frameworks/frameworks-plugin-registry")
+include "frameworks-system-config"
+project(":frameworks-system-config").projectDir = file("gms/shared/frameworks/frameworks-system-config")
+include "frameworks-http-service-library"
+project(":frameworks-http-service-library").projectDir = file("gms/shared/frameworks/frameworks-http-service-library")
+include "frameworks-client-library"
+project(":frameworks-client-library").projectDir = file("gms/shared/frameworks/frameworks-client-library")
+include "frameworks-client-generator"
+project(":frameworks-client-generator").projectDir = file("gms/shared/frameworks/frameworks-client-generator")
+include "frameworks-control-interface-base"
+project(":frameworks-control-interface-base").projectDir = file("gms/shared/frameworks/frameworks-control-interface-base")
+include "frameworks-shared-objects"
+project(":frameworks-shared-objects").projectDir = file("gms/shared/frameworks/frameworks-shared-objects")

@@ -1,0 +1,120 @@
+{
+  "signalDetectionHypotheses": [
+    {
+      "id": "abc4fc82-470e-43b4-9da9-5281c6952c51",
+      "parentSignalDetectionId": "5247fa14-0bd7-4209-99fd-0d87d319f114",
+      "rejected": false,
+      "creationInfoId": "1c086683-fcc9-4540-a36d-2b705ca09388",
+      "featureMeasurements": [
+        {
+          "id": "aab09db1-7c18-47d5-8277-833f80b06c34",
+          "channelSegmentId": "d9f70306-1020-4e80-97e9-595c0ed45983",
+          "measurementValue": {
+            "value": "1970-01-01T00:00:00Z",
+            "standardDeviation": "PT0S"
+          },
+          "featureMeasurementType": "ARRIVAL_TIME"
+        },
+        {
+          "id": "5b379165-4ea9-4455-9717-5261b8814a60",
+          "channelSegmentId": "b3c3ae0c-fcb1-444a-a479-0dfad04711b6",
+          "measurementValue": {
+            "value": "P",
+            "confidence": 0.0
+          },
+          "featureMeasurementType": "PHASE"
+        }
+      ]
+    }
+  ],
+  "processingContext": {
+    "analystActionReference": null,
+    "processingStepReference": {
+      "processingStageIntervalId": "9e4f9522-20f0-4e1b-8ce0-b4ac3c2dd723",
+      "processingSequenceIntervalId": "40b956bb-83ad-4786-bb2b-c1a5680c4520",
+      "processingStepId": "d3ab8d1f-428d-437f-a7d0-d0b6300d3d07"
+    },
+    "storageVisibility": "PUBLIC"
+  },
+  "eventHypothesis": {
+    "id": "7788c0ed-48c2-4c01-b7e3-64e5ce3c681d",
+    "eventId": "e133db37-b200-4e79-b0cf-b3d070ca54f8",
+    "parentEventHypotheses": [],
+    "rejected": false,
+    "locationSolutions": [
+      {
+        "id": "dc7aa73f-228c-4cef-81ed-a8c57ddf24a7",
+        "location": {
+          "latitudeDegrees": 45.27125,
+          "longitudeDegrees": 130.55595,
+          "depthKm": 0.0,
+          "time": "2010-05-20T21:37:15.048Z"
+        },
+        "locationRestraint": {
+          "depthRestraintType": "UNRESTRAINED",
+          "depthRestraintKm": null,
+          "positionRestraintType": "UNRESTRAINED",
+          "latitudeRestraintDegrees": null,
+          "longitudeRestraintDegrees": null,
+          "timeRestraintType": "UNRESTRAINED",
+          "timeRestraint": null
+        },
+        "locationUncertainty": {
+          "xx": 0.0,
+          "xy": 0.0,
+          "xz": 0.0,
+          "xt": 0.0,
+          "yy": 0.0,
+          "yz": 0.0,
+          "yt": 0.0,
+          "zz": 0.0,
+          "zt": 0.0,
+          "tt": 0.0,
+          "stDevOneObservation": 0.0,
+          "ellipses": [],
+          "ellipsoids": []
+        },
+        "featurePredictions": [],
+        "locationBehaviors": []
+      }
+    ],
+    "preferredLocationSolution": {
+      "locationSolution": {
+        "id": "dc7aa73f-228c-4cef-81ed-a8c57ddf24a7",
+        "location": {
+          "latitudeDegrees": 45.27125,
+          "longitudeDegrees": 130.55595,
+          "depthKm": 0.0,
+          "time": "2010-05-20T21:37:15.048Z"
+        },
+        "locationRestraint": {
+          "depthRestraintType": "UNRESTRAINED",
+          "depthRestraintKm": null,
+          "positionRestraintType": "UNRESTRAINED",
+          "latitudeRestraintDegrees": null,
+          "longitudeRestraintDegrees": null,
+          "timeRestraintType": "UNRESTRAINED",
+          "timeRestraint": null
+        },
+        "locationUncertainty": {
+          "xx": 0.0,
+          "xy": 0.0,
+          "xz": 0.0,
+          "xt": 0.0,
+          "yy": 0.0,
+          "yz": 0.0,
+          "yt": 0.0,
+          "zz": 0.0,
+          "zt": 0.0,
+          "tt": 0.0,
+          "stDevOneObservation": 0.0,
+          "ellipses": [],
+          "ellipsoids": []
+        },
+        "featurePredictions": [],
+        "locationBehaviors": []
+      }
+    },
+    "associations": []
+  }
+}

@@ -1,0 +1,13 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    implementation project(":osd-commonobjects")
+    implementation project(":plugin-registry")
+    implementation project(':signal-feature-prediction-utility')
+    implementation 'org.apache.commons:commons-math3'
+    implementation 'org.apache.commons:commons-lang3'
+    implementation 'com.google.guava:guava'
+    implementation project(":geomath")
+}

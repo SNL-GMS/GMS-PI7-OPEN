@@ -1,0 +1,17 @@
+// Apply Gradle plugins here, if you need extra ones for your builds
+apply plugin: "java-library"
+
+dependencies {
+    implementation project(':osd-commonobjects')
+    
+    api 'com.google.guava:guava'
+    api 'com.google.auto.value:auto-value-annotations'
+    annotationProcessor 'com.google.auto.value:auto-value'
+
+    implementation 'org.apache.commons:commons-configuration2'
+    implementation 'commons-beanutils:commons-beanutils'
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cfa53013-58b9-3cbe-baa4-5b1ceea088c6",
+    "channelId": "30a22d12-dff8-3876-90cd-55577512c0c8",
+    "name": "KDAK/BHE ACQUIRED",
+    "type": "ACQUIRED",
+    "timeseriesType": "WAVEFORM",
+    "timeseries": [
+      {
+        "type": "WAVEFORM",
+        "startTime": "2010-05-20T20:00:00Z",
+        "sampleRate": 20.0,
+        "sampleCount": 10,
+        "values": []
+      }
+    ],
+    "creationInfo": {
+      "creatorName": "gms.dataacquisition.css.converters.CssWfdiscReader",
+      "creationTime": "2018-11-16T19:34:11.418523Z",
+      "softwareInfo": {
+        "name": "gms.dataacquisition.css.converters.CssWfdiscReader",
+        "version": "0.0.2"
+      }
+    },
+    "startTime": "2010-05-20T20:00:00Z",
+    "endTime": "2010-05-20T20:00:00.45Z"
+  }
+]

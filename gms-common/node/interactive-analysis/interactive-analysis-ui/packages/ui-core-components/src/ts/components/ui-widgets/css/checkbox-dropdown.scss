@@ -1,0 +1,19 @@
+.checkbox-dropdown-table {
+    padding: 1rem;
+    & td {
+        vertical-align: middle;
+    }
+}
+
+.checkbox-dropdown__checkbox {
+    margin-bottom: 0rem;
+}
+
+.checkbox-dropdown__legend-box {
+    height: 10px;
+    width: 20px;
+    margin-left: 1rem;
+}
+.checkbox-dropdown__body {
+    padding: 4px 8px 4px 8px;
+}

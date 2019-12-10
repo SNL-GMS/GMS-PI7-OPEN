@@ -1,0 +1,28 @@
+[
+    {
+        "name": "AS01/SHZ ACQUIRED", 
+        "creationInfo": {
+            "creatorName": "gms.dataacquisition.css.converters.CssWfdiscReader", 
+            "softwareInfo": {
+                "version": "0.0.2", 
+                "name": "gms.dataacquisition.css.converters.CssWfdiscReader"
+            }, 
+            "creationTime": "2019-03-21T16:25:19.148793Z"
+        }, 
+        "startTime": "2010-05-20T20:00:00Z", 
+        "channelId": "channel1-1111-1111-1111-111111111110", 
+        "timeseries": [
+            {
+                "sampleCount": 288001, 
+                "values": [], 
+                "sampleRate": 20.0, 
+                "type": "WAVEFORM", 
+                "startTime": "2010-05-20T20:00:00Z"
+            }
+        ], 
+        "timeseriesType": "WAVEFORM", 
+        "endTime": "2010-05-21T00:00:00Z", 
+        "type": "ACQUIRED", 
+        "id": "de59f588-5f41-3f82-b8f1-2d1c20d0471f"
+    }
+]

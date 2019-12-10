@@ -1,0 +1,17 @@
+plugins {
+    id "java-library"
+}
+dependencies {
+    // Required to instantiate COI object mappers
+    implementation project(':frameworks-client-library')
+    implementation project(":frameworks-utilities")
+    implementation project(":frameworks-system-config")
+}
+
+// TODO: these flags are not necessary in Java 11 and newer.  Remove them when GMS upgrades Java.
+compileJava.options.compilerArgs     << "--add-modules=jdk.incubator.httpclient"
+compileTestJava.options.compilerArgs << "--add-modules=jdk.incubator.httpclient"
+
+test {
+    jvmArgs '--add-modules=jdk.incubator.httpclient'
+}

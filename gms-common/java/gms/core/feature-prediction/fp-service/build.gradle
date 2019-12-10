@@ -1,0 +1,33 @@
+plugins {
+    id "application"
+    id "com.palantir.docker"
+}
+
+mainClassName = "gms.core.featureprediction.service.Application"
+
+dependencies {
+    // GMS dependencies.
+    implementation project(":http-service-library")
+    implementation project(":signal-feature-prediction-utility")
+
+    // Third party dependencies.
+    testImplementation "commons-configuration:commons-configuration"
+    testImplementation "com.mashape.unirest:unirest-java"
+
+    //TODO: delete these JUnit 4 dependencies and convert project to JUnit 5
+    testCompileOnly 'junit:junit'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+
+    test {
+        useJUnitPlatform() {
+            excludeTags "integration"
+        }
+    }
+
+    task testIntegration(type: Test) {
+        group="verification"
+        useJUnitPlatform {
+            includeTags "integration"
+        }
+    }
+}

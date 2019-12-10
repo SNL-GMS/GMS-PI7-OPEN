@@ -1,0 +1,422 @@
+[
+    {
+        "distance": 80.013,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "90f2a534-9bb8-3212-aece-e8d0afcb7483",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 67.116,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "177e66d7-c8a6-3d1a-8d3c-2ca7b01ce88a",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 73.34,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "3695d63e-7071-3f74-b6a5-a92681fd2567",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 30.892,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "e557755a-e17e-35d6-af21-07bba148cfa9",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 58.762,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "62073ea0-bddc-32fe-b810-cc66a82b6366",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 77.135,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "6c6fd2d5-2d63-33cc-9fb3-52b20af395c8",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 127.191,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "1c4a8d11-178a-3c5d-a902-ac599a155621",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 72.845,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "7260dfca-e1a4-3696-8532-be5b0d9399ea",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 83.097,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "7a481f10-e4d3-3687-9efa-622a82eb92cf",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 15.729,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "565ca127-6d78-32ba-bdc9-ce05fc3b8ddf",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 84.392,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "27acddaf-33bf-3d39-b7ac-0a52ed299ca9",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 29.786,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "06dd4519-c5ba-3eca-8969-c44ed62ab84e",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 60.407,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "ab931244-d410-33d5-a5df-7969f5dc84d2",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 94.878,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "330767ec-f95b-30c7-8962-e755fdd7fd23",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 3.166,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "3308666b-f9d8-3bff-a59e-928730ffa797",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 82.225,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "e2a74c85-6c97-36d1-b5d9-acab1ae58cf3",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 11.026,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "810c5fb5-0639-3f2a-9de1-edf980e1bdb7",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 88.178,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "850ed2e3-cc07-3c11-8b36-05ac5bc9e93a",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 60.92,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "af346dab-b787-3daf-927d-60d8701d16cc",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 70.678,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "3c589e68-e10c-337f-90d2-8d5b905a093b",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 64.346,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "21009b45-a3cf-336d-92f7-ee106007cbc9",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 77.117,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "fd3dbadc-72fd-36c6-a3cc-ca4f7a4f58be",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 52.341,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "8ee1878b-f5f8-3ca4-884a-fca5d58b710f",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 62.845,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "0f573e39-95b8-3235-9d76-5ab2df290e39",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 93.161,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "6856c4c5-54cf-377d-87dc-ed322f36c0bb",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 80.876,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "5e5e52fe-f78f-3dfd-b95d-6696be7e7c13",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 112.694,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "c44dd368-7d56-3d1c-80d6-02e766c857c6",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 124.484,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "b85019c8-c2f5-34c2-bd8e-ebf77fff7d63",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 88.25,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "5e24c2d2-b672-3fae-ba81-c8c49d4e6c34",
+        "__typename": "DistanceToSource"
+    },
+    {
+        "distance": 87.846,
+        "distanceUnits": "degrees",
+        "sourceType": "Event",
+        "sourceId": "3a06fac7-46ad-337e-a8da-090a1cc801a1",
+        "sourceLocation": {
+            "latDegrees": 44.94862,
+            "lonDegrees": -106.38442,
+            "elevationKm": 0,
+            "__typename": "Location"
+        },
+        "stationId": "aec5ec05-abcf-36ca-bc53-be6582ac2134",
+        "__typename": "DistanceToSource"
+    }
+]

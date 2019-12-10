@@ -1,0 +1,11 @@
+version: '3.7'
+
+x-parent-image: &parent_image ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9/gradle4/integration:${TAG}
+
+services:
+  blackduck:
+    image: ${DOCKER_REGISTRY}/${REGISTRY_BASE}/centos7/openjdk9/gradle4/integration/blackduck:${TAG}
+    build:
+      context: ./blackduck
+      args:
+        FROM_IMAGE: *parent_image

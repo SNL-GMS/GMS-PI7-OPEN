@@ -1,0 +1,20 @@
+<body>
+<h1>Overview of the Station Receiver Module</h1>
+<h2>Connection Manager (ConnMan)</h2>
+<p>
+ConnMan is responsible for listening for CD-1.1 Connection Requests on the
+'well-known port', deciding whether to respond, and sending back
+CD-1.1 Connection Response frames that specify an address and port to begin
+streaming data to.  The address it sends should be the one that DataMan expects,
+so both ConnMan and DataMan need to share this configuration.
+</p>
+<h2>Data Manager (DataMan)</h2>
+<p>
+  DataMan listens to the streaming data received from Station's in the CD-1.1
+  protocol once a connection has been established.  It does not handle connection
+  negotiation (this is the role of ConnMan); it's job is to listen on all configured IP
+  addresses and ports to receive data from specified Station's.  It takes this data, parses
+  and verifies it,
+  logs information about it, and stores it by uploading to the OSD Gateway Service OSD.
+</p>
+</body>

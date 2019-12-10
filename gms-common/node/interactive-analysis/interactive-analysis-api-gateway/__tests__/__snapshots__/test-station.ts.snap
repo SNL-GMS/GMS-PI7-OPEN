@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Single channel query results should match snapshot 1`] = `
+Object {
+  "defaultStations": Array [
+    Object {
+      "location": Object {
+        "elevationKm": 0.627,
+        "latDegrees": -23.66513,
+        "lonDegrees": 133.90526,
+      },
+      "name": "ASAR",
+      "networks": Array [
+        Object {
+          "monitoringOrganization": "CTBTO",
+          "name": "demo",
+        },
+      ],
+      "stationType": "SeismicArray",
+    },
+  ],
+}
+`;
+
+exports[`Single channel query results should match snapshot 2`] = `
+Object {
+  "channelsById": Array [
+    Object {
+      "channelType": "SHORT_PERIOD_HIGH_GAIN_VERTICAL",
+      "depth": 0.0274,
+      "horizontalAngle": -1,
+      "locationCode": "Invalid",
+      "name": "AS01/SHZ",
+      "sampleRate": 20,
+      "site": Object {
+        "channels": Array [
+          Object {
+            "name": "AS01/SHZ",
+          },
+        ],
+        "location": Object {
+          "elevationKm": 0.622,
+          "latDegrees": -23.66322,
+          "lonDegrees": 133.95199,
+        },
+        "name": "AS01",
+        "station": Object {
+          "location": Object {
+            "elevationKm": 0.627,
+            "latDegrees": -23.66513,
+            "lonDegrees": 133.90526,
+          },
+          "name": "ASAR",
+          "networks": Array [
+            Object {
+              "monitoringOrganization": "CTBTO",
+              "name": "demo",
+              "stations": Array [
+                Object {
+                  "name": "ASAR",
+                },
+              ],
+            },
+          ],
+          "sites": Array [
+            Object {
+              "name": "AS01",
+            },
+          ],
+          "stationType": "SeismicArray",
+        },
+      },
+      "verticalAngle": 0,
+    },
+  ],
+}
+`;

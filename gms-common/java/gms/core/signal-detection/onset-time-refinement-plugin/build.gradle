@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(':osd-commonobjects')
+    implementation project(':signal-processing-utility')
+    testImplementation 'org.mockito:mockito-core'
+}

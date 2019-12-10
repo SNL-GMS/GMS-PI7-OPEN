@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AzimuthSlowness renders & matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #8A9BA8",
+      "height": "700px",
+      "overflow": "auto",
+      "resize": "both",
+      "width": "1000px",
+    }
+  }
+>
+  <div
+    className="pt-non-ideal-state"
+  >
+    <div
+      className="pt-non-ideal-state-visual pt-non-ideal-state-icon"
+    >
+      <svg
+        className="pt-icon"
+        data-icon="heat-grid"
+        height={60}
+        style={Object {}}
+        viewBox="0 0 20 20"
+        width={60}
+      >
+        <title>
+          heat-grid
+        </title>
+        <path
+          d="M14 12h6V8h-6v4zM0 12h6V8H0v4zm1-3h4v2H1V9zm-1 7c0 .55.45 1 1 1h5v-4H0v3zM19 3h-5v4h6V4c0-.55-.45-1-1-1zm0 3h-4V4h4v2zM0 4v3h6V3H1c-.55 0-1 .45-1 1zm7 3h6V3H7v4zm7 10h5c.55 0 1-.45 1-1v-3h-6v4zm-7 0h6v-4H7v4zm1-3h4v2H8v-2zm-1-2h6V8H7v4z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <h4
+      className="pt-non-ideal-state-title"
+    >
+      No FK Data Available
+    </h4>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea/
+*.iml
+out
+gen
+*.pyc
+
+# Build files
+build/**
+dist/**
+*.egg-info/**
+
+#data dumps
+*DataDump.json
+
+#images
+*.png
+
+#venv
+*venv/**
+
+#large data files
+events_large.json
+
+###
+.DS*

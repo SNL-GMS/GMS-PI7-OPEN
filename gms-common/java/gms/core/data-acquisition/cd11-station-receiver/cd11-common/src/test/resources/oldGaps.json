@@ -1,0 +1,41 @@
+{
+  "min": 0,
+  "max": 100,
+  "gapsList": [
+    {
+      "modifiedTime": "1970-10-08T17:05:39.660112Z",
+      "start": 0,
+      "end": 24
+    },
+    {
+      "modifiedTime": "1992-03-10T15:23:39.660145Z",
+      "start": 26,
+      "end": 29
+    },
+    {
+      "modifiedTime": "1971-10-08T17:05:39.660179Z",
+      "start": 31,
+      "end": 34
+    },
+    {
+      "modifiedTime": "1972-10-08T17:05:39.660221Z",
+      "start": 36,
+      "end": 49
+    },
+    {
+      "modifiedTime": "1973-10-08T17:05:39.660256Z",
+      "start": 51,
+      "end": 59
+    },
+    {
+      "modifiedTime": "2700-10-08T17:05:39.660290Z",
+      "start": 61,
+      "end": 69
+    },
+    {
+      "modifiedTime": "2701-10-08T17:05:39.660290Z",
+      "start": 71,
+      "end": 100
+    }
+  ]
+}

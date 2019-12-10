@@ -1,0 +1,9 @@
+name: "ONSET-TIME-UNCERTAINTY-DEFAULT"
+constraints:
+  - constraintType: "DEFAULT"
+parameters:
+  pluginName: "snrOnsetTimeUncertaintyPlugin"
+  pluginParameters:
+    $ref=global.config:
+      - criterion: "name"
+        value: "snr-default"

@@ -1,0 +1,80 @@
+[
+    {
+        "id": "69bc454f-9f11-44cd-a559-7ed7367b2d73",
+        "phase": "S",
+        "predictedValue": {
+            "referenceTime": "2019-04-17T22:01:44.910258Z",
+            "measurementValue": {
+                "value": 11.077282345550113,
+                "standardDeviation": 2.5,
+                "units": "SECONDS_PER_DEGREE"
+            }
+        },
+        "featurePredictionComponents": [
+            {
+                "value": {
+                    "value": 0.25528429865864166,
+                    "standardDeviation": 0,
+                    "units": "SECONDS"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "ELEVATION_CORRECTION"
+            },
+            {
+                "value": {
+                    "value": -0.6014941754917669,
+                    "standardDeviation": 0,
+                    "units": "SECONDS"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "ELLIPTICITY_CORRECTION"
+            },
+            {
+                "value": {
+                    "value": 11.423492222383238,
+                    "standardDeviation": 2.5,
+                    "units": "SECONDS_PER_DEGREE"
+                },
+                "extrapolated": false,
+                "predictionComponentType": "BASELINE_PREDICTION"
+            }
+        ],
+        "extrapolated": false,
+        "sourceLocation": {
+            "latitudeDegrees": 44.94862,
+            "longitudeDegrees": -106.38442,
+            "depthKm": 0,
+            "time": "2010-05-20T22:01:30.238Z"
+        },
+        "receiverLocation": {
+            "latitudeDegrees": 48.8465,
+            "longitudeDegrees": 13.6818,
+            "depthKm": 0.0052,
+            "elevationKm": 0.945
+        },
+        "channelId": "89f6a1a5-2ea2-3226-8651-addbc5a1b850",
+        "featurePredictionDerivativeMap": {
+            "D_DY": {
+                "value": 0.09235057356126891,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DX": {
+                "value": 0.068680568959731,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DZ": {
+                "value": -0.0003978950502414591,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            },
+            "D_DT": {
+                "value": 0,
+                "standardDeviation": 0,
+                "units": "UNITLESS"
+            }
+        },
+        "predictionType": "SLOWNESS"
+    }
+]

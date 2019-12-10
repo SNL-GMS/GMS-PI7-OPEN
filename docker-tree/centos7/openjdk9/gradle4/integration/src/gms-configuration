@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import etcd3
+from pprint import pprint
+import json
+import re
+import time
+
+
+# "Constants"
+ETCD_PUT_LOCK_NAME = 'put_lock'
+ETCD_REVISION_TIME_PREFIX = '/gms/shared/configuration/revision_time/'
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Utility to import and export GMS configuration data from etcd')
+    parser.add_argument('--host', default='localhost', help='Hostname of the etcd server')
+    parser.add_argument('--port', type=int, default=2379, help='Network port of the etcd server (default=%(default)s)')
+    parser.add_argument('--user', '-u', help='etcd username')
+    parser.add_argument('--password', '-p', help='etcd password')
+    parser.add_argument('--verbose', '-v', default=False, action='store_true', help='verbose output')
+    subparsers = parser.add_subparsers(help='Sub-command')
+
+    parser_import = subparsers.add_parser('help', help='Display usage information')
+    parser_import.set_defaults(command=help_command)
+
+    parser_import = subparsers.add_parser('import', help='Import data from a text file into etcd')
+    parser_import.add_argument('file', nargs='+', type=argparse.FileType('r'), help='File(s) to import')
+    parser_import.add_argument('--restore-times', default=False, action='store_true', help='Restore provenance times encoded in the file(s) being imported')
+    parser_import.set_defaults(command=import_command)
+
+    parser_export = subparsers.add_parser('export', help='Export data from etcd to a text file')
+    parser_export.add_argument('file', type=argparse.FileType('w'), help='File to export to')
+    parser_export.set_defaults(command=export_command)
+
+    args = parser.parse_args()
+    return (args, parser)
+
+
+def help_command(args, parser=None):
+        parser.print_help();
+
+
+def import_command(args, parser=None):
+    if args.verbose:
+        print('Connecting to etcd server on %s:%s as user %s%s...' % (args.host, args.port, args.user, ' with password' if args.password else ''))
+    etcd = etcd3.client(host=args.host, port=args.port, user=args.user, password=args.password)
+
+    for config_file in args.file:
+        print('Importing file %s...' % (config_file.name))
+        data = json.load(config_file)
+
+        # If we are not restoring the provenance times encoded in the JSON file,
+        # flatten all of the key=value data into a single time taken from wall clock time.
+        if not args.restore_times:
+            flat_kvs = {}
+            for change_time in data:
+                if len(data[change_time]) > 0:
+                    for key in data[change_time]:
+                        value = data[change_time][key]
+                        flat_kvs[key] = value
+            now = datetime.datetime.utcnow().isoformat() + "Z"
+            data = { now: flat_kvs }
+
+        # Outline for setting key=value pairs:
+        #   1. Acquire lock (to ensure no one else is setting values at the same time).
+        #   2. Create an empty transaction.
+        #   3. Add all key=value pairs to the transaction that occured at the same (provenance) time.
+        #   4. Commit the transaction, creating a new revision on the etcd server.
+        #   5. Retrieve one of the keys to determine the revision number that was given to the transaction.
+        #   6. Store the provenance "revision=time" under ETCD_REVISION_TIME_PREFIX.
+        #   7. Repeat from step #2 until there are no additional (provenance) times to store.
+        #   8. Release the lock.
+        with etcd.lock(name=ETCD_PUT_LOCK_NAME, ttl=30):
+            for change_time in data:
+                if len(data[change_time]) > 0:
+                    if args.verbose:
+                        print('At time %s...' % (change_time))
+
+                    transaction = []
+                    last_key = ""
+                    for key in data[change_time]:
+                        value = data[change_time][key]
+                        if args.verbose:
+                            print('    setting "%s" = "%s"' % (key, value))
+                        transaction.append(etcd.transactions.put(key, value))
+                        last_key = key
+                    etcd.transaction(compare=[], success=transaction, failure=[])
+
+                    (k, v) = etcd.get(last_key)
+                    revision = v.mod_revision
+
+                    etcd.put('%s%d' % (ETCD_REVISION_TIME_PREFIX, revision), change_time)
+                    if args.verbose:
+                        print("    transaction committed as revision %d with time %s" % (revision, change_time))
+
+    # AttributeError: 'Etcd3Client' object has no attribute 'close'
+    #etcd.close()
+
+
+def export_command(args, parser=None):
+    if args.verbose:
+        print('Connecting to etcd server on %s:%s as user %s%s...' % (args.host, args.port, args.user, ' with password' if args.password else ''))
+    etcd = etcd3.client(host=args.host, port=args.port, user=args.user, password=args.password)
+
+    # This is a little janky because the `python-etcd3` library currently doesn't support
+    # doing a `get` at a specific revision.  The best we can do is to get the latest
+    # key=value pairs, lookup the corresponding provenance times for when they were most
+    # recently set, and then generate JSON from that.  The net effect is that, if the
+    # value of a key changes over time, only the most recent value will be exported in JSON.
+
+    revision_times = {}
+    for (value_bytes, metadata) in etcd.get_prefix(ETCD_REVISION_TIME_PREFIX, sort_target='value'):
+        key = str(metadata.key, 'utf-8')
+        value = str(value_bytes, 'utf-8')
+
+        m = re.match(ETCD_REVISION_TIME_PREFIX + '(\d+)$', key)
+        if m:
+            revision = int(m.group(1))
+            revision_times[revision] = value
+            if args.verbose:
+                print('Time %s is on revision %d' % (value, revision))
+        else:
+            print('Revision time key "%s" is not understood - skipping' % (key))
+
+    data = {}
+    for (value_bytes, metadata) in etcd.get_all():
+        key = str(metadata.key, 'utf-8')
+        value = str(value_bytes, 'utf-8')
+        revision = metadata.mod_revision
+        if not re.match(ETCD_REVISION_TIME_PREFIX, key):
+            if args.verbose:
+                print('Found "%s" = "%s" in revision %d' % (key, value, revision))
+            revision_time = revision_times[revision]
+            if revision_time not in data:
+                data[revision_time] = dict()
+            data[revision_time][key] = value
+
+    args.file.write(json.dumps(data, sort_keys=True, indent=2))
+
+    # AttributeError: 'Etcd3Client' object has no attribute 'close'
+    #etcd.close()
+
+
+if __name__ == "__main__":
+    (args, parser) = parse_args()
+
+    # Call appropriate function if a command was specified, otherwise just print help.
+    if hasattr(args, 'command'):
+        args.command(args, parser)
+    else:
+        help_command(args, parser)

@@ -1,0 +1,20 @@
+name: "PDAR-DEFAULT"
+constraints:
+  - constraintType: "STRING"
+    criterion: "station-id"
+    operator:
+      type: "IN"
+      negated: false
+    value:
+      - "3308666b-f9d8-3bff-a59e-928730ffa797"
+    priority: 100
+parameters:
+  fkAttributesParameters:
+    - pluginName: "maxPowerFkAttributesPlugin"
+      pluginParameters:
+        highFrequency: 2.0
+        eastSlowStart: -40
+        eastSlowDelta: 1
+        northSlowDelta: 1
+        northSlowStart: -40
+        lowFrequency: 0.5
