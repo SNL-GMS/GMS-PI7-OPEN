@@ -27,7 +27,7 @@
   <properties>
     <revision>7.5.1</revision>
     <!-- Use the latest version whenever possible. -->
-    <jackson.version>2.9.7</jackson.version>
+    <jackson.version>2.10.3</jackson.version>
   </properties>
 
   <groupId>gms.shared.mechanisms.processing-sequence-controller.processors</groupId>
